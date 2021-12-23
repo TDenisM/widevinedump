@@ -4,3 +4,19 @@
 For CDM You can Mail :-  wvfuck@cyberfiends.net
 
 Leaked with Lots of Love 
+'NETFLIX',
+        'AMAZON',
+        'APPLETV',
+        'DISNEYPLUS',
+        'SHAHID',
+        'DCUNIVERSE',
+        'HULU',
+        'STAN',
+        'RAKUTEN',
+        'GOOGLE',
+        'FANDANGONOW',
+        'PEACOCKTV',
+        'HBOMAX',
+        'OSN']
+        
+        Modules available mail on id
