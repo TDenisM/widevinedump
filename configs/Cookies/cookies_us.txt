@@ -1,0 +1,22 @@
+# HTTP Cookie File downloaded with cookies.txt by Genuinous @genuinous
+# This file can be used by wget, curl, aria2c and other standard compliant tools.
+# Usage Examples:
+#   1) wget -x --load-cookies cookies.txt "https://www.amazon.com/gp/video/detail/B08WYHRBBH/ref=atv_3p_hbo_c_7bUTvm_brws_2_1"
+#   2) curl --cookie cookies.txt "https://www.amazon.com/gp/video/detail/B08WYHRBBH/ref=atv_3p_hbo_c_7bUTvm_brws_2_1"
+#   3) aria2c --load-cookies cookies.txt "https://www.amazon.com/gp/video/detail/B08WYHRBBH/ref=atv_3p_hbo_c_7bUTvm_brws_2_1"
+#
+.associates-amazon.com	TRUE	/	TRUE	1624841566	abid	e6bcb1cc-6df0-b57d-a226-76cb8be24829
+.amazon.com	TRUE	/	TRUE	1653958585	ubid-main	131-9705044-5253861
+.amazon.com	TRUE	/	FALSE	2082787201	lc-main	en_US
+.amazon.com	TRUE	/	TRUE	1653958161	ubid-main-av	135-0014401-4583503
+.amazon.com	TRUE	/	TRUE	1653958016	lc-main-av	zh_TW
+.amazon.com	TRUE	/	FALSE	0	skin	noskin
+.amazon.com	TRUE	/	TRUE	1653958585	session-id	147-2017101-9262448
+.amazon.com	TRUE	/	TRUE	1653958573	session-token	&quot;SmO/Pi7JXxECw4qGIpgvs60FQ04zRGX5ioS27++ZRs02GwR9E+7l9oC1H9oAIKjQOJL+7sU9ZXJswsGFu+Qdv1//hzkBsusXQJV28mHsY1Wn7RvcG+j8bzezebCTHMEMRFnn+E3QEhxTvgpOkiF66P8Z8ATlYYc0zf1GwPq+c6cYfy+k9xQrCIqdQ+YBdO4xPLP03jeKaBS8Ewebw5iIF9QHy8t98IDW16EU5zbqS4s=&quot;
+.amazon.com	TRUE	/	TRUE	1653958573	x-main	&quot;9atgnNhYPLAdgqLwOubcLzhra0MEaqE9k0oOqn6APNo@e8g8QuzWUdaLTpqJ4KJ0&quot;
+.amazon.com	TRUE	/	TRUE	1653958447	at-main	Atza|IwEBIOZTPeWg1i5KCfjkoVaDH7vU_Bj6fu4KqrDpv7xp1GcfTQyDNgoFJKaApqF7eG1lsEvwjTXgoIiCGteEhixyG_GO-dhQRQ8eYhkNNrL95YUnZvRCdCA68Mm1n5fR87hkUBFPTp6IO_wx4UOTdPcI-3AKP7D4b_3oA6xdYSkfZo4wrBjMCGX4ZkR2wKGC9rl_Bvs6vsgq4eIXtH_wqAHd0vP4
+.amazon.com	TRUE	/	TRUE	1653958447	sess-at-main	&quot;YWyWD1e0HRsfoRcPJXFKGs+gDXtQTbas47fEVJzWn6A=&quot;
+.amazon.com	TRUE	/	TRUE	1653958447	sst-main	Sst1|PQEk337sIEiZEXH7Oe-lynv5CepAtSy7zc8lh22uwm5L-xvvDzQOc7tYMEpgNwBqURUo8mWwKPTVBSscQjMyNLam308eCgTuowo1WfAn7of4Ylspz5aFOamAE6cGqQUpzEiYTEDwSc7ARrs7RjDQ64Pet7vxHXE-ouJorEup35y-yAIv9UtaVIYXFI5WXnjTmO7phqWYvy2hINgw8XQUjhvT_dGYN6l8m_bpRGC1VwtN5d2qFXIUhe7anAGbg_lCufeXIPJZhsDNYXemHG2diPUYxW_Q7mF30t7l6XfHAjIqkM8
+.amazon.com	TRUE	/	FALSE	1653958573	i18n-prefs	USD
+.amazon.com	TRUE	/	FALSE	1653958585	session-id-time	2082787201l
+www.amazon.com	FALSE	/	FALSE	1652662578	csm-hit	tb:s-KP49VK73TBB0WT6V4WM8|1622422577773&amp;t:1622422578481&amp;adb:adblk_no

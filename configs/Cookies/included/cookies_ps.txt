@@ -1,0 +1,17 @@
+# HTTP Cookie File downloaded with cookies.txt by Genuinous @genuinous
+# This file can be used by wget, curl, aria2c and other standard compliant tools.
+# Usage Examples:
+#   1) wget -x --load-cookies cookies.txt "https://www.primevideo.com/detail/The-Handmaids-Tale-Series/0QW7NQ3CQIVMI5ED05XYS19P9U"
+#   2) curl --cookie cookies.txt "https://www.primevideo.com/detail/The-Handmaids-Tale-Series/0QW7NQ3CQIVMI5ED05XYS19P9U"
+#   3) aria2c --load-cookies cookies.txt "https://www.primevideo.com/detail/The-Handmaids-Tale-Series/0QW7NQ3CQIVMI5ED05XYS19P9U"
+#
+.primevideo.com	TRUE	/	TRUE	1653714942	session-id	257-0038347-0468755
+.primevideo.com	TRUE	/	TRUE	1653714942	ubid-main-av	259-1850744-5064919
+.primevideo.com	TRUE	/	FALSE	1652961059	i18n-prefs	USD
+.primevideo.com	TRUE	/	TRUE	1652961059	x-main-av	&quot;ScrnSKLUeYEm9QlZHlwt3dZo782g6?buizSHPaFdhvjGMEbmm8?7OjHJTqsIQG7?&quot;
+.primevideo.com	TRUE	/	TRUE	1652961059	at-main-av	Atza|IwEBIPO8plmb1MYDw9U1C7pP8JqQyay6o4juc-tcKRWs1W94AYF7XzYzmuEnqnRafyMRsxqaZNAzceuYSWmM4hitJz9u0jbH3HGbdBzoiQBQNeFuAvub0p2Fmp3fpjy8c0185XsQkTjMxfWSoFs6brScaTfrgEl-xfoLNRCT7SNh6I8QgJh9V6onZA9KuRriLQvEBFPEow78ro1rFZZA4rWha2l9
+.primevideo.com	TRUE	/	TRUE	1652961059	sess-at-main-av	&quot;pdEPotZ1sWXm/+f/qV0SJ1aLA+yLWwSM04HLxIlWf3g=&quot;
+.primevideo.com	TRUE	/	FALSE	1655626116	lc-main-av	de_DE
+.primevideo.com	TRUE	/	TRUE	1653714712	session-token	&quot;mtRVF4lOAzfyhTEkcJTnul8r9UdIC5egMEPYermEqJg+SvS7WOQDkOQbk878qqNiKv5vFCF67IFoHc8JoJeehwOzyjeKEUtEqrct0T26fWavDo9ih4TuAmm78jI06nIutdB8QyhHcImqxDCHA9GtnAYD6/JSA8aPsY23+1g0dI85LcKTXb7rBk3LxihUBw9f6RVM3p1LwrtvMHMy1D7WZQ==&quot;
+.primevideo.com	TRUE	/	FALSE	1653714942	session-id-time	2082758401l
+www.primevideo.com	FALSE	/	FALSE	1652418943	csm-hit	tb:V4A6B5JR131JV44WAJEY+s-P6F7H6HX20CJ3MG3NNVX|1622178943543&amp;t:1622178943544&amp;adb:adblk_yes

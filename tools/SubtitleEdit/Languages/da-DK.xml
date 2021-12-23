@@ -1,0 +1,2619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language Name="dansk">
+  <General>
+    <Title>Subtitle Edit</Title>
+    <Version>3.5.15</Version>
+    <TranslatedBy>Oversat til dansk af Nikse (mailto:nikse.dk@gmail.com)</TranslatedBy>
+    <CultureName>da-DK</CultureName>
+    <HelpFile />
+    <Ok>&amp;OK</Ok>
+    <Cancel>&amp;Fortryd</Cancel>
+    <Apply>Anvend</Apply>
+    <None>Ingen</None>
+    <All>Alle</All>
+    <Preview>Vist test</Preview>
+    <SubtitleFiles>Undertekst filer</SubtitleFiles>
+    <AllFiles>Alle filer</AllFiles>
+    <VideoFiles>Video filer</VideoFiles>
+    <AudioFiles>Lydfiler</AudioFiles>
+    <OpenSubtitle>Åbn undertekst...</OpenSubtitle>
+    <OpenVideoFile>Åbn video fil...</OpenVideoFile>
+    <OpenVideoFileTitle>Åbn video fil...</OpenVideoFileTitle>
+    <NoVideoLoaded>Ingen video indlæst</NoVideoLoaded>
+    <VideoInformation>Video info</VideoInformation>
+    <StartTime>Starttid</StartTime>
+    <EndTime>Sluttid</EndTime>
+    <Duration>Varighed</Duration>
+    <CharsPerSec>Tegn/sek</CharsPerSec>
+    <WordsPerMin>Ord/min</WordsPerMin>
+    <Actor>Taler</Actor>
+    <Gap>Gap</Gap>
+    <Region>Region</Region>
+    <NumberSymbol>#</NumberSymbol>
+    <Number>Antal</Number>
+    <Text>Tekst</Text>
+    <HourMinutesSecondsMilliseconds>Timer:min:sek:msek</HourMinutesSecondsMilliseconds>
+    <HourMinutesSecondsFrames>Time: min: sek: frames</HourMinutesSecondsFrames>
+    <Bold>Fed</Bold>
+    <Italic>Kursiv</Italic>
+    <Underline>Understreg</Underline>
+    <Visible>Synlig</Visible>
+    <FrameRate>Billeder pr. sekund</FrameRate>
+    <Name>Navn</Name>
+    <FileNameXAndSize>Filnavn: {0} ({1})</FileNameXAndSize>
+    <ResolutionX>Opløsning: {0}</ResolutionX>
+    <FrameRateX>Billeder pr. sekund: {0:0.0###}</FrameRateX>
+    <TotalFramesX>Total antal frames: {0:#,##0.##}</TotalFramesX>
+    <VideoEncodingX>Video encoding: {0}</VideoEncodingX>
+    <SingleLineLengths>Enkelt linje længde:</SingleLineLengths>
+    <TotalLengthX>Total længde: {0}</TotalLengthX>
+    <TotalLengthXSplitLine>Total længde: {0} (split linje!)</TotalLengthXSplitLine>
+    <SplitLine>Split linje!</SplitLine>
+    <NotAvailable>Ikke tilgængelig</NotAvailable>
+    <OverlapPreviousLineX>Overlap forrige ({0:#,##0.###})</OverlapPreviousLineX>
+    <OverlapX>Overlap ({0:#,##0.###})</OverlapX>
+    <OverlapNextX>Overlap næste ({0:#,##0.###})</OverlapNextX>
+    <Negative>Negativ</Negative>
+    <RegularExpressionIsNotValid>Regulært udtryk er ikke gyldigt</RegularExpressionIsNotValid>
+    <CurrentSubtitle>Nuværende undertekst</CurrentSubtitle>
+    <OriginalText>Oprindelig tekst</OriginalText>
+    <OpenOriginalSubtitleFile>Åbn oprindelige undertekst fil...</OpenOriginalSubtitleFile>
+    <PleaseWait>Vent venligst...</PleaseWait>
+    <SessionKey>Sessionsnøgle</SessionKey>
+    <UserName>Brugernavn</UserName>
+    <UserNameAlreadyInUse>Brugernavn allerede i brug</UserNameAlreadyInUse>
+    <WebServiceUrl>Webservice URL</WebServiceUrl>
+    <IP>IP</IP>
+    <VideoWindowTitle>Video - {0}</VideoWindowTitle>
+    <AudioWindowTitle>Lydspor - {0}</AudioWindowTitle>
+    <ControlsWindowTitle>Kommandoer - {0}</ControlsWindowTitle>
+    <Advanced>Avanceret</Advanced>
+    <Style>Style</Style>
+    <StyleLanguage>Style / sprog</StyleLanguage>
+    <Character>Person</Character>
+    <Class>Class</Class>
+    <GeneralText>General</GeneralText>
+    <LineNumber>Linje#</LineNumber>
+    <Before>Før</Before>
+    <After>Efter</After>
+    <Size>Størrelse</Size>
+    <Search>Søg</Search>
+    <DeleteCurrentLine>Slet aktuelle linje</DeleteCurrentLine>
+    <Width>Bredde</Width>
+    <Height>Højde</Height>
+    <Collapse>Fold sammen</Collapse>
+    <ShortcutX>Genvej: {0}</ShortcutX>
+    <ExampleX>Eksempel: {0}</ExampleX>
+  </General>
+  <About>
+    <Title>Om Subtitle Edit</Title>
+    <AboutText1>Subtitle Edit er fri software under GNU Public License.
+Du kan distribuere, ændre og bruge det frit.
+
+C# source code er tilgængelig her: https://github.com/SubtitleEdit/subtitleedit/
+
+Besøg www.nikse.dk for den nyeste version.
+
+Forslag er meget velkomne.
+
+E-mail: mailto:nikse.dk@gmail.com</AboutText1>
+  </About>
+  <AddToNames>
+    <Title>Tilføj til navne mv. liste</Title>
+    <Description>Tilføj til navne mv. listen (små bogstaver)</Description>
+  </AddToNames>
+  <AddToOcrReplaceList>
+    <Title>Tilføj til OCR erstat liste</Title>
+    <Description>Tilføj par til OCR erstat liste</Description>
+  </AddToOcrReplaceList>
+  <AddToUserDictionary>
+    <Title>Føj til brugerordbogen</Title>
+    <Description>Tilføj ord til brugerordbogen</Description>
+  </AddToUserDictionary>
+  <AddWaveform>
+    <Title>Generer lyd kurve data</Title>
+    <SourceVideoFile>Kilde video-fil:</SourceVideoFile>
+    <GenerateWaveformData>Generer bølgeform data</GenerateWaveformData>
+    <PleaseWait>Dette kan tage et par minutter - vent venligst</PleaseWait>
+    <VlcMediaPlayerNotFoundTitle>VLC media player ikke fundet</VlcMediaPlayerNotFoundTitle>
+    <VlcMediaPlayerNotFound>Subtitle Edit behøver VLC media player 1.1.x eller nyere for kunne udpakke lyd data.</VlcMediaPlayerNotFound>
+    <GoToVlcMediaPlayerHomePage>Ønsker du at gå til VLC media player hjemmeside?</GoToVlcMediaPlayerHomePage>
+    <GeneratingPeakFile>Genererer peak-fil...</GeneratingPeakFile>
+    <GeneratingSpectrogram>Generer spectrogram...</GeneratingSpectrogram>
+    <ExtractingSeconds>Udpakker lyd: {0:0.0} sekunder</ExtractingSeconds>
+    <ExtractingMinutes>Udpakker lyd:. {0} (1:00) minutter</ExtractingMinutes>
+    <WaveFileNotFound>Kunne ikke finde udpakket wave fil!
+Denne funktion kræver VLC media player 1.1.x eller nyere ({0} -bit).
+Kommandolinjen: {1} {2}</WaveFileNotFound>
+    <WaveFileMalformed>{0} kunne ikke udpakke lyd fil!
+Kommandolinjen: {1} {2}
+Bemærk: Kontroller ledig diskplads.</WaveFileMalformed>
+    <LowDiskSpace>LAV DISK PLADS!</LowDiskSpace>
+    <FreeDiskSpace>{0} fri</FreeDiskSpace>
+    <NoAudioTracksFoundGenerateEmptyWaveform>Intet lydspor fundet!  Generer tom bølgeform?</NoAudioTracksFoundGenerateEmptyWaveform>
+  </AddWaveform>
+  <AddWaveformBatch>
+    <Title>Batch generer bølgeform data</Title>
+    <ExtractingAudio>Udpakker lyd...</ExtractingAudio>
+    <Calculating>Beregning...</Calculating>
+    <Done>Udført</Done>
+    <Error>Fejl</Error>
+  </AddWaveformBatch>
+  <AdjustDisplayDuration>
+    <Title>Juster visnings tid</Title>
+    <AdjustVia>Juster via</AdjustVia>
+    <Seconds>Sekunder</Seconds>
+    <Percent>Procent</Percent>
+    <Recalculate>Omberegn</Recalculate>
+    <AddSeconds>Tilføj sekunder</AddSeconds>
+    <SetAsPercent>Set som procent af varighed</SetAsPercent>
+    <Note>Bemærk: Visningstid vil ikke overlappe starttidspunkt for næste tekst</Note>
+    <Fixed>Fast</Fixed>
+    <Milliseconds>Millisekunder</Milliseconds>
+    <ExtendOnly>Kun udvid</ExtendOnly>
+  </AdjustDisplayDuration>
+  <ApplyDurationLimits>
+    <Title>Overhold visnings-grænser</Title>
+    <FixesAvailable>Mulige rettelser: {0}</FixesAvailable>
+    <UnableToFix>Kan ikke rettes: {0}</UnableToFix>
+  </ApplyDurationLimits>
+  <AudioToText>
+    <Title>Lyd til tekst</Title>
+    <ExtractingAudioUsingX>Udtræk lyd ved hjælp af {0}...</ExtractingAudioUsingX>
+    <ExtractingTextUsingX>Udtræk tekst fra lyd ved hjælp af {0}...</ExtractingTextUsingX>
+    <ProgessViaXy>Udtræk tekst via {0} fremskridt: {1}%</ProgessViaXy>
+    <ShowLess>Vis mindre ▲</ShowLess>
+    <ShowMore>Vis mere ▼</ShowMore>
+  </AudioToText>
+  <AutoBreakUnbreakLines>
+    <TitleAutoBreak>Auto ombryd valgte linjer</TitleAutoBreak>
+    <TitleUnbreak>Fjern linjeskift i valgte linjer</TitleUnbreak>
+    <LinesFoundX>Linjer fundet: {0}</LinesFoundX>
+    <OnlyBreakLinesLongerThan>Bryd kun linjer længere end</OnlyBreakLinesLongerThan>
+    <OnlyUnbreakLinesLongerThan>Fjern kun linjeskift fra linjer længere end</OnlyUnbreakLinesLongerThan>
+  </AutoBreakUnbreakLines>
+  <BatchConvert>
+    <Title>Batch konverter</Title>
+    <Input>Input</Input>
+    <InputDescription>Input filer (gennemse eller drag'n'drop)</InputDescription>
+    <Status>Status</Status>
+    <Output>Output</Output>
+    <SaveInSourceFolder>Gem i kildefilmappen</SaveInSourceFolder>
+    <SaveInOutputFolder>Gem i outputmappen nedenfor</SaveInOutputFolder>
+    <OverwriteFiles>Overskriv filer</OverwriteFiles>
+    <Style>Style...</Style>
+    <UseStyleFromSource>Benyt "style" fra kilde</UseStyleFromSource>
+    <ConvertOptions>Konverter indstillinger</ConvertOptions>
+    <RemoveFormatting>Fjern formaterings- tags</RemoveFormatting>
+    <RemoveTextForHI>Fjern tekst for høre-hæmmede</RemoveTextForHI>
+    <OverwriteOriginalFiles>Overskriv originale filer (kun hvis format ikke ændres)</OverwriteOriginalFiles>
+    <RedoCasing>Sæt store/små bogstaver</RedoCasing>
+    <Convert>Konverter</Convert>
+    <NothingToConvert>Intet at konvertere!</NothingToConvert>
+    <PleaseChooseOutputFolder>Vælg output mappe</PleaseChooseOutputFolder>
+    <NotConverted>Fejl</NotConverted>
+    <Converted>Konverteret</Converted>
+    <Settings>Indstillinger</Settings>
+    <FixRtl>Fix RTL</FixRtl>
+    <FixRtlAddUnicode>Fix RTL via Unicode tags</FixRtlAddUnicode>
+    <FixRtlRemoveUnicode>Fjern RTL unicode tags</FixRtlRemoveUnicode>
+    <FixRtlReverseStartEnd>Ombyt RTL start/slut</FixRtlReverseStartEnd>
+    <SplitLongLines>Split lange linjer</SplitLongLines>
+    <AutoBalance>Auto-balancer linjer</AutoBalance>
+    <ScanFolder>Scan mappe...</ScanFolder>
+    <Recursive>Medtag undermapper</Recursive>
+    <BridgeGaps>Lap små huller</BridgeGaps>
+    <PlainText>Almindelig tekst</PlainText>
+    <Ocr>OCR...</Ocr>
+    <Filter>Filter</Filter>
+    <FilterSkipped>Sprunget over pga. filter</FilterSkipped>
+    <FilterSrtNoUtf8BOM>SubRip (.srt) filer uden UTF-8 BOM header</FilterSrtNoUtf8BOM>
+    <FilterMoreThanTwoLines>Mere end to linjer i en undertekst</FilterMoreThanTwoLines>
+    <FilterContains>Tekst indeholder...</FilterContains>
+    <FilterFileNameContains>Filnavn indeholder...</FilterFileNameContains>
+    <FixCommonErrorsErrorX>Fix almindelige fejl: {0}</FixCommonErrorsErrorX>
+    <MultipleReplaceErrorX>Multiple erstatte: {0}</MultipleReplaceErrorX>
+    <AutoBalanceErrorX>Auto balance: {0}</AutoBalanceErrorX>
+    <OffsetTimeCodes>Offset tidskoder</OffsetTimeCodes>
+    <TransportStreamSettings>Transport strømindstillinger</TransportStreamSettings>
+    <TransportStreamOverrideXPosition>Overstyr original X-position</TransportStreamOverrideXPosition>
+    <TransportStreamOverrideYPosition>Overstyr den oprindelige Y-position</TransportStreamOverrideYPosition>
+    <TransportStreamOverrideVideoSize>Overstyr den originale videostørrelse</TransportStreamOverrideVideoSize>
+    <TransportStreamFileNameEnding>Filnavn slutter</TransportStreamFileNameEnding>
+    <TransportStreamSettingsButton>TS-indstillinger...</TransportStreamSettingsButton>
+    <RemoveLineBreaks>Fjern linjeskift</RemoveLineBreaks>
+    <TryToUseSourceEncoding>Prøv at bruge kildekodning</TryToUseSourceEncoding>
+    <MkvLanguageInOutputFileName>"Sprog" i outputfilnavn</MkvLanguageInOutputFileName>
+    <MkvLanguageInOutputFileNameX>Matroska (.mkv) "Sprog" i outputfilnavnet: {0}</MkvLanguageInOutputFileNameX>
+    <MkvLanguageStyleTwoLetter>To bogstavs sprogkode</MkvLanguageStyleTwoLetter>
+    <MkvLanguageStyleThreeLetter>Tre bogstavs sprogkode</MkvLanguageStyleThreeLetter>
+    <MkvLanguageStyleEmpty>Ingen sprogkode</MkvLanguageStyleEmpty>
+  </BatchConvert>
+  <Beamer>
+    <Title>Undertekst fremviser</Title>
+  </Beamer>
+  <Bookmarks>
+    <EditBookmark>Rediger bogmærke</EditBookmark>
+    <AddBookmark>Tilføj bogmærke</AddBookmark>
+    <GoToBookmark>Gå til bogmærke</GoToBookmark>
+  </Bookmarks>
+  <ChangeCasing>
+    <Title>Skift mellem STORE/små/Normal</Title>
+    <ChangeCasingTo>Skift til</ChangeCasingTo>
+    <NormalCasing>Normal. Sætninger starter med stort bogstav.</NormalCasing>
+    <FixNamesCasing>Fix navne (via Ordbøger\\NamesEtc.xml)</FixNamesCasing>
+    <FixOnlyNamesCasing>Ret kun navne (via Ordbøger\\NamesEtc.xml)</FixOnlyNamesCasing>
+    <OnlyChangeAllUppercaseLines>Ændr kun linjer med kun store bogstaver.</OnlyChangeAllUppercaseLines>
+    <AllUppercase>KUN STORE BOGSTAVER</AllUppercase>
+    <AllLowercase>kun små bogstaver</AllLowercase>
+  </ChangeCasing>
+  <ChangeCasingNames>
+    <Title>Skift mellem STORE/små/Normal - Navne</Title>
+    <NamesFoundInSubtitleX>Antal navne fundet: {0}</NamesFoundInSubtitleX>
+    <Enabled>Aktiv</Enabled>
+    <Name>Navn</Name>
+    <LinesFoundX>Antal linjer fundet: {0}</LinesFoundX>
+  </ChangeCasingNames>
+  <ChangeFrameRate>
+    <Title>Skift antal billeder pr. sekund</Title>
+    <ConvertFrameRateOfSubtitle>Konverter antal billeder pr. sekund for undertekst</ConvertFrameRateOfSubtitle>
+    <FromFrameRate>Fra antal billeder pr. sekund</FromFrameRate>
+    <ToFrameRate>Til antal billeder pr. sekund</ToFrameRate>
+    <FrameRateNotCorrect>Billeder per sekund er ikke korrekt</FrameRateNotCorrect>
+    <FrameRateNotChanged>Antal billeder per sekund er den samme - ikke noget at konvertere</FrameRateNotChanged>
+  </ChangeFrameRate>
+  <ChangeSpeedInPercent>
+    <Title>Juster hastighed i procent</Title>
+    <TitleShort>Juster hastighed</TitleShort>
+    <Info>Skift hastighed for undertekst i procent</Info>
+    <Custom>Brugerdefineret</Custom>
+    <ToDropFrame>Til drop-frame</ToDropFrame>
+    <FromDropFrame>Fra drop-frame</FromDropFrame>
+  </ChangeSpeedInPercent>
+  <CheckForUpdates>
+    <Title>Tjek for opdateringer</Title>
+    <CheckingForUpdates>Kontrollerer for opdateringer...</CheckingForUpdates>
+    <CheckingForUpdatesFailedX>Kontrol for opdateringer mislykkedes: {0}</CheckingForUpdatesFailedX>
+    <CheckingForUpdatesNoneAvailable>Du bruger den nyeste version af Subtitle Edit :)</CheckingForUpdatesNoneAvailable>
+    <CheckingForUpdatesNewVersion>Ny version tilgængelig!</CheckingForUpdatesNewVersion>
+    <InstallUpdate>Gå til download side</InstallUpdate>
+    <NoUpdates>Opdater ikke</NoUpdates>
+  </CheckForUpdates>
+  <ChooseAudioTrack>
+    <Title>Vælg lydspor</Title>
+  </ChooseAudioTrack>
+  <ChooseEncoding>
+    <Title>Vælg tegntabel</Title>
+    <CodePage>Tegntabel</CodePage>
+    <DisplayName>Navn</DisplayName>
+    <PleaseSelectAnEncoding>Vælg en tegntabel</PleaseSelectAnEncoding>
+  </ChooseEncoding>
+  <ChooseLanguage>
+    <Title>Vælg sprog</Title>
+    <Language>Sprog</Language>
+  </ChooseLanguage>
+  <ColorChooser>
+    <Title>Vælg farve</Title>
+    <Red>Rød</Red>
+    <Green>Grøn</Green>
+    <Blue>Blå</Blue>
+    <Alpha>Alpha</Alpha>
+  </ColorChooser>
+  <ColumnPaste>
+    <Title>Indsæt fra udklipsholder</Title>
+    <ChooseColumn>Vælg kolonne</ChooseColumn>
+    <OverwriteShiftCellsDown>Overskriv/flyt celler ned</OverwriteShiftCellsDown>
+    <Overwrite>Overskriv</Overwrite>
+    <ShiftCellsDown>Flyt celler ned</ShiftCellsDown>
+    <TimeCodesOnly>Kun tidskoder</TimeCodesOnly>
+    <TextOnly>Kun tekst</TextOnly>
+    <OriginalTextOnly>Kun original tekst</OriginalTextOnly>
+  </ColumnPaste>
+  <CompareSubtitles>
+    <Title>Sammenlign undertekster</Title>
+    <PreviousDifference>&amp;Forrige ændring</PreviousDifference>
+    <NextDifference>&amp;Næste ændring</NextDifference>
+    <SubtitlesNotAlike>Undertekster har ingen ligheder</SubtitlesNotAlike>
+    <XNumberOfDifference>Antal forskelle: {0}</XNumberOfDifference>
+    <XNumberOfDifferenceAndPercentChanged>Antal forskelle: {0} ({1:0.##}% af ord ændret)</XNumberOfDifferenceAndPercentChanged>
+    <XNumberOfDifferenceAndPercentLettersChanged>Antal forskelle: {0} ({1:0.##}% af bogstaver ændret)</XNumberOfDifferenceAndPercentLettersChanged>
+    <ShowOnlyDifferences>Vis kun forskelle</ShowOnlyDifferences>
+    <IgnoreLineBreaks>Ignorer linjeskift</IgnoreLineBreaks>
+    <IgnoreFormatting>Ignorer formatering</IgnoreFormatting>
+    <OnlyLookForDifferencesInText>Vis kun forskelle i teksten</OnlyLookForDifferencesInText>
+    <CannotCompareWithImageBasedSubtitles>Kan ikke sammenligne med billede baseret undertekster</CannotCompareWithImageBasedSubtitles>
+  </CompareSubtitles>
+  <DCinemaProperties>
+    <Title>D-Cinema egenskaber (INTEROP)</Title>
+    <TitleSmpte>D-Cinema egenskaber (SMPTE)</TitleSmpte>
+    <SubtitleId>Undertekst ID</SubtitleId>
+    <GenerateId>Generate ID</GenerateId>
+    <MovieTitle>Video titel</MovieTitle>
+    <ReelNumber>Rulle nummer</ReelNumber>
+    <Language>Sprog</Language>
+    <IssueDate>Udgivelsesdato</IssueDate>
+    <EditRate>Edit frame rate</EditRate>
+    <TimeCodeRate>Tidskode rate</TimeCodeRate>
+    <StartTime>Start tid</StartTime>
+    <Font>Font</Font>
+    <FontId>ID</FontId>
+    <FontUri>URI</FontUri>
+    <FontColor>Farve</FontColor>
+    <FontEffect>Effekt</FontEffect>
+    <FontEffectColor>Effekt farve</FontEffectColor>
+    <FontSize>Str.</FontSize>
+    <TopBottomMargin>Top/bund margin</TopBottomMargin>
+    <FadeUpTime>Fade up tid</FadeUpTime>
+    <FadeDownTime>Fade ned tid</FadeDownTime>
+    <ZPosition>Z-position</ZPosition>
+    <ZPositionHelp>positive tal flytter tekst væk, negative tal flytter tekst tættere på, hvis z-position er nul så er det 2D</ZPositionHelp>
+    <ChooseColor>Vælg farve...</ChooseColor>
+    <Generate>Generer</Generate>
+  </DCinemaProperties>
+  <DurationsBridgeGaps>
+    <Title>Lap små huller mellem tekster</Title>
+    <GapsBridgedX>antal små huller lukket: {0}</GapsBridgedX>
+    <GapToNext>Gap til næste</GapToNext>
+    <BridgeGapsSmallerThanXPart1>Lap huller mindre end</BridgeGapsSmallerThanXPart1>
+    <BridgeGapsSmallerThanXPart2>millisekunder</BridgeGapsSmallerThanXPart2>
+    <MinMillisecondsBetweenLines>Min. millisekunder mellem linjer</MinMillisecondsBetweenLines>
+    <ProlongEndTime>Forrige tekst tager alle tiden</ProlongEndTime>
+    <DivideEven>Tid deles</DivideEven>
+  </DurationsBridgeGaps>
+  <DvdSubRip>
+    <Title>Rip undertekster fra IFO/VOB (DVD)</Title>
+    <DvdGroupTitle>DVD-filer/info</DvdGroupTitle>
+    <IfoFile>IFO fil</IfoFile>
+    <IfoFiles>IFO filer</IfoFiles>
+    <VobFiles>VOB filer</VobFiles>
+    <Add>Tilføj...</Add>
+    <Remove>Fjern</Remove>
+    <Clear>Fjern alle</Clear>
+    <MoveUp>Flyt op</MoveUp>
+    <MoveDown>Flyt ned</MoveDown>
+    <Languages>Sprog</Languages>
+    <PalNtsc>PAL/NTSC</PalNtsc>
+    <Pal>PAL (25 fps)</Pal>
+    <Ntsc>NTSC (23.976 fps)</Ntsc>
+    <StartRipping>Start ripping</StartRipping>
+    <Abort>Afbryd</Abort>
+    <AbortedByUser>Afbrudt af bruger</AbortedByUser>
+    <ReadingSubtitleData>Læser undertekst data...</ReadingSubtitleData>
+    <RippingVobFileXofYZ>Ripper vob fil {1} af {2}: {0}</RippingVobFileXofYZ>
+    <WrongIfoType>IFO type er '{0}' og ikke 'DVDVIDEO-VTS'. {1} Prøv en anden fil end {2}</WrongIfoType>
+  </DvdSubRip>
+  <DvdSubRipChooseLanguage>
+    <Title>Vælg sprog</Title>
+    <ChooseLanguageStreamId>Vælg sprog (stream-id)</ChooseLanguageStreamId>
+    <UnknownLanguage>Ukendt sprog</UnknownLanguage>
+    <SubtitleImageXofYAndWidthXHeight>Undertekst billede {0}/{1} - {2} x {3}</SubtitleImageXofYAndWidthXHeight>
+    <SubtitleImage>Undertekst billede</SubtitleImage>
+  </DvdSubRipChooseLanguage>
+  <EbuSaveOptions>
+    <Title>EBU save options</Title>
+    <GeneralSubtitleInformation>General subtitle information</GeneralSubtitleInformation>
+    <CodePageNumber>Code page number</CodePageNumber>
+    <DiskFormatCode>Disk format code</DiskFormatCode>
+    <DisplayStandardCode>Display standard code</DisplayStandardCode>
+    <ColorRequiresTeletext>Farver kræver teletext!</ColorRequiresTeletext>
+    <CharacterCodeTable>Character table</CharacterCodeTable>
+    <LanguageCode>Language code</LanguageCode>
+    <OriginalProgramTitle>Original program title</OriginalProgramTitle>
+    <OriginalEpisodeTitle>Original episode title</OriginalEpisodeTitle>
+    <TranslatedProgramTitle>Translated program title</TranslatedProgramTitle>
+    <TranslatedEpisodeTitle>Translated episode title</TranslatedEpisodeTitle>
+    <TranslatorsName>Translators name</TranslatorsName>
+    <SubtitleListReferenceCode>Subtitle list reference code</SubtitleListReferenceCode>
+    <CountryOfOrigin>Country of origin</CountryOfOrigin>
+    <TimeCodeStatus>Tidskode status</TimeCodeStatus>
+    <TimeCodeStartOfProgramme>Tidskode: Start på programmet</TimeCodeStartOfProgramme>
+    <RevisionNumber>Revision number</RevisionNumber>
+    <MaxNoOfDisplayableChars>Max# of chars per row</MaxNoOfDisplayableChars>
+    <MaxNumberOfDisplayableRows>Max# of rows</MaxNumberOfDisplayableRows>
+    <DiskSequenceNumber>Disk sequence number</DiskSequenceNumber>
+    <TotalNumberOfDisks>Total number of disks</TotalNumberOfDisks>
+    <Import>Import...</Import>
+    <TextAndTimingInformation>Text and timing information</TextAndTimingInformation>
+    <JustificationCode>Justification code</JustificationCode>
+    <VerticalPosition>Lodret position</VerticalPosition>
+    <MarginTop>Margin top (for top justeret undertekster)</MarginTop>
+    <MarginBottom>Margin bund (til bund justeret undertekster)</MarginBottom>
+    <NewLineRows>Antal rækker tilføjet af en ny linje</NewLineRows>
+    <Teletext>Teletext</Teletext>
+    <UseBox>Brug boks omkring tekst</UseBox>
+    <DoubleHeight>Brug dobbelt højde til tekst</DoubleHeight>
+    <Errors>Fejl</Errors>
+    <ErrorsX>Fejl: {0}</ErrorsX>
+    <MaxLengthError>Linie {0} overstiger max længde ({1}) af {2}: {3}</MaxLengthError>
+    <TextUnchangedPresentation>Uændret præsentation</TextUnchangedPresentation>
+    <TextLeftJustifiedText>Venstre justeret tekst</TextLeftJustifiedText>
+    <TextCenteredText>Centreret tekst</TextCenteredText>
+    <TextRightJustifiedText>Højre justeret tekst</TextRightJustifiedText>
+    <UseBoxForOneNewLine>Marker "Brug af boks omkring tekst" med kun et linjeskift</UseBoxForOneNewLine>
+  </EbuSaveOptions>
+  <EffectKaraoke>
+    <Title>Karaoke effekt</Title>
+    <ChooseColor>Vælg farve:</ChooseColor>
+    <TotalMilliseconds>Total milliseks.:</TotalMilliseconds>
+    <EndDelayInMilliseconds>Slut forsinkelse i millisek.:</EndDelayInMilliseconds>
+  </EffectKaraoke>
+  <EffectTypewriter>
+    <Title>Skrivemaskine effekt</Title>
+    <TotalMilliseconds>Total milliseconds:</TotalMilliseconds>
+    <EndDelayInMilliseconds>Slut forsinkelse i millisek.:</EndDelayInMilliseconds>
+  </EffectTypewriter>
+  <ExportCustomText>
+    <Title>Eksporter bruger-defineret tekstformat</Title>
+    <Formats>Formater</Formats>
+    <New>Ny</New>
+    <Edit>Ret</Edit>
+    <Delete>Slet</Delete>
+    <SaveAs>Gem som...</SaveAs>
+    <SaveSubtitleAs>Gem undertekst som...</SaveSubtitleAs>
+    <SubtitleExportedInCustomFormatToX>Subtitle eksporteres i brugerdefinerede format til: {0}</SubtitleExportedInCustomFormatToX>
+  </ExportCustomText>
+  <ExportCustomTextFormat>
+    <Title>Brugerdefineret tekstformat skabelon</Title>
+    <Template>Skabelon</Template>
+    <Header>Header</Header>
+    <TextLine>Tekstlinje (afsnit)</TextLine>
+    <TimeCode>Tidskode</TimeCode>
+    <NewLine>Ny linje</NewLine>
+    <Footer>Footer</Footer>
+    <DoNotModify>[Ret ikke]</DoNotModify>
+  </ExportCustomTextFormat>
+  <ExportFcpXmlAdvanced>
+    <Title>Eksporter Final Cut Pro XML avanceret</Title>
+    <FontName>Fontnavn</FontName>
+    <FontSize>Fontstørrelse</FontSize>
+    <FontFace>Font face</FontFace>
+    <FontFaceRegular>Normal</FontFaceRegular>
+    <Alignment>Position</Alignment>
+    <Baseline>Baseline</Baseline>
+  </ExportFcpXmlAdvanced>
+  <ExportPngXml>
+    <Title>Eksporter BDN XML/PNG</Title>
+    <ImageSettings>Billedindstillinger</ImageSettings>
+    <FontFamily>Font navn</FontFamily>
+    <FontSize>Skriftstørrelse</FontSize>
+    <FontColor>Skriftfarve</FontColor>
+    <BorderColor>Kantfarve</BorderColor>
+    <BorderWidth>Kantbredde</BorderWidth>
+    <BorderStyle>Border stil</BorderStyle>
+    <BorderStyleOneBox>En Boks</BorderStyleOneBox>
+    <BorderStyleBoxForEachLine>Boks for hver linje</BorderStyleBoxForEachLine>
+    <BorderStyleNormalWidthX>Normal, bredde = {0}</BorderStyleNormalWidthX>
+    <ShadowColor>Skygge farve</ShadowColor>
+    <ShadowWidth>Skygge tykkelse</ShadowWidth>
+    <Transparency>Alpha</Transparency>
+    <ImageFormat>Billed format</ImageFormat>
+    <FullFrameImage>Full frame billede</FullFrameImage>
+    <SimpleRendering>Simpel rendering</SimpleRendering>
+    <AntiAliasingWithTransparency>Anti-aliasing med gennemsigtighed</AntiAliasingWithTransparency>
+    <Text3D>3D</Text3D>
+    <SideBySide3D>Half-Side-by-side</SideBySide3D>
+    <HalfTopBottom3D>Half-Top/Bottom</HalfTopBottom3D>
+    <Depth>Dybde</Depth>
+    <ExportAllLines>Eksporter alle linjer...</ExportAllLines>
+    <XImagesSavedInY>{0} billeder gemt i {1}</XImagesSavedInY>
+    <VideoResolution>Video str</VideoResolution>
+    <Align>Justering</Align>
+    <Left>Venstre</Left>
+    <Right>Højre</Right>
+    <Center>Centrer</Center>
+    <CenterLeftJustify>Center, venstrestillet</CenterLeftJustify>
+    <CenterTopJustify>center, top</CenterTopJustify>
+    <BottomMargin>Bundmargen</BottomMargin>
+    <LeftRightMargin>Venstre/højre margen</LeftRightMargin>
+    <SaveBluRraySupAs>Vælg Blu-ray sup filnavn</SaveBluRraySupAs>
+    <SaveVobSubAs>Vælg VobSub filnavn</SaveVobSubAs>
+    <SaveFabImageScriptAs>Vælg FAB image script filnavn</SaveFabImageScriptAs>
+    <SaveDvdStudioProStlAs>Vælg DVD Studio Pro STL filnavn</SaveDvdStudioProStlAs>
+    <SaveDigitalCinemaInteropAs>Vælg Digital Cinema Interop filnavn</SaveDigitalCinemaInteropAs>
+    <SavePremiereEdlAs>Vælg Premiere EDL filnavn</SavePremiereEdlAs>
+    <SaveFcpAs>Vælg Final Cut Pro xml filnavn</SaveFcpAs>
+    <SaveDostAs>Vælg DoStudio dost filnavn</SaveDostAs>
+    <SomeLinesWereTooLongX>Nogle linjer var for lange:
+{0}</SomeLinesWereTooLongX>
+    <LineHeight>Linje højde</LineHeight>
+    <BoxSingleLine>Boks - enkelt linje</BoxSingleLine>
+    <BoxMultiLine>Boks - multi linie</BoxMultiLine>
+    <Forced>Forced</Forced>
+    <ChooseBackgroundColor>Vælg baggrundsfarve</ChooseBackgroundColor>
+    <SaveImageAs>Gem billede som...</SaveImageAs>
+    <FcpUseFullPathUrl>Benyt fuld billede sti i FCP xml</FcpUseFullPathUrl>
+  </ExportPngXml>
+  <ExportText>
+    <Title>Eksport tekst</Title>
+    <Preview>Eksempel</Preview>
+    <ExportOptions>Eksport muligheder</ExportOptions>
+    <FormatText>Formater tekst</FormatText>
+    <None>Ingen</None>
+    <MergeAllLines>Sat linjer sammen</MergeAllLines>
+    <UnbreakLines>Fjern linje-brud</UnbreakLines>
+    <RemoveStyling>Fjern formatering</RemoveStyling>
+    <ShowLineNumbers>Vis linjenumre</ShowLineNumbers>
+    <AddNewLineAfterLineNumber>Tilføj ny linje efter linje nummer</AddNewLineAfterLineNumber>
+    <ShowTimeCode>Vis tidskoder</ShowTimeCode>
+    <AddNewLineAfterTimeCode>Tilføj ny linje efter tidskode</AddNewLineAfterTimeCode>
+    <AddNewLineAfterTexts>Tilføj ny linje efter tekst</AddNewLineAfterTexts>
+    <AddNewLineBetweenSubtitles>Tilføj ny linje mellem undertekster</AddNewLineBetweenSubtitles>
+    <TimeCodeFormat>Tidskode format</TimeCodeFormat>
+    <Srt>.srt</Srt>
+    <Milliseconds>Millisekunder</Milliseconds>
+    <HHMMSSFF>HH:MM:SS:FF</HHMMSSFF>
+    <TimeCodeSeparator>Tidskode skille-tegn</TimeCodeSeparator>
+  </ExportText>
+  <ExtractDateTimeInfo>
+    <Title>Generer tid som tekst</Title>
+    <OpenVideoFile>Vælg videofil til at udtrække dato/tid info fra</OpenVideoFile>
+    <StartFrom>Start fra</StartFrom>
+    <DateTimeFormat>Dato/tid format</DateTimeFormat>
+    <Example>Eksempel</Example>
+    <GenerateSubtitle>&amp;Generer undertekst</GenerateSubtitle>
+  </ExtractDateTimeInfo>
+  <FindDialog>
+    <Title>Find</Title>
+    <Find>Find</Find>
+    <Normal>Normal</Normal>
+    <CaseSensitive>Versalfølsom</CaseSensitive>
+    <RegularExpression>Regulært udtryk</RegularExpression>
+    <WholeWord>Hele ord</WholeWord>
+    <Count>Antal</Count>
+    <XNumberOfMatches>{0:#,##0} forekomst(er)</XNumberOfMatches>
+    <OneMatch>En forekomst</OneMatch>
+  </FindDialog>
+  <FindSubtitleLine>
+    <Title>Find Undertekst</Title>
+    <Find>&amp;Find</Find>
+    <FindNext>Find &amp;næste</FindNext>
+  </FindSubtitleLine>
+  <FixCommonErrors>
+    <Title>Ret almindelige fejl</Title>
+    <Step1>Trin 1/2 - Vælg fejl der skal rettes</Step1>
+    <WhatToFix>Hvad skal udføres</WhatToFix>
+    <Example>Eksempel</Example>
+    <SelectAll>Vælg alle</SelectAll>
+    <InverseSelection>Vælg modsatte</InverseSelection>
+    <Back>&lt;&amp;Tilbage</Back>
+    <Next>&amp;Næste&gt;</Next>
+    <Step2>Trin 2/2 - Bekræft rettelser</Step2>
+    <Fixes>Rettelser</Fixes>
+    <Log>Log</Log>
+    <Function>Funktion</Function>
+    <RemovedEmptyLine>Fjernede tom linje</RemovedEmptyLine>
+    <RemovedEmptyLineAtTop>Fjernede tom linje øverst</RemovedEmptyLineAtTop>
+    <RemovedEmptyLineAtBottom>Fjernede tom linje i bunden</RemovedEmptyLineAtBottom>
+    <RemovedEmptyLineInMiddle>Fjernede tom linje i midten</RemovedEmptyLineInMiddle>
+    <RemovedEmptyLinesUnsedLineBreaks>Fjern tomme linjer/ubrugte linjeskift</RemovedEmptyLinesUnsedLineBreaks>
+    <EmptyLinesRemovedX>Tomme linjer fjernet: {0}</EmptyLinesRemovedX>
+    <FixOverlappingDisplayTimes>Ret overlappende visningstider</FixOverlappingDisplayTimes>
+    <FixShortDisplayTimes>Ret korte visningstider</FixShortDisplayTimes>
+    <FixLongDisplayTimes>Ret lange visningstider</FixLongDisplayTimes>
+    <FixShortGaps>Fix korte huller</FixShortGaps>
+    <FixInvalidItalicTags>Ret ugyldige kursiv tags</FixInvalidItalicTags>
+    <RemoveUnneededSpaces>Fjern unødvendige mellemrum</RemoveUnneededSpaces>
+    <RemoveUnneededPeriods>Fjern unødvendige punktummer</RemoveUnneededPeriods>
+    <FixCommas>Fix kommaer</FixCommas>
+    <FixMissingSpaces>Ret manglende mellemrum</FixMissingSpaces>
+    <BreakLongLines>Ombryd lange linjer</BreakLongLines>
+    <RemoveLineBreaks>Fjern linjeskift i korte afsnit med kun én sætning</RemoveLineBreaks>
+    <RemoveLineBreaksAll>Fjern linjeskift i korte tekster (undtagen dialog)</RemoveLineBreaksAll>
+    <FixUppercaseIInsindeLowercaseWords>Ret store bogstaver 'i' inde i små ord (OCR-fejl)</FixUppercaseIInsindeLowercaseWords>
+    <FixDoubleApostrophes>Ret dobbelt apostrof tegn ('') til en enkelt qoute (")</FixDoubleApostrophes>
+    <AddPeriods>Tilføj punktum efter de linjer, hvor næste linje starter med stort bogstav</AddPeriods>
+    <StartWithUppercaseLetterAfterParagraph>Start nye linier med stort bogstav efter punktum</StartWithUppercaseLetterAfterParagraph>
+    <StartWithUppercaseLetterAfterPeriodInsideParagraph>Start med stort bogstav efter punktum inde i linjer</StartWithUppercaseLetterAfterPeriodInsideParagraph>
+    <StartWithUppercaseLetterAfterColon>Start med stort bogstav efter kolon/semikolon</StartWithUppercaseLetterAfterColon>
+    <FixLowercaseIToUppercaseI>Ret alene lille 'i' til 'I' (engelsk)</FixLowercaseIToUppercaseI>
+    <FixCommonOcrErrors>Ret OCR-fejl (ved hjælp af OCR erstat liste)</FixCommonOcrErrors>
+    <CommonOcrErrorsFixed>Ret OCR fejl (via OcrReplaceList fil): {0}</CommonOcrErrorsFixed>
+    <RemoveSpaceBetweenNumber>Fjern mellemrum mellem tal</RemoveSpaceBetweenNumber>
+    <FixDialogsOnOneLine>Fix dialoger på én linje</FixDialogsOnOneLine>
+    <RemoveSpaceBetweenNumbersFixed>Fjern mellemrum mellem tallene rettet: {0}</RemoveSpaceBetweenNumbersFixed>
+    <FixTurkishAnsi>Fix tyrkiske ANSI (islandske) bogstaver til Unicode</FixTurkishAnsi>
+    <FixDanishLetterI>Ret fejl vedr. det dansk bogstav »i«</FixDanishLetterI>
+    <FixSpanishInvertedQuestionAndExclamationMarks>Tilføj spanske omvendte spørgsmålstegn og udråbstegn</FixSpanishInvertedQuestionAndExclamationMarks>
+    <AddMissingQuote>Tilføj manglende gåseøje</AddMissingQuote>
+    <AddMissingQuotes>Tilføj manglende gåseøjne</AddMissingQuotes>
+    <RemoveHyphensSingleLine>Fjern dialog-bindestreg i enkeltlinjer</RemoveHyphensSingleLine>
+    <XHyphensSingleLineRemoved>Dialog-bindestreger fjernes i enkeltlinjer: {0}</XHyphensSingleLineRemoved>
+    <FixHyphensInDialogs>Fix dialog-bindestreg via stil: {0}</FixHyphensInDialogs>
+    <XHyphensInDialogsFixed>Streger fast: {0}</XHyphensInDialogsFixed>
+    <AddMissingQuotesExample>"Hvordan har du det? -&gt; "Hvordan har du det?"</AddMissingQuotesExample>
+    <XMissingQuotesAdded>Manglende antal gåseøjne tilføjet: {0}</XMissingQuotesAdded>
+    <Fix3PlusLines>Ret tekster med mere end 2 linjer</Fix3PlusLines>
+    <Fix3PlusLine>Ret tekst med mere end 2 linjer</Fix3PlusLine>
+    <X3PlusLinesFixed>Tekster med mere end 2 linjer rettet: {0}</X3PlusLinesFixed>
+    <Analysing>Analyserer...</Analysing>
+    <NothingToFix>Intet at rette :)</NothingToFix>
+    <FixesFoundX>Rettelser fundet: {0}</FixesFoundX>
+    <XFixesApplied>Rettelser udført: {0}</XFixesApplied>
+    <NothingFixableBut>Intet kunne rettes automatisk.  Underteksten indeholder fejl - se log for detaljer</NothingFixableBut>
+    <XFixedBut>{0} problem(er) rettet, men underteksten indeholder stadig fejl - se log for detaljer</XFixedBut>
+    <XCouldBeFixedBut>{0} problem(er) kunne rettes, men underteksten vil stadig indeholde fejl - se log for detaljer</XCouldBeFixedBut>
+    <UncheckedFixLowercaseIToUppercaseI>"Ret alene små bogstaver 'i' til 'I' (engelsk)" er ikke længere valgt</UncheckedFixLowercaseIToUppercaseI>
+    <XIsChangedToUppercase>{0} i'er skiftet til store bogstaver</XIsChangedToUppercase>
+    <FixFirstLetterToUppercaseAfterParagraph>Ret første bogstav til stort bogstav efter afsnit</FixFirstLetterToUppercaseAfterParagraph>
+    <MergeShortLine>Flet kort line</MergeShortLine>
+    <MergeShortLineAll>Flet kort linjer (undtagen dialog)</MergeShortLineAll>
+    <XLineBreaksAdded>{0} linjeskift indsættes</XLineBreaksAdded>
+    <BreakLongLine>Brryd lange linjer</BreakLongLine>
+    <FixLongDisplayTime>Ret lang visningstid</FixLongDisplayTime>
+    <FixInvalidItalicTag>Ret ugyldig kursiv tag</FixInvalidItalicTag>
+    <FixShortDisplayTime>Ret kort visningstid</FixShortDisplayTime>
+    <FixOverlappingDisplayTime>Fix overlappende visningstid</FixOverlappingDisplayTime>
+    <FixShortGap>Korte huller</FixShortGap>
+    <FixInvalidItalicTagsExample>&lt;i&gt;Hvad skal jeg dog lave?&lt;i&gt; -&gt; &lt;i&gt;Hvad skal jeg dog lave?&lt;/i&gt;</FixInvalidItalicTagsExample>
+    <RemoveUnneededSpacesExample>Hej  du , der. -&gt; Hej du, der.</RemoveUnneededSpacesExample>
+    <RemoveUnneededPeriodsExample>Hej du!. -&gt; Hej du!</RemoveUnneededPeriodsExample>
+    <FixMissingSpacesExample>Hej.Du. -&gt; Hej. Du.</FixMissingSpacesExample>
+    <FixUppercaseIInsindeLowercaseWordsExample>Jorden er fIad. -&gt; Jorden er flad.</FixUppercaseIInsindeLowercaseWordsExample>
+    <FixLowercaseIToUppercaseIExample>What do i care. -&gt; What do I care.</FixLowercaseIToUppercaseIExample>
+    <StartTimeLaterThanEndTime>Tekst nummer {0}: Start tidspunkt er senere end sluttidspunkt: {1} {1} -&gt; {2} {3}</StartTimeLaterThanEndTime>
+    <UnableToFixStartTimeLaterThanEndTime>Kunne ikke rette tekst nummer {0}: Start tidspunkt er senere udgangen sluttidspunkt: {1}</UnableToFixStartTimeLaterThanEndTime>
+    <XFixedToYZ>{0} er rettet til: {1} {2}</XFixedToYZ>
+    <UnableToFixTextXY>Kunne ikke rette tekst nummer {0}: {1}</UnableToFixTextXY>
+    <XOverlappingTimestampsFixed>{0} overlappende tidskoder rettet</XOverlappingTimestampsFixed>
+    <XDisplayTimesProlonged>{0} visningstider forlænget</XDisplayTimesProlonged>
+    <XInvalidHtmlTagsFixed>{0} ugyldig HTML tags rettet</XInvalidHtmlTagsFixed>
+    <XDisplayTimesShortned>{0} visningstider forkortet</XDisplayTimesShortned>
+    <XGapsFixed>{0} korte mellemrum rettet</XGapsFixed>
+    <XLinesUnbreaked>{0} linjer har fået linjeskift fjernet</XLinesUnbreaked>
+    <UnneededSpace>Unødigt mellemrum</UnneededSpace>
+    <XUnneededSpacesRemoved>{0} unødvendige mellemrum fjernet</XUnneededSpacesRemoved>
+    <UnneededPeriod>Unødig punktum</UnneededPeriod>
+    <XUnneededPeriodsRemoved>{0} unødig punktummer fjernet</XUnneededPeriodsRemoved>
+    <FixMissingSpace>Ret manglende mellemrum</FixMissingSpace>
+    <XMissingSpacesAdded>{0} manglende mellemrum indsat</XMissingSpacesAdded>
+    <FixUppercaseIInsideLowercaseWord>Ret store bogstav 'i' inde i ord med små bogstaver</FixUppercaseIInsideLowercaseWord>
+    <XPeriodsAdded>{0} punktummer tilføjet.</XPeriodsAdded>
+    <FixMissingPeriodAtEndOfLine>Ret manglende punktum i slutningen af linjen</FixMissingPeriodAtEndOfLine>
+    <XDoubleApostrophesFixed>{0} dobbelte apostroffer rettet</XDoubleApostrophesFixed>
+    <XUppercaseIsFoundInsideLowercaseWords>{0} store i'er fundet inde i ord med små bogstaver</XUppercaseIsFoundInsideLowercaseWords>
+    <RefreshFixes>Opdater tilgængelige rettelser</RefreshFixes>
+    <ApplyFixes>Udfør valgte rettelser</ApplyFixes>
+    <AutoBreak>Auto &amp;ombr</AutoBreak>
+    <Unbreak>&amp;Ombryd</Unbreak>
+    <FixDoubleDash>Erstat '--' med '...'</FixDoubleDash>
+    <FixDoubleGreaterThan>Fjern &gt;&gt;</FixDoubleGreaterThan>
+    <FixEllipsesStart>Fjern startende '...'</FixEllipsesStart>
+    <FixMissingOpenBracket>Fix manglende [</FixMissingOpenBracket>
+    <FixMusicNotation>Erstat âTª med *</FixMusicNotation>
+    <XFixDoubleDash>{0} rettet '--'</XFixDoubleDash>
+    <XFixDoubleGreaterThan>{0} fjernet &gt;&gt;</XFixDoubleGreaterThan>
+    <XFixEllipsesStart>{0} begyndende '...' fjernet</XFixEllipsesStart>
+    <XFixMissingOpenBracket>{0} rettet manglende [</XFixMissingOpenBracket>
+    <XFixMusicNotation>{0} lave musik notation</XFixMusicNotation>
+    <FixDoubleDashExample>'Whoa-- um yeah!' -&gt; 'Whoa... um yeah!'</FixDoubleDashExample>
+    <FixDoubleGreaterThanExample>'&gt;&gt; Robert: Sup dude!' -&gt; 'Robert: Sup dude!'</FixDoubleGreaterThanExample>
+    <FixEllipsesStartExample>'... og så har vi' -&gt; 'og så har vi'</FixEllipsesStartExample>
+    <FixMissingOpenBracketExample>'clanks] Pas på!' -&gt; '[clanks] Pas på!'</FixMissingOpenBracketExample>
+    <FixMusicNotationExample>'âTª sweet dreams are' -&gt; '♫ sweet dreams are'</FixMusicNotationExample>
+    <NumberOfImportantLogMessages>{0} vigtige log beskeder!</NumberOfImportantLogMessages>
+    <FixedOkXY>Rettet og OK - '{0}': {1}</FixedOkXY>
+    <FixOcrErrorExample>D0n't -&gt; Don't</FixOcrErrorExample>
+    <FixSpaceBetweenNumbersExample>1 100 -&gt; 1100</FixSpaceBetweenNumbersExample>
+    <FixDialogsOneLineExample>Hej John! - Hej Ida! -&gt; Hej John!&lt;br /&gt;- Hej Ida!</FixDialogsOneLineExample>
+    <SelectDefault>Vælg standard</SelectDefault>
+    <FixContinuationStyleX>Fix fortsættelsestil: {0}</FixContinuationStyleX>
+    <XFixContinuationStyle>{0} fast fortsættelsesstil</XFixContinuationStyle>
+    <FixUnnecessaryLeadingDots>Fjern unødvendige førende punktummer</FixUnnecessaryLeadingDots>
+    <XFixUnnecessaryLeadingDots>{0} fjernede unødvendige førende punktummer</XFixUnnecessaryLeadingDots>
+  </FixCommonErrors>
+  <GetDictionaries>
+    <Title>Mangler ordbøger?</Title>
+    <DescriptionLine1>Subtitle Edit's stavekontrol er baseret på NHunspell, der</DescriptionLine1>
+    <DescriptionLine2>bruger ordbøger fra LibreOffice.</DescriptionLine2>
+    <ChooseLanguageAndClickDownload>Vælg sprog og klik på download</ChooseLanguageAndClickDownload>
+    <OpenDictionariesFolder>Åbn 'Dictionaries' mappen</OpenDictionariesFolder>
+    <Download>Download</Download>
+    <XDownloaded>{0} hentet</XDownloaded>
+  </GetDictionaries>
+  <GetTesseractDictionaries>
+    <Title>Mangler ordbøger?</Title>
+    <DescriptionLine1>Hent Tesseract OCR ordbøger fra internettet</DescriptionLine1>
+    <DownloadFailed>Download mislykkedes!</DownloadFailed>
+    <GetDictionariesHere>Hent ordbøger her:</GetDictionariesHere>
+    <ChooseLanguageAndClickDownload>Vælg dit sprog og klik på Download</ChooseLanguageAndClickDownload>
+    <OpenDictionariesFolder>Åbn 'Ordbøger' folder</OpenDictionariesFolder>
+    <Download>Hent</Download>
+    <XDownloaded>{0} er blevet hentet og installeret</XDownloaded>
+  </GetTesseractDictionaries>
+  <GoogleTranslate>
+    <Title>Google oversættelse</Title>
+    <From>Fra:</From>
+    <To>Til:</To>
+    <Translate>Oversæt</Translate>
+    <PleaseWait>Vent venligst... dette kan tage et stykke tid</PleaseWait>
+    <PoweredByGoogleTranslate>Powered by Google Translate</PoweredByGoogleTranslate>
+    <PoweredByMicrosoftTranslate>Powered by Microsoft Bing Translate</PoweredByMicrosoftTranslate>
+    <MsClientSecretNeeded>Der kræver en Bing "client secret" from Microsoft for at benytte Bing Translate.
+
+Go to "Indstillinger -&gt; Indstillinger -&gt; Værktøj" for at indtaste din Bing "client secret".</MsClientSecretNeeded>
+    <GoogleApiKeyNeeded>Sorry, you need an API key from Google to use the latest Google Translate.
+
+Go to "Indstillinger -&gt; Indstillinger -&gt; Værktøj" for at indtaste din Google translate API nøgle.</GoogleApiKeyNeeded>
+    <GoogleNoApiKeyWarning>Forsøger at oversætte uden API nøgle... (langsomt/begrænser/risiko for fejl)</GoogleNoApiKeyWarning>
+  </GoogleTranslate>
+  <GoogleOrMicrosoftTranslate>
+    <Title>Google vs Microsoft oversætter</Title>
+    <From>Fra:</From>
+    <To>Til:</To>
+    <Translate>Oversæt</Translate>
+    <SourceText>Kildetekst</SourceText>
+    <GoogleTranslate>Google oversætter</GoogleTranslate>
+    <MicrosoftTranslate>Microsoft oversætter</MicrosoftTranslate>
+  </GoogleOrMicrosoftTranslate>
+  <GoToLine>
+    <Title>Gå til linjenummer</Title>
+    <XIsNotAValidNumber>{0} er ikke et gyldigt tal</XIsNotAValidNumber>
+  </GoToLine>
+  <ImportImages>
+    <Title>Importer billeder</Title>
+    <ImageFiles>Billedfiler</ImageFiles>
+    <Input>Input</Input>
+    <InputDescription>Vælg input filer (gennemse eller drag-n-drop)</InputDescription>
+    <Remove>Fjern</Remove>
+    <RemoveAll>Fjern alt</RemoveAll>
+  </ImportImages>
+  <ImportSceneChanges>
+    <Title>Importer sceneskift</Title>
+    <OpenTextFile>Åbn tekst fil...</OpenTextFile>
+    <Generate>Generer sceneændringer</Generate>
+    <Import>Importer sceneændringer</Import>
+    <TextFiles>Tekstfiler</TextFiles>
+    <TimeCodes>Tidskoder</TimeCodes>
+    <Frames>Rammer</Frames>
+    <Seconds>Sekunder</Seconds>
+    <Milliseconds>Millisekunder</Milliseconds>
+    <GetSceneChangesWithFfmpeg>Generer sceneskift med FFmpeg</GetSceneChangesWithFfmpeg>
+    <Sensitivity>Følsomhed</Sensitivity>
+    <SensitivityDescription>Nedre værdi giver flere sceneændringer</SensitivityDescription>
+    <NoSceneChangesFound>Ingen sceneændringer fundet.</NoSceneChangesFound>
+  </ImportSceneChanges>
+  <ImportText>
+    <Title>Importer tekst</Title>
+    <OneSubtitleIsOneFile>Flere filer - en fil er en tekst</OneSubtitleIsOneFile>
+    <OpenTextFile>Åbn tekst fil...</OpenTextFile>
+    <OpenTextFiles>Åbn tekstfiler...</OpenTextFiles>
+    <ImportOptions>Import valgmuligheder</ImportOptions>
+    <Splitting>Opdeling</Splitting>
+    <AutoSplitText>Auto split tekst</AutoSplitText>
+    <OneLineIsOneSubtitle>En linje er en undertekst</OneLineIsOneSubtitle>
+    <TwoLinesAreOneSubtitle>To linjer er en undertekst</TwoLinesAreOneSubtitle>
+    <LineBreak>Linjeskift</LineBreak>
+    <SplitAtBlankLines>Split ved blanke linjer</SplitAtBlankLines>
+    <MergeShortLines>Flet kort linjer med fortsættelsen</MergeShortLines>
+    <RemoveEmptyLines>Fjern tomme linjer</RemoveEmptyLines>
+    <RemoveLinesWithoutLetters>Fjern linjer uden bogstaver</RemoveLinesWithoutLetters>
+    <GenerateTimeCodes>Generer tidskoder</GenerateTimeCodes>
+    <TakeTimeFromFileName>Tag tid fra fil</TakeTimeFromFileName>
+    <GapBetweenSubtitles>Gap mellem undertekster (millisekunder)</GapBetweenSubtitles>
+    <Auto>Auto</Auto>
+    <Fixed>Fast</Fixed>
+    <Refresh>&amp;Opdater</Refresh>
+    <TextFiles>Tekstfiler</TextFiles>
+    <PreviewLinesModifiedX>Preview - ændrede linjer: {0}</PreviewLinesModifiedX>
+    <TimeCodes>Tidskoder</TimeCodes>
+    <SplitAtEndChars>Split ved slut-linje tegn</SplitAtEndChars>
+  </ImportText>
+  <Interjections>
+    <Title>Følelsesudbrud</Title>
+  </Interjections>
+  <JoinSubtitles>
+    <Title>Flet undertekster</Title>
+    <Information>Tilføj undertekster til at deltage (droppe også understøttet)</Information>
+    <NumberOfLines>#Linjer</NumberOfLines>
+    <StartTime>Start tid</StartTime>
+    <EndTime>Sluttid</EndTime>
+    <FileName>Filnavn</FileName>
+    <Join>Sammensæt</Join>
+    <TotalNumberOfLinesX>Total antal linjer: {0:#,###,###}</TotalNumberOfLinesX>
+    <AlreadyCorrectTimeCodes>Filer har allerede korrekte tidskoder</AlreadyCorrectTimeCodes>
+    <AppendTimeCodes>Tilføj til sluttidspunkt fra forrige fil</AppendTimeCodes>
+    <AddMs>Tilføj millisekunder efter hver fil</AddMs>
+  </JoinSubtitles>
+  <LanguageNames>
+    <NotSpecified>Ikke angivet</NotSpecified>
+    <UnknownCodeX>Ukendt ({0})</UnknownCodeX>
+    <aaName>afar</aaName>
+    <abName>abkhasisk</abName>
+    <afName>afrikaans</afName>
+    <amName>amharisk</amName>
+    <arName>arabisk</arName>
+    <asName>assamesisk</asName>
+    <ayName>aymara</ayName>
+    <azName>aserbajdsjansk</azName>
+    <baName>bashkir</baName>
+    <beName>hviderussisk</beName>
+    <bgName>bulgarsk</bgName>
+    <bhName>bihari</bhName>
+    <biName>bislama</biName>
+    <bnName>bengali</bnName>
+    <boName>tibetansk</boName>
+    <brName>bretonsk</brName>
+    <caName>catalansk</caName>
+    <coName>korsikansk</coName>
+    <csName>tjekkisk</csName>
+    <cyName>walisisk</cyName>
+    <daName>dansk</daName>
+    <deName>tysk</deName>
+    <dzName>dzongkha</dzName>
+    <elName>græsk</elName>
+    <enName>engelsk</enName>
+    <eoName>esperanto</eoName>
+    <esName>spansk</esName>
+    <etName>estisk</etName>
+    <euName>baskisk</euName>
+    <faName>persisk</faName>
+    <fiName>finsk</fiName>
+    <fjName>fijiansk</fjName>
+    <foName>færøsk</foName>
+    <frName>fransk</frName>
+    <fyName>frisisk</fyName>
+    <gaName>irsk</gaName>
+    <gdName>skotsk gælisk</gdName>
+    <glName>galicisk</glName>
+    <gnName>guarani</gnName>
+    <guName>gujarati</guName>
+    <haName>hausa</haName>
+    <heName>hebraisk</heName>
+    <hiName>hindi</hiName>
+    <hrName>kroatisk</hrName>
+    <huName>ungarsk</huName>
+    <hyName>armensk</hyName>
+    <iaName>interlingua</iaName>
+    <idName>indonesisk</idName>
+    <ieName>interlingue</ieName>
+    <ikName>inupiaq</ikName>
+    <isName>islandsk</isName>
+    <itName>italiensk</itName>
+    <iuName>inuktitut</iuName>
+    <jaName>japansk</jaName>
+    <jvName>javanesisk</jvName>
+    <kaName>georgisk</kaName>
+    <kkName>kasakhisk</kkName>
+    <klName>grønlandsk</klName>
+    <kmName>khmer</kmName>
+    <knName>kannada</knName>
+    <koName>koreansk</koName>
+    <ksName>kashmiri</ksName>
+    <kuName>kurdisk</kuName>
+    <kyName>kirgisisk</kyName>
+    <laName>latin</laName>
+    <lbName>luxembourgsk</lbName>
+    <lnName>lingala</lnName>
+    <loName>lao</loName>
+    <ltName>litauisk</ltName>
+    <lvName>lettisk</lvName>
+    <mgName>malagassisk</mgName>
+    <miName>maori</miName>
+    <mkName>makedonsk</mkName>
+    <mlName>malayalam</mlName>
+    <mnName>mongolsk</mnName>
+    <moName>moldovisk</moName>
+    <mrName>marathisk</mrName>
+    <msName>malajisk</msName>
+    <mtName>maltesisk</mtName>
+    <myName>burmesisk</myName>
+    <naName>nauru</naName>
+    <neName>nepalesisk</neName>
+    <nlName>hollandsk</nlName>
+    <noName>norsk</noName>
+    <ocName>occitansk</ocName>
+    <omName>oromo</omName>
+    <orName>oriya</orName>
+    <paName>punjabi</paName>
+    <plName>polsk</plName>
+    <psName>pashto</psName>
+    <ptName>portugisisk</ptName>
+    <quName>quechua</quName>
+    <rmName>rætoromansk</rmName>
+    <rnName>rundi</rnName>
+    <roName>rumænsk</roName>
+    <ruName>russisk</ruName>
+    <rwName>kinyarwanda</rwName>
+    <saName>sanskrit</saName>
+    <sdName>sindhi</sdName>
+    <sgName>sango</sgName>
+    <shName>serbokroatisk</shName>
+    <siName>singalesisk</siName>
+    <skName>slovakisk</skName>
+    <slName>slovensk</slName>
+    <smName>samoansk</smName>
+    <snName>shona</snName>
+    <soName>somalisk</soName>
+    <sqName>albansk</sqName>
+    <srName>serbisk</srName>
+    <ssName>swati</ssName>
+    <stName>sydsotho</stName>
+    <suName>sundanesisk</suName>
+    <svName>svensk</svName>
+    <swName>swahili</swName>
+    <taName>tamilsk</taName>
+    <teName>telugu</teName>
+    <tgName>tajik</tgName>
+    <thName>thai</thName>
+    <tiName>tigrinya</tiName>
+    <tkName>turkmensk</tkName>
+    <tlName>tagalog</tlName>
+    <tnName>tswana</tnName>
+    <toName>tongansk</toName>
+    <trName>tyrkisk</trName>
+    <tsName>tsonga</tsName>
+    <ttName>tatarisk</ttName>
+    <twName>twi</twName>
+    <ugName>uygurisk</ugName>
+    <ukName>ukrainsk</ukName>
+    <urName>urdu</urName>
+    <uzName>usbekisk</uzName>
+    <viName>vietnamesisk</viName>
+    <voName>volapyk</voName>
+    <woName>wolof</woName>
+    <xhName>xhosa</xhName>
+    <yiName>jiddisch</yiName>
+    <yoName>yoruba</yoName>
+    <zaName>zhuang</zaName>
+    <zhName>kinesisk</zhName>
+    <zuName>zulu</zuName>
+  </LanguageNames>
+  <Main>
+    <Menu>
+      <File>
+        <Title>Filer</Title>
+        <New>&amp;Ny</New>
+        <Open>Åbn</Open>
+        <OpenKeepVideo>Åbn (behold video)</OpenKeepVideo>
+        <Reopen>&amp;Genåbn</Reopen>
+        <Save>&amp;Gem</Save>
+        <SaveAs>Gem &amp;som...</SaveAs>
+        <RestoreAutoBackup>Gendan fra auto-backup...</RestoreAutoBackup>
+        <AdvancedSubStationAlphaProperties>Advanced Sub Station Alpha egenskaber...</AdvancedSubStationAlphaProperties>
+        <SubStationAlphaProperties>Sub Station Alpha egenskaber...</SubStationAlphaProperties>
+        <EbuProperties>EBU egenskaber...</EbuProperties>
+        <DvdStuioProProperties>DVD Studio Pro egenskaber...</DvdStuioProProperties>
+        <TimedTextProperties>Timed Text egenskaber...</TimedTextProperties>
+        <PacProperties>PAC egenskaber...</PacProperties>
+        <OpenOriginal>Åbn original undertekst (oversætter mode)...</OpenOriginal>
+        <SaveOriginal>Gem original</SaveOriginal>
+        <CloseOriginal>Luk original</CloseOriginal>
+        <OpenContainingFolder>Åbn indeholdende mappe</OpenContainingFolder>
+        <Compare>Sammenlign...</Compare>
+        <Statistics>Statistik...</Statistics>
+        <Plugins>Plugins...</Plugins>
+        <ImportOcrFromDvd>Import/OCR undertekster fra VOB/IFO (DVD)...</ImportOcrFromDvd>
+        <ImportOcrVobSubSubtitle>Importer/OCR VobSub (sub/idx) undertekst...</ImportOcrVobSubSubtitle>
+        <ImportBluRaySupFile>Importer/OCR Blu-ray sup fil...</ImportBluRaySupFile>
+        <ImportXSub>Importer/OCR XSub fra divx/avi...</ImportXSub>
+        <ImportSubtitleFromMatroskaFile>Importer undertekster fra Matroska fil...</ImportSubtitleFromMatroskaFile>
+        <ImportSubtitleWithManualChosenEncoding>Importer undertekst med manuel valgt tegnsæt...</ImportSubtitleWithManualChosenEncoding>
+        <ImportText>Importer tekst...</ImportText>
+        <ImportImages>Importer billeder...</ImportImages>
+        <ImportTimecodes>Import tidskoder...</ImportTimecodes>
+        <Export>Eksporter</Export>
+        <ExportBdnXml>BDN xml/png...</ExportBdnXml>
+        <ExportBluRaySup>Blu-ray sup...</ExportBluRaySup>
+        <ExportVobSub>VobSub (sub/idx)...</ExportVobSub>
+        <ExportCavena890>Cavena 890...</ExportCavena890>
+        <ExportEbu>EBU STL...</ExportEbu>
+        <ExportPac>PAC (Screen Electronics)...</ExportPac>
+        <ExportPlainText>Almindelig tekst...</ExportPlainText>
+        <ExportAdobeEncoreFabImageScript>Adobe Encore FAB image script...</ExportAdobeEncoreFabImageScript>
+        <ExportKoreanAtsFilePair>Korean ATS file pair...</ExportKoreanAtsFilePair>
+        <ExportAvidStl>Avid STL...</ExportAvidStl>
+        <ExportDvdStudioProStl>DVD Studio Pro STL...</ExportDvdStudioProStl>
+        <ExportCapMakerPlus>CapMaker Plus...</ExportCapMakerPlus>
+        <ExportCaptionsInc>Captions Inc...</ExportCaptionsInc>
+        <ExportCheetahCap>Cheetah CAP...</ExportCheetahCap>
+        <ExportUltech130>Ultech caption...</ExportUltech130>
+        <ExportCustomTextFormat>Eksporter bruger-defineret tekstformat...</ExportCustomTextFormat>
+        <Exit>&amp;Afslut</Exit>
+      </File>
+      <Edit>
+        <Title>Rediger</Title>
+        <Undo>Fortryd</Undo>
+        <Redo>Annuler fortryd</Redo>
+        <ShowUndoHistory>Vis historik (fortryd)</ShowUndoHistory>
+        <InsertUnicodeSymbol>Indsæt unicode symbol</InsertUnicodeSymbol>
+        <InsertUnicodeControlCharacters>Indsæt Unicode kontrol karakterer</InsertUnicodeControlCharacters>
+        <InsertUnicodeControlCharactersLRM>Venstre-til-højre mærke (LRM)</InsertUnicodeControlCharactersLRM>
+        <InsertUnicodeControlCharactersRLM>Højre mod venstre mærke (RLM)</InsertUnicodeControlCharactersRLM>
+        <InsertUnicodeControlCharactersLRE>Start på venstre-til-højre indlejring (LRE)</InsertUnicodeControlCharactersLRE>
+        <InsertUnicodeControlCharactersRLE>Start på højre-til-venstre indlejring (RLE)</InsertUnicodeControlCharactersRLE>
+        <InsertUnicodeControlCharactersLRO>Start på venstre-til-højre overstyring (LRO)</InsertUnicodeControlCharactersLRO>
+        <InsertUnicodeControlCharactersRLO>Start på højre-til-venstre overstyring (RLO)</InsertUnicodeControlCharactersRLO>
+        <Find>&amp;Find</Find>
+        <FindNext>Find &amp;næste</FindNext>
+        <Replace>&amp;Erstat</Replace>
+        <MultipleReplace>&amp;Multi-erstat...</MultipleReplace>
+        <GoToSubtitleNumber>&amp;Gå til undertekst nummer...</GoToSubtitleNumber>
+        <RightToLeftMode>Højre-mod-venstre mode</RightToLeftMode>
+        <FixTrlViaUnicodeControlCharacters>Fix RTL via Unicode kontrol tegn</FixTrlViaUnicodeControlCharacters>
+        <ReverseRightToLeftStartEnd>Byt rundt på højre-mod-venstre start/slut</ReverseRightToLeftStartEnd>
+        <ShowOriginalTextInAudioAndVideoPreview>Vis oprindelig tekst i audio/video previews</ShowOriginalTextInAudioAndVideoPreview>
+        <ModifySelection>Modificer markering...</ModifySelection>
+        <InverseSelection>Byt rundt på markering</InverseSelection>
+      </Edit>
+      <Tools>
+        <Title>Værktøj</Title>
+        <AdjustDisplayDuration>&amp;Juster visningstider...</AdjustDisplayDuration>
+        <ApplyDurationLimits>Overhold visnings-grænser...</ApplyDurationLimits>
+        <SubtitlesBridgeGaps>Lap huller mellem tekster...</SubtitlesBridgeGaps>
+        <FixCommonErrors>&amp;Ret almindelige fejl...</FixCommonErrors>
+        <StartNumberingFrom>Begynd nummerering fra...</StartNumberingFrom>
+        <RemoveTextForHearingImpaired>Fjern tekst for hørehæmmede...</RemoveTextForHearingImpaired>
+        <ChangeCasing>Skift store/små bogstaver...</ChangeCasing>
+        <ChangeFrameRate>Skift frame rate...</ChangeFrameRate>
+        <ChangeSpeedInPercent>Ændr hastighed (procent)...</ChangeSpeedInPercent>
+        <MergeShortLines>Flet korte linjer...</MergeShortLines>
+        <MergeDuplicateText>Flet liner med samme tekst...</MergeDuplicateText>
+        <MergeSameTimeCodes>Flet linjer med samme tidskoder...</MergeSameTimeCodes>
+        <SplitLongLines>Split lange linjer...</SplitLongLines>
+        <MinimumDisplayTimeBetweenParagraphs>Minimum visningstid mellem tekster...</MinimumDisplayTimeBetweenParagraphs>
+        <SortBy>Sorter efter</SortBy>
+        <NetflixQualityCheck>Netflix kvalitetskontrol...</NetflixQualityCheck>
+        <Number>Number</Number>
+        <StartTime>Starttidspunkt</StartTime>
+        <EndTime>Sluttidspunkt</EndTime>
+        <Duration>Varighed</Duration>
+        <TextAlphabetically>Tekst - alfabetisk</TextAlphabetically>
+        <TextSingleLineMaximumLength>Tekst - enkelt linje max. længde</TextSingleLineMaximumLength>
+        <TextTotalLength>Tekst - samlet længde</TextTotalLength>
+        <TextNumberOfLines>Tekst - antal linjer</TextNumberOfLines>
+        <TextNumberOfCharactersPerSeconds>Tekst - antallet af tegn/sek</TextNumberOfCharactersPerSeconds>
+        <WordsPerMinute>Tekst - ord i minuttet (WPM)</WordsPerMinute>
+        <Style>Style</Style>
+        <Ascending>Stigende</Ascending>
+        <Descending>Faldende</Descending>
+        <MakeNewEmptyTranslationFromCurrentSubtitle>Dan ny tom oversættelse fra aktuelle undertekst</MakeNewEmptyTranslationFromCurrentSubtitle>
+        <BatchConvert>Batch konverter...</BatchConvert>
+        <GenerateTimeAsText>Generer tid som tekst...</GenerateTimeAsText>
+        <MeasurementConverter>Enhedskonverter...</MeasurementConverter>
+        <SplitSubtitle>Split undertekst...</SplitSubtitle>
+        <AppendSubtitle>Tilføj/append undertekst...</AppendSubtitle>
+        <JoinSubtitles>Flet undertekster...</JoinSubtitles>
+      </Tools>
+      <Video>
+        <Title>Video</Title>
+        <OpenVideo>Åbn video fil...</OpenVideo>
+        <OpenVideoFromUrl>Åbn video fra url...</OpenVideoFromUrl>
+        <OpenDvd>Åbn DVD...</OpenDvd>
+        <ChooseAudioTrack>Vælg lydspor</ChooseAudioTrack>
+        <CloseVideo>Luk videofil</CloseVideo>
+        <SetVideoOffset>Indstil video offset...</SetVideoOffset>
+        <SmptTimeMode>SMPTE timing (drop frame)</SmptTimeMode>
+        <GenerateTextFromVideo>Generer tekst fra video...</GenerateTextFromVideo>
+        <GenerateImportSceneChanges>Generer/importer sceneændringer...</GenerateImportSceneChanges>
+        <RemoveSceneChanges>Fjern sceneskift</RemoveSceneChanges>
+        <WaveformBatchGenerate>Batch generer bølgeformer...</WaveformBatchGenerate>
+        <ShowHideVideo>Vis/skjul video</ShowHideVideo>
+        <ShowHideWaveform>Vis/skjul lyd kurve</ShowHideWaveform>
+        <ShowHideWaveformAndSpectrogram>Vis/skjul bølgeform og spektrogram</ShowHideWaveformAndSpectrogram>
+        <UnDockVideoControls>Pop video vinduer ud</UnDockVideoControls>
+        <ReDockVideoControls>Saml video vinduer</ReDockVideoControls>
+      </Video>
+      <SpellCheck>
+        <Title>Stavekontrol</Title>
+        <SpellCheck>&amp;Stavekontrol...</SpellCheck>
+        <SpellCheckFromCurrentLine>Stavekontrol fra aktuelle linje...</SpellCheckFromCurrentLine>
+        <FindDoubleWords>Find dobbelt ord</FindDoubleWords>
+        <FindDoubleLines>Find dobbelte linjer</FindDoubleLines>
+        <GetDictionaries>Hent ordbøger...</GetDictionaries>
+        <AddToNameList>Tilføj ord til navne mv. liste</AddToNameList>
+      </SpellCheck>
+      <Synchronization>
+        <Title>Synkronisering</Title>
+        <AdjustAllTimes>Juster alle tider (vis tidligere/senere)...</AdjustAllTimes>
+        <VisualSync>&amp;Visual synkroniser...</VisualSync>
+        <PointSync>Punkt synkroniser...</PointSync>
+        <PointSyncViaOtherSubtitle>Punkt synkroniser via anden undertekst...</PointSyncViaOtherSubtitle>
+      </Synchronization>
+      <AutoTranslate>
+        <Title>Auto-oversæt</Title>
+        <TranslatePoweredByGoogle>Oversæt (via Google)...</TranslatePoweredByGoogle>
+        <TranslatePoweredByMicrosoft>Oversæt (via Microsoft)...</TranslatePoweredByMicrosoft>
+        <TranslateFromSwedishToDanish>Oversæt fra svensk til dansk (via nikse.dk)...</TranslateFromSwedishToDanish>
+      </AutoTranslate>
+      <Options>
+        <Title>Indstillinger</Title>
+        <Settings>&amp;Indstillinger...</Settings>
+        <ChooseLanguage>&amp;Vælg sprog...</ChooseLanguage>
+      </Options>
+      <Networking>
+        <Title>Fælles projekt online</Title>
+        <StartNewSession>Start ny session</StartNewSession>
+        <JoinSession>Deltag i session</JoinSession>
+        <ShowSessionInfoAndLog>Vis sessions-info og log</ShowSessionInfoAndLog>
+        <Chat>Chat</Chat>
+        <LeaveSession>Forlad session</LeaveSession>
+      </Networking>
+      <Help>
+        <CheckForUpdates>Kontroller for opdateringer...</CheckForUpdates>
+        <Title>Hjælp</Title>
+        <Help>&amp;Hjælp</Help>
+        <About>&amp;Om</About>
+      </Help>
+      <ToolBar>
+        <New>Ny</New>
+        <Open>Åben</Open>
+        <Save>Gem</Save>
+        <SaveAs>Gem som</SaveAs>
+        <Find>Find</Find>
+        <Replace>Erstat</Replace>
+        <FixCommonErrors>Fix almindelige fejl</FixCommonErrors>
+        <RemoveTextForHi>Fjern tekst for hørehæmmede</RemoveTextForHi>
+        <VisualSync>Visuel synkroniser</VisualSync>
+        <SpellCheck>Stavekontrol</SpellCheck>
+        <NetflixQualityCheck>Netflix kvalitetstjek</NetflixQualityCheck>
+        <Settings>Indstillinger</Settings>
+        <Help>Hjælp</Help>
+        <ShowHideWaveform>Vis/skjul kurveform</ShowHideWaveform>
+        <ShowHideVideo>Vis/skjul video</ShowHideVideo>
+      </ToolBar>
+      <ContextMenu>
+        <SizeAllColumnsToFit>Auto-tilpas kolonner</SizeAllColumnsToFit>
+        <AdvancedSubStationAlphaSetStyle>Advanced Sub Station Alpha - vælg stilart</AdvancedSubStationAlphaSetStyle>
+        <SubStationAlphaSetStyle>(Advanced) Sub Station Alpha - vælg stilart</SubStationAlphaSetStyle>
+        <SetActor>Vælg taler</SetActor>
+        <SubStationAlphaStyles>Sub Station Alpha stilarter...</SubStationAlphaStyles>
+        <AdvancedSubStationAlphaStyles>Advanced Sub Station Alpha stilarter...</AdvancedSubStationAlphaStyles>
+        <TimedTextSetRegion>Timed Text - Sæt region</TimedTextSetRegion>
+        <TimedTextSetStyle>Timed Text - sæt style</TimedTextSetStyle>
+        <TimedTextStyles>Timed Text styles...</TimedTextStyles>
+        <TimedTextSetLanguage>Timed Text - vælg sprog</TimedTextSetLanguage>
+        <SamiSetStyle>Sami - sæt class</SamiSetStyle>
+        <NuendoSetStyle>Nuendo - vælg person</NuendoSetStyle>
+        <Cut>Klip</Cut>
+        <Copy>Kopier</Copy>
+        <Paste>Indsæt</Paste>
+        <Delete>Slet</Delete>
+        <SplitLineAtCursorPosition>Split ved markør</SplitLineAtCursorPosition>
+        <SplitLineAtCursorAndWaveformPosition>Split linje ved cursor/video position</SplitLineAtCursorAndWaveformPosition>
+        <AutoDurationCurrentLine>Auto varighed (aktuelle linje)</AutoDurationCurrentLine>
+        <SelectAll>Vælg alle</SelectAll>
+        <InsertFirstLine>Indsæt linje</InsertFirstLine>
+        <InsertBefore>Indsæt før</InsertBefore>
+        <InsertAfter>Indsæt efter</InsertAfter>
+        <InsertSubtitleAfter>Indsæt undertekst efter denne linje...</InsertSubtitleAfter>
+        <CopyToClipboard>Kopier som tekst til udklipsholderen</CopyToClipboard>
+        <Column>Kolonne</Column>
+        <ColumnDeleteText>Slet tekst</ColumnDeleteText>
+        <ColumnDeleteTextAndShiftCellsUp>Slet tekst og flyt celler op</ColumnDeleteTextAndShiftCellsUp>
+        <ColumnInsertEmptyTextAndShiftCellsDown>Indsæt tom tekst og flyt celler ned</ColumnInsertEmptyTextAndShiftCellsDown>
+        <ColumnInsertTextFromSubtitle>Indsæt tekst fra undertekst fil...</ColumnInsertTextFromSubtitle>
+        <ColumnImportTextAndShiftCellsDown>Import tekst og flyt celler ned</ColumnImportTextAndShiftCellsDown>
+        <ColumnPasteFromClipboard>Indsæt fra udklipsholder...</ColumnPasteFromClipboard>
+        <ColumnTextUp>Tekst op</ColumnTextUp>
+        <ColumnTextDown>Tekst ned</ColumnTextDown>
+        <ColumnCopyOriginalTextToCurrent>Kopier text fra original to aktuel</ColumnCopyOriginalTextToCurrent>
+        <Split>Split</Split>
+        <MergeSelectedLines>Flet markerede linjer</MergeSelectedLines>
+        <MergeSelectedLinesAsDialog>Flet valgte linjer som dialog (bindestreg foran)</MergeSelectedLinesAsDialog>
+        <MergeWithLineBefore>Flet med linjen før</MergeWithLineBefore>
+        <MergeWithLineAfter>Flet med linjen efter</MergeWithLineAfter>
+        <ExtendToLineBefore>Udvid til linjen før</ExtendToLineBefore>
+        <ExtendToLineAfter>Udvid til linjen efter</ExtendToLineAfter>
+        <RemoveFormatting>Fjern formatering</RemoveFormatting>
+        <RemoveFormattingAll>Fjern alle formateringer</RemoveFormattingAll>
+        <RemoveFormattingBold>Fjern fed</RemoveFormattingBold>
+        <RemoveFormattingItalic>Fjern kursiv</RemoveFormattingItalic>
+        <RemoveFormattingUnderline>Fjern understreg</RemoveFormattingUnderline>
+        <RemoveFormattingColor>Fjern farve</RemoveFormattingColor>
+        <RemoveFormattingFontName>Fjern skrifttypenavn</RemoveFormattingFontName>
+        <RemoveFormattingAlignment>Fjern justering</RemoveFormattingAlignment>
+        <Underline>Understregning</Underline>
+        <Box>Boks</Box>
+        <Color>Farve...</Color>
+        <FontName>Font navn...</FontName>
+        <Superscript>Superscript</Superscript>
+        <Subscript>Subscript</Subscript>
+        <Alignment>Justering...</Alignment>
+        <AutoBalanceSelectedLines>Auto balancer markerede linjer...</AutoBalanceSelectedLines>
+        <RemoveLineBreaksFromSelectedLines>Fjern line-skift fra valgte linjer...</RemoveLineBreaksFromSelectedLines>
+        <TypewriterEffect>Skrivemaskine effekt...</TypewriterEffect>
+        <KaraokeEffect>Karaoke effekt...</KaraokeEffect>
+        <ShowSelectedLinesEarlierLater>Vis valgte linjer tidligere/senere...</ShowSelectedLinesEarlierLater>
+        <VisualSyncSelectedLines>Visual sync markerede linjer...</VisualSyncSelectedLines>
+        <GoogleAndMicrosoftTranslateSelectedLine>Google/Microsoft oversæt original linje</GoogleAndMicrosoftTranslateSelectedLine>
+        <TranslateSelectedLines>Oversæt valgte linjer...</TranslateSelectedLines>
+        <AdjustDisplayDurationForSelectedLines>Juster visningstider for valgte linjer...</AdjustDisplayDurationForSelectedLines>
+        <FixCommonErrorsInSelectedLines>Ret almindelige fejl i valgte linjer...</FixCommonErrorsInSelectedLines>
+        <ChangeCasingForSelectedLines>Skift casing (små/store/normal) for valgte linjer...</ChangeCasingForSelectedLines>
+        <SaveSelectedLines>Gem valgte linjer som...</SaveSelectedLines>
+        <WebVTTSetNewVoice>Angiv ny stemme...</WebVTTSetNewVoice>
+        <WebVTTRemoveVoices>Fjern stemmer</WebVTTRemoveVoices>
+        <NewActor>Ny taler</NewActor>
+        <RemoveActors>Fjern talere</RemoveActors>
+        <EditBookmark>Rediger bogmærke</EditBookmark>
+        <RemoveBookmark>Fjern bogmærke</RemoveBookmark>
+      </ContextMenu>
+    </Menu>
+    <Controls>
+      <SubtitleFormat>Undertekst format</SubtitleFormat>
+      <FileEncoding>Filkodning</FileEncoding>
+      <ListView>Listevisning</ListView>
+      <SourceView>Kilde visning</SourceView>
+      <UndoChangesInEditPanel>Fortryd ændringer</UndoChangesInEditPanel>
+      <Previous>&lt;Forrige</Previous>
+      <Next>Næste&gt;</Next>
+      <AutoBreak>Auto br</AutoBreak>
+      <Unbreak>&amp;Ombryd</Unbreak>
+    </Controls>
+    <VideoControls>
+      <Translate>Oversæt</Translate>
+      <CreateAndAdjust>Opret/juster</CreateAndAdjust>
+      <Create>Opret</Create>
+      <Adjust>Juster</Adjust>
+      <SelectCurrentElementWhilePlaying>Vælg aktuel undertekst, mens video spiller</SelectCurrentElementWhilePlaying>
+      <AutoRepeat>Auto gentag</AutoRepeat>
+      <AutoRepeatOn>Automatisk gentag aktiv</AutoRepeatOn>
+      <AutoRepeatCount>Gentag antal gange</AutoRepeatCount>
+      <AutoContinue>Auto fortsæt</AutoContinue>
+      <AutoContinueOn>Auto fortsæt aktiv</AutoContinueOn>
+      <DelayInSeconds>Forsinkelse (sekunder)</DelayInSeconds>
+      <OriginalText>Oprindelig tekst</OriginalText>
+      <Previous>&lt;Forrige</Previous>
+      <Stop>&amp;Stop</Stop>
+      <PlayCurrent>&amp;Afspil aktuel</PlayCurrent>
+      <Next>&amp;Næste&gt;</Next>
+      <Playing>Afspiller...</Playing>
+      <RepeatingLastTime>Gentagelse... sidste gang</RepeatingLastTime>
+      <RepeatingXTimesLeft>Gentagelse... {0} gange tilbage</RepeatingXTimesLeft>
+      <AutoContinueInOneSecond>Auto fortsæt om ét sekund</AutoContinueInOneSecond>
+      <AutoContinueInXSeconds>Auto fortsæt om {0} sekunder</AutoContinueInXSeconds>
+      <StillTypingAutoContinueStopped>Stadig skriver... auto fortsæt stoppet</StillTypingAutoContinueStopped>
+      <InsertNewSubtitleAtVideoPosition>&amp;Indsæt tekst v. video pos</InsertNewSubtitleAtVideoPosition>
+      <Auto>Auto</Auto>
+      <PlayFromJustBeforeText>Spil fra lige før &amp;tekst</PlayFromJustBeforeText>
+      <Pause>Pause</Pause>
+      <GoToSubtitlePositionAndPause>Gå til tekst position og pause</GoToSubtitlePositionAndPause>
+      <SetStartTime>Set &amp;starttidspunkt</SetStartTime>
+      <SetEndTimeAndGoToNext>Sæt slut &amp;&amp; gå til næste</SetEndTimeAndGoToNext>
+      <AdjustedViaEndTime>Justeret via sluttid {0}</AdjustedViaEndTime>
+      <SetEndTime>Sæt slut tid</SetEndTime>
+      <SetstartTimeAndOffsetOfRest>Set start og juster resten</SetstartTimeAndOffsetOfRest>
+      <SearchTextOnline>Søg tekst online</SearchTextOnline>
+      <GoogleTranslate>Google oversæt</GoogleTranslate>
+      <GoogleIt>Google</GoogleIt>
+      <SecondsBackShort>&lt;&lt;</SecondsBackShort>
+      <SecondsForwardShort>&gt;&gt;</SecondsForwardShort>
+      <VideoPosition>Video position:</VideoPosition>
+      <TranslateTip>Tip: Brug &lt;alt+pil op/ned&gt; for at gå til forrige/næste tekst</TranslateTip>
+      <BeforeChangingTimeInWaveformX>Før ændring af tid i lyd kurve: {0}</BeforeChangingTimeInWaveformX>
+      <NewTextInsertAtX>Ny tekst indsat ved {0}</NewTextInsertAtX>
+      <Center>Center</Center>
+      <PlayRate>Afspilnings hastighed</PlayRate>
+    </VideoControls>
+    <SaveChangesToUntitled>Gem ændringer til unavngivet?</SaveChangesToUntitled>
+    <SaveChangesToX>Gem ændringer til {0}?</SaveChangesToX>
+    <SaveChangesToUntitledOriginal>Gem ændringer til unavngivet original?</SaveChangesToUntitledOriginal>
+    <SaveChangesToOriginalX>Gem ændringer til den originale undertekst {0}?</SaveChangesToOriginalX>
+    <SaveSubtitleAs>Gem undertekst som...</SaveSubtitleAs>
+    <SaveOriginalSubtitleAs>Gem original undertekst som...</SaveOriginalSubtitleAs>
+    <NoSubtitleLoaded>Ingen undertekst indlæst</NoSubtitleLoaded>
+    <VisualSyncSelectedLines>Visuel synkroniser - valgte linjer</VisualSyncSelectedLines>
+    <VisualSyncTitle>Visual synkroniser</VisualSyncTitle>
+    <BeforeVisualSync>Før visuel synkroniser</BeforeVisualSync>
+    <VisualSyncPerformedOnSelectedLines>Visual synkronisering udføres på udvalgte linjer</VisualSyncPerformedOnSelectedLines>
+    <VisualSyncPerformed>Visuel synkronisering udført</VisualSyncPerformed>
+    <FileXIsLargerThan10MB>Filen er større end 10 MB: {0}</FileXIsLargerThan10MB>
+    <ContinueAnyway>Fortsæt alligevel?</ContinueAnyway>
+    <BeforeLoadOf>Før indlæsning af {0}</BeforeLoadOf>
+    <LoadedSubtitleX>Underteksten {0} indlæst</LoadedSubtitleX>
+    <LoadedEmptyOrShort>Indlæst tom eller meget korte undertekst {0}</LoadedEmptyOrShort>
+    <FileIsEmptyOrShort>Filen er tom eller meget kort!</FileIsEmptyOrShort>
+    <FileNotFound>Fil ikke findet: {0}</FileNotFound>
+    <SavedSubtitleX>Gemte undertekst {0}</SavedSubtitleX>
+    <SavedOriginalSubtitleX>Gemte originale undertekst {0}</SavedOriginalSubtitleX>
+    <FileOnDiskModified>Fil på disken ændret</FileOnDiskModified>
+    <OverwriteModifiedFile>Overskriv filen {0} ændret {1} {2} {3} med aktuelle fil indlæst fra disken på {4} {5}?</OverwriteModifiedFile>
+    <FileXIsReadOnly>Kan ikke gemme fil {0}
+
+Denne fil er skrivebeskyttet!</FileXIsReadOnly>
+    <UnableToSaveSubtitleX>Kan ikke gemme undertekst fil {0}</UnableToSaveSubtitleX>
+    <BeforeNew>Før ny</BeforeNew>
+    <New>Ny</New>
+    <BeforeConvertingToX>Før konvertering til {0}</BeforeConvertingToX>
+    <ConvertedToX>Konverteret til {0}</ConvertedToX>
+    <BeforeShowEarlier>Før vis tidligere</BeforeShowEarlier>
+    <BeforeShowLater>Før vis senere</BeforeShowLater>
+    <LineNumberX>Linjenummer: {0:#,##0.##}</LineNumberX>
+    <OpenVideoFile>Åbn videofil...</OpenVideoFile>
+    <NewFrameRateUsedToCalculateTimeCodes>Ny frame rate ({0}) blev anvendt til beregning af tidskoder</NewFrameRateUsedToCalculateTimeCodes>
+    <NewFrameRateUsedToCalculateFrameNumbers>Ny frame rate ({0}) blev anvendt til beregning af frame numre</NewFrameRateUsedToCalculateFrameNumbers>
+    <FindContinue>Søgeudtrykket blev ikke fundet.
+Vil du starte fra toppen af dokumentet og søge videre?</FindContinue>
+    <FindContinueTitle>Fortsæt 'Find'?</FindContinueTitle>
+    <ReplaceContinueNotFound>Søgeord blev ikke fundet.
+Vil du starte fra toppen af ​​underteksten og fortsætte søg og erstat?</ReplaceContinueNotFound>
+    <ReplaceXContinue>Søgeudtrykket blev erstattet {0} gange.
+Vil du starte fra toppen af ​​underteksten og fortsætte søg og erstat?</ReplaceXContinue>
+    <ReplaceContinueTitle>Fortsæt 'Erstat'?</ReplaceContinueTitle>
+    <SearchingForXFromLineY>Søgning efter '{0}' fra linjenummer {1}...</SearchingForXFromLineY>
+    <XFoundAtLineNumberY>'{0}' findet i linje {1}</XFoundAtLineNumberY>
+    <XNotFound>'{0}' blev ikke fundet</XNotFound>
+    <BeforeReplace>Før erstat: {0}</BeforeReplace>
+    <MatchFoundX>Match fundet: {0}</MatchFoundX>
+    <NoMatchFoundX>Ingen match fundet: {0}</NoMatchFoundX>
+    <FoundNothingToReplace>Fandt intet at erstatte</FoundNothingToReplace>
+    <ReplaceCountX>Erstattet: {0}</ReplaceCountX>
+    <NoXFoundAtLineY>Match findes på linje {0}: {1}</NoXFoundAtLineY>
+    <OneReplacementMade>En søg og erstat foretaget.</OneReplacementMade>
+    <BeforeChangesMadeInSourceView>Før ændringer i kilde visning</BeforeChangesMadeInSourceView>
+    <UnableToParseSourceView>Kan ikke parse kilde tekst!</UnableToParseSourceView>
+    <GoToLineNumberX>Gå til linjenummer {0}</GoToLineNumberX>
+    <CreateAdjustChangesApplied>Opret/juster linjer ændringer anvendt</CreateAdjustChangesApplied>
+    <SelectedLines>udvalgte linjer</SelectedLines>
+    <BeforeDisplayTimeAdjustment>Før visningstider justering</BeforeDisplayTimeAdjustment>
+    <DisplayTimeAdjustedX>Visningstider justeret: {0}</DisplayTimeAdjustedX>
+    <DisplayTimesAdjustedX>Visningstid justeret: {0}</DisplayTimesAdjustedX>
+    <StarTimeAdjustedX>Start tid justeret: {0}</StarTimeAdjustedX>
+    <BeforeCommonErrorFixes>Før ret almindelige fejl</BeforeCommonErrorFixes>
+    <CommonErrorsFixedInSelectedLines>Almindelige fejl er rettet i valgte linjer</CommonErrorsFixedInSelectedLines>
+    <CommonErrorsFixed>Ret almindelige fejl udført</CommonErrorsFixed>
+    <BeforeRenumbering>Før omnummerering</BeforeRenumbering>
+    <RenumberedStartingFromX>Omnummereret fra: {0}</RenumberedStartingFromX>
+    <BeforeRemovalOfTextingForHearingImpaired>Før fjernelse af tekstning for hørehæmmede</BeforeRemovalOfTextingForHearingImpaired>
+    <TextingForHearingImpairedRemovedOneLine>Tekstning for hørehæmmede fjernet: En linje</TextingForHearingImpairedRemovedOneLine>
+    <TextingForHearingImpairedRemovedXLines>Tekstning for hørehæmmede fjernet: {0} linjer</TextingForHearingImpairedRemovedXLines>
+    <SubtitleSplitted>Undertekst delt</SubtitleSplitted>
+    <SubtitleAppendPrompt>Dette vil tilføje en eksisterende undertekst til den indlæste underttekst,
+som allerede er i sync med video-fil.
+
+Fortsæt?</SubtitleAppendPrompt>
+    <SubtitleAppendPromptTitle>Tilføj undertekst til slutning af fil</SubtitleAppendPromptTitle>
+    <OpenSubtitleToAppend>Åbn undertekst der skal tilføjes...</OpenSubtitleToAppend>
+    <AppendViaVisualSyncTitle>Visuel synkroniser - tilføj anden del af undertekst</AppendViaVisualSyncTitle>
+    <AppendSynchronizedSubtitlePrompt>Tilføj denne synkroniserede undertekt?</AppendSynchronizedSubtitlePrompt>
+    <BeforeAppend>Før append</BeforeAppend>
+    <SubtitleAppendedX>undertekst vedlagt: {0}</SubtitleAppendedX>
+    <SubtitleNotAppended>Undertekst ikke tilføjet!</SubtitleNotAppended>
+    <GoogleTranslate>Google oversæt</GoogleTranslate>
+    <MicrosoftTranslate>Microsoft oversæt</MicrosoftTranslate>
+    <BeforeGoogleTranslation>Før Google oversættelse</BeforeGoogleTranslation>
+    <SelectedLinesTranslated>Markerede linjer oversat</SelectedLinesTranslated>
+    <SubtitleTranslated>Undertekst oversat</SubtitleTranslated>
+    <TranslateSwedishToDanish>Oversæt aktuelle svenske undertekst til dansk</TranslateSwedishToDanish>
+    <TranslateSwedishToDanishWarning>Oversæt aktuelle indlæste svenske (er du sikker på det er svensk?) undertekst til dansk?</TranslateSwedishToDanishWarning>
+    <TranslatingViaNikseDkMt>Omsætning via www.nikse.dk/mt...</TranslatingViaNikseDkMt>
+    <BeforeSwedishToDanishTranslation>Før svensk til dansk oversættelse</BeforeSwedishToDanishTranslation>
+    <TranslationFromSwedishToDanishComplete>Oversættelse fra svensk til dansk komplet</TranslationFromSwedishToDanishComplete>
+    <TranslationFromSwedishToDanishFailed>Oversættelse fra svensk til dansk mislykkedes</TranslationFromSwedishToDanishFailed>
+    <BeforeUndo>Før fortryd</BeforeUndo>
+    <UndoPerformed>Fortryd udført</UndoPerformed>
+    <RedoPerformed>Redo udført</RedoPerformed>
+    <NothingToUndo>Intet at fortryde</NothingToUndo>
+    <InvalidLanguageNameX>Ugyldigt sprog navn: {0}</InvalidLanguageNameX>
+    <DoNotDisplayMessageAgain>Vis ikke denne meddelelse igen</DoNotDisplayMessageAgain>
+    <NumberOfCorrectedWords>Antal rettede ord: {0}</NumberOfCorrectedWords>
+    <NumberOfSkippedWords>Antal oversprungne ord: {0}</NumberOfSkippedWords>
+    <NumberOfCorrectWords>Antal korrekte ord: {0}</NumberOfCorrectWords>
+    <NumberOfWordsAddedToDictionary>Antallet af ord føjet til ordbogen: {0}</NumberOfWordsAddedToDictionary>
+    <NumberOfNameHits>Antal navne: {0}</NumberOfNameHits>
+    <SpellCheck>Stavekontrol</SpellCheck>
+    <BeforeSpellCheck>Før stavekontrol</BeforeSpellCheck>
+    <SpellCheckChangedXToY>Stavekontrol: Ændret '{0}' til '{1}'</SpellCheckChangedXToY>
+    <BeforeAddingTagX>Før du tilføjer &lt;{0}&gt; tag</BeforeAddingTagX>
+    <TagXAdded>&lt;{0}&gt; tags tilføjet</TagXAdded>
+    <LineXOfY>linje {0} af {1}</LineXOfY>
+    <XLinesSavedAsY>{0} linjer gemt som {1}</XLinesSavedAsY>
+    <XLinesDeleted>{0} slettet linjer</XLinesDeleted>
+    <BeforeDeletingXLines>Før du sletter {0} linjer</BeforeDeletingXLines>
+    <DeleteXLinesPrompt>Slet {0} linjer?</DeleteXLinesPrompt>
+    <OneLineDeleted>Line slettet</OneLineDeleted>
+    <BeforeDeletingOneLine>Før sletning af en linje</BeforeDeletingOneLine>
+    <DeleteOneLinePrompt>Slet en linje?</DeleteOneLinePrompt>
+    <BeforeInsertLine>Før indsætte linje</BeforeInsertLine>
+    <LineInserted>Line indsat</LineInserted>
+    <BeforeLineUpdatedInListView>Før linje opdateret i listevisning</BeforeLineUpdatedInListView>
+    <BeforeSplitLine>Før delt linje</BeforeSplitLine>
+    <LineSplitted>Line delt</LineSplitted>
+    <BeforeMergeLines>Før fusionering af linjer</BeforeMergeLines>
+    <LinesMerged>Linjer fusioneret</LinesMerged>
+    <BeforeSettingColor>Før vælg farve</BeforeSettingColor>
+    <BeforeSettingFontName>Før nyt skrifttype navn</BeforeSettingFontName>
+    <BeforeTypeWriterEffect>Før skrivemaskine effekt</BeforeTypeWriterEffect>
+    <BeforeKaraokeEffect>Før karaoke effekt</BeforeKaraokeEffect>
+    <BeforeImportingDvdSubtitle>Før importer af undertekster fra DVD</BeforeImportingDvdSubtitle>
+    <OpenMatroskaFile>Åbn Matroska fil...</OpenMatroskaFile>
+    <MatroskaFiles>Matroska-filer</MatroskaFiles>
+    <NoSubtitlesFound>Ingen undertekster fundet</NoSubtitlesFound>
+    <NotAValidMatroskaFileX>Dette er ikke en gyldig Matroska fil: {0}</NotAValidMatroskaFileX>
+    <BlurayNotSubtitlesFound>Blu-ray sup fil indeholder ingen undertekster eller indeholder fejl - prøv at demuxe igen.</BlurayNotSubtitlesFound>
+    <ParsingMatroskaFile>Parsing Matroska filen. Vent venligst...</ParsingMatroskaFile>
+    <ParsingTransportStreamFile>Parsing Transport Stream-fil. Vent venligst...</ParsingTransportStreamFile>
+    <BeforeImportFromMatroskaFile>Før import af undertekst fra Matroska fil</BeforeImportFromMatroskaFile>
+    <SubtitleImportedFromMatroskaFile>Undertekst importeret fra Matroska fil</SubtitleImportedFromMatroskaFile>
+    <DropFileXNotAccepted>Drop fil '{0}' ikke accepteret - filen er for stor</DropFileXNotAccepted>
+    <DropOnlyOneFile>Du kan kun drag-n-drop en fil</DropOnlyOneFile>
+    <OpenAnsiSubtitle>Åbn ANSI undertekst...</OpenAnsiSubtitle>
+    <BeforeChangeCasing>Før ændring af store/små bogstaver</BeforeChangeCasing>
+    <CasingCompleteMessageNoNames>Antal af linjer med store/små bogstaver ændret: {0}/{1}</CasingCompleteMessageNoNames>
+    <CasingCompleteMessageOnlyNames>Antal af linjer hvor navn har ændret store/små bogstaver: {0}/{1}</CasingCompleteMessageOnlyNames>
+    <CasingCompleteMessage>Antal af linjer med store/små bogstaver ændret: {0}/{1}, ændret casing for navne: {2}</CasingCompleteMessage>
+    <BeforeChangeFrameRate>Før ændringen frame rate</BeforeChangeFrameRate>
+    <BeforeAdjustSpeedInPercent>Før justering af hastighed i procent</BeforeAdjustSpeedInPercent>
+    <FrameRateChangedFromXToY>Frame rate ændret fra {0} til {1}</FrameRateChangedFromXToY>
+    <IdxFileNotFoundWarning>{0} ikke fundet! Importer VobSub filen alligevel?</IdxFileNotFoundWarning>
+    <InvalidVobSubHeader>Header ikke gyldig VobSub fil: {0}</InvalidVobSubHeader>
+    <OpenVobSubFile>Åbn VobSub (sub/idx) undertekst...</OpenVobSubFile>
+    <VobSubFiles>VobSub undertekst filer</VobSubFiles>
+    <OpenBluRaySupFile>Åbn Blu-ray sup fil...</OpenBluRaySupFile>
+    <BluRaySupFiles>Blu-ray sup filer</BluRaySupFiles>
+    <OpenXSubFiles>Åbn XSub file...</OpenXSubFiles>
+    <XSubFiles>XSub filer</XSubFiles>
+    <BeforeImportingVobSubFile>Før import af VobSub undertekst</BeforeImportingVobSubFile>
+    <BeforeImportingBluRaySupFile>Før import af Blu-ray sup undertekst</BeforeImportingBluRaySupFile>
+    <BeforeImportingBdnXml>Før importer af BDN xml</BeforeImportingBdnXml>
+    <BeforeShowSelectedLinesEarlierLater>Før vis udvalgte linjer tidligere/senere</BeforeShowSelectedLinesEarlierLater>
+    <ShowAllLinesXSecondsLinesEarlier>Vis alle linjer {0:0.0##} sekunder tidligere</ShowAllLinesXSecondsLinesEarlier>
+    <ShowAllLinesXSecondsLinesLater>Vis alle linjer {0:0.0##} sekunder senere</ShowAllLinesXSecondsLinesLater>
+    <ShowSelectedLinesXSecondsLinesEarlier>Vis valgte linjer {0:0.0##} sekunder tidligere</ShowSelectedLinesXSecondsLinesEarlier>
+    <ShowSelectedLinesXSecondsLinesLater>Vis valgte linjer {0:0.0##} sekunder senere</ShowSelectedLinesXSecondsLinesLater>
+    <ShowSelectionAndForwardXSecondsLinesEarlier>Vis valgte linje(r) og fremad {0:0.0##} sekunder tidligere</ShowSelectionAndForwardXSecondsLinesEarlier>
+    <ShowSelectionAndForwardXSecondsLinesLater>Vis valgte linje(r) og fremad {0:0.0##} sekunder senere</ShowSelectionAndForwardXSecondsLinesLater>
+    <DoubleWordsViaRegEx>Dobbelt ord via regex {0}</DoubleWordsViaRegEx>
+    <BeforeSortX>Før sortering: {0}</BeforeSortX>
+    <SortedByX>Sorteret efter: {0}</SortedByX>
+    <BeforeAutoBalanceSelectedLines>Før auto balancer markerede linjer</BeforeAutoBalanceSelectedLines>
+    <NumberOfLinesAutoBalancedX>Antal af linjer auto balanceret: {0}</NumberOfLinesAutoBalancedX>
+    <BeforeRemoveLineBreaksInSelectedLines>Før fjern line-skift fra valgte linjer</BeforeRemoveLineBreaksInSelectedLines>
+    <NumberOfWithRemovedLineBreakX>Antallet af linjer med fjernet linjeskift: {0}</NumberOfWithRemovedLineBreakX>
+    <BeforeMultipleReplace>Før multi søg og erstat</BeforeMultipleReplace>
+    <NumberOfLinesReplacedX>Antal linjer hvor tekst er erstattet: {0}</NumberOfLinesReplacedX>
+    <NameXAddedToNameList>Navnet '{0}' blev tilføjet til navne mv, liste</NameXAddedToNameList>
+    <NameXNotAddedToNameList>Navnet '{0}' blev ikke tilføjet til navne mv. liste</NameXNotAddedToNameList>
+    <WordXAddedToUserDic>Ordet '{0}' blev tilføjet til brugerordbog</WordXAddedToUserDic>
+    <WordXNotAddedToUserDic>Ordet '{0}' blev IKKE tilføjet til brugerordbogen</WordXNotAddedToUserDic>
+    <OcrReplacePairXAdded>'{0} -&gt; {1}' blev tilføjet til OCR erstat listen</OcrReplacePairXAdded>
+    <OcrReplacePairXNotAdded>'{0} -&gt; {1}' blev IKKE tilføjet til OCR erstat listen</OcrReplacePairXNotAdded>
+    <XLinesSelected>{0} linjer valgt</XLinesSelected>
+    <UnicodeMusicSymbolsAnsiWarning>Undertekst indeholder unicode tegn. Gemmes i ANSI filformat vil disse gå tabt. Fortsæt?</UnicodeMusicSymbolsAnsiWarning>
+    <NegativeTimeWarning>Undertekst indeholder negative tidskoder. Gem?</NegativeTimeWarning>
+    <BeforeMergeShortLines>Før fusionere korte linjer</BeforeMergeShortLines>
+    <MergedShortLinesX>Antal linjer fusionerede: {0}</MergedShortLinesX>
+    <BeforeSplitLongLines>Før split lange linjer</BeforeSplitLongLines>
+    <LongLinesSplitX>Antal linjer delt: {0}</LongLinesSplitX>
+    <BeforeDurationsBridgeGap>Før 'Fjern små gaps'</BeforeDurationsBridgeGap>
+    <BeforeSetMinimumDisplayTimeBetweenParagraphs>Før ret minimum visningstid mellem tekster</BeforeSetMinimumDisplayTimeBetweenParagraphs>
+    <XMinimumDisplayTimeBetweenParagraphsChanged>Antallet af linjer med minimum visningstid mellem tekster ændret: {0}</XMinimumDisplayTimeBetweenParagraphsChanged>
+    <BeforeImportText>Før import tekst</BeforeImportText>
+    <TextImported>Tekst importet</TextImported>
+    <BeforePointSynchronization>Før punkt synkronisering</BeforePointSynchronization>
+    <PointSynchronizationDone>Punkt synkronisering udført</PointSynchronizationDone>
+    <BeforeTimeCodeImport>Før import af tidskoder</BeforeTimeCodeImport>
+    <TimeCodeImportedFromXY>Tidskoder importeret fra {0}: {1}</TimeCodeImportedFromXY>
+    <BeforeInsertSubtitleAtVideoPosition>Før ny tekst ved aktuel video position</BeforeInsertSubtitleAtVideoPosition>
+    <BeforeSetStartTimeAndOffsetTheRest>Før sæt start tid og juster resten</BeforeSetStartTimeAndOffsetTheRest>
+    <BeforeSetEndTimeAndOffsetTheRest>Før sæt sluttid og juster resten</BeforeSetEndTimeAndOffsetTheRest>
+    <BeforeSetEndAndVideoPosition>Før indsæt video via sluttid + automatisk starttid</BeforeSetEndAndVideoPosition>
+    <ContinueWithCurrentSpellCheck>Fortsæt med aktuelle stavekontrol?</ContinueWithCurrentSpellCheck>
+    <CharactersPerSecond>Bogstav/sek: {0:0.00}</CharactersPerSecond>
+    <GetFrameRateFromVideoFile>Hent frame rate fra video fil</GetFrameRateFromVideoFile>
+    <NetworkMessage>Ny meddelelse: {0} ({1}): {2}</NetworkMessage>
+    <NetworkUpdate>Linje opdateret: {0} ({1}): Indeks = {2}, Tekst = {3}</NetworkUpdate>
+    <NetworkInsert>Linje indsat: {0} ({1}): Indeks = {2}, Tekst = {3}</NetworkInsert>
+    <NetworkDelete>Linje slettet: {0} ({1}): Indeks = {2}</NetworkDelete>
+    <NetworkNewUser>Ny bruger: {0} ({1})</NetworkNewUser>
+    <NetworkByeUser>Bye {0} ({1})</NetworkByeUser>
+    <NetworkUnableToConnectToServer>Kunne ikke forbinde til serveren: {0}</NetworkUnableToConnectToServer>
+    <UserAndAction>Bruger/handling</UserAndAction>
+    <NetworkMode>Netværk mode on</NetworkMode>
+    <XStartedSessionYAtZ>{0}: Startede session {1} kl. {2}</XStartedSessionYAtZ>
+    <OpenOtherSubtitle>Åbne anden undertekst</OpenOtherSubtitle>
+    <BeforeToggleDialogDashes>Før skift af dialog tankestreger</BeforeToggleDialogDashes>
+    <ExportPlainTextAs>Eksporter almindelig tekst som</ExportPlainTextAs>
+    <TextFiles>Tekst filer</TextFiles>
+    <SubtitleExported>Subtitle eksporteret</SubtitleExported>
+    <LineNumberXErrorReadingFromSourceLineY>Linie {0} - fejl ved læsning: {1}</LineNumberXErrorReadingFromSourceLineY>
+    <LineNumberXErrorReadingTimeCodeFromSourceLineY>Linie {0} - Fejl ved læsning af tidskode: {1}</LineNumberXErrorReadingTimeCodeFromSourceLineY>
+    <LineNumberXExpectedNumberFromSourceLineY>Linie {0} - fejl ved linjenummer: {1}</LineNumberXExpectedNumberFromSourceLineY>
+    <LineNumberXExpectedEmptyLine>Linje {0} - forventet tom linje, men fundet nummer + tidskode (nummer skippet): {1}</LineNumberXExpectedEmptyLine>
+    <BeforeGuessingTimeCodes>Før gæt af tidskoder</BeforeGuessingTimeCodes>
+    <BeforeAutoDuration>Før auto-varighed for udvalgte linjer</BeforeAutoDuration>
+    <BeforeColumnPaste>Før kolonne indsæt fra udklipsholder</BeforeColumnPaste>
+    <BeforeColumnDelete>Før kolonne slet</BeforeColumnDelete>
+    <BeforeColumnImportText>Før kolonne import af tekst</BeforeColumnImportText>
+    <BeforeColumnShiftCellsDown>Før indsæt og flyt kolonner ned</BeforeColumnShiftCellsDown>
+    <BeforeX>Før: {0}</BeforeX>
+    <LinesUpdatedX>Linjer opdateret: {0}</LinesUpdatedX>
+    <ErrorLoadingPluginXErrorY>Fejl ved indlæsning af plugin: {0}: {1}</ErrorLoadingPluginXErrorY>
+    <BeforeRunningPluginXVersionY>Før kørsel af plugin: {0}: {1}</BeforeRunningPluginXVersionY>
+    <UnableToReadPluginResult>Kan ikke læse underteksterne fra plugin!</UnableToReadPluginResult>
+    <UnableToCreateBackupDirectory>Ikke oprette backup mappe {0}: {1}</UnableToCreateBackupDirectory>
+    <BeforeDisplaySubtitleJoin>Før flet af undertekster</BeforeDisplaySubtitleJoin>
+    <SubtitlesJoined>Undertekster flettet</SubtitlesJoined>
+    <StatusLog>Status beskeder</StatusLog>
+    <XSceneChangesImported>{0} sceneskift importeret</XSceneChangesImported>
+    <PluginXExecuted>Plugin '{0}' afviklet</PluginXExecuted>
+    <NotAValidXSubFile>Ikke en valid XSub fil!</NotAValidXSubFile>
+    <BeforeMergeLinesWithSameText>Før fusioner linjer med samme tekst</BeforeMergeLinesWithSameText>
+    <ImportTimeCodesDifferentNumberOfLinesWarning>Undertekst med tidskoder har et forskelligt antal linier ({0}) end nuværende undertekst ({1}) - fortsæt alligevel?</ImportTimeCodesDifferentNumberOfLinesWarning>
+    <ParsingTransportStream>Læser transport stream - vent venligst...</ParsingTransportStream>
+    <XPercentCompleted>{0}% gennemført</XPercentCompleted>
+    <NextX>Næste: {0}</NextX>
+    <PromptInsertSubtitleOverlap>Indsæt undertekst ved bølgeform position vil forårsage overlapning!
+
+Fortsæt alligevel?</PromptInsertSubtitleOverlap>
+    <SubtitleContainsNegativeDurationsX>Undertekst indeholder negativ varighed i linje(r): {0}</SubtitleContainsNegativeDurationsX>
+    <SetPlayRateX>Afspilningshastighed er {0}%</SetPlayRateX>
+    <ErrorLoadIdx>Subtitle Edit kan ikke læse/redigere .idx filer. Idx filer er en del af et idx/sub fil par (også kaldet VobSub), og Subtitle Edit kan kun åbne .sub filen.</ErrorLoadIdx>
+    <ErrorLoadRar>Denne fil er sandsynligvis en komprimeret .rar fil. Subtitle Edit kan ikke åbne komprimerede filer.</ErrorLoadRar>
+    <ErrorLoadZip>Denne fil er sandsynligvis en komprimeret .zip fil. Subtitle Edit kan ikke åbne komprimerede filer.</ErrorLoadZip>
+    <ErrorLoad7Zip>Denne fil er sandsynligvis en komprimeret 7-Zip-fil. Subtitle Edit kan ikke åbne komprimerede filer.</ErrorLoad7Zip>
+    <ErrorLoadPng>Denne fil er sandsynligvis en PNG billedfil. Subtitle Edit kan ikke åbne PNG-filer.</ErrorLoadPng>
+    <ErrorLoadJpg>Denne fil er sandsynligvis en JPG billedfil. Subtitle Edit kan ikke åbne JPG-filer.</ErrorLoadJpg>
+    <ErrorLoadSrr>Denne fil synes at være en ReScene .srr fil - ikke en undertekst fil.</ErrorLoadSrr>
+    <ErrorLoadTorrent>Denne fil ser ud til at være en BitTorrent-fil - ikke en undertekst fil.</ErrorLoadTorrent>
+    <ErrorLoadBinaryZeroes>Beklager, denne fil indeholder kun binære nuller!
+Hvis du har redigeret denne fil med Subtitle Edit du måske finde en backup via menupunktet Filer -&gt; Gendan auto-backup...</ErrorLoadBinaryZeroes>
+    <ErrorDirectoryDropNotAllowed>Drop af foldere ikke understøttet her.</ErrorDirectoryDropNotAllowed>
+    <NoSupportEncryptedVobSub>Krypteret VobSub indhold er ikke understøttet.</NoSupportEncryptedVobSub>
+    <NoSupportHereBluRaySup>Blu-ray sup filer understøttes ikke her.</NoSupportHereBluRaySup>
+    <NoSupportHereDvdSup>DVD sup-filer understøttes ikke her.</NoSupportHereDvdSup>
+    <NoSupportHereVobSub>VobSub filer understøttes ikke her.</NoSupportHereVobSub>
+    <NoSupportHereDivx>DivX-filer understøttes ikke her.</NoSupportHereDivx>
+  </Main>
+  <MatroskaSubtitleChooser>
+    <Title>Vælg undertekst fra Matroska fil</Title>
+    <TitleMp4>Vælg undertekster fra MP4-fil</TitleMp4>
+    <PleaseChoose>Mere end en undertekst fundet - vælg venligst</PleaseChoose>
+    <TrackXLanguageYTypeZ>Spor {0} - sprog: {1} - type: {2}</TrackXLanguageYTypeZ>
+  </MatroskaSubtitleChooser>
+  <MeasurementConverter>
+    <Title>Enhedskonverter</Title>
+    <ConvertFrom>konverter fra</ConvertFrom>
+    <ConvertTo>Konverter til</ConvertTo>
+    <CopyToClipboard>Kopier til udklipsholder</CopyToClipboard>
+    <Celsius>Celsius</Celsius>
+    <Fahrenheit>Fahrenheit</Fahrenheit>
+    <Miles>Miles</Miles>
+    <Kilometers>Kilometer</Kilometers>
+    <Meters>Meter</Meters>
+    <Yards>Yards</Yards>
+    <Feet>Feet</Feet>
+    <Inches>Tommer</Inches>
+    <Pounds>Pund</Pounds>
+    <Kilos>Kilo</Kilos>
+  </MeasurementConverter>
+  <MergeDoubleLines>
+    <Title>Flet linjer med samme tekst</Title>
+    <MaxMillisecondsBetweenLines>Max. millisekunder mellem linjer</MaxMillisecondsBetweenLines>
+    <IncludeIncrementing>Medtag forøgning af linjer</IncludeIncrementing>
+  </MergeDoubleLines>
+  <MergedShortLines>
+    <Title>Flet korte linjer</Title>
+    <MaximumCharacters>Maksimum tegn i et afsnit</MaximumCharacters>
+    <MaximumMillisecondsBetween>Største antal millisekunder mellem linjer der flettes</MaximumMillisecondsBetween>
+    <NumberOfMergesX>Antal fletninger: {0}</NumberOfMergesX>
+    <MergedText>Sammenlagt tekst</MergedText>
+    <OnlyMergeContinuationLines>Flet kun fortsættelses-linjer</OnlyMergeContinuationLines>
+  </MergedShortLines>
+  <MergeTextWithSameTimeCodes>
+    <Title>Flet linjer med samme tidskoder</Title>
+    <MaxDifferenceMilliseconds>Max. millisekunder forskel</MaxDifferenceMilliseconds>
+    <ReBreakLines>Auto-bryd linjer</ReBreakLines>
+    <NumberOfMergesX>Antal fletninger: {0}</NumberOfMergesX>
+    <MergedText>Fusioneret tekst</MergedText>
+  </MergeTextWithSameTimeCodes>
+  <ModifySelection>
+    <Title>Modificer markering</Title>
+    <Rule>Regel</Rule>
+    <CaseSensitive>Versalfølsom</CaseSensitive>
+    <DoWithMatches>Hvad gør man med linjer med hits</DoWithMatches>
+    <MakeNewSelection>Opret ny markering</MakeNewSelection>
+    <AddToCurrentSelection>Tilføj til aktuelle markering</AddToCurrentSelection>
+    <SubtractFromCurrentSelection>Subtraher fra aktuelle markering</SubtractFromCurrentSelection>
+    <IntersectWithCurrentSelection>Intersect med aktuelle markering</IntersectWithCurrentSelection>
+    <MatchingLinesX>Matchende linjer: {0}</MatchingLinesX>
+    <Contains>Indeholder</Contains>
+    <StartsWith>Starter med</StartsWith>
+    <EndsWith>Ender med</EndsWith>
+    <NoContains>Indeholder ikke</NoContains>
+    <RegEx>Regulært udtryk</RegEx>
+    <UnequalLines>Ulige linjer</UnequalLines>
+    <EqualLines>Lige linjer</EqualLines>
+    <DurationLessThan>Varighed mindre end</DurationLessThan>
+    <DurationGreaterThan>Varighed større end</DurationGreaterThan>
+  </ModifySelection>
+  <MultipleReplace>
+    <Title>Multi søg og erstat</Title>
+    <FindWhat>Find hvad</FindWhat>
+    <ReplaceWith>Erstat med</ReplaceWith>
+    <Normal>Normal</Normal>
+    <CaseSensitive>Versal følsom</CaseSensitive>
+    <RegularExpression>Regulært udtryk</RegularExpression>
+    <Description>Beskrivelse</Description>
+    <LinesFoundX>Linjer fundet: {0}</LinesFoundX>
+    <Remove>Fjern</Remove>
+    <Add>Tilføj</Add>
+    <Update>Opdater</Update>
+    <Enabled>Aktiv</Enabled>
+    <SearchType>Søge type</SearchType>
+    <RemoveAll>Fjern alle</RemoveAll>
+    <Import>Import...</Import>
+    <Export>Eksport...</Export>
+    <ImportRulesTitle>Import erstat-regle(r) fra...</ImportRulesTitle>
+    <ExportRulesTitle>Export erstat-regle(r)...</ExportRulesTitle>
+    <ChooseGroupsToImport>Vælg grupper til import</ChooseGroupsToImport>
+    <ChooseGroupsToExport>Vælg grupper til eksport</ChooseGroupsToExport>
+    <Rules>Eksport regler</Rules>
+    <MoveToTop>Flyt til top</MoveToTop>
+    <MoveToBottom>Flyt til bund</MoveToBottom>
+    <MoveSelectedRulesToGroup>Flyt valgte regler gruppe</MoveSelectedRulesToGroup>
+    <Groups>Grupper</Groups>
+    <RulesForGroupX>Regler for gruppen "{0}"</RulesForGroupX>
+    <GroupName>Gruppenavn</GroupName>
+    <RenameGroup>Omdøb gruppe...</RenameGroup>
+    <NewGroup>Ny gruppe...</NewGroup>
+    <NothingToImport>Intet at importere</NothingToImport>
+  </MultipleReplace>
+  <NetworkChat>
+    <Title>Chat</Title>
+    <Send>Send</Send>
+  </NetworkChat>
+  <NetworkJoin>
+    <Title>Deltag i netværks-session</Title>
+    <Information>Hop med i en eksisterende session, hvor flere personer
+kan redigere i samme undertekst fil (fælles projekt online)</Information>
+    <Join>Deltag</Join>
+  </NetworkJoin>
+  <NetworkLogAndInfo>
+    <Title>Netværk sessions-info og log</Title>
+    <Log>Log:</Log>
+  </NetworkLogAndInfo>
+  <NetworkStart>
+    <Title>Start netværks-session</Title>
+    <ConnectionTo>Forbinder til {0}...</ConnectionTo>
+    <Information>Start ny session, hvor flere personer
+kan redigere i samme undertekst fil (fælles online projekt)</Information>
+    <Start>Start</Start>
+  </NetworkStart>
+  <OpenVideoDvd>
+    <Title>Åbn DVD via VLC</Title>
+    <OpenDvdFrom>Åbn DVD fra...</OpenDvdFrom>
+    <Disc>Disc</Disc>
+    <Folder>Mappe</Folder>
+    <ChooseDrive>Vælg drev</ChooseDrive>
+    <ChooseFolder>Vælg mappe</ChooseFolder>
+  </OpenVideoDvd>
+  <PluginsGet>
+    <Title>Plugins</Title>
+    <InstalledPlugins>Installerede plugins</InstalledPlugins>
+    <GetPlugins>Hent plugins</GetPlugins>
+    <Description>Beskrivelse</Description>
+    <Version>Version</Version>
+    <Date>Dato</Date>
+    <Type>Type</Type>
+    <OpenPluginsFolder>Åbn 'Plugins' mappe</OpenPluginsFolder>
+    <GetPluginsInfo1>Subtitle Edit plugins skal downloades til 'Plugins' folder</GetPluginsInfo1>
+    <GetPluginsInfo2>Vælg plugin og klikke på 'Download'</GetPluginsInfo2>
+    <PluginXDownloaded>Plugin {0} downloadet</PluginXDownloaded>
+    <Download>&amp;Download</Download>
+    <Remove>&amp;Fjern</Remove>
+    <UpdateAllX>Opdater alle ({0})</UpdateAllX>
+    <UnableToDownloadPluginListX>Kunne ikke downloade plug liste: {0}</UnableToDownloadPluginListX>
+    <NewVersionOfSubtitleEditRequired>Nyere version af Subtitle Edit kræves!</NewVersionOfSubtitleEditRequired>
+    <UpdateAvailable>[Ny version findes!]</UpdateAvailable>
+    <UpdateAll>Opdater alle</UpdateAll>
+    <XPluginsUpdated>{0} plugin(s) opdateret</XPluginsUpdated>
+  </PluginsGet>
+  <RegularExpressionContextMenu>
+    <WordBoundary>Word boundary (\b)</WordBoundary>
+    <NonWordBoundary>Non word boundary (\B)</NonWordBoundary>
+    <NewLine>New line (\r\n)</NewLine>
+    <NewLineShort>New line (\n)</NewLineShort>
+    <AnyDigit>Any digit (\d)</AnyDigit>
+    <NonDigit>Non digit(\D)</NonDigit>
+    <AnyCharacter>Any character (.)</AnyCharacter>
+    <AnyWhitespace>Any whitespace (\s)</AnyWhitespace>
+    <NonSpaceCharacter>Non whitespace (\S)</NonSpaceCharacter>
+    <ZeroOrMore>Zero or more (*)</ZeroOrMore>
+    <OneOrMore>One or more (+)</OneOrMore>
+    <InCharacterGroup>In character group ([test])</InCharacterGroup>
+    <NotInCharacterGroup>Not in character group ([^test])</NotInCharacterGroup>
+  </RegularExpressionContextMenu>
+  <RemoveTextFromHearImpaired>
+    <Title>Fjern tekst for hørehæmmede</Title>
+    <RemoveTextConditions>Betingelser</RemoveTextConditions>
+    <RemoveTextBetween>Dette vil fjerne tekst mellem</RemoveTextBetween>
+    <SquareBrackets>'[' og ']'</SquareBrackets>
+    <Brackets>'{' og '}'</Brackets>
+    <Parentheses>'(' og ')'</Parentheses>
+    <QuestionMarks>'?' og '?'</QuestionMarks>
+    <And>og</And>
+    <RemoveTextBeforeColon>Fjern tekst før kolon (':')</RemoveTextBeforeColon>
+    <OnlyIfTextIsUppercase>Kun hvis tekst er med store bogstaver</OnlyIfTextIsUppercase>
+    <OnlyIfInSeparateLine>Kun hvis på separat linje</OnlyIfInSeparateLine>
+    <LinesFoundX>Linjer fundet: {0}</LinesFoundX>
+    <RemoveTextIfContains>Fjern tekst, hvis indeholder:</RemoveTextIfContains>
+    <RemoveTextIfAllUppercase>Fjern linje hvis kun med STORE bogstaver</RemoveTextIfAllUppercase>
+    <RemoveInterjections>Fjern følelsesudbrud (Ahh, hmm, osv.)</RemoveInterjections>
+    <EditInterjections>Rediger...</EditInterjections>
+  </RemoveTextFromHearImpaired>
+  <ReplaceDialog>
+    <Title>Erstat</Title>
+    <FindWhat>Find hvad:</FindWhat>
+    <Normal>Normal</Normal>
+    <CaseSensitive>Versalfølsom</CaseSensitive>
+    <RegularExpression>Regulært udtryk</RegularExpression>
+    <ReplaceWith>Erstat med</ReplaceWith>
+    <Find>&amp;Find</Find>
+    <Replace>&amp;Erstat</Replace>
+    <ReplaceAll>Erstat &amp;alle</ReplaceAll>
+  </ReplaceDialog>
+  <RestoreAutoBackup>
+    <Title>Gendan auto backup</Title>
+    <Information>Åbn auto-gemt backup</Information>
+    <DateAndTime>Dato og tid</DateAndTime>
+    <FileName>Filnavn</FileName>
+    <Extension>Type</Extension>
+    <NoBackedUpFilesFound>Ingen sikkerhedskopierede filer fundet!</NoBackedUpFilesFound>
+  </RestoreAutoBackup>
+  <SeekSilence>
+    <Title>Søg efter tavshed</Title>
+    <SearchDirection>Søge retning</SearchDirection>
+    <Forward>Fremad</Forward>
+    <Back>Tilbage</Back>
+    <LengthInSeconds>Tavshed skal være på mindst (sekunder)</LengthInSeconds>
+    <MaxVolume>Volumen skal være under</MaxVolume>
+  </SeekSilence>
+  <SetMinimumDisplayTimeBetweenParagraphs>
+    <Title>Mindste visningstid mellem tekster</Title>
+    <PreviewLinesModifiedX>Resultat - antal linier rettet: {0}</PreviewLinesModifiedX>
+    <ShowOnlyModifiedLines>Vis kun rettede linier</ShowOnlyModifiedLines>
+    <MinimumMillisecondsBetweenParagraphs>Minimum millisekunder mellem linjerne</MinimumMillisecondsBetweenParagraphs>
+    <FrameInfo>Frame info</FrameInfo>
+    <OneFrameXisYMilliseconds>En frame ved {0:0.00} fps er {1} milliseconds</OneFrameXisYMilliseconds>
+  </SetMinimumDisplayTimeBetweenParagraphs>
+  <SetSyncPoint>
+    <Title>Set synkroniserings punkt for linje {0}</Title>
+    <SyncPointTimeCode>Synktroniserings punkt tidskode</SyncPointTimeCode>
+    <ThreeSecondsBack>&lt;&lt;3 sek</ThreeSecondsBack>
+    <HalfASecondBack>&lt;&lt;½ sek</HalfASecondBack>
+    <HalfASecondForward>½ sek&gt;&gt;</HalfASecondForward>
+    <ThreeSecondsForward>3 sek&gt;&gt;</ThreeSecondsForward>
+  </SetSyncPoint>
+  <Settings>
+    <Title>Indstillinger</Title>
+    <General>General</General>
+    <Toolbar>Toolbar</Toolbar>
+    <VideoPlayer>Videoafspiller</VideoPlayer>
+    <WaveformAndSpectrogram>Waveform/spektrogram</WaveformAndSpectrogram>
+    <Tools>Værktøj</Tools>
+    <WordLists>Ordlister</WordLists>
+    <SsaStyle>ASS/SSA Style</SsaStyle>
+    <Network>Netværk</Network>
+    <Rules>Regler</Rules>
+    <ShowToolBarButtons>Vis Værktøjslinjeknapperne</ShowToolBarButtons>
+    <New>Ny</New>
+    <Open>Åben</Open>
+    <Save>Gem</Save>
+    <SaveAs>Gem som</SaveAs>
+    <Find>Find</Find>
+    <Replace>Erstat</Replace>
+    <VisualSync>Visuel synk</VisualSync>
+    <SpellCheck>Stavekontrol</SpellCheck>
+    <NetflixQualityCheck>Netflix kvalitetstjek</NetflixQualityCheck>
+    <SettingsName>Indstillinger</SettingsName>
+    <Help>Hjælp</Help>
+    <UnbreakNoSpace>Fjern lineskift uden mellemrum (CJK)</UnbreakNoSpace>
+    <ToggleBookmarks>Tilføj/fjern bogmærker</ToggleBookmarks>
+    <ToggleBookmarksWithComment>Tilføj/fjern bogmærker medj kommentar</ToggleBookmarksWithComment>
+    <ClearBookmarks>Ryd bogmærker</ClearBookmarks>
+    <GoToBookmark>Gå til bogmærke</GoToBookmark>
+    <GoToPreviousBookmark>Gå til tidligere bogmærke</GoToPreviousBookmark>
+    <GoToNextBookmark>Gå til næste bogmærke</GoToNextBookmark>
+    <ChooseProfile>Vælg profil</ChooseProfile>
+    <DuplicateLine>Dupliker linje</DuplicateLine>
+    <FontInUi>UI-skrifttype</FontInUi>
+    <ShowFrameRate>Vis frame rate i værktøjslinjen</ShowFrameRate>
+    <DefaultFrameRate>Standard frame rate</DefaultFrameRate>
+    <DefaultFileEncoding>Standard filkodningen</DefaultFileEncoding>
+    <AutoDetectAnsiEncoding>Auto opdag ANSI-kodning</AutoDetectAnsiEncoding>
+    <Profile>Profil</Profile>
+    <Profiles>Profiler</Profiles>
+    <ImportProfiles>Importer profiler</ImportProfiles>
+    <ExportProfiles>Eksporter profiler</ExportProfiles>
+    <SubtitleLineMaximumLength>Linje max. længde</SubtitleLineMaximumLength>
+    <OptimalCharactersPerSecond>Optimale tegn/sek</OptimalCharactersPerSecond>
+    <MaximumCharactersPerSecond>Maks tegn/sek</MaximumCharactersPerSecond>
+    <MaximumWordssPerMinute>Maks ord/min</MaximumWordssPerMinute>
+    <AutoWrapWhileTyping>Auto-ombryd tekst mens du skriver</AutoWrapWhileTyping>
+    <DurationMinimumMilliseconds>Min. varighed, millisekunder</DurationMinimumMilliseconds>
+    <DurationMaximumMilliseconds>Max. varighed, millisekunder</DurationMaximumMilliseconds>
+    <MinimumGapMilliseconds>Min. mellemrum mellem undertekster i ms</MinimumGapMilliseconds>
+    <MaximumLines>Max. antal linjer</MaximumLines>
+    <SubtitleFont>undertekst skrifttype</SubtitleFont>
+    <SubtitleFontSize>undertekst skriftstørrelse</SubtitleFontSize>
+    <SubtitleBold>Fed</SubtitleBold>
+    <VideoAutoOpen>Auto-åbn videofil ved åbning af undertekst</VideoAutoOpen>
+    <AllowVolumeBoost>Tillad volumenforøgelse</AllowVolumeBoost>
+    <SubtitleCenter>Centrer</SubtitleCenter>
+    <SubtitleFontColor>Undertekst skriftfarve</SubtitleFontColor>
+    <SubtitleBackgroundColor>Undertekst baggrundsfarve</SubtitleBackgroundColor>
+    <SpellChecker>Stavekontrol</SpellChecker>
+    <RememberRecentFiles>Husk seneste filer (for genåbn)</RememberRecentFiles>
+    <StartWithLastFileLoaded>Start med sidste fil indlæst</StartWithLastFileLoaded>
+    <RememberSelectedLine>Husk aktive linje</RememberSelectedLine>
+    <RememberPositionAndSize>Husk hovedvinduet position og størrelse</RememberPositionAndSize>
+    <StartInSourceView>Start i kilde visning</StartInSourceView>
+    <RemoveBlankLinesWhenOpening>Fjern tomme linjer, når undertekst åbnes</RemoveBlankLinesWhenOpening>
+    <ShowLineBreaksAs>Vis linjeskift i listevisning som</ShowLineBreaksAs>
+    <SaveAsFileNameFrom>"Gem som..." bruger filnavn fra</SaveAsFileNameFrom>
+    <MainListViewDoubleClickAction>Dobbeltklik på linje i hovedvinduet listevisning starter</MainListViewDoubleClickAction>
+    <MainListViewColumnsInfo>Vælg synlige listevisning kolonner</MainListViewColumnsInfo>
+    <MainListViewNothing>Ingenting</MainListViewNothing>
+    <MainListViewVideoGoToPositionAndPause>Gå til video pos og pause</MainListViewVideoGoToPositionAndPause>
+    <MainListViewVideoGoToPositionAndPlay>Gå til video pos og afspi</MainListViewVideoGoToPositionAndPlay>
+    <MainListViewEditText>Gå til at rediger tekst</MainListViewEditText>
+    <MainListViewVideoGoToPositionMinus1SecAndPause>Gå til video pos - 1 sek og pause</MainListViewVideoGoToPositionMinus1SecAndPause>
+    <MainListViewVideoGoToPositionMinusHalfSecAndPause>Gå til video pos - 0,5 sek og pause</MainListViewVideoGoToPositionMinusHalfSecAndPause>
+    <MainListViewVideoGoToPositionMinus1SecAndPlay>Gå til video pos - 1 sek og afspil</MainListViewVideoGoToPositionMinus1SecAndPlay>
+    <MainListViewEditTextAndPause>Gå at redigere tekstfeltet, og pause på video position</MainListViewEditTextAndPause>
+    <VideoFileName>Videofilnavn</VideoFileName>
+    <ExistingFileName>Eksisterende filnavn</ExistingFileName>
+    <AutoBackup>Auto-backup</AutoBackup>
+    <AutoBackupEveryMinute>Hvert minut</AutoBackupEveryMinute>
+    <AutoBackupEveryFiveMinutes>Hver 5. minut</AutoBackupEveryFiveMinutes>
+    <AutoBackupEveryFifteenMinutes>Hver 15. minut</AutoBackupEveryFifteenMinutes>
+    <AutoBackupDeleteAfter>Slet efter</AutoBackupDeleteAfter>
+    <AutoBackupDeleteAfterOneMonth>En måned</AutoBackupDeleteAfterOneMonth>
+    <AutoBackupDeleteAfterThreeMonths>3 måneder</AutoBackupDeleteAfterThreeMonths>
+    <AutoBackupDeleteAfterSixMonths>6 måneder</AutoBackupDeleteAfterSixMonths>
+    <CheckForUpdates>Tjek for opdateringer</CheckForUpdates>
+    <AutoSave>Automatisk gem</AutoSave>
+    <AllowEditOfOriginalSubtitle>Tillad redigering af originale undertekst</AllowEditOfOriginalSubtitle>
+    <PromptDeleteLines>Spørg om slet af linjer</PromptDeleteLines>
+    <TimeCodeMode>Tidskode indstillinger</TimeCodeMode>
+    <TimeCodeModeHHMMSSMS>HH:MM:SS.MS (00:00:01.500)</TimeCodeModeHHMMSSMS>
+    <TimeCodeModeHHMMSSFF>HH:MM:SS:FF (00:00:01:12)</TimeCodeModeHHMMSSFF>
+    <SplitBehavior>Split indstillinger</SplitBehavior>
+    <SplitBehaviorPrevious>Tilføj gap til venstre for splitpunkt</SplitBehaviorPrevious>
+    <SplitBehaviorHalf>Tilføj gap i midten af ​​splitpunkt</SplitBehaviorHalf>
+    <SplitBehaviorNext>Tilføj gap til højre for splitpunkt</SplitBehaviorNext>
+    <VideoEngine>Video afspiller</VideoEngine>
+    <DirectShow>DirectShow</DirectShow>
+    <DirectShowDescription>Quartz.dll i system32 mappen</DirectShowDescription>
+    <MpcHc>MPC-HC</MpcHc>
+    <MpcHcDescription>Media Player Classic - Home Cinema</MpcHcDescription>
+    <MpvPlayer>mpv</MpvPlayer>
+    <MpvPlayerDescription>https://mpv.io/ - gratis, open source og cross-platform medie afspiller</MpvPlayerDescription>
+    <MpvHandlesPreviewText>MPV håndterer tekstvisning</MpvHandlesPreviewText>
+    <VlcMediaPlayer>VLC media player</VlcMediaPlayer>
+    <VlcMediaPlayerDescription>libvlc.dll fra VLC media player 1.1.0 eller nyere</VlcMediaPlayerDescription>
+    <VlcBrowseToLabel>VLC sti (kun nødvendig, hvis du bruger den portable version af VLC)</VlcBrowseToLabel>
+    <ShowStopButton>Vis stop-knap</ShowStopButton>
+    <ShowMuteButton>Vis mute-knap</ShowMuteButton>
+    <ShowFullscreenButton>Vis fuldskærm knap</ShowFullscreenButton>
+    <PreviewFontSize>Undertekst preview skriftstørrelse</PreviewFontSize>
+    <MainWindowVideoControls>Hovedvinduet video-kontrol</MainWindowVideoControls>
+    <CustomSearchTextAndUrl>Egen defineret søge titel og URL</CustomSearchTextAndUrl>
+    <WaveformAppearance>Lyd kurve udseende</WaveformAppearance>
+    <WaveformGridColor>Gitter farve</WaveformGridColor>
+    <WaveformShowGridLines>Vis gitterlinjer</WaveformShowGridLines>
+    <WaveformShowCps>Vis tegn/sek</WaveformShowCps>
+    <WaveformShowWpm>Vis ord/min</WaveformShowWpm>
+    <ReverseMouseWheelScrollDirection>Skift musehjul rulle retning</ReverseMouseWheelScrollDirection>
+    <WaveformAllowOverlap>Tillad overlapning (når du flytter/resizing)</WaveformAllowOverlap>
+    <WaveformSetVideoPosMoveStartEnd>Sæt video position, når du flytter start/slut</WaveformSetVideoPosMoveStartEnd>
+    <WaveformFocusMouseEnter>Sæt fokus ved mus over</WaveformFocusMouseEnter>
+    <WaveformListViewFocusMouseEnter>Set focus i listevisning ved mus over listevisning</WaveformListViewFocusMouseEnter>
+    <WaveformSingleClickSelect>Enkeltklik for at vælge undertekster</WaveformSingleClickSelect>
+    <WaveformSnapToSceneChanges>Skift til sceneændringer (hold "shift" nede for at override)</WaveformSnapToSceneChanges>
+    <WaveformBorderHitMs1>Grænse-markør ved flyt er aktiv inden for</WaveformBorderHitMs1>
+    <WaveformBorderHitMs2>millisekunder</WaveformBorderHitMs2>
+    <WaveformColor>Farve</WaveformColor>
+    <WaveformSelectedColor>Valgte farve</WaveformSelectedColor>
+    <WaveformBackgroundColor>Baggrundsfarve</WaveformBackgroundColor>
+    <WaveformTextColor>Tekstfarve</WaveformTextColor>
+    <WaveformTextFontSize>Tekst skriftstørrelse</WaveformTextFontSize>
+    <WaveformAndSpectrogramsFolderEmpty>Tøm 'Spectrograms' og 'Waveforms' mapper</WaveformAndSpectrogramsFolderEmpty>
+    <WaveformAndSpectrogramsFolderInfo>'Waveform' og 'Spectrograms' mapper indeholder {0} filer ({1:0.00} MB)</WaveformAndSpectrogramsFolderInfo>
+    <Spectrogram>Spektrogram</Spectrogram>
+    <GenerateSpectrogram>Generer spektrogram</GenerateSpectrogram>
+    <SpectrogramAppearance>Spektrogram udseende</SpectrogramAppearance>
+    <SpectrogramOneColorGradient>Enkelt farve gradient</SpectrogramOneColorGradient>
+    <SpectrogramClassic>Klassisk</SpectrogramClassic>
+    <WaveformUseFFmpeg>Benyt FFmpeg til at udtrække lydfiler</WaveformUseFFmpeg>
+    <DownloadFFmpeg>Download FFmpeg</DownloadFFmpeg>
+    <WaveformFFmpegPath>Sti til FFmpeg</WaveformFFmpegPath>
+    <WaveformBrowseToFFmpeg>Vælg sti stil FFmpeg</WaveformBrowseToFFmpeg>
+    <WaveformBrowseToVLC>Gå til VLC portable</WaveformBrowseToVLC>
+    <SubStationAlphaStyle>Sub Station Alpha Style</SubStationAlphaStyle>
+    <ChooseColor>Vælg farve</ChooseColor>
+    <SsaOutline>Orids</SsaOutline>
+    <SsaShadow>Skygge</SsaShadow>
+    <SsaOpaqueBox>Baggrundsboks</SsaOpaqueBox>
+    <Testing123>Dette er en test 123...</Testing123>
+    <Language>Sprog</Language>
+    <NamesIgnoreLists>Navne/ignorer list</NamesIgnoreLists>
+    <AddName>Tilføj navn</AddName>
+    <AddWord>Tilføj ord</AddWord>
+    <Remove>Fjern</Remove>
+    <AddPair>Tilføj par</AddPair>
+    <UserWordList>Bruger ordliste</UserWordList>
+    <OcrFixList>OCR fix liste</OcrFixList>
+    <Location>Placering</Location>
+    <UseOnlineNames>Brug online navne etc xml-fil</UseOnlineNames>
+    <WordAddedX>Ordet tilføjet: {0}</WordAddedX>
+    <WordAlreadyExists>Ordet eksisterer allerede!</WordAlreadyExists>
+    <WordNotFound>Ordet blev ikke fundet</WordNotFound>
+    <RemoveX>Fjern {0}?</RemoveX>
+    <CannotUpdateNamesOnline>Kan ikke opdatere NamesEtc.xml online!</CannotUpdateNamesOnline>
+    <ProxyServerSettings>Proxyserver indstillinger</ProxyServerSettings>
+    <ProxyAddress>Proxy-adresse</ProxyAddress>
+    <ProxyAuthentication>Autentifikation</ProxyAuthentication>
+    <ProxyUserName>Bruger-navn</ProxyUserName>
+    <ProxyPassword>Password</ProxyPassword>
+    <ProxyDomain>Domæne</ProxyDomain>
+    <NetworkSessionSettings>Netværk session indstillinger</NetworkSessionSettings>
+    <NetworkSessionNewSound>Afspil lydfil ved ny meddelelse</NetworkSessionNewSound>
+    <PlayXSecondsAndBack>Spil X sekunder og tilbage, X</PlayXSecondsAndBack>
+    <StartSceneIndex>Start scene</StartSceneIndex>
+    <EndSceneIndex>Slut scene</EndSceneIndex>
+    <FirstPlusX>Første + {0}</FirstPlusX>
+    <LastMinusX>Sidste - {0}</LastMinusX>
+    <FixCommonerrors>Ret almindelige fejl</FixCommonerrors>
+    <RemoveTextForHi>Fjern tekst for svagthørende</RemoveTextForHi>
+    <MergeLinesShorterThan>Flet linjer kortere end</MergeLinesShorterThan>
+    <DialogStyle>Dialog stil</DialogStyle>
+    <DialogStyleDashBothLinesWithSpace>Dialog-bindestreg begge linjer med mellemrum</DialogStyleDashBothLinesWithSpace>
+    <DialogStyleDashBothLinesWithoutSpace>Dialog-bindestreg begge linjer uden mellemrum</DialogStyleDashBothLinesWithoutSpace>
+    <DialogStyleDashSecondLineWithSpace>Dialog-bindestreg anden linje med mellemrum</DialogStyleDashSecondLineWithSpace>
+    <DialogStyleDashSecondLineWithoutSpace>Dialog-bindestreg anden linje uden mellemrum</DialogStyleDashSecondLineWithoutSpace>
+    <ContinuationStyle>Fortsættelsesstil</ContinuationStyle>
+    <ContinuationStyleNone>Ingen</ContinuationStyleNone>
+    <ContinuationStyleNoneTrailingDots>Ingen, punktummer for pauser (kun bageste)</ContinuationStyleNoneTrailingDots>
+    <ContinuationStyleNoneLeadingTrailingDots>Ingen, punktummer for pauser</ContinuationStyleNoneLeadingTrailingDots>
+    <ContinuationStyleOnlyTrailingDots>punktummer (kun bagest)</ContinuationStyleOnlyTrailingDots>
+    <ContinuationStyleLeadingTrailingDots>Punktummer </ContinuationStyleLeadingTrailingDots>
+    <ContinuationStyleLeadingTrailingDash>Bindestreg</ContinuationStyleLeadingTrailingDash>
+    <ContinuationStyleLeadingTrailingDashDots>Stip, men punktummer for pauser</ContinuationStyleLeadingTrailingDashDots>
+    <MusicSymbol>Musik symbol</MusicSymbol>
+    <MusicSymbolsReplace>Musik symboler, der skal erstattes (adskilt med komma)</MusicSymbolsReplace>
+    <FixCommonOcrErrorsUseHardcodedRules>Ret normale OCR fejl - Inkluder hardcodede regler</FixCommonOcrErrorsUseHardcodedRules>
+    <FixCommonerrorsFixShortDisplayTimesAllowMoveStartTime>Fix kort visningstid - tillad flytning af starttidspunkt</FixCommonerrorsFixShortDisplayTimesAllowMoveStartTime>
+    <FixCommonErrorsSkipStepOne>Spring trin 1 over (vælg fix regler)</FixCommonErrorsSkipStepOne>
+    <Shortcuts>Genveje</Shortcuts>
+    <Shortcut>Genvej</Shortcut>
+    <Control>Control</Control>
+    <Alt>Alt</Alt>
+    <Shift>Shift</Shift>
+    <Key>Key</Key>
+    <ListViewAndTextBox>Listevistning og tekstboks</ListViewAndTextBox>
+    <ListView>Listevisning</ListView>
+    <TextBox>Tekstboks</TextBox>
+    <UpdateShortcut>Opdater</UpdateShortcut>
+    <ToggleDockUndockOfVideoControls>Skift dok/frigør af video kontrol</ToggleDockUndockOfVideoControls>
+    <CreateSetEndAddNewAndGoToNew>Sæt slut, tilføj ny og gå til ny</CreateSetEndAddNewAndGoToNew>
+    <AdjustViaEndAutoStart>Juster via slut-position</AdjustViaEndAutoStart>
+    <AdjustViaEndAutoStartAndGoToNext>Juster via slutposition og gå til næste</AdjustViaEndAutoStartAndGoToNext>
+    <AdjustSetEndTimeAndGoToNext>Set slut og gå til næste</AdjustSetEndTimeAndGoToNext>
+    <AdjustSetStartAutoDurationAndGoToNext>Sæt start, auto varighed og gå til næste</AdjustSetStartAutoDurationAndGoToNext>
+    <AdjustSetEndNextStartAndGoToNext>Sæt slut, næste start og gå til næste</AdjustSetEndNextStartAndGoToNext>
+    <AdjustStartDownEndUpAndGoToNext>Tast ned = set start, tast op = sæt slut og gå til næste</AdjustStartDownEndUpAndGoToNext>
+    <AdjustSelected100MsForward>Flyt valgte linjer 100 ms frem</AdjustSelected100MsForward>
+    <AdjustSelected100MsBack>Flyt valgte linjer 100 ms tilbage</AdjustSelected100MsBack>
+    <AdjustStartXMsBack>Flyt start {0} ms tilbage</AdjustStartXMsBack>
+    <AdjustStartXMsForward>Flyt start {0} ms fremad</AdjustStartXMsForward>
+    <AdjustEndXMsBack>Flyt slut {0} ms tilbage</AdjustEndXMsBack>
+    <AdjustEndXMsForward>Flyt slut {0} ms frem</AdjustEndXMsForward>
+    <AdjustSetStartTimeKeepDuration>Sæt starttid, behold varighed</AdjustSetStartTimeKeepDuration>
+    <AdjustSetEndAndOffsetTheRest>Set sluttid, juster resten</AdjustSetEndAndOffsetTheRest>
+    <AdjustSetEndAndOffsetTheRestAndGoToNext>Set sluttid, juster resten og gå til næste</AdjustSetEndAndOffsetTheRestAndGoToNext>
+    <AdjustExtendCurrentSubtitle>Forlæng aktuelle linje til næste undertekster eller max varighed</AdjustExtendCurrentSubtitle>
+    <AdjustExtendToNextSceneChange>Udvid valgte linjer til næste sceneændring (eller næste undertekst)</AdjustExtendToNextSceneChange>
+    <AdjustExtendToPreviousSceneChange>Udvid valgte linjer til forrige sceneændring (eller forrige undertekst)</AdjustExtendToPreviousSceneChange>
+    <AdjustExtendToNextSubtitle>Udvid valgte linjer til næste undertekst</AdjustExtendToNextSubtitle>
+    <AdjustExtendToPreviousSubtitle>Udvid valgte linjer til forrige undertekst</AdjustExtendToPreviousSubtitle>
+    <RecalculateDurationOfCurrentSubtitle>Genberegn varighed valgte undertekst</RecalculateDurationOfCurrentSubtitle>
+    <MainCreateStartDownEndUp>Opret ny på tast-ned, sæt sluttid ved tast-op</MainCreateStartDownEndUp>
+    <MergeDialog>Flet dialog (indsæt tankestreger)</MergeDialog>
+    <GoToNext>Gå til næste linje</GoToNext>
+    <GoToPrevious>Gå til forrige line</GoToPrevious>
+    <GoToCurrentSubtitleStart>Gå til nuværende linje start</GoToCurrentSubtitleStart>
+    <GoToCurrentSubtitleEnd>Gå til nuværende linje slut</GoToCurrentSubtitleEnd>
+    <GoToPreviousSubtitleAndFocusVideo>Gå til foregående linje og indstil video position</GoToPreviousSubtitleAndFocusVideo>
+    <GoToNextSubtitleAndFocusVideo>Gå til næste linje og sæt video position</GoToNextSubtitleAndFocusVideo>
+    <ToggleFocus>Skift fokus imellem liste visning og undertekst tekstboks</ToggleFocus>
+    <ToggleDialogDashes>Toggle dialog tankestreger</ToggleDialogDashes>
+    <ToggleMusicSymbols>Skift musik symboler</ToggleMusicSymbols>
+    <Alignment>Justering (valgte linier)</Alignment>
+    <AlignmentN1>Justering bund venstre left - {\an1}</AlignmentN1>
+    <AlignmentN2>Justering bund midt - {\an2}</AlignmentN2>
+    <AlignmentN3>Justering bund højre - {\an3}</AlignmentN3>
+    <AlignmentN4>Justering midt venstre - {\an4}</AlignmentN4>
+    <AlignmentN5>Justering midt midt - {\an5}</AlignmentN5>
+    <AlignmentN6>Justering midt højre - {\an6}</AlignmentN6>
+    <AlignmentN7>Justering top venstre - {\an7}</AlignmentN7>
+    <AlignmentN8>Justering top midt - {\an8}</AlignmentN8>
+    <AlignmentN9>Justering top højre- {\an9}</AlignmentN9>
+    <CopyTextOnly>Kopier kun tekst til klippe-bord (valgte linier)</CopyTextOnly>
+    <CopyTextOnlyFromOriginalToCurrent>Kopier tekst fra original</CopyTextOnlyFromOriginalToCurrent>
+    <AutoDurationSelectedLines>Auto-varighed (valgte linjer)</AutoDurationSelectedLines>
+    <ReverseStartAndEndingForRtl>Byt rundt på højre-mod-venstre start/slut</ReverseStartAndEndingForRtl>
+    <VerticalZoom>Lodret zoom</VerticalZoom>
+    <VerticalZoomOut>Lodret zoom ud</VerticalZoomOut>
+    <WaveformSeekSilenceForward>Søg stilhed frem</WaveformSeekSilenceForward>
+    <WaveformSeekSilenceBack>Søg stilhed tilbage</WaveformSeekSilenceBack>
+    <WaveformAddTextHere>Tilføj tekst her (for ny selektion)</WaveformAddTextHere>
+    <WaveformAddTextHereFromClipboard>Tilføj tekst her (fra klippebordet)</WaveformAddTextHereFromClipboard>
+    <SetParagraphAsSelection>Sæt aktuelle som nyt valg</SetParagraphAsSelection>
+    <WaveformPlayNewSelection>Spil ny markering</WaveformPlayNewSelection>
+    <WaveformPlayNewSelectionEnd>Afspil slutningen af markering</WaveformPlayNewSelectionEnd>
+    <WaveformPlayFirstSelectedSubtitle>Spil første valgte undertekst</WaveformPlayFirstSelectedSubtitle>
+    <WaveformFocusListView>Fokuser listevisning</WaveformFocusListView>
+    <WaveformGoToPreviousSceneChange>Gå til forrige sceneændring</WaveformGoToPreviousSceneChange>
+    <WaveformGoToNextSceneChange>Gå til næste sceneskift</WaveformGoToNextSceneChange>
+    <WaveformToggleSceneChange>Toggle sceneskift</WaveformToggleSceneChange>
+    <WaveformGuessStart>Autojuster start via lydstyrke/sceneændring</WaveformGuessStart>
+    <GoBack1Frame>En frame tilbage</GoBack1Frame>
+    <GoForward1Frame>En frame frem</GoForward1Frame>
+    <GoBack1FrameWithPlay>En frame tilbage (med afspilning)</GoBack1FrameWithPlay>
+    <GoForward1FrameWithPlay>En frame fremad (med afspilning)</GoForward1FrameWithPlay>
+    <GoBack100Milliseconds>100 ms tilbage</GoBack100Milliseconds>
+    <GoForward100Milliseconds>100 ms frem</GoForward100Milliseconds>
+    <GoBack500Milliseconds>500 ms tilbage</GoBack500Milliseconds>
+    <GoForward500Milliseconds>500 ms frem</GoForward500Milliseconds>
+    <GoBack1Second>Et sekund tilbage</GoBack1Second>
+    <GoForward1Second>Et sekund fremad</GoForward1Second>
+    <GoBack5Seconds>Fem sekunder tilbage</GoBack5Seconds>
+    <GoForward5Seconds>Fem sekunder frem</GoForward5Seconds>
+    <GoBack3Second>Tre sekunder tilbage</GoBack3Second>
+    <GoToStartCurrent>Indstil video pos til start af den aktuelle undertekst</GoToStartCurrent>
+    <ToggleStartEndCurrent>Skift video pos mellem start/slut af aktuelle undertekst</ToggleStartEndCurrent>
+    <PlayCurrent>Afspil nuværende undertekst</PlayCurrent>
+    <WaveformGoToPrevSubtitle>Gå til forrige undertekst (fra video position)</WaveformGoToPrevSubtitle>
+    <WaveformGoToNextSubtitle>Gå til næste undertekst (fra video position)</WaveformGoToNextSubtitle>
+    <WaveformSelectNextSubtitle>Vælg næste undertekst (fra videoposition, behold videopos)</WaveformSelectNextSubtitle>
+    <TogglePlayPause>Skift mellem afspil og pause</TogglePlayPause>
+    <Pause>Pause</Pause>
+    <Fullscreen>Fuldskærm</Fullscreen>
+    <PlayRateSlower>Afspilningshastigheden langsommere</PlayRateSlower>
+    <PlayRateFaster>Afspilningshastighed hurtigere</PlayRateFaster>
+    <VideoResetSpeedAndZoom>Nulstil hastighed/zoom</VideoResetSpeedAndZoom>
+    <CustomSearch1>Oversæt, brugerdefineret søgning 1</CustomSearch1>
+    <CustomSearch2>Oversæt, brugerdefineret søgning 2</CustomSearch2>
+    <CustomSearch3>Oversæt, brugerdefineret søgning 3</CustomSearch3>
+    <CustomSearch4>Oversæt, brugerdefineret søgning 4</CustomSearch4>
+    <CustomSearch5>Oversæt, brugerdefineret søgning 5</CustomSearch5>
+    <SyntaxColoring>Syntaks farvelægning</SyntaxColoring>
+    <ListViewSyntaxColoring>Listevisning syntaks farvelægning</ListViewSyntaxColoring>
+    <SyntaxColorDurationIfTooSmall>Farve - varighed, hvis for kort</SyntaxColorDurationIfTooSmall>
+    <SyntaxColorDurationIfTooLarge>Farve - varighed, hvis for længe</SyntaxColorDurationIfTooLarge>
+    <SyntaxColorTextIfTooLong>Farve - tekst, hvis for lang</SyntaxColorTextIfTooLong>
+    <SyntaxColorTextIfTooWide>Farv - tekst, hvis for bred (pixels)</SyntaxColorTextIfTooWide>
+    <SyntaxColorTextMoreThanMaxLines>Farve - tekst, hvis mere end {0} linjer</SyntaxColorTextMoreThanMaxLines>
+    <SyntaxColorOverlap>Farve - tidskode overlapper</SyntaxColorOverlap>
+    <SyntaxColorGap>Farv hvis mellemrum er for kort</SyntaxColorGap>
+    <SyntaxErrorColor>Fejl farve</SyntaxErrorColor>
+    <SyntaxLineWidthSettings>Indstillinger...</SyntaxLineWidthSettings>
+    <LineWidthSettings>Linjebreddeindstillinger</LineWidthSettings>
+    <MaximumLineWidth>Maksimal linjebredde:</MaximumLineWidth>
+    <Pixels>pixels</Pixels>
+    <MeasureFont>Måling af skrifttype:</MeasureFont>
+    <GoToFirstSelectedLine>Gå til første valgte linje</GoToFirstSelectedLine>
+    <GoToNextEmptyLine>Gå til næste tomme linje</GoToNextEmptyLine>
+    <MergeSelectedLines>Flet markerede linjer</MergeSelectedLines>
+    <MergeSelectedLinesAndAutoBreak>Flet valgte linjer og automatisk ombryd</MergeSelectedLinesAndAutoBreak>
+    <MergeSelectedLinesAndUnbreak>Flet valgte linjer og fjern linjeskift</MergeSelectedLinesAndUnbreak>
+    <MergeSelectedLinesAndUnbreakCjk>Flet valgte linjer og fjern linjeskift uden mellemrum (CJK)</MergeSelectedLinesAndUnbreakCjk>
+    <MergeSelectedLinesOnlyFirstText>Flet valgte linjer, beholde første ikke-tomme tekst</MergeSelectedLinesOnlyFirstText>
+    <MergeSelectedLinesBilingual>Flet valgte linjer tosproget</MergeSelectedLinesBilingual>
+    <SplitSelectedLineBilingual>Split valgte linie tosproget</SplitSelectedLineBilingual>
+    <ToggleTranslationMode>Toggle oversættelses-tilstand</ToggleTranslationMode>
+    <SwitchOriginalAndTranslation>Byt original og oversættelse</SwitchOriginalAndTranslation>
+    <MergeOriginalAndTranslation>Flet original og oversættelse</MergeOriginalAndTranslation>
+    <MergeWithNext>Flet med næste</MergeWithNext>
+    <MergeWithPrevious>Flet med forrige</MergeWithPrevious>
+    <ShortcutIsAlreadyDefinedX>Genvej allerede defineret:
+{0}</ShortcutIsAlreadyDefinedX>
+    <ToggleTranslationAndOriginalInPreviews>Skift mellem oversættelse og original i video/audio preview</ToggleTranslationAndOriginalInPreviews>
+    <ListViewColumnDelete>Kolonne, slet tekst</ListViewColumnDelete>
+    <ListViewColumnDeleteAndShiftUp>Kolonne, slet tekst og skift op</ListViewColumnDeleteAndShiftUp>
+    <ListViewColumnInsert>Column, indsæt tekst</ListViewColumnInsert>
+    <ListViewColumnPaste>Column, indsæt fra udklipsholder</ListViewColumnPaste>
+    <ListViewColumnTextUp>Kolonne, tekst op</ListViewColumnTextUp>
+    <ListViewColumnTextDown>Kolonne, tekst ned</ListViewColumnTextDown>
+    <ListViewFocusWaveform>Fokuser bølgeform/spectrogram</ListViewFocusWaveform>
+    <ListViewGoToNextError>Gå til næste fejl</ListViewGoToNextError>
+    <ShowBeamer>Start undertekst fremviser (fuldskærm)</ShowBeamer>
+    <MainTextBoxMoveLastWordDown>Flyt sidste ord ned til næste linje</MainTextBoxMoveLastWordDown>
+    <MainTextBoxMoveFirstWordFromNextUp>Flyt første ord fra næste linje op</MainTextBoxMoveFirstWordFromNextUp>
+    <MainTextBoxMoveFirstWordUpCurrent>Flyt første ord fra næste linje op (nuværende undertekst)</MainTextBoxMoveFirstWordUpCurrent>
+    <MainTextBoxMoveLastWordDownCurrent>Flyt sidste ord fra første linje ned (nuværende undertekst)</MainTextBoxMoveLastWordDownCurrent>
+    <MainTextBoxSelectionToLower>Markering til små bogstaver</MainTextBoxSelectionToLower>
+    <MainTextBoxSelectionToUpper>Markering til store bogstaver</MainTextBoxSelectionToUpper>
+    <MainTextBoxSelectionToRuby>Valg til Ruby (japansk)</MainTextBoxSelectionToRuby>
+    <MainTextBoxToggleAutoDuration>Toggle auto varighed</MainTextBoxToggleAutoDuration>
+    <MainTextBoxAutoBreak>Auto-ombryd tekst</MainTextBoxAutoBreak>
+    <MainTextBoxAutoBreakFromPos>Bryd ved første mellemrum fra markørposition</MainTextBoxAutoBreakFromPos>
+    <MainTextBoxAutoBreakFromPosAndGoToNext>Bryd i første mellemrum fra markørposition og gå til næste</MainTextBoxAutoBreakFromPosAndGoToNext>
+    <MainTextBoxUnbreak>Fjern linjeskift</MainTextBoxUnbreak>
+    <MainFileSaveAll>Gem alle</MainFileSaveAll>
+    <Miscellaneous>Diverse</Miscellaneous>
+    <CpsIncludesSpace>Tegn/sek (CPS) inkluderer mellemrum</CpsIncludesSpace>
+    <UseDoNotBreakAfterList>Benyt skift-ikke-efter-liste (for auto-ombrydning)</UseDoNotBreakAfterList>
+    <BreakEarlyForLineEnding>Ombryd tidligt for slutning af ​​sætning (.!?)</BreakEarlyForLineEnding>
+    <BreakByPixelWidth>Ombryd efter pixel bredde</BreakByPixelWidth>
+    <BreakPreferBottomHeavy>Foretræk bund-tung</BreakPreferBottomHeavy>
+    <BreakEarlyForDashDialog>Ombryd tidligt for dialog</BreakEarlyForDashDialog>
+    <BreakEarlyForComma>Ombryd tidligt for komma</BreakEarlyForComma>
+    <GoogleTranslate>Google Oversæt</GoogleTranslate>
+    <GoogleTranslateApiKey>API-nøgle</GoogleTranslateApiKey>
+    <MicrosoftBingTranslator>Microsoft Bing Translator</MicrosoftBingTranslator>
+    <HowToSignUp>Sådan tilmelder du dig</HowToSignUp>
+    <MicrosoftTranslateApiKey>Nøgle</MicrosoftTranslateApiKey>
+    <MicrosoftTranslateTokenEndpoint>Token endpoint</MicrosoftTranslateTokenEndpoint>
+    <FontNote>Bemærk: Disse skrifttypeindstillinger er kun til undertekst Rediger brugergrænsefladen.
+Indstilling af en skrifttype til en undertekst udføres normalt i videospiller, men det kan også gøres ved brug af et undertekstformat med indbygget skriftinformation som f.eks.
+"Advanced Sub Station Alpha" eller via eksport til billedbaserede formater.</FontNote>
+    <RestoreDefaultSettings>Benyt standard indstillinger</RestoreDefaultSettings>
+    <RestoreDefaultSettingsMsg>Alle indstillinger vil blive sat til standardværdier.
+Fortsæt?</RestoreDefaultSettingsMsg>
+    <RemoveTimeCodes>Fjern tidskoder</RemoveTimeCodes>
+    <EditFixContinuationStyleSettings>Rediger indstillinger til fastsættelse af fortsættelsestil...</EditFixContinuationStyleSettings>
+    <FixContinuationStyleSettings>Indstillinger til fastsættelse af fortsættelsestil</FixContinuationStyleSettings>
+    <UncheckInsertsAllCaps>Registrer og fjern markeringen af ​​enkelt titler i all-caps (for eksempel: NO ENTRY)</UncheckInsertsAllCaps>
+    <UncheckInsertsItalic>Registrer og fjern markeringen af ​​kursive enkelt titler eller tekster</UncheckInsertsItalic>
+    <UncheckInsertsLowercase>Registrer og fjern markeringen af ​​enkelt titler eller tekster med små bogstaver</UncheckInsertsLowercase>
+    <HideContinuationCandidatesWithoutName>Skjul usandsynlige fortsættelsessætninger</HideContinuationCandidatesWithoutName>
+    <IgnoreLyrics>Ignorer tekster mellem musiksymboler</IgnoreLyrics>
+  </Settings>
+  <SettingsMpv>
+    <Title>Indstillinger for MPV</Title>
+    <DownloadMpv>Hent MPV lib</DownloadMpv>
+    <DownloadMpvFailed>Kan ikke downloade MPV - prøv igen senere!</DownloadMpvFailed>
+    <DownloadMpvOk>MPV lib blev hentet og er klar til brug.</DownloadMpvOk>
+  </SettingsMpv>
+  <SettingsFfmpeg>
+    <Title>Download FFmpeg</Title>
+    <XDownloadFailed>Kan ikke downloade {0} - prøv igen senere!</XDownloadFailed>
+    <XDownloadOk>{0} blev downloadet og er klar til brug.</XDownloadOk>
+  </SettingsFfmpeg>
+  <SetVideoOffset>
+    <Title>Indstil video offset</Title>
+    <Description>Indstil video offset (undertekster bør ikke følge real video tid, men fx +10 timer)</Description>
+    <RelativeToCurrentVideoPosition>I forhold til aktuelle video position</RelativeToCurrentVideoPosition>
+    <KeepTimeCodes>Behold eksisterende tidskoder (tilføj ikke video offset)</KeepTimeCodes>
+    <Reset>Reset</Reset>
+  </SetVideoOffset>
+  <ShowEarlierLater>
+    <Title>Vis valgte linjer tidligere/senere</Title>
+    <TitleAll>Vis alle linjer tidligere/senere</TitleAll>
+    <ShowEarlier>Vis tidligere</ShowEarlier>
+    <ShowLater>Vis senere</ShowLater>
+    <TotalAdjustmentX>Samlede justering: {0}</TotalAdjustmentX>
+    <AllLines>Alle linjer</AllLines>
+    <SelectedLinesOnly>Kun valgte linjer</SelectedLinesOnly>
+    <SelectedLinesAndForward>Valgte linier og frem</SelectedLinesAndForward>
+  </ShowEarlierLater>
+  <ShowHistory>
+    <Title>Historik (fortryd)</Title>
+    <SelectRollbackPoint>Vælg tid/beskrivelse for tilbagerulning</SelectRollbackPoint>
+    <Time>Tid</Time>
+    <Description>Beskrivelse</Description>
+    <CompareHistoryItems>Sammenlign historik</CompareHistoryItems>
+    <CompareWithCurrent>Sammenlign med aktuel</CompareWithCurrent>
+    <Rollback>Rollback</Rollback>
+  </ShowHistory>
+  <SpellCheck>
+    <Title>Stavekontrol</Title>
+    <FullText>Undertekst</FullText>
+    <WordNotFound>Ord ikke fundet</WordNotFound>
+    <Language>Sprog</Language>
+    <Change>Ret</Change>
+    <ChangeAll>Ret alle</ChangeAll>
+    <SkipOnce>Skip &amp;en</SkipOnce>
+    <SkipAll>&amp;Skip alle</SkipAll>
+    <AddToUserDictionary>Tilføj til bruger ordbog</AddToUserDictionary>
+    <AddToNamesAndIgnoreList>Tilføj til navne/støj-liste (versal følsom)</AddToNamesAndIgnoreList>
+    <AddToOcrReplaceList>Tilføj til OCR erstat liste</AddToOcrReplaceList>
+    <Abort>Stop</Abort>
+    <Use>Benyt</Use>
+    <UseAlways>&amp;Benyt altid</UseAlways>
+    <Suggestions>Forslag</Suggestions>
+    <SpellCheckProgress>Stavekontrol [{0}] - {1}</SpellCheckProgress>
+    <EditWholeText>Rediger hele teksten</EditWholeText>
+    <EditWordOnly>Rediger kun ord</EditWordOnly>
+    <AddXToNames>Tilføj '{0}' til navne mv. liste</AddXToNames>
+    <AddXToUserDictionary>Tilføj '0' ' til brugerordbog</AddXToUserDictionary>
+    <AutoFixNames>Auto fix navne, hvor kun små/store bogstaver udgør forskellen</AutoFixNames>
+    <CheckOneLetterWords>Spørg ved enkeltbogstaver</CheckOneLetterWords>
+    <TreatINQuoteAsING>Accepter ord der slutter med i' som ing (kun på engelsk)</TreatINQuoteAsING>
+    <RememberUseAlwaysList>Husk "Brug altid" listen</RememberUseAlwaysList>
+    <ImageText>Billede tekst</ImageText>
+    <SpellCheckCompleted>Stavekontrol færdig</SpellCheckCompleted>
+    <SpellCheckAborted>Stavekontrol afbrudt</SpellCheckAborted>
+    <SpacesNotAllowed>Mellemrum ikke tilladt i enkeltord!</SpacesNotAllowed>
+    <UndoX>Fortryd: {0}</UndoX>
+  </SpellCheck>
+  <NetflixQualityCheck>
+    <GlyphCheckReport>Ugyldigt tegn {0} findes i kolonne {1}</GlyphCheckReport>
+    <WhiteSpaceCheckReport>Ugyldigt mellemrum fundet ved kolonne {0}.</WhiteSpaceCheckReport>
+    <ReportPrompt>Se hele rapporten her: {0}.</ReportPrompt>
+    <OpenReportInFolder>Åbn rapport i mappen</OpenReportInFolder>
+    <FoundXIssues>Netflix kvalitetstjek fundet {0} problemstillinger.</FoundXIssues>
+    <CheckOk>Netflix kvalitetstjek OK :)</CheckOk>
+    <MaximumXCharsPerSecond>Maksimum {0} tegn pr. sekund (ekskl. mellemrum)</MaximumXCharsPerSecond>
+    <MaximumLineLength>Maksimal linjelængde ({0})</MaximumLineLength>
+    <MinimumDuration>Minimum varighed: 5/6 sekund (833 ms)</MinimumDuration>
+  </NetflixQualityCheck>
+  <Split>
+    <Title>Split</Title>
+    <SplitOptions>Split - indstillinger</SplitOptions>
+    <Lines>Linjer</Lines>
+    <Characters>Tegn</Characters>
+    <NumberOfEqualParts>Antal af lige store dele</NumberOfEqualParts>
+    <SubtitleInfo>Undertekst information</SubtitleInfo>
+    <NumberOfLinesX>Antal linjer: {0:#,###}</NumberOfLinesX>
+    <NumberOfCharactersX>Antal tegn: {0:#,###,###}</NumberOfCharactersX>
+    <Output>Output</Output>
+    <FileName>Filnavn</FileName>
+    <OutputFolder>Output folder</OutputFolder>
+    <DoSplit>Split</DoSplit>
+    <Basic>Simpel</Basic>
+  </Split>
+  <SplitLongLines>
+    <Title>Split lange linjer</Title>
+    <SingleLineMaximumLength>Enkelt linje maksimale længde</SingleLineMaximumLength>
+    <LineMaximumLength>Line maksimale længde</LineMaximumLength>
+    <LineContinuationBeginEndStrings>Line fortsæt begynd/slut tekst</LineContinuationBeginEndStrings>
+    <NumberOfSplits>Antal splits: {0}</NumberOfSplits>
+    <LongestSingleLineIsXAtY>Længste enkelt linje længde er {0} på linie {1}</LongestSingleLineIsXAtY>
+    <LongestLineIsXAtY>Længste samlet linjelængde er {0} på linie {1}</LongestLineIsXAtY>
+  </SplitLongLines>
+  <SplitSubtitle>
+    <Title>Split undertekst</Title>
+    <Description1>Indtast længden af første del af video-eller browse</Description1>
+    <Description2>og få længde fra video fil:</Description2>
+    <Split>&amp;Split</Split>
+    <Done>&amp;OK</Done>
+    <NothingToSplit>Intet at dele!</NothingToSplit>
+    <SavePartOneAs>Gem del et, som...</SavePartOneAs>
+    <SavePartTwoAs>Gem del to, som...</SavePartTwoAs>
+    <Part1>Part1</Part1>
+    <Part2>Part2</Part2>
+    <UnableToSaveFileX>Kunne ikke gemme {0}</UnableToSaveFileX>
+    <OverwriteExistingFiles>Overskriv eksisterende filer?</OverwriteExistingFiles>
+    <FolderNotFoundX>Folder ikke fundet: {0}</FolderNotFoundX>
+    <Untitled>Unavngivet</Untitled>
+  </SplitSubtitle>
+  <StartNumberingFrom>
+    <Title>Start nummerering fra...</Title>
+    <StartFromNumber>Start fra nummer:</StartFromNumber>
+    <PleaseEnterAValidNumber>Ups, du skal indtaste et nummer</PleaseEnterAValidNumber>
+  </StartNumberingFrom>
+  <Statistics>
+    <Title>Statistik</Title>
+    <TitleWithFileName>Statistik - {0}</TitleWithFileName>
+    <GeneralStatistics>Generel statistik</GeneralStatistics>
+    <MostUsed>Mest anvendte...</MostUsed>
+    <MostUsedLines>Mest anvendte linjer</MostUsedLines>
+    <MostUsedWords>Mest anvendte ord</MostUsedWords>
+    <NothingFound>Intet fundet</NothingFound>
+    <NumberOfLinesX>Antal undertekst linjer: {0:#,###}</NumberOfLinesX>
+    <LengthInFormatXinCharactersY>Antal tegn som {0}: {1: ####, ##0}</LengthInFormatXinCharactersY>
+    <NumberOfCharactersInTextOnly>Antal tegn (kun in tekst): {0:#,###,##0}</NumberOfCharactersInTextOnly>
+    <TotalDuration>Samlet varighed af alle undertekster: {0}</TotalDuration>
+    <TotalCharsPerSecond>Total antal karakterer per sekund: {0:0.0} sekunder</TotalCharsPerSecond>
+    <TotalWords>Total antal ord: {0}</TotalWords>
+    <NumberOfItalicTags>Antal kursiv tags: {0}</NumberOfItalicTags>
+    <NumberOfBoldTags>Antal fed tags: {0}</NumberOfBoldTags>
+    <NumberOfUnderlineTags>Antal understreg tags: {0}</NumberOfUnderlineTags>
+    <NumberOfFontTags>Antal skrifttype tags: {0}</NumberOfFontTags>
+    <NumberOfAlignmentTags>Antal tilpasning tags: {0}</NumberOfAlignmentTags>
+    <LineLengthMinimum>Undertekst længde - mindste: {0}</LineLengthMinimum>
+    <LineLengthMaximum>Subtitle længde - største: {0}</LineLengthMaximum>
+    <LineLengthAverage>Undertekst længde - gennemsnit: {0}</LineLengthAverage>
+    <LinesPerSubtitleAverage>Undertekst, antal linjer - gennemsnit: {0:0.0}</LinesPerSubtitleAverage>
+    <SingleLineLengthMinimum>Enkelt linje længde - minimum: {0}</SingleLineLengthMinimum>
+    <SingleLineLengthMaximum>Enkelt linjelængde - maks.: {0}</SingleLineLengthMaximum>
+    <SingleLineLengthAverage>Enkelt linje længde - gennemsnit: {0}</SingleLineLengthAverage>
+    <SingleLineWidthMinimum>Enkelt linjebredde - minimum: {0} pixels</SingleLineWidthMinimum>
+    <SingleLineWidthMaximum>Enkelt linjebredde - maksimalt: {0} pixels</SingleLineWidthMaximum>
+    <SingleLineWidthAverage>Enkelt linjebredde - gennemsnit: {0} pixels</SingleLineWidthAverage>
+    <DurationMinimum>Varihed - minimum: {0:0.000} sekunder</DurationMinimum>
+    <DurationMaximum>Varihed - maximum: {0:0.000} sekunder</DurationMaximum>
+    <DurationAverage>Varihed - average: {0:0.000} sekunder</DurationAverage>
+    <CharactersPerSecondMinimum>Karakterer/sek - min: {0:0.000}</CharactersPerSecondMinimum>
+    <CharactersPerSecondMaximum>Karakterer/sek - maks: {0:0.000}</CharactersPerSecondMaximum>
+    <CharactersPerSecondAverage>Karakterer/sek - gennemsnit: {0:0.000}</CharactersPerSecondAverage>
+    <Export>Eksporter...</Export>
+  </Statistics>
+  <SubStationAlphaProperties>
+    <Title>Advanced Sub Station Alpha egenskaber</Title>
+    <TitleSubstationAlpha>Sub Station Alpha egenskaber</TitleSubstationAlpha>
+    <Script>Script</Script>
+    <ScriptTitle>Titel</ScriptTitle>
+    <OriginalScript>Original script</OriginalScript>
+    <Translation>Oversættelse</Translation>
+    <Editing>Redigering</Editing>
+    <Timing>Timing</Timing>
+    <SyncPoint>Sync punkt</SyncPoint>
+    <UpdatedBy>Opdateret af</UpdatedBy>
+    <UpdateDetails>Opdatering detaljer</UpdateDetails>
+    <Resolution>Opløsning</Resolution>
+    <VideoResolution>Videoopløsning</VideoResolution>
+    <Options>Indstillinger</Options>
+    <WrapStyle>Wrap stil</WrapStyle>
+    <Collision>Kollision</Collision>
+    <ScaleBorderAndShadow>Scaler kant og skygge</ScaleBorderAndShadow>
+  </SubStationAlphaProperties>
+  <SubStationAlphaStyles>
+    <Title>Avanceret Sub Station Alpha stilarter</Title>
+    <TitleSubstationAlpha>Sub Station Alpha stilarter</TitleSubstationAlpha>
+    <Styles>Stilarter</Styles>
+    <Properties>Egenskaber</Properties>
+    <Name>Navn</Name>
+    <Font>Font</Font>
+    <FontName>Font navn</FontName>
+    <FontSize>Skriftstørrelse</FontSize>
+    <UseCount>Bruges</UseCount>
+    <Primary>Primær</Primary>
+    <Secondary>Sekundær</Secondary>
+    <Tertiary>Tertiær</Tertiary>
+    <Outline>Kontur</Outline>
+    <Shadow>Skygge</Shadow>
+    <Back>Tilbage</Back>
+    <Alignment>Justering</Alignment>
+    <TopLeft>Top/venstre</TopLeft>
+    <TopCenter>Top/center</TopCenter>
+    <TopRight>Top/højre</TopRight>
+    <MiddleLeft>Midt/venstre</MiddleLeft>
+    <MiddleCenter>Midt/center</MiddleCenter>
+    <MiddleRight>Midt/højre</MiddleRight>
+    <BottomLeft>Bund/venstre</BottomLeft>
+    <BottomCenter>Bund/center</BottomCenter>
+    <BottomRight>Bund/højre</BottomRight>
+    <Colors>Farver</Colors>
+    <Margins>Margener</Margins>
+    <MarginLeft>Margen venstre</MarginLeft>
+    <MarginRight>Margin højre</MarginRight>
+    <MarginVertical>Margen lodret</MarginVertical>
+    <Border>Kant</Border>
+    <PlusShadow>+ Skygge</PlusShadow>
+    <OpaqueBox>Kasse (bruger konturfarve)</OpaqueBox>
+    <Import>Importer...</Import>
+    <Export>Eksporter...</Export>
+    <Copy>Kopi</Copy>
+    <CopyOfY>Kopi af {0}</CopyOfY>
+    <CopyXOfY>Kopier {0} af {1}</CopyXOfY>
+    <New>Ny</New>
+    <Remove>Fjern</Remove>
+    <RemoveAll>Fjern alle</RemoveAll>
+    <ImportStyleFromFile>Importer style fra fil...</ImportStyleFromFile>
+    <ExportStyleToFile>Export style til fil...</ExportStyleToFile>
+    <ChooseStyle>Vælg style der skal importeres</ChooseStyle>
+    <StyleAlreadyExits>Style findes allerede: {0}</StyleAlreadyExits>
+    <StyleXExportedToFileY>Style '{0}' eksporteret til '{1}'</StyleXExportedToFileY>
+    <StyleXImportedFromFileY>Style '{0}' importeret fra '{1}'</StyleXImportedFromFileY>
+  </SubStationAlphaStyles>
+  <PointSync>
+    <Title>Punkt synkronisering</Title>
+    <TitleViaOtherSubtitle>Punkt synkroniser via anden undertekst</TitleViaOtherSubtitle>
+    <SyncHelp>Sæt mindst to synk punkter for at lave grov synkronisering</SyncHelp>
+    <SetSyncPoint>Set synk punkt</SetSyncPoint>
+    <RemoveSyncPoint>Fjern synk punkt</RemoveSyncPoint>
+    <SyncPointsX>Sync punkter: {0}</SyncPointsX>
+    <Info>Et synkronisering punkt vil justere positioner, to eller flere synkroniserings punkter vil justere position og hastighed</Info>
+    <ApplySync>Anvend</ApplySync>
+  </PointSync>
+  <TransportStreamSubtitleChooser>
+    <Title>Transport Stream undertikst vælger - {0}</Title>
+    <PidLineImage>Billeder - Transportpakkeidentifikator (PID) = {0}, sprog = {1}, antal undertekster = {2}</PidLineImage>
+    <PidLineTeletext>Tekst-tv - Transportpakkeidentifikator (PID) = {1}, side {0}, sprog = {2}, antal undertekster = {3}</PidLineTeletext>
+    <SubLine>{0}: {1} -&gt; {2}, {3} billede(r)</SubLine>
+  </TransportStreamSubtitleChooser>
+  <UnknownSubtitle>
+    <Title>Ukendt undertekst type</Title>
+    <Message>Hvis du ønsker, at denne undertekst type skal kunne indlæses, bedes du sende en mail til mailto: niksedk@gmail.com og vedhæfte en kopi af underteksten.</Message>
+    <ImportAsPlainText>Import som almindelig tekst...</ImportAsPlainText>
+  </UnknownSubtitle>
+  <VisualSync>
+    <Title>Visual synkroniser</Title>
+    <StartScene>Start scene</StartScene>
+    <EndScene>Slut scene</EndScene>
+    <Synchronize>Synkroniser!</Synchronize>
+    <HalfASecondBack>&lt;½ sek</HalfASecondBack>
+    <ThreeSecondsBack>&lt;3 sek</ThreeSecondsBack>
+    <PlayXSecondsAndBack>Spil {0} sek og tilbage</PlayXSecondsAndBack>
+    <FindText>Find tekst</FindText>
+    <GoToSubPosition>Gå til tpos</GoToSubPosition>
+    <KeepChangesTitle>Gem ændringer?</KeepChangesTitle>
+    <KeepChangesMessage>Ændringer er foretaget i 'Opret/juster linjer ".</KeepChangesMessage>
+    <SynchronizationDone>Sync done!</SynchronizationDone>
+    <StartSceneMustComeBeforeEndScene>Start scene skal komme før slut scene!</StartSceneMustComeBeforeEndScene>
+    <Tip>Tip: Brug &lt;ctrl+pil venstre/højre&gt; til at gå 100 ms tilbage/frem</Tip>
+  </VisualSync>
+  <VobSubEditCharacters>
+    <Title>Rediger billede sammenligne databasen</Title>
+    <ChooseCharacter>Vælg karakter(er)</ChooseCharacter>
+    <ImageCompareFiles>Billede sammenlignings filer</ImageCompareFiles>
+    <CurrentCompareImage>Nuværende sammenligne billede</CurrentCompareImage>
+    <TextAssociatedWithImage>Tekst er forbundet med billede</TextAssociatedWithImage>
+    <IsItalic>Er &amp;kursiv</IsItalic>
+    <Update>&amp;Opdater</Update>
+    <Delete>&amp;Slet</Delete>
+    <ImageDoubleSize>Billede - dobbelt størrelse</ImageDoubleSize>
+    <ImageFileNotFound>Billedfil ikke fundet</ImageFileNotFound>
+    <Image>Billede</Image>
+  </VobSubEditCharacters>
+  <VobSubOcr>
+    <Title>Importer/OCR VobSub (sub/idx) undertekst</Title>
+    <TitleBluRay>Importer/OCR Blu-ray (.sup) undertekst</TitleBluRay>
+    <OcrMethod>OCR-metoden</OcrMethod>
+    <OcrViaTesseractVersionX>Tesseract {0}</OcrViaTesseractVersionX>
+    <OcrViaImageCompare>OCR via billede sammenligning</OcrViaImageCompare>
+    <OcrViaModi>OCR via Microsoft Office Document Imaging (MODI). Kræver Microsoft Office</OcrViaModi>
+    <OcrViaNOCR>OCR via nOCR</OcrViaNOCR>
+    <TesseractEngineMode>Motor</TesseractEngineMode>
+    <TesseractEngineModeLegacy>Kun original Tesseract (kan registrere kursiv)</TesseractEngineModeLegacy>
+    <TesseractEngineModeNeural>Neurale net kun LSTM</TesseractEngineModeNeural>
+    <TesseractEngineModeBoth>Tesseract + LSTM</TesseractEngineModeBoth>
+    <TesseractEngineModeDefault>Standard, baseret på hvad der er tilgængeligt</TesseractEngineModeDefault>
+    <Language>Sprog</Language>
+    <ImageDatabase>Billeddatabase</ImageDatabase>
+    <NoOfPixelsIsSpace>Antal pixels er mellemrum</NoOfPixelsIsSpace>
+    <MaxErrorPercent>Max. fejl%</MaxErrorPercent>
+    <New>Ny</New>
+    <Edit>Ret</Edit>
+    <StartOcr>Start OCR</StartOcr>
+    <Stop>Stop</Stop>
+    <StartOcrFrom>Start OCR fra undertekst nr:</StartOcrFrom>
+    <LoadingVobSubImages>Indlæser VobSub billeder...</LoadingVobSubImages>
+    <LoadingImageCompareDatabase>Loader billede database...</LoadingImageCompareDatabase>
+    <ConvertingImageCompareDatabase>Konverterer billede database til nyt format (images.db/images.xml)...</ConvertingImageCompareDatabase>
+    <SubtitleImage>Undertekst billede</SubtitleImage>
+    <SubtitleText>Undertekst</SubtitleText>
+    <UnableToCreateCharacterDatabaseFolder>Stand til at skabe 'tegn database mappe': {0}</UnableToCreateCharacterDatabaseFolder>
+    <SubtitleImageXofY>Undertekst billede {0} af {1}</SubtitleImageXofY>
+    <ImagePalette>Palette</ImagePalette>
+    <UseCustomColors>Vælg selv farver</UseCustomColors>
+    <Transparent>Gennemsigtig</Transparent>
+    <TransparentMinAlpha>Min. alfa-værdi (0 = transparent, 255 = fuldt synlig)</TransparentMinAlpha>
+    <TransportStream>Transport stream</TransportStream>
+    <TransportStreamGrayscale>Gråtone</TransportStreamGrayscale>
+    <TransportStreamGetColor>Brug farve (vil omfatte nogle opdeling af linjer)</TransportStreamGetColor>
+    <PromptForUnknownWords>Spørg om ukendte ord</PromptForUnknownWords>
+    <TryToGuessUnkownWords>Prøv at gætte ukendte ord</TryToGuessUnkownWords>
+    <AutoBreakSubtitleIfMoreThanTwoLines>Autoombryd afsnit, hvis mere end to linjer</AutoBreakSubtitleIfMoreThanTwoLines>
+    <AllFixes>Alle rettelser</AllFixes>
+    <GuessesUsed>Gæt brugt</GuessesUsed>
+    <UnknownWords>Ukendte ord</UnknownWords>
+    <UnknownWordToGuessInLine>{0} ⇒ {1} via 'OCRFixReplaceList.xml' på linjen: {2}</UnknownWordToGuessInLine>
+    <OcrAutoCorrectionSpellChecking>OCR automatisk korrektion / stavekontrol</OcrAutoCorrectionSpellChecking>
+    <FixOcrErrors>Ret OCR-fejl</FixOcrErrors>
+    <ImportTextWithMatchingTimeCodes>Importer tekst med matchende tidskoder...</ImportTextWithMatchingTimeCodes>
+    <ImportNewTimeCodes>Importer nye tidskoder</ImportNewTimeCodes>
+    <SaveSubtitleImageAs>Gem undertekst billede som...</SaveSubtitleImageAs>
+    <SaveAllSubtitleImagesAsBdnXml>Gem alle billeder (png/BDN xml)...</SaveAllSubtitleImagesAsBdnXml>
+    <SaveAllSubtitleImagesWithHtml>Gem alle billeder med HTML-indeks...</SaveAllSubtitleImagesWithHtml>
+    <XImagesSavedInY>{0} billeder gemt i {1}</XImagesSavedInY>
+    <DictionaryX>Ordbog: {0}</DictionaryX>
+    <RightToLeft>Højre til venstre</RightToLeft>
+    <ShowOnlyForcedSubtitles>Vis kun tvungede (forced) undertekster</ShowOnlyForcedSubtitles>
+    <UseTimeCodesFromIdx>Brug tidskoder fra .idx fil</UseTimeCodesFromIdx>
+    <NoMatch>&lt;No match&gt;</NoMatch>
+    <AutoTransparentBackground>Auto gennemsigtig baggrund</AutoTransparentBackground>
+    <CaptureTopAlign>Gem topjustering</CaptureTopAlign>
+    <InspectCompareMatchesForCurrentImage>Undersøg resultater for aktuelle billede...</InspectCompareMatchesForCurrentImage>
+    <EditLastAdditions>Rediger sidste tekst/billede...</EditLastAdditions>
+    <SetUnitalicFactor>Juster de-kursiv faktor...</SetUnitalicFactor>
+    <DiscardTitle>Kassér ændringer i OCR?</DiscardTitle>
+    <DiscardText>Ønsker du at kassere ændringer i nuværende OCR-session?</DiscardText>
+    <MinLineSplitHeight>Min. linje højde (split)</MinLineSplitHeight>
+    <FallbackToX>Falder tilbage til {0}</FallbackToX>
+    <ImagePreProcessing>Billede pre-processering...</ImagePreProcessing>
+    <EditImageDb>Rediger billede db</EditImageDb>
+  </VobSubOcr>
+  <VobSubOcrCharacter>
+    <Title>VobSub - Manual billede til tekst</Title>
+    <ShrinkSelection>Formindsk udvælg</ShrinkSelection>
+    <ExpandSelection>Udvid udvælg</ExpandSelection>
+    <SubtitleImage>Undertekst billede</SubtitleImage>
+    <Characters>Tegn</Characters>
+    <CharactersAsText>Tegn som tekst</CharactersAsText>
+    <Italic>&amp;Kursiv</Italic>
+    <Abort>&amp;Afbryd</Abort>
+    <Skip>&amp;Skip</Skip>
+    <Nordic>Nordic</Nordic>
+    <Spanish>Spansk</Spanish>
+    <German>Tysk</German>
+    <AutoSubmitOnFirstChar>Auto tilføj ved &amp;første tegn</AutoSubmitOnFirstChar>
+    <EditLastX>Ret sidste: {0}</EditLastX>
+  </VobSubOcrCharacter>
+  <VobSubOcrCharacterInspect>
+    <Title>Undersøg resultater for aktuelle billede</Title>
+    <InspectItems>Undersøg elementer</InspectItems>
+    <AddBetterMatch>Tilføj bedre match</AddBetterMatch>
+    <Add>Tilføj</Add>
+  </VobSubOcrCharacterInspect>
+  <VobSubOcrNewFolder>
+    <Title>Ny mappe</Title>
+    <Message>Navn på ny tegn database mappe</Message>
+  </VobSubOcrNewFolder>
+  <VobSubOcrSetItalicFactor>
+    <Title>Juster de-kursiv faktor</Title>
+    <Description>Juster værdi indtil tekst stil er normalt og ikke kursiv. Bemærk, at det oprindelige billede skal være kursiv.</Description>
+  </VobSubOcrSetItalicFactor>
+  <OcrPreprocessing>
+    <Title>OCR-billedforbehandling</Title>
+    <Colors>Farver</Colors>
+    <AdjustAlpha>Juster værdien, indtil teksten vises tydeligt (normalt værdier mellem 200 og 300)</AdjustAlpha>
+    <OriginalImage>Originalbillede</OriginalImage>
+    <PostImage>Billede efter forbehandling</PostImage>
+    <BinaryThreshold>Binært billede sammenlign tærskel</BinaryThreshold>
+    <InvertColors>Inverter farver</InvertColors>
+    <YellowToWhite>Gul til hvid</YellowToWhite>
+    <ColorToWhite>Farve til hvid</ColorToWhite>
+    <ColorToRemove>Farve, der skal fjernes</ColorToRemove>
+    <Cropping>Beskæring</Cropping>
+    <CropTransparentColors>Beskær gennemsigtige farver</CropTransparentColors>
+  </OcrPreprocessing>
+  <Watermark>
+    <Title>Vandmærke</Title>
+    <WatermarkX>Vandmærke: {0}</WatermarkX>
+    <GenerateWatermarkTitle>Generer vandmærke</GenerateWatermarkTitle>
+    <SpreadOverEntireSubtitle>Spredt over hele underteksten</SpreadOverEntireSubtitle>
+    <CurrentLineOnlyX>Kun på den aktuelle linje: {0}</CurrentLineOnlyX>
+    <Generate>Generer</Generate>
+    <Remove>Fjern</Remove>
+    <BeforeWatermark>Før "Vandmærke"</BeforeWatermark>
+    <ErrorUnicodeEncodingOnly>"Vandmærke" virker kun med unicode fil kodning.</ErrorUnicodeEncodingOnly>
+  </Watermark>
+  <Waveform>
+    <ClickToAddWaveform>Klik for at tilføje audio kurve</ClickToAddWaveform>
+    <ClickToAddWaveformAndSpectrogram>Klik for at tilføje bølgeform/spektrogram</ClickToAddWaveformAndSpectrogram>
+    <Seconds>sekunder</Seconds>
+    <ZoomIn>Zoom ind</ZoomIn>
+    <ZoomOut>Zoom ud</ZoomOut>
+    <AddParagraphHere>Tilføj tekst her</AddParagraphHere>
+    <AddParagraphHereAndPasteText>Tilføj tekst fra 'klippebord' her</AddParagraphHereAndPasteText>
+    <SetParagraphAsSelection>Sæt Aktuel som nyt valg</SetParagraphAsSelection>
+    <FocusTextBox>Gå til tekstboks</FocusTextBox>
+    <GoToPrevious>Gå til forrige undertekst</GoToPrevious>
+    <GoToNext>Gå til næste undertekst</GoToNext>
+    <DeleteParagraph>Slet tekst</DeleteParagraph>
+    <Split>Split</Split>
+    <SplitAtCursor>Split ved markør</SplitAtCursor>
+    <MergeWithPrevious>Flet med forrige</MergeWithPrevious>
+    <MergeWithNext>Flet med næste</MergeWithNext>
+    <ExtendToPrevious>Udvid til forrige</ExtendToPrevious>
+    <ExtendToNext>Udvid til næste</ExtendToNext>
+    <PlaySelection>Afspil markering</PlaySelection>
+    <ShowWaveformAndSpectrogram>Vis bølgeform og spektrogram</ShowWaveformAndSpectrogram>
+    <ShowWaveformOnly>Vis kun bølgeform</ShowWaveformOnly>
+    <ShowSpectrogramOnly>Vis kun spektrogram</ShowSpectrogramOnly>
+    <AddSceneChange>Tilføj sceneskift</AddSceneChange>
+    <RemoveSceneChange>Fjern sceneskift</RemoveSceneChange>
+    <GuessTimeCodes>Gæt tidskoder...</GuessTimeCodes>
+    <SeekSilence>Søg tavshed...</SeekSilence>
+    <InsertSubtitleHere>Indsæt undertekst her...</InsertSubtitleHere>
+    <CharsSecX>Tegn/sec: {0:0.00}</CharsSecX>
+    <WordsMinX>Ord/min: {0:0.00}</WordsMinX>
+  </Waveform>
+  <WaveformGenerateTimeCodes>
+    <Title>Gæt tidskoder</Title>
+    <StartFrom>Start fra</StartFrom>
+    <CurrentVideoPosition>Aktuel video position</CurrentVideoPosition>
+    <Beginning>Begyndelse</Beginning>
+    <DeleteLines>Slet linjer</DeleteLines>
+    <FromCurrentVideoPosition>Fra aktuel video position</FromCurrentVideoPosition>
+    <DetectOptions>Analyse indstillinger</DetectOptions>
+    <ScanBlocksOfMs>Scan blokke af millisekunder</ScanBlocksOfMs>
+    <BlockAverageVolMin1>Block gennemsnitlige volumen skal være over</BlockAverageVolMin1>
+    <BlockAverageVolMin2>% af den samlede gennemsnitlige lydstyrke</BlockAverageVolMin2>
+    <BlockAverageVolMax1>Block gennemsnitlige volumen skal være under</BlockAverageVolMax1>
+    <BlockAverageVolMax2>% af den samlede maks lydstyrke</BlockAverageVolMax2>
+    <SplitLongLinesAt1>Split lange undertekster ved</SplitLongLinesAt1>
+    <SplitLongLinesAt2>millisekunder</SplitLongLinesAt2>
+    <Other>Øvrigt</Other>
+  </WaveformGenerateTimeCodes>
+  <WebVttNewVoice>
+    <Title>WebVTT - angiv ny stemme</Title>
+    <VoiceName>Stemme-navn</VoiceName>
+  </WebVttNewVoice>
+</Language>

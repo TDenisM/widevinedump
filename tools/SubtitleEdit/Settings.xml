@@ -1,0 +1,1127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <Version>3.5.15.168</Version>
+  <Compare>
+    <ShowOnlyDifferences>False</ShowOnlyDifferences>
+    <OnlyLookForDifferenceInText>True</OnlyLookForDifferenceInText>
+    <IgnoreLineBreaks>False</IgnoreLineBreaks>
+    <IgnoreFormatting>False</IgnoreFormatting>
+  </Compare>
+  <RecentFiles>
+    <FileNames>
+      <FileName FirstVisibleIndex="0" FirstSelectedIndex="14">C:\Users\kimo\Music\wv\down\Love Life S01E02 Bradley Field eng.srt</FileName>
+      <FileName FirstVisibleIndex="0" FirstSelectedIndex="9">D:\Wild.District.S02.720p.NF.WEB-DL.DDP5.1.x264-COVID-19\Wild District S02E01 the District brPor.srt</FileName>
+    </FileNames>
+  </RecentFiles>
+  <General>
+    <Profiles>
+      <Profile>
+        <Name>Default</Name>
+        <SubtitleLineMaximumLength>43</SubtitleLineMaximumLength>
+        <SubtitleMaximumCharactersPerSeconds>25</SubtitleMaximumCharactersPerSeconds>
+        <SubtitleOptimalCharactersPerSeconds>15</SubtitleOptimalCharactersPerSeconds>
+        <SubtitleMinimumDisplayMilliseconds>1000</SubtitleMinimumDisplayMilliseconds>
+        <SubtitleMaximumDisplayMilliseconds>8000</SubtitleMaximumDisplayMilliseconds>
+        <SubtitleMaximumWordsPerMinute>300</SubtitleMaximumWordsPerMinute>
+        <MinimumMillisecondsBetweenLines>24</MinimumMillisecondsBetweenLines>
+        <CpsIncludesSpace>True</CpsIncludesSpace>
+        <MaxNumberOfLines>2</MaxNumberOfLines>
+        <MergeLinesShorterThan>33</MergeLinesShorterThan>
+        <DialogStyle>DashBothLinesWithSpace</DialogStyle>
+        <ContinuationStyle>None</ContinuationStyle>
+      </Profile>
+      <Profile>
+        <Name>Netflix (English)</Name>
+        <SubtitleLineMaximumLength>42</SubtitleLineMaximumLength>
+        <SubtitleMaximumCharactersPerSeconds>20</SubtitleMaximumCharactersPerSeconds>
+        <SubtitleOptimalCharactersPerSeconds>15</SubtitleOptimalCharactersPerSeconds>
+        <SubtitleMinimumDisplayMilliseconds>833</SubtitleMinimumDisplayMilliseconds>
+        <SubtitleMaximumDisplayMilliseconds>7000</SubtitleMaximumDisplayMilliseconds>
+        <SubtitleMaximumWordsPerMinute>300</SubtitleMaximumWordsPerMinute>
+        <MinimumMillisecondsBetweenLines>84</MinimumMillisecondsBetweenLines>
+        <CpsIncludesSpace>True</CpsIncludesSpace>
+        <MaxNumberOfLines>2</MaxNumberOfLines>
+        <MergeLinesShorterThan>42</MergeLinesShorterThan>
+        <DialogStyle>DashBothLinesWithoutSpace</DialogStyle>
+        <ContinuationStyle>NoneTrailingDots</ContinuationStyle>
+      </Profile>
+      <Profile>
+        <Name>Netflix (Other languages)</Name>
+        <SubtitleLineMaximumLength>42</SubtitleLineMaximumLength>
+        <SubtitleMaximumCharactersPerSeconds>17</SubtitleMaximumCharactersPerSeconds>
+        <SubtitleOptimalCharactersPerSeconds>12</SubtitleOptimalCharactersPerSeconds>
+        <SubtitleMinimumDisplayMilliseconds>833</SubtitleMinimumDisplayMilliseconds>
+        <SubtitleMaximumDisplayMilliseconds>7000</SubtitleMaximumDisplayMilliseconds>
+        <SubtitleMaximumWordsPerMinute>200</SubtitleMaximumWordsPerMinute>
+        <MinimumMillisecondsBetweenLines>84</MinimumMillisecondsBetweenLines>
+        <CpsIncludesSpace>True</CpsIncludesSpace>
+        <MaxNumberOfLines>2</MaxNumberOfLines>
+        <MergeLinesShorterThan>42</MergeLinesShorterThan>
+        <DialogStyle>DashBothLinesWithSpace</DialogStyle>
+        <ContinuationStyle>NoneTrailingDots</ContinuationStyle>
+      </Profile>
+      <Profile>
+        <Name>Netflix (Dutch)</Name>
+        <SubtitleLineMaximumLength>42</SubtitleLineMaximumLength>
+        <SubtitleMaximumCharactersPerSeconds>17</SubtitleMaximumCharactersPerSeconds>
+        <SubtitleOptimalCharactersPerSeconds>12</SubtitleOptimalCharactersPerSeconds>
+        <SubtitleMinimumDisplayMilliseconds>833</SubtitleMinimumDisplayMilliseconds>
+        <SubtitleMaximumDisplayMilliseconds>7000</SubtitleMaximumDisplayMilliseconds>
+        <SubtitleMaximumWordsPerMinute>200</SubtitleMaximumWordsPerMinute>
+        <MinimumMillisecondsBetweenLines>84</MinimumMillisecondsBetweenLines>
+        <CpsIncludesSpace>True</CpsIncludesSpace>
+        <MaxNumberOfLines>2</MaxNumberOfLines>
+        <MergeLinesShorterThan>42</MergeLinesShorterThan>
+        <DialogStyle>DashSecondLineWithoutSpace</DialogStyle>
+        <ContinuationStyle>LeadingTrailingDots</ContinuationStyle>
+      </Profile>
+      <Profile>
+        <Name>Arte (German/English)</Name>
+        <SubtitleLineMaximumLength>40</SubtitleLineMaximumLength>
+        <SubtitleMaximumCharactersPerSeconds>20</SubtitleMaximumCharactersPerSeconds>
+        <SubtitleOptimalCharactersPerSeconds>12</SubtitleOptimalCharactersPerSeconds>
+        <SubtitleMinimumDisplayMilliseconds>1000</SubtitleMinimumDisplayMilliseconds>
+        <SubtitleMaximumDisplayMilliseconds>10000</SubtitleMaximumDisplayMilliseconds>
+        <SubtitleMaximumWordsPerMinute>300</SubtitleMaximumWordsPerMinute>
+        <MinimumMillisecondsBetweenLines>200</MinimumMillisecondsBetweenLines>
+        <CpsIncludesSpace>True</CpsIncludesSpace>
+        <MaxNumberOfLines>2</MaxNumberOfLines>
+        <MergeLinesShorterThan>40</MergeLinesShorterThan>
+        <DialogStyle>DashBothLinesWithSpace</DialogStyle>
+        <ContinuationStyle>None</ContinuationStyle>
+      </Profile>
+      <Profile>
+        <Name>Dutch professional subtitles (23.976/24 fps)</Name>
+        <SubtitleLineMaximumLength>42</SubtitleLineMaximumLength>
+        <SubtitleMaximumCharactersPerSeconds>15</SubtitleMaximumCharactersPerSeconds>
+        <SubtitleOptimalCharactersPerSeconds>11</SubtitleOptimalCharactersPerSeconds>
+        <SubtitleMinimumDisplayMilliseconds>1400</SubtitleMinimumDisplayMilliseconds>
+        <SubtitleMaximumDisplayMilliseconds>7007</SubtitleMaximumDisplayMilliseconds>
+        <SubtitleMaximumWordsPerMinute>180</SubtitleMaximumWordsPerMinute>
+        <MinimumMillisecondsBetweenLines>125</MinimumMillisecondsBetweenLines>
+        <CpsIncludesSpace>True</CpsIncludesSpace>
+        <MaxNumberOfLines>2</MaxNumberOfLines>
+        <MergeLinesShorterThan>37</MergeLinesShorterThan>
+        <DialogStyle>DashSecondLineWithoutSpace</DialogStyle>
+        <ContinuationStyle>OnlyTrailingDots</ContinuationStyle>
+      </Profile>
+      <Profile>
+        <Name>Dutch professional subtitles (25 fps)</Name>
+        <SubtitleLineMaximumLength>42</SubtitleLineMaximumLength>
+        <SubtitleMaximumCharactersPerSeconds>15</SubtitleMaximumCharactersPerSeconds>
+        <SubtitleOptimalCharactersPerSeconds>11</SubtitleOptimalCharactersPerSeconds>
+        <SubtitleMinimumDisplayMilliseconds>1400</SubtitleMinimumDisplayMilliseconds>
+        <SubtitleMaximumDisplayMilliseconds>7000</SubtitleMaximumDisplayMilliseconds>
+        <SubtitleMaximumWordsPerMinute>180</SubtitleMaximumWordsPerMinute>
+        <MinimumMillisecondsBetweenLines>120</MinimumMillisecondsBetweenLines>
+        <CpsIncludesSpace>True</CpsIncludesSpace>
+        <MaxNumberOfLines>2</MaxNumberOfLines>
+        <MergeLinesShorterThan>37</MergeLinesShorterThan>
+        <DialogStyle>DashSecondLineWithoutSpace</DialogStyle>
+        <ContinuationStyle>OnlyTrailingDots</ContinuationStyle>
+      </Profile>
+      <Profile>
+        <Name>Dutch fansubs (23.976/24 fps)</Name>
+        <SubtitleLineMaximumLength>45</SubtitleLineMaximumLength>
+        <SubtitleMaximumCharactersPerSeconds>22.5</SubtitleMaximumCharactersPerSeconds>
+        <SubtitleOptimalCharactersPerSeconds>12</SubtitleOptimalCharactersPerSeconds>
+        <SubtitleMinimumDisplayMilliseconds>1200</SubtitleMinimumDisplayMilliseconds>
+        <SubtitleMaximumDisplayMilliseconds>7007</SubtitleMaximumDisplayMilliseconds>
+        <SubtitleMaximumWordsPerMinute>240</SubtitleMaximumWordsPerMinute>
+        <MinimumMillisecondsBetweenLines>125</MinimumMillisecondsBetweenLines>
+        <CpsIncludesSpace>True</CpsIncludesSpace>
+        <MaxNumberOfLines>2</MaxNumberOfLines>
+        <MergeLinesShorterThan>40</MergeLinesShorterThan>
+        <DialogStyle>DashSecondLineWithSpace</DialogStyle>
+        <ContinuationStyle>OnlyTrailingDots</ContinuationStyle>
+      </Profile>
+      <Profile>
+        <Name>Dutch fansubs (25 fps)</Name>
+        <SubtitleLineMaximumLength>45</SubtitleLineMaximumLength>
+        <SubtitleMaximumCharactersPerSeconds>22.5</SubtitleMaximumCharactersPerSeconds>
+        <SubtitleOptimalCharactersPerSeconds>12</SubtitleOptimalCharactersPerSeconds>
+        <SubtitleMinimumDisplayMilliseconds>1200</SubtitleMinimumDisplayMilliseconds>
+        <SubtitleMaximumDisplayMilliseconds>7000</SubtitleMaximumDisplayMilliseconds>
+        <SubtitleMaximumWordsPerMinute>240</SubtitleMaximumWordsPerMinute>
+        <MinimumMillisecondsBetweenLines>120</MinimumMillisecondsBetweenLines>
+        <CpsIncludesSpace>True</CpsIncludesSpace>
+        <MaxNumberOfLines>2</MaxNumberOfLines>
+        <MergeLinesShorterThan>40</MergeLinesShorterThan>
+        <DialogStyle>DashSecondLineWithSpace</DialogStyle>
+        <ContinuationStyle>OnlyTrailingDots</ContinuationStyle>
+      </Profile>
+      <Profile>
+        <Name>Danish professional subtitles (23.976/24 fps)</Name>
+        <SubtitleLineMaximumLength>40</SubtitleLineMaximumLength>
+        <SubtitleMaximumCharactersPerSeconds>15</SubtitleMaximumCharactersPerSeconds>
+        <SubtitleOptimalCharactersPerSeconds>10</SubtitleOptimalCharactersPerSeconds>
+        <SubtitleMinimumDisplayMilliseconds>2002</SubtitleMinimumDisplayMilliseconds>
+        <SubtitleMaximumDisplayMilliseconds>8008</SubtitleMaximumDisplayMilliseconds>
+        <SubtitleMaximumWordsPerMinute>180</SubtitleMaximumWordsPerMinute>
+        <MinimumMillisecondsBetweenLines>125</MinimumMillisecondsBetweenLines>
+        <CpsIncludesSpace>True</CpsIncludesSpace>
+        <MaxNumberOfLines>2</MaxNumberOfLines>
+        <MergeLinesShorterThan>40</MergeLinesShorterThan>
+        <DialogStyle>DashBothLinesWithSpace</DialogStyle>
+        <ContinuationStyle>LeadingTrailingDashDots</ContinuationStyle>
+      </Profile>
+      <Profile>
+        <Name>Danish professional subtitles (25 fps)</Name>
+        <SubtitleLineMaximumLength>40</SubtitleLineMaximumLength>
+        <SubtitleMaximumCharactersPerSeconds>15</SubtitleMaximumCharactersPerSeconds>
+        <SubtitleOptimalCharactersPerSeconds>10</SubtitleOptimalCharactersPerSeconds>
+        <SubtitleMinimumDisplayMilliseconds>2000</SubtitleMinimumDisplayMilliseconds>
+        <SubtitleMaximumDisplayMilliseconds>8000</SubtitleMaximumDisplayMilliseconds>
+        <SubtitleMaximumWordsPerMinute>180</SubtitleMaximumWordsPerMinute>
+        <MinimumMillisecondsBetweenLines>120</MinimumMillisecondsBetweenLines>
+        <CpsIncludesSpace>True</CpsIncludesSpace>
+        <MaxNumberOfLines>2</MaxNumberOfLines>
+        <MergeLinesShorterThan>40</MergeLinesShorterThan>
+        <DialogStyle>DashBothLinesWithSpace</DialogStyle>
+        <ContinuationStyle>LeadingTrailingDashDots</ContinuationStyle>
+      </Profile>
+      <Profile>
+        <Name>SW2 (French) (23.976/24 fps)</Name>
+        <SubtitleLineMaximumLength>40</SubtitleLineMaximumLength>
+        <SubtitleMaximumCharactersPerSeconds>25</SubtitleMaximumCharactersPerSeconds>
+        <SubtitleOptimalCharactersPerSeconds>18</SubtitleOptimalCharactersPerSeconds>
+        <SubtitleMinimumDisplayMilliseconds>792</SubtitleMinimumDisplayMilliseconds>
+        <SubtitleMaximumDisplayMilliseconds>5005</SubtitleMaximumDisplayMilliseconds>
+        <SubtitleMaximumWordsPerMinute>300</SubtitleMaximumWordsPerMinute>
+        <MinimumMillisecondsBetweenLines>125</MinimumMillisecondsBetweenLines>
+        <CpsIncludesSpace>True</CpsIncludesSpace>
+        <MaxNumberOfLines>2</MaxNumberOfLines>
+        <MergeLinesShorterThan>37</MergeLinesShorterThan>
+        <DialogStyle>DashBothLinesWithSpace</DialogStyle>
+        <ContinuationStyle>None</ContinuationStyle>
+      </Profile>
+      <Profile>
+        <Name>SW2 (French) (25 fps)</Name>
+        <SubtitleLineMaximumLength>40</SubtitleLineMaximumLength>
+        <SubtitleMaximumCharactersPerSeconds>25</SubtitleMaximumCharactersPerSeconds>
+        <SubtitleOptimalCharactersPerSeconds>18</SubtitleOptimalCharactersPerSeconds>
+        <SubtitleMinimumDisplayMilliseconds>800</SubtitleMinimumDisplayMilliseconds>
+        <SubtitleMaximumDisplayMilliseconds>5000</SubtitleMaximumDisplayMilliseconds>
+        <SubtitleMaximumWordsPerMinute>300</SubtitleMaximumWordsPerMinute>
+        <MinimumMillisecondsBetweenLines>120</MinimumMillisecondsBetweenLines>
+        <CpsIncludesSpace>True</CpsIncludesSpace>
+        <MaxNumberOfLines>2</MaxNumberOfLines>
+        <MergeLinesShorterThan>37</MergeLinesShorterThan>
+        <DialogStyle>DashBothLinesWithSpace</DialogStyle>
+        <ContinuationStyle>None</ContinuationStyle>
+      </Profile>
+      <Profile>
+        <Name>SW3 (French) (23.976/24 fps)</Name>
+        <SubtitleLineMaximumLength>40</SubtitleLineMaximumLength>
+        <SubtitleMaximumCharactersPerSeconds>25</SubtitleMaximumCharactersPerSeconds>
+        <SubtitleOptimalCharactersPerSeconds>18</SubtitleOptimalCharactersPerSeconds>
+        <SubtitleMinimumDisplayMilliseconds>792</SubtitleMinimumDisplayMilliseconds>
+        <SubtitleMaximumDisplayMilliseconds>5005</SubtitleMaximumDisplayMilliseconds>
+        <SubtitleMaximumWordsPerMinute>300</SubtitleMaximumWordsPerMinute>
+        <MinimumMillisecondsBetweenLines>167</MinimumMillisecondsBetweenLines>
+        <CpsIncludesSpace>True</CpsIncludesSpace>
+        <MaxNumberOfLines>2</MaxNumberOfLines>
+        <MergeLinesShorterThan>37</MergeLinesShorterThan>
+        <DialogStyle>DashBothLinesWithSpace</DialogStyle>
+        <ContinuationStyle>None</ContinuationStyle>
+      </Profile>
+      <Profile>
+        <Name>SW3 (French) (25 fps)</Name>
+        <SubtitleLineMaximumLength>40</SubtitleLineMaximumLength>
+        <SubtitleMaximumCharactersPerSeconds>25</SubtitleMaximumCharactersPerSeconds>
+        <SubtitleOptimalCharactersPerSeconds>18</SubtitleOptimalCharactersPerSeconds>
+        <SubtitleMinimumDisplayMilliseconds>800</SubtitleMinimumDisplayMilliseconds>
+        <SubtitleMaximumDisplayMilliseconds>5000</SubtitleMaximumDisplayMilliseconds>
+        <SubtitleMaximumWordsPerMinute>300</SubtitleMaximumWordsPerMinute>
+        <MinimumMillisecondsBetweenLines>160</MinimumMillisecondsBetweenLines>
+        <CpsIncludesSpace>True</CpsIncludesSpace>
+        <MaxNumberOfLines>2</MaxNumberOfLines>
+        <MergeLinesShorterThan>37</MergeLinesShorterThan>
+        <DialogStyle>DashBothLinesWithSpace</DialogStyle>
+        <ContinuationStyle>None</ContinuationStyle>
+      </Profile>
+      <Profile>
+        <Name>SW4 (French) (23.976/24 fps)</Name>
+        <SubtitleLineMaximumLength>40</SubtitleLineMaximumLength>
+        <SubtitleMaximumCharactersPerSeconds>25</SubtitleMaximumCharactersPerSeconds>
+        <SubtitleOptimalCharactersPerSeconds>18</SubtitleOptimalCharactersPerSeconds>
+        <SubtitleMinimumDisplayMilliseconds>792</SubtitleMinimumDisplayMilliseconds>
+        <SubtitleMaximumDisplayMilliseconds>5005</SubtitleMaximumDisplayMilliseconds>
+        <SubtitleMaximumWordsPerMinute>300</SubtitleMaximumWordsPerMinute>
+        <MinimumMillisecondsBetweenLines>250</MinimumMillisecondsBetweenLines>
+        <CpsIncludesSpace>True</CpsIncludesSpace>
+        <MaxNumberOfLines>2</MaxNumberOfLines>
+        <MergeLinesShorterThan>37</MergeLinesShorterThan>
+        <DialogStyle>DashBothLinesWithSpace</DialogStyle>
+        <ContinuationStyle>None</ContinuationStyle>
+      </Profile>
+      <Profile>
+        <Name>SW4 (French) (25 fps)</Name>
+        <SubtitleLineMaximumLength>40</SubtitleLineMaximumLength>
+        <SubtitleMaximumCharactersPerSeconds>25</SubtitleMaximumCharactersPerSeconds>
+        <SubtitleOptimalCharactersPerSeconds>18</SubtitleOptimalCharactersPerSeconds>
+        <SubtitleMinimumDisplayMilliseconds>800</SubtitleMinimumDisplayMilliseconds>
+        <SubtitleMaximumDisplayMilliseconds>5000</SubtitleMaximumDisplayMilliseconds>
+        <SubtitleMaximumWordsPerMinute>300</SubtitleMaximumWordsPerMinute>
+        <MinimumMillisecondsBetweenLines>240</MinimumMillisecondsBetweenLines>
+        <CpsIncludesSpace>True</CpsIncludesSpace>
+        <MaxNumberOfLines>2</MaxNumberOfLines>
+        <MergeLinesShorterThan>37</MergeLinesShorterThan>
+        <DialogStyle>DashBothLinesWithSpace</DialogStyle>
+        <ContinuationStyle>None</ContinuationStyle>
+      </Profile>
+    </Profiles>
+    <CurrentProfile>Default</CurrentProfile>
+    <ShowToolbarNew>True</ShowToolbarNew>
+    <ShowToolbarOpen>True</ShowToolbarOpen>
+    <ShowToolbarSave>True</ShowToolbarSave>
+    <ShowToolbarSaveAs>False</ShowToolbarSaveAs>
+    <ShowToolbarFind>True</ShowToolbarFind>
+    <ShowToolbarReplace>True</ShowToolbarReplace>
+    <ShowToolbarFixCommonErrors>False</ShowToolbarFixCommonErrors>
+    <ShowToolbarRemoveTextForHi>False</ShowToolbarRemoveTextForHi>
+    <ShowToolbarVisualSync>True</ShowToolbarVisualSync>
+    <ShowToolbarSpellCheck>True</ShowToolbarSpellCheck>
+    <ShowToolbarNetflixGlyphCheck>True</ShowToolbarNetflixGlyphCheck>
+    <ShowToolbarSettings>False</ShowToolbarSettings>
+    <ShowToolbarHelp>True</ShowToolbarHelp>
+    <ShowFrameRate>False</ShowFrameRate>
+    <ShowVideoPlayer>False</ShowVideoPlayer>
+    <ShowAudioVisualizer>False</ShowAudioVisualizer>
+    <ShowWaveform>True</ShowWaveform>
+    <ShowSpectrogram>True</ShowSpectrogram>
+    <DefaultFrameRate>23.976</DefaultFrameRate>
+    <DefaultSubtitleFormat>SubRip</DefaultSubtitleFormat>
+    <DefaultEncoding>UTF-8 with BOM</DefaultEncoding>
+    <AutoConvertToUtf8>False</AutoConvertToUtf8>
+    <AutoGuessAnsiEncoding>True</AutoGuessAnsiEncoding>
+    <SystemSubtitleFontNameOverride />
+    <SystemSubtitleFontSizeOverride>0</SystemSubtitleFontSizeOverride>
+    <SubtitleFontName>Tahoma</SubtitleFontName>
+    <SubtitleFontSize>10</SubtitleFontSize>
+    <SubtitleListViewFontSize>10</SubtitleListViewFontSize>
+    <SubtitleFontBold>False</SubtitleFontBold>
+    <SubtitleListViewFontBold>False</SubtitleListViewFontBold>
+    <SubtitleFontColor>-16777216</SubtitleFontColor>
+    <SubtitleBackgroundColor>-1</SubtitleBackgroundColor>
+    <MeasureFontName>Arial</MeasureFontName>
+    <MeasureFontSize>24</MeasureFontSize>
+    <MeasureFontBold>False</MeasureFontBold>
+    <SubtitleLineMaximumPixelWidth>576</SubtitleLineMaximumPixelWidth>
+    <CenterSubtitleInTextBox>False</CenterSubtitleInTextBox>
+    <ShowRecentFiles>True</ShowRecentFiles>
+    <RememberSelectedLine>True</RememberSelectedLine>
+    <StartLoadLastFile>True</StartLoadLastFile>
+    <StartRememberPositionAndSize>True</StartRememberPositionAndSize>
+    <StartPosition>464;197</StartPosition>
+    <StartSize>991;685</StartSize>
+    <SplitContainerMainSplitterDistance>251</SplitContainerMainSplitterDistance>
+    <SplitContainer1SplitterDistance>525</SplitContainer1SplitterDistance>
+    <SplitContainerListViewAndTextSplitterDistance>399</SplitContainerListViewAndTextSplitterDistance>
+    <StartInSourceView>False</StartInSourceView>
+    <RemoveBlankLinesWhenOpening>False</RemoveBlankLinesWhenOpening>
+    <RemoveBadCharsWhenOpening>True</RemoveBadCharsWhenOpening>
+    <SubtitleLineMaximumLength>43</SubtitleLineMaximumLength>
+    <MaxNumberOfLines>2</MaxNumberOfLines>
+    <MergeLinesShorterThan>33</MergeLinesShorterThan>
+    <SubtitleMinimumDisplayMilliseconds>1000</SubtitleMinimumDisplayMilliseconds>
+    <SubtitleMaximumDisplayMilliseconds>8000</SubtitleMaximumDisplayMilliseconds>
+    <MinimumMillisecondsBetweenLines>24</MinimumMillisecondsBetweenLines>
+    <SetStartEndHumanDelay>100</SetStartEndHumanDelay>
+    <AutoWrapLineWhileTyping>False</AutoWrapLineWhileTyping>
+    <SubtitleMaximumCharactersPerSeconds>25</SubtitleMaximumCharactersPerSeconds>
+    <SubtitleOptimalCharactersPerSeconds>15</SubtitleOptimalCharactersPerSeconds>
+    <CharactersPerSecondsIgnoreWhiteSpace>False</CharactersPerSecondsIgnoreWhiteSpace>
+    <SubtitleMaximumWordsPerMinute>300</SubtitleMaximumWordsPerMinute>
+    <DialogStyle>DashBothLinesWithSpace</DialogStyle>
+    <ContinuationStyle>None</ContinuationStyle>
+    <FixContinuationStyleUncheckInsertsAllCaps>True</FixContinuationStyleUncheckInsertsAllCaps>
+    <FixContinuationStyleUncheckInsertsItalic>True</FixContinuationStyleUncheckInsertsItalic>
+    <FixContinuationStyleUncheckInsertsLowercase>True</FixContinuationStyleUncheckInsertsLowercase>
+    <FixContinuationStyleHideContinuationCandidatesWithoutName>True</FixContinuationStyleHideContinuationCandidatesWithoutName>
+    <SpellCheckLanguage />
+    <VideoPlayer />
+    <VideoPlayerDefaultVolume>75</VideoPlayerDefaultVolume>
+    <VideoPlayerPreviewFontSize>12</VideoPlayerPreviewFontSize>
+    <VideoPlayerPreviewFontBold>True</VideoPlayerPreviewFontBold>
+    <VideoPlayerShowStopButton>True</VideoPlayerShowStopButton>
+    <VideoPlayerShowMuteButton>True</VideoPlayerShowMuteButton>
+    <VideoPlayerShowFullscreenButton>True</VideoPlayerShowFullscreenButton>
+    <Language>en-US</Language>
+    <ListViewLineSeparatorString>&lt;br /&gt;</ListViewLineSeparatorString>
+    <ListViewDoubleClickAction>1</ListViewDoubleClickAction>
+    <SaveAsUseFileNameFrom>video</SaveAsUseFileNameFrom>
+    <UppercaseLetters>ABCDEFGHIJKLMNOPQRSTUVWZYXÆØÃÅÄÖÉÈÁÂÀÇÊÍÓÔÕÚŁАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯĞİŞÜÙÁÌÑÎ</UppercaseLetters>
+    <DefaultAdjustMilliseconds>1000</DefaultAdjustMilliseconds>
+    <AutoRepeatOn>True</AutoRepeatOn>
+    <AutoRepeatCount>2</AutoRepeatCount>
+    <AutoContinueOn>False</AutoContinueOn>
+    <AutoContinueDelay>2</AutoContinueDelay>
+    <SyncListViewWithVideoWhilePlaying>False</SyncListViewWithVideoWhilePlaying>
+    <AutoBackupSeconds>300</AutoBackupSeconds>
+    <AutoBackupDeleteAfterMonths>3</AutoBackupDeleteAfterMonths>
+    <SpellChecker>hunspell</SpellChecker>
+    <AllowEditOfOriginalSubtitle>True</AllowEditOfOriginalSubtitle>
+    <PromptDeleteLines>True</PromptDeleteLines>
+    <Undocked>False</Undocked>
+    <UndockedVideoPosition>-32000;-32000</UndockedVideoPosition>
+    <UndockedVideoFullscreen>False</UndockedVideoFullscreen>
+    <UndockedWaveformPosition>-32000;-32000</UndockedWaveformPosition>
+    <UndockedVideoControlsPosition>-32000;-32000</UndockedVideoControlsPosition>
+    <WaveformCenter>False</WaveformCenter>
+    <WaveformUpdateIntervalMs>40</WaveformUpdateIntervalMs>
+    <SmallDelayMilliseconds>500</SmallDelayMilliseconds>
+    <LargeDelayMilliseconds>5000</LargeDelayMilliseconds>
+    <ShowOriginalAsPreviewIfAvailable>False</ShowOriginalAsPreviewIfAvailable>
+    <LastPacCodePage>0</LastPacCodePage>
+    <OpenSubtitleExtraExtensions>*.mp4;*.m4v;*.mkv;*.ts</OpenSubtitleExtraExtensions>
+    <ListViewColumnsRememberSize>True</ListViewColumnsRememberSize>
+    <ListViewNumberWidth>50</ListViewNumberWidth>
+    <ListViewStartWidth>97</ListViewStartWidth>
+    <ListViewEndWidth>97</ListViewEndWidth>
+    <ListViewDurationWidth>77</ListViewDurationWidth>
+    <ListViewCpsWidth>0</ListViewCpsWidth>
+    <ListViewWpmWidth>0</ListViewWpmWidth>
+    <ListViewGapWidth>0</ListViewGapWidth>
+    <ListViewActorWidth>0</ListViewActorWidth>
+    <ListViewRegionWidth>0</ListViewRegionWidth>
+    <DirectShowDoubleLoadVideo>False</DirectShowDoubleLoadVideo>
+    <VlcWaveTranscodeSettings>acodec=s16l</VlcWaveTranscodeSettings>
+    <VlcLocation />
+    <VlcLocationRelative />
+    <MpvVideoOutput>direct3d</MpvVideoOutput>
+    <MpvVideoOutputLinux>x11</MpvVideoOutputLinux>
+    <MpvExtraOption />
+    <MpvHandlesPreviewText>True</MpvHandlesPreviewText>
+    <MpcHcLocation />
+    <UseFFmpegForWaveExtraction>False</UseFFmpegForWaveExtraction>
+    <FFmpegLocation />
+    <FFmpegSceneThreshold>0.4</FFmpegSceneThreshold>
+    <UseTimeFormatHHMMSSFF>False</UseTimeFormatHHMMSSFF>
+    <SplitBehavior>1</SplitBehavior>
+    <ClearStatusBarAfterSeconds>10</ClearStatusBarAfterSeconds>
+    <Company />
+    <MoveVideo100Or500MsPlaySmallSample>False</MoveVideo100Or500MsPlaySmallSample>
+    <DisableVideoAutoLoading>False</DisableVideoAutoLoading>
+    <AllowVolumeBoost>False</AllowVolumeBoost>
+    <RightToLeftMode>False</RightToLeftMode>
+    <LastSaveAsFormat />
+    <CheckForUpdates>True</CheckForUpdates>
+    <LastCheckForUpdates>2020-05-28</LastCheckForUpdates>
+    <AutoSave>False</AutoSave>
+    <PreviewAssaText>ABCDEFGHIJKL abcdefghijkl 123</PreviewAssaText>
+    <ShowProgress>False</ShowProgress>
+    <ShowNegativeDurationInfoOnSave>True</ShowNegativeDurationInfoOnSave>
+    <TitleBarAsterisk>before</TitleBarAsterisk>
+    <UseDarkTheme>False</UseDarkTheme>
+    <ShowBetaStuff>False</ShowBetaStuff>
+    <NewEmptyDefaultMs>2000</NewEmptyDefaultMs>
+  </General>
+  <Tools>
+    <StartSceneIndex>1</StartSceneIndex>
+    <EndSceneIndex>1</EndSceneIndex>
+    <VerifyPlaySeconds>2</VerifyPlaySeconds>
+    <FixShortDisplayTimesAllowMoveStartTime>False</FixShortDisplayTimesAllowMoveStartTime>
+    <RemoveEmptyLinesBetweenText>True</RemoveEmptyLinesBetweenText>
+    <MusicSymbol>♪</MusicSymbol>
+    <MusicSymbolReplace>â™ª,â™,&lt;s M/&gt;,&lt;s m/&gt;,#,*,¶</MusicSymbolReplace>
+    <UnicodeSymbolsToInsert>♪;♫;☺;☹;♥;©;☮;☯;Σ;∞;≡;⇒;π</UnicodeSymbolsToInsert>
+    <SpellCheckAutoChangeNames>True</SpellCheckAutoChangeNames>
+    <SpellCheckAutoChangeNamesUseSuggestions>True</SpellCheckAutoChangeNamesUseSuggestions>
+    <SpellCheckOneLetterWords>True</SpellCheckOneLetterWords>
+    <SpellCheckEnglishAllowInQuoteAsIng>False</SpellCheckEnglishAllowInQuoteAsIng>
+    <RememberUseAlwaysList>False</RememberUseAlwaysList>
+    <SpellCheckShowCompletedMessage>True</SpellCheckShowCompletedMessage>
+    <OcrFixUseHardcodedRules>True</OcrFixUseHardcodedRules>
+    <OcrBinaryImageCompareRgbThreshold>200</OcrBinaryImageCompareRgbThreshold>
+    <OcrTesseract4RgbThreshold>200</OcrTesseract4RgbThreshold>
+    <OcrAddLetterRow1>♪;á;é;í;ó;ö;ő;ú;ü;ű;ç;ñ;å;¿</OcrAddLetterRow1>
+    <OcrAddLetterRow2>♫;Á;É;Í;Ó;Ö;Ő;Ú;Ü;Ű;Ç;Ñ;Å;¡</OcrAddLetterRow2>
+    <OcrTrainFonts>Arial;Calibri;Corbel;Futura Std Book;Futura Bis;Helvetica Neue;Lucida Console;Tahoma;Trebuchet MS;Verdana</OcrTrainFonts>
+    <OcrTrainSrtFile />
+    <Interjections>Ah;Ahem;Ahh;Ahhh;Ahhhh;Eh;Ehh;Ehhh;Hm;Hmm;Hmmm;Huh;Mm;Mmm;Mmmm;Phew;Gah;Oh;Ohh;Ohhh;Ow;Oww;Owww;Ugh;Ughh;Uh;Uhh;Uhhh;Whew</Interjections>
+    <MicrosoftBingApiId />
+    <MicrosoftTranslatorApiKey />
+    <MicrosoftTranslatorTokenEndpoint>https://api.cognitive.microsoft.com/sts/v1.0/issueToken</MicrosoftTranslatorTokenEndpoint>
+    <MicrosoftTranslatorCategory />
+    <GoogleApiV2Key />
+    <GoogleApiV2KeyInfoShow>True</GoogleApiV2KeyInfoShow>
+    <GoogleTranslateNoKeyWarningShow>True</GoogleTranslateNoKeyWarningShow>
+    <UseGooleApiPaidService>False</UseGooleApiPaidService>
+    <GoogleApiV1ChunkSize>1500</GoogleApiV1ChunkSize>
+    <GoogleTranslateLastTargetLanguage>en</GoogleTranslateLastTargetLanguage>
+    <TranslateAutoSplit>True</TranslateAutoSplit>
+    <ListViewSyntaxColorDurationSmall>True</ListViewSyntaxColorDurationSmall>
+    <ListViewSyntaxColorDurationBig>True</ListViewSyntaxColorDurationBig>
+    <ListViewSyntaxColorLongLines>True</ListViewSyntaxColorLongLines>
+    <ListViewSyntaxColorWideLines>False</ListViewSyntaxColorWideLines>
+    <ListViewSyntaxMoreThanXLines>True</ListViewSyntaxMoreThanXLines>
+    <ListViewSyntaxColorOverlap>True</ListViewSyntaxColorOverlap>
+    <ListViewSyntaxColorGap>True</ListViewSyntaxColorGap>
+    <ListViewSyntaxErrorColor>-19306</ListViewSyntaxErrorColor>
+    <ListViewUnfocusedSelectedColor>-5383962</ListViewUnfocusedSelectedColor>
+    <ListViewShowColumnEndTime>True</ListViewShowColumnEndTime>
+    <ListViewShowColumnDuration>True</ListViewShowColumnDuration>
+    <ListViewShowColumnCharsPerSec>False</ListViewShowColumnCharsPerSec>
+    <ListViewShowColumnWordsPerMin>False</ListViewShowColumnWordsPerMin>
+    <ListViewShowColumnGap>False</ListViewShowColumnGap>
+    <ListViewShowColumnActor>False</ListViewShowColumnActor>
+    <ListViewShowColumnRegion>False</ListViewShowColumnRegion>
+    <SplitAdvanced>False</SplitAdvanced>
+    <SplitOutputFolder />
+    <SplitNumberOfParts>3</SplitNumberOfParts>
+    <SplitVia>Lines</SplitVia>
+    <JoinCorrectTimeCodes>True</JoinCorrectTimeCodes>
+    <JoinAddMs>0</JoinAddMs>
+    <NewEmptyTranslationText />
+    <BatchConvertOutputFolder />
+    <BatchConvertOverwriteExisting>False</BatchConvertOverwriteExisting>
+    <BatchConvertSaveInSourceFolder>False</BatchConvertSaveInSourceFolder>
+    <BatchConvertRemoveFormatting>False</BatchConvertRemoveFormatting>
+    <BatchConvertBridgeGaps>False</BatchConvertBridgeGaps>
+    <BatchConvertFixCasing>False</BatchConvertFixCasing>
+    <BatchConvertRemoveTextForHI>False</BatchConvertRemoveTextForHI>
+    <BatchConvertSplitLongLines>False</BatchConvertSplitLongLines>
+    <BatchConvertFixCommonErrors>False</BatchConvertFixCommonErrors>
+    <BatchConvertMultipleReplace>False</BatchConvertMultipleReplace>
+    <BatchConvertFixRtl>False</BatchConvertFixRtl>
+    <BatchConvertFixRtlMode />
+    <BatchConvertAutoBalance>False</BatchConvertAutoBalance>
+    <BatchConvertSetMinDisplayTimeBetweenSubtitles>False</BatchConvertSetMinDisplayTimeBetweenSubtitles>
+    <BatchConvertMergeShortLines>False</BatchConvertMergeShortLines>
+    <BatchConvertRemoveLineBreaks>False</BatchConvertRemoveLineBreaks>
+    <BatchConvertMergeSameText>False</BatchConvertMergeSameText>
+    <BatchConvertMergeSameTimeCodes>False</BatchConvertMergeSameTimeCodes>
+    <BatchConvertChangeSpeed>False</BatchConvertChangeSpeed>
+    <BatchConvertApplyDurationLimits>False</BatchConvertApplyDurationLimits>
+    <BatchConvertChangeFrameRate>False</BatchConvertChangeFrameRate>
+    <BatchConvertOffsetTimeCodes>False</BatchConvertOffsetTimeCodes>
+    <BatchConvertLanguage />
+    <BatchConvertFormat />
+    <BatchConvertAssStyles />
+    <BatchConvertSsaStyles />
+    <BatchConvertUseStyleFromSource>False</BatchConvertUseStyleFromSource>
+    <BatchConvertExportCustomTextTemplate />
+    <BatchConvertTsOverrideXPosition>False</BatchConvertTsOverrideXPosition>
+    <BatchConvertTsOverrideYPosition>False</BatchConvertTsOverrideYPosition>
+    <BatchConvertTsOverrideBottomMargin>5</BatchConvertTsOverrideBottomMargin>
+    <BatchConvertTsOverrideHAlign>center</BatchConvertTsOverrideHAlign>
+    <BatchConvertTsOverrideHMargin>5</BatchConvertTsOverrideHMargin>
+    <BatchConvertTsOverrideScreenSize>False</BatchConvertTsOverrideScreenSize>
+    <BatchConvertTsScreenWidth>1920</BatchConvertTsScreenWidth>
+    <BatchConvertTsScreenHeight>1080</BatchConvertTsScreenHeight>
+    <BatchConvertTsFileNameAppend>.{two-letter-country-code}</BatchConvertTsFileNameAppend>
+    <BatchConvertMkvLanguageCodeStyle />
+    <WaveformBatchLastFolder />
+    <ModifySelectionRule>Contains</ModifySelectionRule>
+    <ModifySelectionText />
+    <ModifySelectionCaseSensitive>False</ModifySelectionCaseSensitive>
+    <ExportVobSubFontName />
+    <ExportVobSubFontSize>0</ExportVobSubFontSize>
+    <ExportVobSubVideoResolution />
+    <ExportVobSubLanguage />
+    <ExportVobSubSimpleRendering>False</ExportVobSubSimpleRendering>
+    <ExportVobAntiAliasingWithTransparency>True</ExportVobAntiAliasingWithTransparency>
+    <ExportBluRayFontName />
+    <ExportBluRayFontSize>0</ExportBluRayFontSize>
+    <ExportFcpFontName />
+    <ExportFontNameOther />
+    <ExportFcpFontSize>0</ExportFcpFontSize>
+    <ExportFcpImageType>Bmp</ExportFcpImageType>
+    <ExportFcpPalNtsc>PAL</ExportFcpPalNtsc>
+    <ExportBdnXmlImageType />
+    <ExportLastFontSize>0</ExportLastFontSize>
+    <ExportLastLineHeight>0</ExportLastLineHeight>
+    <ExportLastBorderWidth>4</ExportLastBorderWidth>
+    <ExportLastFontBold>False</ExportLastFontBold>
+    <ExportBluRayVideoResolution />
+    <ExportFcpVideoResolution />
+    <ExportFontColor>-1</ExportFontColor>
+    <ExportBorderColor>-16777216</ExportBorderColor>
+    <ExportShadowColor>-16777216</ExportShadowColor>
+    <ExportBoxBorderSize>8</ExportBoxBorderSize>
+    <ExportBottomMarginUnit>%</ExportBottomMarginUnit>
+    <ExportBottomMarginPercent>5</ExportBottomMarginPercent>
+    <ExportBottomMarginPixels>15</ExportBottomMarginPixels>
+    <ExportLeftRightMarginUnit>%</ExportLeftRightMarginUnit>
+    <ExportLeftRightMarginPercent>5</ExportLeftRightMarginPercent>
+    <ExportLeftRightMarginPixels>15</ExportLeftRightMarginPixels>
+    <ExportHorizontalAlignment>1</ExportHorizontalAlignment>
+    <ExportBluRayBottomMarginPercent>5</ExportBluRayBottomMarginPercent>
+    <ExportBluRayBottomMarginPixels>20</ExportBluRayBottomMarginPixels>
+    <ExportBluRayShadow>1</ExportBluRayShadow>
+    <Export3DType>0</Export3DType>
+    <Export3DDepth>0</Export3DDepth>
+    <ExportLastShadowTransparency>200</ExportLastShadowTransparency>
+    <ExportLastFrameRate>24</ExportLastFrameRate>
+    <ExportFullFrame>False</ExportFullFrame>
+    <ExportFcpFullPathUrl>False</ExportFcpFullPathUrl>
+    <ExportPenLineJoin>Round</ExportPenLineJoin>
+    <FixCommonErrorsFixOverlapAllowEqualEndStart>False</FixCommonErrorsFixOverlapAllowEqualEndStart>
+    <FixCommonErrorsSkipStepOne>False</FixCommonErrorsSkipStepOne>
+    <ImportTextSplitting />
+    <ImportTextMergeShortLines>False</ImportTextMergeShortLines>
+    <ImportTextLineBreak>|</ImportTextLineBreak>
+    <ImportTextRemoveEmptyLines>False</ImportTextRemoveEmptyLines>
+    <ImportTextAutoSplitAtBlank>True</ImportTextAutoSplitAtBlank>
+    <ImportTextRemoveLinesNoLetters>False</ImportTextRemoveLinesNoLetters>
+    <ImportTextGenerateTimeCodes>False</ImportTextGenerateTimeCodes>
+    <ImportTextTakeTimeCodeFromFileName>False</ImportTextTakeTimeCodeFromFileName>
+    <ImportTextAutoBreak>False</ImportTextAutoBreak>
+    <ImportTextAutoBreakAtEnd>True</ImportTextAutoBreakAtEnd>
+    <ImportTextGap>0</ImportTextGap>
+    <ImportTextAutoSplitNumberOfLines>2</ImportTextAutoSplitNumberOfLines>
+    <ImportTextAutoBreakAtEndMarkerText>.!?</ImportTextAutoBreakAtEndMarkerText>
+    <ImportTextDurationAuto>False</ImportTextDurationAuto>
+    <ImportTextFixedDuration>0</ImportTextFixedDuration>
+    <GenerateTimeCodePatterns>HH:mm:ss;yyyy-MM-dd;dddd dd MMMM yyyy &lt;br&gt;HH:mm:ss;dddd dd MMMM yyyy &lt;br&gt;hh:mm:ss tt;s</GenerateTimeCodePatterns>
+    <MusicSymbolStyle>Double</MusicSymbolStyle>
+    <BridgeGapMilliseconds>100</BridgeGapMilliseconds>
+    <ExportCustomTemplates>SubRipÆÆ{number}
+{start} --&gt; {end}
+{text}
+
+Æhh:mm:ss,zzzÆ[Do not modify]ÆæMicroDVDÆÆ{{start}}{{end}}{text}
+ÆffÆ||Æ</ExportCustomTemplates>
+    <ChangeCasingChoice />
+    <UseNoLineBreakAfter>False</UseNoLineBreakAfter>
+    <NoLineBreakAfterEnglish> Mrs.; Ms.; Mr.; Dr.; a; an; the; my; my own; your; his; our; their; it's; is; are;'s; 're; would;'ll;'ve;'d; will; that; which; who; whom; whose; whichever; whoever; wherever; each; either; every; all; both; few; many; sevaral; all; any; most; been; been doing; none; some; my own; your own; his own; her own; our own; their own; I; she; he; as per; as regards; into; onto; than; where as; abaft; aboard; about; above; across; afore; after; against; along; alongside; amid; amidst; among; amongst; anenst; apropos; apud; around; as; aside; astride; at; athwart; atop; barring; before; behind; below; beneath; beside; besides; between; betwixt; beyond; but; by; circa; ca; concerning; despite; down; during; except; excluding; following; for; forenenst; from; given; in; including; inside; into; lest; like; minus; modulo; near; next; of; off; on; onto; opposite; out; outside; over; pace; past; per; plus; pro; qua; regarding; round; sans; save; since; than; through; thru; throughout; thruout; till; to; toward; towards; under; underneath; unlike; until; unto; up; upon; versus; vs; via; vice; with; within; without; considering; respecting; one; two; another; three; our; five; six; seven; eight; nine; ten; eleven; twelve; thirteen; fourteen; fifteen; sixteen; seventeen; eighteen; nineteen; twenty; thirty; forty; fifty; sixty; seventy; eighty; ninety; hundred; thousand; million; billion; trillion; while; however; what; zero; little; enough; after; although; and; as; if; though; although; because; before; both; but; even; how; than; nor; or; only; unless; until; yet; was; were</NoLineBreakAfterEnglish>
+    <ExportTextFormatText>None</ExportTextFormatText>
+    <ExportTextRemoveStyling>True</ExportTextRemoveStyling>
+    <ExportTextShowLineNumbers>False</ExportTextShowLineNumbers>
+    <ExportTextShowLineNumbersNewLine>True</ExportTextShowLineNumbersNewLine>
+    <ExportTextShowTimeCodes>False</ExportTextShowTimeCodes>
+    <ExportTextShowTimeCodesNewLine>True</ExportTextShowTimeCodesNewLine>
+    <ExportTextNewLineAfterText>True</ExportTextNewLineAfterText>
+    <ExportTextNewLineBetweenSubtitles>True</ExportTextNewLineBetweenSubtitles>
+    <ExportTextTimeCodeFormat />
+    <ExportTextTimeCodeSeparator />
+    <VideoOffsetKeepTimeCodes>False</VideoOffsetKeepTimeCodes>
+    <MoveStartEndMs>100</MoveStartEndMs>
+    <AdjustDurationSeconds>0.1</AdjustDurationSeconds>
+    <AdjustDurationPercent>120</AdjustDurationPercent>
+    <AdjustDurationLast />
+    <AdjustDurationExtendOnly>True</AdjustDurationExtendOnly>
+    <AutoBreakCommaBreakEarly>False</AutoBreakCommaBreakEarly>
+    <AutoBreakDashEarly>True</AutoBreakDashEarly>
+    <AutoBreakLineEndingEarly>False</AutoBreakLineEndingEarly>
+    <AutoBreakUsePixelWidth>True</AutoBreakUsePixelWidth>
+    <AutoBreakPreferBottomHeavy>True</AutoBreakPreferBottomHeavy>
+    <AutoBreakPreferBottomPercent>5</AutoBreakPreferBottomPercent>
+    <ApplyMinimumDurationLimit>True</ApplyMinimumDurationLimit>
+    <ApplyMaximumDurationLimit>True</ApplyMaximumDurationLimit>
+    <MergeShortLinesMaxGap>250</MergeShortLinesMaxGap>
+    <MergeShortLinesMaxChars>50</MergeShortLinesMaxChars>
+    <MergeShortLinesOnlyContinuous>True</MergeShortLinesOnlyContinuous>
+    <ColumnPasteColumn>all</ColumnPasteColumn>
+    <ColumnPasteOverwriteMode>overwrite</ColumnPasteOverwriteMode>
+  </Tools>
+  <SubtitleSettings>
+    <SsaFontName>Arial</SsaFontName>
+    <SsaFontSize>20</SsaFontSize>
+    <SsaFontColorArgb>-1</SsaFontColorArgb>
+    <SsaFontBold>False</SsaFontBold>
+    <SsaOutline>2</SsaOutline>
+    <SsaShadow>1</SsaShadow>
+    <SsaOpaqueBox>False</SsaOpaqueBox>
+    <SsaMarginLeft>10</SsaMarginLeft>
+    <SsaMarginRight>10</SsaMarginRight>
+    <SsaMarginTopBottom>10</SsaMarginTopBottom>
+    <DCinemaFontFile>Arial.ttf</DCinemaFontFile>
+    <DCinemaFontSize>42</DCinemaFontSize>
+    <DCinemaBottomMargin>8</DCinemaBottomMargin>
+    <DCinemaZPosition>0</DCinemaZPosition>
+    <DCinemaFadeUpTime>0</DCinemaFadeUpTime>
+    <DCinemaFadeDownTime>0</DCinemaFadeDownTime>
+    <SamiDisplayTwoClassesAsTwoSubtitles>True</SamiDisplayTwoClassesAsTwoSubtitles>
+    <SamiHtmlEncodeMode>0</SamiHtmlEncodeMode>
+    <TimedText10TimeCodeFormat>Source</TimedText10TimeCodeFormat>
+    <TimedText10ShowStyleAndLanguage>True</TimedText10ShowStyleAndLanguage>
+    <TimedText10FileExtension>.xml</TimedText10FileExtension>
+    <FcpFontSize>18</FcpFontSize>
+    <FcpFontName>Lucida Grande</FcpFontName>
+    <Cavena890StartOfMessage>10:00:00:00</Cavena890StartOfMessage>
+    <EbuStlTeletextUseBox>True</EbuStlTeletextUseBox>
+    <EbuStlTeletextUseDoubleHeight>True</EbuStlTeletextUseDoubleHeight>
+    <EbuStlMarginTop>0</EbuStlMarginTop>
+    <EbuStlMarginBottom>2</EbuStlMarginBottom>
+    <EbuStlNewLineRows>2</EbuStlNewLineRows>
+    <DvdStudioProHeader>$VertAlign          =   Bottom
+$Bold               =   FALSE
+$Underlined         =   FALSE
+$Italic             =   FALSE
+$XOffset                =   0
+$YOffset                =   -5
+$TextContrast           =   15
+$Outline1Contrast           =   15
+$Outline2Contrast           =   13
+$BackgroundContrast     =   0
+$ForceDisplay           =   FALSE
+$FadeIn             =   0
+$FadeOut                =   0
+$HorzAlign          =   Center
+</DvdStudioProHeader>
+    <TmpegEncXmlFontName>Tahoma</TmpegEncXmlFontName>
+    <TmpegEncXmlFontHeight>0.069</TmpegEncXmlFontHeight>
+    <TmpegEncXmlPosition>23</TmpegEncXmlPosition>
+    <CheetahCaptionAlwayWriteEndTime>False</CheetahCaptionAlwayWriteEndTime>
+    <NuendoCharacterListFile />
+    <WebVttTimescale>90000</WebVttTimescale>
+    <TeletextItalicFix>True</TeletextItalicFix>
+    <WebVttUseXTimestampMap>True</WebVttUseXTimestampMap>
+  </SubtitleSettings>
+  <Proxy>
+    <ProxyAddress />
+    <UserName />
+    <Password />
+    <Domain />
+  </Proxy>
+  <WordLists>
+    <LastLanguage>en-US</LastLanguage>
+    <Names>https://raw.githubusercontent.com/SubtitleEdit/subtitleedit/master/Dictionaries/names.xml</Names>
+    <UseOnlineNames>False</UseOnlineNames>
+  </WordLists>
+  <FcpExportSettings>
+    <FontName>Lucida Sans</FontName>
+    <FontSize>36</FontSize>
+    <Alignment>center</Alignment>
+    <Baseline>29</Baseline>
+    <Color>-657931</Color>
+  </FcpExportSettings>
+  <CommonErrors>
+    <StartPosition>528;216</StartPosition>
+    <StartSize>862;647</StartSize>
+    <EmptyLinesTicked>True</EmptyLinesTicked>
+    <OverlappingDisplayTimeTicked>True</OverlappingDisplayTimeTicked>
+    <TooShortDisplayTimeTicked>True</TooShortDisplayTimeTicked>
+    <TooLongDisplayTimeTicked>True</TooLongDisplayTimeTicked>
+    <TooShortGapTicked>True</TooShortGapTicked>
+    <InvalidItalicTagsTicked>True</InvalidItalicTagsTicked>
+    <BreakLongLinesTicked>True</BreakLongLinesTicked>
+    <MergeShortLinesTicked>True</MergeShortLinesTicked>
+    <MergeShortLinesAllTicked>False</MergeShortLinesAllTicked>
+    <UnneededSpacesTicked>True</UnneededSpacesTicked>
+    <UnneededPeriodsTicked>True</UnneededPeriodsTicked>
+    <FixCommasTicked>True</FixCommasTicked>
+    <MissingSpacesTicked>True</MissingSpacesTicked>
+    <AddMissingQuotesTicked>False</AddMissingQuotesTicked>
+    <Fix3PlusLinesTicked>False</Fix3PlusLinesTicked>
+    <FixHyphensTicked>False</FixHyphensTicked>
+    <FixHyphensRemoveSingleLineTicked>False</FixHyphensRemoveSingleLineTicked>
+    <UppercaseIInsideLowercaseWordTicked>True</UppercaseIInsideLowercaseWordTicked>
+    <DoubleApostropheToQuoteTicked>True</DoubleApostropheToQuoteTicked>
+    <AddPeriodAfterParagraphTicked>False</AddPeriodAfterParagraphTicked>
+    <StartWithUppercaseLetterAfterParagraphTicked>True</StartWithUppercaseLetterAfterParagraphTicked>
+    <StartWithUppercaseLetterAfterPeriodInsideParagraphTicked>False</StartWithUppercaseLetterAfterPeriodInsideParagraphTicked>
+    <StartWithUppercaseLetterAfterColonTicked>False</StartWithUppercaseLetterAfterColonTicked>
+    <AloneLowercaseIToUppercaseIEnglishTicked>False</AloneLowercaseIToUppercaseIEnglishTicked>
+    <FixOcrErrorsViaReplaceListTicked>False</FixOcrErrorsViaReplaceListTicked>
+    <RemoveSpaceBetweenNumberTicked>False</RemoveSpaceBetweenNumberTicked>
+    <FixDialogsOnOneLineTicked>False</FixDialogsOnOneLineTicked>
+    <TurkishAnsiTicked>False</TurkishAnsiTicked>
+    <DanishLetterITicked>False</DanishLetterITicked>
+    <SpanishInvertedQuestionAndExclamationMarksTicked>False</SpanishInvertedQuestionAndExclamationMarksTicked>
+    <FixDoubleDashTicked>True</FixDoubleDashTicked>
+    <FixDoubleGreaterThanTicked>True</FixDoubleGreaterThanTicked>
+    <FixEllipsesStartTicked>True</FixEllipsesStartTicked>
+    <FixMissingOpenBracketTicked>True</FixMissingOpenBracketTicked>
+    <FixMusicNotationTicked>True</FixMusicNotationTicked>
+    <FixContinuationStyleTicked>False</FixContinuationStyleTicked>
+    <FixUnnecessaryLeadingDotsTicked>True</FixUnnecessaryLeadingDotsTicked>
+    <NormalizeStringsTicked>False</NormalizeStringsTicked>
+  </CommonErrors>
+  <VideoControls>
+    <CustomSearchText1>The Free Dictionary</CustomSearchText1>
+    <CustomSearchText2>Wikipedia</CustomSearchText2>
+    <CustomSearchText3 />
+    <CustomSearchText4 />
+    <CustomSearchText5 />
+    <CustomSearchUrl1>https://www.thefreedictionary.com/{0}</CustomSearchUrl1>
+    <CustomSearchUrl2>https://en.wikipedia.org/wiki?search={0}</CustomSearchUrl2>
+    <CustomSearchUrl3 />
+    <CustomSearchUrl4 />
+    <CustomSearchUrl5 />
+    <LastActiveTab>Translate</LastActiveTab>
+    <WaveformDrawGrid>True</WaveformDrawGrid>
+    <WaveformDrawCps>False</WaveformDrawCps>
+    <WaveformDrawWpm>False</WaveformDrawWpm>
+    <WaveformAllowOverlap>False</WaveformAllowOverlap>
+    <WaveformFocusOnMouseEnter>False</WaveformFocusOnMouseEnter>
+    <WaveformListViewFocusOnMouseEnter>False</WaveformListViewFocusOnMouseEnter>
+    <WaveformSetVideoPositionOnMoveStartEnd>False</WaveformSetVideoPositionOnMoveStartEnd>
+    <WaveformSingleClickSelect>False</WaveformSingleClickSelect>
+    <WaveformSnapToSceneChanges>True</WaveformSnapToSceneChanges>
+    <WaveformBorderHitMs>15</WaveformBorderHitMs>
+    <WaveformGridColor>-15461358</WaveformGridColor>
+    <WaveformColor>-6229986</WaveformColor>
+    <WaveformSelectedColor>-1703936</WaveformSelectedColor>
+    <WaveformBackgroundColor>-16777216</WaveformBackgroundColor>
+    <WaveformTextColor>-8355712</WaveformTextColor>
+    <WaveformCursorColor>-12525360</WaveformCursorColor>
+    <WaveformTextSize>9</WaveformTextSize>
+    <WaveformTextBold>True</WaveformTextBold>
+    <WaveformDoubleClickOnNonParagraphAction />
+    <WaveformRightClickOnNonParagraphAction />
+    <WaveformMouseWheelScrollUpIsForward>True</WaveformMouseWheelScrollUpIsForward>
+    <GenerateSpectrogram>False</GenerateSpectrogram>
+    <SpectrogramAppearance>OneColorGradient</SpectrogramAppearance>
+    <WaveformMinimumSampleRate>126</WaveformMinimumSampleRate>
+    <WaveformSeeksSilenceDurationSeconds>0.3</WaveformSeeksSilenceDurationSeconds>
+    <WaveformSeeksSilenceMaxVolume>0.1</WaveformSeeksSilenceMaxVolume>
+    <WaveformUnwrapText>False</WaveformUnwrapText>
+    <WaveformHideWpmCpsLabels>False</WaveformHideWpmCpsLabels>
+  </VideoControls>
+  <NetworkSettings>
+    <SessionKey>DemoSession</SessionKey>
+    <UserName />
+    <WebServiceUrl>https://www.nikse.dk/se/SeService.asmx</WebServiceUrl>
+    <PollIntervalSeconds>5</PollIntervalSeconds>
+    <NewMessageSound />
+  </NetworkSettings>
+  <VobSubOcr>
+    <XOrMorePixelsMakesSpace>8</XOrMorePixelsMakesSpace>
+    <AllowDifferenceInPercent>1</AllowDifferenceInPercent>
+    <BlurayAllowDifferenceInPercent>7.5</BlurayAllowDifferenceInPercent>
+    <LastImageCompareFolder>English</LastImageCompareFolder>
+    <LastModiLanguageId>9</LastModiLanguageId>
+    <LastOcrMethod>Tesseract</LastOcrMethod>
+    <TesseractLastLanguage />
+    <UseTesseractFallback>True</UseTesseractFallback>
+    <UseItalicsInTesseract>True</UseItalicsInTesseract>
+    <TesseractEngineMode>3</TesseractEngineMode>
+    <UseMusicSymbolsInTesseract>True</UseMusicSymbolsInTesseract>
+    <RightToLeft>False</RightToLeft>
+    <TopToBottom>True</TopToBottom>
+    <DefaultMillisecondsForUnknownDurations>5000</DefaultMillisecondsForUnknownDurations>
+    <FixOcrErrors>True</FixOcrErrors>
+    <PromptForUnknownWords>True</PromptForUnknownWords>
+    <GuessUnknownWords>True</GuessUnknownWords>
+    <AutoBreakSubtitleIfMoreThanTwoLines>True</AutoBreakSubtitleIfMoreThanTwoLines>
+    <ItalicFactor>0.200000002980232</ItalicFactor>
+    <LineOcrDraw>False</LineOcrDraw>
+    <LineOcrAdvancedItalic>False</LineOcrAdvancedItalic>
+    <LineOcrLastLanguages />
+    <LineOcrLastSpellCheck />
+    <LineOcrLinesToAutoGuess>100</LineOcrLinesToAutoGuess>
+    <LineOcrMinLineHeight>0</LineOcrMinLineHeight>
+    <LineOcrMaxLineHeight>0</LineOcrMaxLineHeight>
+    <LastBinaryImageCompareDb />
+    <LastBinaryImageSpellCheck />
+    <BinaryAutoDetectBestDb>True</BinaryAutoDetectBestDb>
+    <LastTesseractSpellCheck />
+    <CaptureTopAlign>False</CaptureTopAlign>
+    <UnfocusedAttentionBlinkCount>50</UnfocusedAttentionBlinkCount>
+    <UnfocusedAttentionPlaySoundCount>1</UnfocusedAttentionPlaySoundCount>
+  </VobSubOcr>
+  <MultipleSearchAndReplaceGroups>
+    <Group>
+      <Name>Default</Name>
+      <Enabled>True</Enabled>
+      <Rule>
+        <Enabled>True</Enabled>
+        <FindWhat>&lt;/i&gt;</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </Rule>
+      <Rule>
+        <Enabled>True</Enabled>
+        <FindWhat>&lt;i&gt;</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </Rule>
+      <Rule>
+        <Enabled>True</Enabled>
+        <FindWhat>♪</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </Rule>
+      <Rule>
+        <Enabled>True</Enabled>
+        <FindWhat>♩</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </Rule>
+      <Rule>
+        <Enabled>True</Enabled>
+        <FindWhat>♫</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </Rule>
+      <Rule>
+        <Enabled>True</Enabled>
+        <FindWhat>♭</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </Rule>
+      <Rule>
+        <Enabled>True</Enabled>
+        <FindWhat>♮</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </Rule>
+      <Rule>
+        <Enabled>True</Enabled>
+        <FindWhat>♯</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </Rule>
+    </Group>
+  </MultipleSearchAndReplaceGroups>
+  <Shortcuts>
+    <GeneralGoToFirstSelectedLine>Control+L</GeneralGoToFirstSelectedLine>
+    <GeneralGoToNextEmptyLine />
+    <GeneralMergeSelectedLines>Control+Shift+M</GeneralMergeSelectedLines>
+    <GeneralMergeSelectedLinesAndAutoBreak />
+    <GeneralMergeSelectedLinesAndUnbreak />
+    <GeneralMergeSelectedLinesAndUnbreakCjk />
+    <GeneralMergeSelectedLinesOnlyFirstText />
+    <GeneralMergeSelectedLinesBilingual />
+    <GeneralMergeWithNext />
+    <GeneralMergeWithPrevious />
+    <GeneralToggleTranslationMode>Control+Shift+O</GeneralToggleTranslationMode>
+    <GeneralSwitchOriginalAndTranslation>Control+Alt+O</GeneralSwitchOriginalAndTranslation>
+    <GeneralMergeOriginalAndTranslation>Control+Alt+Shift+M</GeneralMergeOriginalAndTranslation>
+    <GeneralGoToNextSubtitle>Shift+Return</GeneralGoToNextSubtitle>
+    <GeneralGoToPrevSubtitle />
+    <GeneralGoToEndOfCurrentSubtitle />
+    <GeneralGoToStartOfCurrentSubtitle />
+    <GeneralGoToPreviousSubtitleAndFocusVideo />
+    <GeneralGoToNextSubtitleAndFocusVideo />
+    <GeneralExtendCurrentSubtitle />
+    <GeneralAutoCalcCurrentDuration />
+    <GeneralPlayFirstSelected />
+    <GeneralHelp>F1</GeneralHelp>
+    <GeneralUnbrekNoSpace />
+    <GeneralToggleBookmarks />
+    <GeneralToggleBookmarksWithText>Control+Shift+B</GeneralToggleBookmarksWithText>
+    <GeneralClearBookmarks />
+    <GeneralGoToBookmark />
+    <GeneralGoToNextBookmark />
+    <ChooseProfile />
+    <DuplicateLine />
+    <GeneralGoToPreviousBookmark />
+    <MainFileNew>Control+N</MainFileNew>
+    <MainFileOpen>Control+O</MainFileOpen>
+    <MainFileOpenKeepVideo />
+    <MainFileSave>Control+S</MainFileSave>
+    <MainFileSaveOriginal />
+    <MainFileSaveOriginalAs />
+    <MainFileSaveAs />
+    <MainFileCloseOriginal />
+    <MainFileOpenOriginal />
+    <MainFileSaveAll />
+    <MainFileImportPlainText />
+    <MainFileImportTimeCodes />
+    <MainFileExportPlainText />
+    <MainFileExportEbu />
+    <MainEditUndo>Control+Z</MainEditUndo>
+    <MainEditRedo>Control+Y</MainEditRedo>
+    <MainEditFind>Control+F</MainEditFind>
+    <MainEditFindNext>F3</MainEditFindNext>
+    <MainEditReplace>Control+H</MainEditReplace>
+    <MainEditMultipleReplace>Control+Alt+M</MainEditMultipleReplace>
+    <MainEditGoToLineNumber>Control+G</MainEditGoToLineNumber>
+    <MainEditRightToLeft>Control+Shift+Alt+R</MainEditRightToLeft>
+    <MainToolsFixCommonErrors>Control+Shift+F</MainToolsFixCommonErrors>
+    <MainToolsFixCommonErrorsPreview>Control+P</MainToolsFixCommonErrorsPreview>
+    <MainToolsMergeShortLines />
+    <MainToolsMakeEmptyFromCurrent />
+    <MainToolsSplitLongLines />
+    <MainToolsMinimumDisplayTimeBetweenParagraphs />
+    <MainToolsDurationsBridgeGap />
+    <MainToolsRenumber>Control+Shift+N</MainToolsRenumber>
+    <MainToolsRemoveTextForHI>Control+Shift+H</MainToolsRemoveTextForHI>
+    <MainToolsChangeCasing>Control+Shift+C</MainToolsChangeCasing>
+    <MainToolsAutoDuration />
+    <MainToolsBatchConvert />
+    <MainToolsBeamer>Control+Shift+Alt+B</MainToolsBeamer>
+    <MainToolsToggleTranslationOriginalInPreviews />
+    <MainEditInverseSelection>Control+Shift+I</MainEditInverseSelection>
+    <MainEditModifySelection />
+    <MainVideoOpen />
+    <MainVideoClose />
+    <MainVideoPause>Control+Alt+P</MainVideoPause>
+    <MainVideoPlayFromJustBefore>Shift+F10</MainVideoPlayFromJustBefore>
+    <MainVideoPlayPauseToggle>Control+P</MainVideoPlayPauseToggle>
+    <MainVideoShowHideVideo>Control+Q</MainVideoShowHideVideo>
+    <MainVideoToggleVideoControls />
+    <MainVideo1FrameLeft />
+    <MainVideo1FrameRight />
+    <MainVideo1FrameLeftWithPlay />
+    <MainVideo1FrameRightWithPlay />
+    <MainVideo100MsLeft />
+    <MainVideo100MsRight />
+    <MainVideo500MsLeft>Alt+Left</MainVideo500MsLeft>
+    <MainVideo500MsRight>Alt+Right</MainVideo500MsRight>
+    <MainVideo1000MsLeft />
+    <MainVideo1000MsRight />
+    <MainVideo5000MsLeft />
+    <MainVideo5000MsRight />
+    <MainVideo3000MsLeft>F7</MainVideo3000MsLeft>
+    <MainVideoGoToStartCurrent>F6</MainVideoGoToStartCurrent>
+    <MainVideoToggleStartEndCurrent>F4</MainVideoToggleStartEndCurrent>
+    <MainVideoPlayCurrent>F5</MainVideoPlayCurrent>
+    <MainVideoGoToPrevSubtitle />
+    <MainVideoGoToNextSubtitle />
+    <MainVideoSelectNextSubtitle />
+    <MainVideoFullscreen>Alt+Return</MainVideoFullscreen>
+    <MainVideoSlower />
+    <MainVideoFaster />
+    <MainVideoReset>Control+D0</MainVideoReset>
+    <MainSpellCheck>Control+Shift+S</MainSpellCheck>
+    <MainSpellCheckFindDoubleWords>Control+Shift+D</MainSpellCheckFindDoubleWords>
+    <MainSpellCheckAddWordToNames>Control+Shift+L</MainSpellCheckAddWordToNames>
+    <MainSynchronizationAdjustTimes>Control+Shift+A</MainSynchronizationAdjustTimes>
+    <MainSynchronizationVisualSync>Control+Shift+V</MainSynchronizationVisualSync>
+    <MainSynchronizationPointSync>Control+Shift+P</MainSynchronizationPointSync>
+    <MainSynchronizationPointSyncViaFile />
+    <MainSynchronizationChangeFrameRate />
+    <MainListViewItalic>Control+I</MainListViewItalic>
+    <MainListViewBold />
+    <MainListViewUnderline />
+    <MainListViewToggleDashes />
+    <MainListViewToggleMusicSymbols />
+    <MainListViewAlignment />
+    <MainListViewAlignmentN1 />
+    <MainListViewAlignmentN2 />
+    <MainListViewAlignmentN3 />
+    <MainListViewAlignmentN4 />
+    <MainListViewAlignmentN5 />
+    <MainListViewAlignmentN6 />
+    <MainListViewAlignmentN7 />
+    <MainListViewAlignmentN8 />
+    <MainListViewAlignmentN9 />
+    <MainRemoveFormatting />
+    <MainListViewCopyText />
+    <MainListViewCopyTextFromOriginalToCurrent />
+    <MainListViewAutoDuration />
+    <MainListViewColumnDeleteText />
+    <MainListViewColumnDeleteTextAndShiftUp />
+    <MainListViewColumnInsertText />
+    <MainListViewColumnPaste />
+    <MainListViewColumnTextUp />
+    <MainListViewColumnTextDown />
+    <MainListViewFocusWaveform />
+    <MainListViewGoToNextError>F8</MainListViewGoToNextError>
+    <MainListViewRemoveTimeCodes />
+    <MainEditReverseStartAndEndingForRTL />
+    <MainTextBoxItalic>Control+I</MainTextBoxItalic>
+    <MainTextBoxSplitAtCursor>Control+Alt+V</MainTextBoxSplitAtCursor>
+    <MainTextBoxSplitAtCursorAndVideoPos />
+    <MainTextBoxSplitSelectedLineBilingual />
+    <MainTextBoxMoveLastWordDown />
+    <MainTextBoxMoveFirstWordFromNextUp />
+    <MainTextBoxMoveLastWordDownCurrent />
+    <MainTextBoxMoveFirstWordUpCurrent />
+    <MainTextBoxSelectionToLower>Control+U</MainTextBoxSelectionToLower>
+    <MainTextBoxSelectionToUpper>Control+Shift+U</MainTextBoxSelectionToUpper>
+    <MainTextBoxSelectionToRuby />
+    <MainTextBoxToggleAutoDuration />
+    <MainCreateInsertSubAtVideoPos>Shift+F9</MainCreateInsertSubAtVideoPos>
+    <MainCreateInsertSubAtVideoPosNoTextBoxFocus />
+    <MainCreateSetStart>F11</MainCreateSetStart>
+    <MainCreateSetEnd>F12</MainCreateSetEnd>
+    <MainCreateSetEndAddNewAndGoToNew />
+    <MainCreateStartDownEndUp />
+    <MainAdjustSetStartAndOffsetTheRest>Control+Space</MainAdjustSetStartAndOffsetTheRest>
+    <MainAdjustSetStartAndOffsetTheRest2>F9</MainAdjustSetStartAndOffsetTheRest2>
+    <MainAdjustSetEndAndOffsetTheRest />
+    <MainAdjustSetEndAndOffsetTheRestAndGoToNext />
+    <MainAdjustSetEndAndGotoNext>F10</MainAdjustSetEndAndGotoNext>
+    <MainAdjustViaEndAutoStart />
+    <MainAdjustViaEndAutoStartAndGoToNext />
+    <MainAdjustSetStartAutoDurationAndGoToNext />
+    <MainAdjustSetEndNextStartAndGoToNext />
+    <MainAdjustStartDownEndUpAndGoToNext />
+    <MainAdjustSetStartKeepDuration />
+    <MainAdjustSelected100MsForward />
+    <MainAdjustSelected100MsBack />
+    <MainAdjustStartXMsBack />
+    <MainAdjustStartXMsForward />
+    <MainAdjustEndXMsBack />
+    <MainAdjustEndXMsForward />
+    <MoveStartOneFrameBack />
+    <MoveStartOneFrameForward />
+    <MoveEndOneFrameBack />
+    <MoveEndOneFrameForward />
+    <MoveStartOneFrameBackKeepGapPrev />
+    <MoveStartOneFrameForwardKeepGapPrev />
+    <MoveEndOneFrameBackKeepGapNext />
+    <MoveEndOneFrameForwardKeepGapNext />
+    <MainAdjustExtendToNextSceneChange />
+    <MainAdjustExtendToPreviousSceneChange />
+    <MainAdjustExtendToNextSubtitle>Control+Shift+E</MainAdjustExtendToNextSubtitle>
+    <MainAdjustExtendToPreviousSubtitle>Alt+Shift+E</MainAdjustExtendToPreviousSubtitle>
+    <MainInsertAfter>Alt+Insert</MainInsertAfter>
+    <MainTextBoxAutoBreak>Control+R</MainTextBoxAutoBreak>
+    <MainTextBoxBreakAtPosition />
+    <MainTextBoxBreakAtPositionAndGoToNext />
+    <MainTextBoxUnbreak />
+    <MainWaveformInsertAtCurrentPosition>Insert</MainWaveformInsertAtCurrentPosition>
+    <MainInsertBefore>Control+Shift+Insert</MainInsertBefore>
+    <MainMergeDialog />
+    <MainToggleFocus />
+    <WaveformAdd />
+    <WaveformVerticalZoom>Shift+Add</WaveformVerticalZoom>
+    <WaveformVerticalZoomOut>Shift+Subtract</WaveformVerticalZoomOut>
+    <WaveformZoomIn />
+    <WaveformZoomOut />
+    <WaveformSplit />
+    <WaveformPlaySelection />
+    <WaveformPlaySelectionEnd />
+    <WaveformSearchSilenceForward />
+    <WaveformSearchSilenceBack />
+    <WaveformAddTextHere>Return</WaveformAddTextHere>
+    <WaveformAddTextHereFromClipboard />
+    <WaveformSetParagraphAsSelection />
+    <WaveformFocusListView />
+    <WaveformGoToPreviousSceneChange />
+    <WaveformGoToNextSceneChange />
+    <WaveformToggleSceneChange />
+    <WaveformGuessStart />
+    <Waveform100MsLeft>Shift+Left</Waveform100MsLeft>
+    <Waveform100MsRight>Shift+Right</Waveform100MsRight>
+    <Waveform1000MsLeft>Left</Waveform1000MsLeft>
+    <Waveform1000MsRight>Right</Waveform1000MsRight>
+    <MainTranslateGoogleIt />
+    <MainTranslateGoogleTranslate>Control+Shift+G</MainTranslateGoogleTranslate>
+    <MainTranslateCustomSearch1 />
+    <MainTranslateCustomSearch2 />
+    <MainTranslateCustomSearch3 />
+    <MainTranslateCustomSearch4 />
+    <MainTranslateCustomSearch5 />
+  </Shortcuts>
+  <RemoveTextForHearingImpaired>
+    <RemoveTextBetweenBrackets>True</RemoveTextBetweenBrackets>
+    <RemoveTextBetweenParentheses>True</RemoveTextBetweenParentheses>
+    <RemoveTextBetweenCurlyBrackets>True</RemoveTextBetweenCurlyBrackets>
+    <RemoveTextBetweenQuestionMarks>True</RemoveTextBetweenQuestionMarks>
+    <RemoveTextBetweenCustom>True</RemoveTextBetweenCustom>
+    <RemoveTextBetweenCustomBefore>¶</RemoveTextBetweenCustomBefore>
+    <RemoveTextBetweenCustomAfter>♫</RemoveTextBetweenCustomAfter>
+    <RemoveTextBetweenOnlySeperateLines>False</RemoveTextBetweenOnlySeperateLines>
+    <RemoveTextBeforeColon>True</RemoveTextBeforeColon>
+    <RemoveTextBeforeColonOnlyIfUppercase>True</RemoveTextBeforeColonOnlyIfUppercase>
+    <RemoveTextBeforeColonOnlyOnSeparateLine>False</RemoveTextBeforeColonOnlyOnSeparateLine>
+    <RemoveInterjections>True</RemoveInterjections>
+    <RemoveInterjectionsOnlyOnSeparateLine>False</RemoveInterjectionsOnlyOnSeparateLine>
+    <RemoveIfAllUppercase>False</RemoveIfAllUppercase>
+    <RemoveIfContains>True</RemoveIfContains>
+    <RemoveIfContainsText>♫</RemoveIfContainsText>
+  </RemoveTextForHearingImpaired>
+  <SubtitleBeaming>
+    <FontName>Verdana</FontName>
+    <FontColor>-1</FontColor>
+    <FontSize>30</FontSize>
+    <BorderColor>-5658199</BorderColor>
+    <BorderWidth>2</BorderWidth>
+  </SubtitleBeaming>
+</Settings>

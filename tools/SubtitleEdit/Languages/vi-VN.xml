@@ -1,0 +1,1833 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language Name="Tiếng Việt">
+  <General>
+    <Title>Subtitle Edit</Title>
+    <Version>3.5.15</Version>
+    <TranslatedBy>Dịch qua Tiếng Việt bởi by everytime
+Mọi góp ý về bản dịch vui lòng gửi thư tới hộp thư: handes1990@gmail.com
+Cảm ơn rất nhiều</TranslatedBy>
+    <CultureName>vi-VN</CultureName>
+    <HelpFile />
+    <Ok>&amp;Đồng ý</Ok>
+    <Cancel>H&amp;ủy bỏ</Cancel>
+    <Apply>Áp dụng</Apply>
+    <None>Không</None>
+    <All>Tất cả</All>
+    <Preview>Xem trước</Preview>
+    <SubtitleFiles>Các tập tin phụ đề</SubtitleFiles>
+    <AllFiles>Tất cả tập tin</AllFiles>
+    <VideoFiles>Tập tin Video</VideoFiles>
+    <OpenSubtitle>Mở phụ đề...</OpenSubtitle>
+    <OpenVideoFile>Mở tập tin Video...</OpenVideoFile>
+    <OpenVideoFileTitle>Mở tiêu đề tập tin video...</OpenVideoFileTitle>
+    <NoVideoLoaded>Không có video để tải</NoVideoLoaded>
+    <VideoInformation>Thông tin Video</VideoInformation>
+    <StartTime>Thời gian bắt đầu</StartTime>
+    <EndTime>Thời gian kết thúc</EndTime>
+    <Duration>Giới hạn</Duration>
+    <NumberSymbol>Số thứ tự</NumberSymbol>
+    <Number>Số</Number>
+    <Text>Văn bản</Text>
+    <HourMinutesSecondsMilliseconds>H:M:S:Ms</HourMinutesSecondsMilliseconds>
+    <Bold>In đậm</Bold>
+    <Italic>In nghiêng</Italic>
+    <Underline>Gạch chân</Underline>
+    <Visible>Hiển thị</Visible>
+    <FrameRate>Tốc độ khung hình</FrameRate>
+    <Name>Tên</Name>
+    <FileNameXAndSize>Tên tập tin: {0} ({1})</FileNameXAndSize>
+    <ResolutionX>Độ phân giải: {0}</ResolutionX>
+    <FrameRateX>Tốc độ khung hình: {0:0.0###}</FrameRateX>
+    <TotalFramesX>Tổng số khung: {0:#,##0.##}</TotalFramesX>
+    <VideoEncodingX>Mã hóa video: {0}</VideoEncodingX>
+    <SingleLineLengths>Chiều dài đơn lẻ:</SingleLineLengths>
+    <TotalLengthX>Tổng chiều dài: {0}</TotalLengthX>
+    <TotalLengthXSplitLine>Tổng chiều dài các dòng: {0} (split line!)</TotalLengthXSplitLine>
+    <SplitLine>Chia nhỏ các dòng!</SplitLine>
+    <NotAvailable>N/A</NotAvailable>
+    <OverlapPreviousLineX>Xem trước các dòng bị trùng lặp ({0:#,##0.###})</OverlapPreviousLineX>
+    <OverlapX>Trùng lặp({0:#,##0.###})</OverlapX>
+    <OverlapNextX>Các dòng bị trùng lặp kế tiếp({0:#,##0.###})</OverlapNextX>
+    <Negative>Từ chối</Negative>
+    <RegularExpressionIsNotValid>Hiển thị không hợp lệ!</RegularExpressionIsNotValid>
+    <SubtitleSaved>Lưu phụ đề</SubtitleSaved>
+    <CurrentSubtitle>Phụ đề hiện tại</CurrentSubtitle>
+    <OriginalText>Văn bản gốc</OriginalText>
+    <OpenOriginalSubtitleFile>Mở phụ đề gốc...</OpenOriginalSubtitleFile>
+    <PleaseWait>Vui lòng chờ...</PleaseWait>
+    <SessionKey>Số phiên</SessionKey>
+    <UserName>Tên đăng nhập</UserName>
+    <UserNameAlreadyInUse>Tên đăng nhập đã được sử dụng</UserNameAlreadyInUse>
+    <WebServiceUrl>Địa chỉ dịch vụ web</WebServiceUrl>
+    <IP>IP</IP>
+    <VideoWindowTitle>Video - {0}</VideoWindowTitle>
+    <AudioWindowTitle>Audio - {0}</AudioWindowTitle>
+    <ControlsWindowTitle>Điều khiển - {0}</ControlsWindowTitle>
+    <Advanced>Nâng cao</Advanced>
+    <Style>VN</Style>
+    <Class>Lớp</Class>
+    <GeneralText>Văn bản chung</GeneralText>
+    <LineNumber>Số dòng</LineNumber>
+    <Before>Trước đó</Before>
+    <After>Sau đó</After>
+    <Size>Kích thước</Size>
+  </General>
+  <About>
+    <Title>Giới thiệu về Subtitle Edit</Title>
+    <AboutText1>Subtitle Edit là phần mềm mã nguồn mở miễn phí theo giấy phép của GNUic.
+
+Bạn có thể phân phối, sửa đổi và sử dụng một cách tự do.
+
+Mã nguồn C# có sẵn trên https://github.com/SubtitleEdit/subtitleedit
+
+Ghé thăm www.nikse.dk thường xuyên để biết thêm thông tin và tải về phiên bản mới nhất.
+
+Rất hân hạnh được chào đón.
+
+Hộp thư: Gửi thư tới: nikse.dk@gmail.com</AboutText1>
+  </About>
+  <AddToNames>
+    <Title>Thêm tên tập tin/danh sách...</Title>
+    <Description>Thêm vào tên/Danh sách ĐB(P.biệt HOA/thường)</Description>
+  </AddToNames>
+  <AddToOcrReplaceList>
+    <Title>Thêm vào danh sách thay thế orc</Title>
+    <Description>Thêm cặp OCR thay thế danh sách( P.biệt HOA/thường)</Description>
+  </AddToOcrReplaceList>
+  <AddToUserDictionary>
+    <Title>Thêm vào từ điển người dùng</Title>
+    <Description>Thêm từ ngữ vào từ điển người dùng(Không p.biệt HOA/thường)</Description>
+  </AddToUserDictionary>
+  <AddWaveform>
+    <Title>Tạo ra dữ liệu dạng sóng</Title>
+    <SourceVideoFile>Tập tin video nguồn:</SourceVideoFile>
+    <GenerateWaveformData>Tạo ra dữ liệu dạng sóng:</GenerateWaveformData>
+    <PleaseWait>Điều này có thể mất một vài phút - vui lòng chờ</PleaseWait>
+    <VlcMediaPlayerNotFoundTitle>Không tìm thấy VLC media player</VlcMediaPlayerNotFoundTitle>
+    <VlcMediaPlayerNotFound>Chỉnh sửa phụ đề cần VLC media player 1.1.x hoặc phiên bản mới hơn cho việc giải nén dữ liệu âm thanh.</VlcMediaPlayerNotFound>
+    <GoToVlcMediaPlayerHomePage>Bạn có muốn ghé thăm trang chủ VLC media player ?</GoToVlcMediaPlayerHomePage>
+    <GeneratingPeakFile>Tạo ra tập tin đỉnh cao ...</GeneratingPeakFile>
+    <GeneratingSpectrogram>Tạo ra ảnh quang phổ.</GeneratingSpectrogram>
+    <ExtractingSeconds>Giải nén audio: {0:0.0}s</ExtractingSeconds>
+    <ExtractingMinutes>Giải nén audio: {0}.{1:00}s</ExtractingMinutes>
+  </AddWaveform>
+  <AdjustDisplayDuration>
+    <Title>Chỉnh sửa khoảng thời gian</Title>
+    <AdjustVia>Chỉnh sửa thông qua</AdjustVia>
+    <Seconds>Giây</Seconds>
+    <Percent>Phần trăm</Percent>
+    <Recalculate>Tính toán lại</Recalculate>
+    <AddSeconds>Thêm số giây</AddSeconds>
+    <SetAsPercent>Xác nhận giới hạn %</SetAsPercent>
+    <Note>Lưu ý: Thời gian hiển thị không trùng lên thời gian của văn bản tiếp theo</Note>
+    <PleaseSelectAValueFromTheDropDownList>Vui lòng chọn giá trị từ danh sách xổ xuống</PleaseSelectAValueFromTheDropDownList>
+  </AdjustDisplayDuration>
+  <ApplyDurationLimits>
+    <Title>Áp dụng giới hạn thời gian</Title>
+    <FixesAvailable>Các bản sửa lỗi có sẵn: {0}</FixesAvailable>
+    <UnableToFix>Không thể sửa lỗi: {0}</UnableToFix>
+  </ApplyDurationLimits>
+  <AutoBreakUnbreakLines>
+    <TitleAutoBreak>Tự động lựa chọn các dòng cân bằng</TitleAutoBreak>
+    <TitleUnbreak>Gỡ bỏ các dòng bị ngắt ra khỏi các dòng</TitleUnbreak>
+    <LinesFoundX>Tìm thấy các dòng: {0}</LinesFoundX>
+    <OnlyBreakLinesLongerThan>Hiển thị các dòng bị ngắt dài hơn</OnlyBreakLinesLongerThan>
+    <OnlyUnbreakLinesLongerThan>Hiển thị các dòng không bị ngắt dài hơn</OnlyUnbreakLinesLongerThan>
+  </AutoBreakUnbreakLines>
+  <BatchConvert>
+    <Title>Chuyển đổi hàng loạt</Title>
+    <Input>Đầu vào</Input>
+    <InputDescription>Đầu ra tập tin (Chọn từ ngữ/Danh sách xổ xuống)</InputDescription>
+    <Status>Trạng thái</Status>
+    <Output>Đầu ra</Output>
+    <ChooseOutputFolder>Chọn đầu ra cho thư mục</ChooseOutputFolder>
+    <OverwriteExistingFiles>Ghi đè lên tập tin hiện có</OverwriteExistingFiles>
+    <Style>Kiểu dáng...</Style>
+    <ConvertOptions>Cài đặt cách chuyển đổi</ConvertOptions>
+    <RemoveFormatting>Gỡ định dạng thẻ</RemoveFormatting>
+    <RemoveTextForHI>Gỡ bỏ văn bản của HI</RemoveTextForHI>
+    <RedoCasing>Quay lại cách hiển thị trước</RedoCasing>
+    <Convert>Chuyển đổi</Convert>
+    <NothingToConvert>Không thể chuyển đổi!</NothingToConvert>
+    <PleaseChooseOutputFolder>Vui lòng chọn đường dẫn đầu ra thư mục</PleaseChooseOutputFolder>
+    <Converted>Chuyển đổi</Converted>
+  </BatchConvert>
+  <Beamer>
+    <Title>Chuẩn xác</Title>
+  </Beamer>
+  <ChangeCasing>
+    <Title>Thay đổi cách hiển thị</Title>
+    <ChangeCasingTo>Chọn cách hiển thị c ở</ChangeCasingTo>
+    <NormalCasing>Kiểu chữ thường. Câu đầu tiên viết bằng chữ hoa.</NormalCasing>
+    <FixNamesCasing>Sữa kiểu chữ (qua Từ điển/NameEtc.xml)</FixNamesCasing>
+    <FixOnlyNamesCasing>Chỉ sửa chữa kiểu chữ đang hiển thị (qua Từ điển/NameEtc.xml)</FixOnlyNamesCasing>
+    <OnlyChangeAllUppercaseLines>Thay đổi kiểu chữ phía trên dòng</OnlyChangeAllUppercaseLines>
+    <AllUppercase>CHỮ IN HOATẤT CẢ</AllUppercase>
+    <AllLowercase>chữ in thường tất cả</AllLowercase>
+  </ChangeCasing>
+  <ChangeCasingNames>
+    <Title>Thay đổi kiểu chữ - Tên</Title>
+    <NamesFoundInSubtitleX>Tìm thấy tên phụ đề này: {0}</NamesFoundInSubtitleX>
+    <Enabled>Kích hoạt</Enabled>
+    <Name>Tên</Name>
+    <LinesFoundX>Tìm thấy các dòng: {0}</LinesFoundX>
+  </ChangeCasingNames>
+  <ChangeFrameRate>
+    <Title>Thay đổi tỉ lệ khung hình</Title>
+    <ConvertFrameRateOfSubtitle>Chuyển đổi tỉ lệ khung hình của phụ đề</ConvertFrameRateOfSubtitle>
+    <FromFrameRate>Từ tỉ lệ khung hình</FromFrameRate>
+    <ToFrameRate>Đến tỉ lệ khung hình</ToFrameRate>
+    <FrameRateNotCorrect>Tỉ lệ khung hình không đúng</FrameRateNotCorrect>
+    <FrameRateNotChanged>Tỉ lệ khung hình giống nhau - không cần chuyển đổi</FrameRateNotChanged>
+  </ChangeFrameRate>
+  <ChangeSpeedInPercent>
+    <Title>Ttỉ lệ 1/2 tốc độ điều chỉnh</Title>
+    <Info>Thay đổi 1/2 tốc độ phụ đề</Info>
+  </ChangeSpeedInPercent>
+  <ChooseEncoding>
+    <Title>Chọn kiểu mã hóa</Title>
+    <CodePage>Mã hóa trang</CodePage>
+    <DisplayName>Hiển thị tên</DisplayName>
+    <PleaseSelectAnEncoding>Vui lòng chọn kiểu mã hóa</PleaseSelectAnEncoding>
+  </ChooseEncoding>
+  <ChooseLanguage>
+    <Title>Chọn ngôn ngữ</Title>
+    <Language>Ngôn ngữ</Language>
+  </ChooseLanguage>
+  <ColumnPaste>
+    <Title>Dán số cột</Title>
+    <ChooseColumn>Chọn số cột</ChooseColumn>
+    <OverwriteShiftCellsDown>Ghi đè/Thay đổi các ô bên dưới</OverwriteShiftCellsDown>
+    <Overwrite>Ghi đè</Overwrite>
+    <ShiftCellsDown>Thay đổi các ô bên dưới</ShiftCellsDown>
+    <TimeCodesOnly>Hiển thị thời gian mã hóa</TimeCodesOnly>
+    <TextOnly>Văn bản hiển thị</TextOnly>
+    <OriginalTextOnly>Hiển thị văn bản gốc</OriginalTextOnly>
+  </ColumnPaste>
+  <CompareSubtitles>
+    <Title>So sách các phụ đề</Title>
+    <PreviousDifference>Khác biệt trước đó</PreviousDifference>
+    <NextDifference>&amp;Khác biệt sau này</NextDifference>
+    <SubtitlesNotAlike>Các phụ đề không giống nhau</SubtitlesNotAlike>
+    <XNumberOfDifference>Số khác nhau: {0}</XNumberOfDifference>
+    <ShowOnlyDifferences>Hiển thị sự khác nhau</ShowOnlyDifferences>
+    <OnlyLookForDifferencesInText>Chỉ tìm kiếm sự khác nhau trong văn bản</OnlyLookForDifferencesInText>
+    <CannotCompareWithImageBasedSubtitles>Không thể so sánh với hình ảnh phụ đề</CannotCompareWithImageBasedSubtitles>
+  </CompareSubtitles>
+  <DCinemaProperties>
+    <Title>Thuộc tính D-Cinema (interop)</Title>
+    <TitleSmpte>Thuộc tínhD-Cinema (SMPTE)</TitleSmpte>
+    <SubtitleId>ID phụ đề</SubtitleId>
+    <GenerateId>Tạo ID</GenerateId>
+    <MovieTitle>Tiêu đề phim</MovieTitle>
+    <ReelNumber>Số vòng quay</ReelNumber>
+    <Language>Ngôn ngữ</Language>
+    <IssueDate>Ngày cấp</IssueDate>
+    <EditRate>Chỉnh sửa tỷ lệ</EditRate>
+    <Font>Phông chữ</Font>
+    <FontId>ID</FontId>
+    <FontUri>URI</FontUri>
+    <FontColor>Màu sắc</FontColor>
+    <FontEffect>Hiệu ứng</FontEffect>
+    <FontEffectColor>Hiệu ứng màu sắc</FontEffectColor>
+    <FontSize>Kích thước</FontSize>
+    <ChooseColor>Chọn màusắc ...</ChooseColor>
+  </DCinemaProperties>
+  <DvdSubRip>
+    <Title>Trích xuất phụ đề từ IFO/VOB (DVD)</Title>
+    <DvdGroupTitle>Tập tin DVD/Thông tin</DvdGroupTitle>
+    <IfoFile>Tập tin IFO</IfoFile>
+    <IfoFiles>Tập tin IFO</IfoFiles>
+    <VobFiles>Tập tin VOB</VobFiles>
+    <Add>Thêm...</Add>
+    <Remove>Gỡ bỏ</Remove>
+    <Clear>Làm sạch</Clear>
+    <MoveUp>Di chuyển lên</MoveUp>
+    <MoveDown>Di chuyển xuống</MoveDown>
+    <Languages>Ngôn ngữ</Languages>
+    <PalNtsc>PAL/NTSC</PalNtsc>
+    <Pal>PAL (25fps)</Pal>
+    <Ntsc>NTSC (29.97fps)</Ntsc>
+    <StartRipping>Bắt đầu trích xuất</StartRipping>
+    <Abort>Hủy bỏ</Abort>
+    <AbortedByUser>Hủy bỏ bởi người dùng</AbortedByUser>
+    <ReadingSubtitleData>Đọc dữ liệu phụ đề...</ReadingSubtitleData>
+    <RippingVobFileXofYZ>Trích xuất tập tin vob {1} của {2}: {0}</RippingVobFileXofYZ>
+    <WrongIfoType>Loại IFO là '{0}' và không phải 'DVDVIDEO-VTS' {1} Hãy thử một tập tin khác {2}.</WrongIfoType>
+  </DvdSubRip>
+  <DvdSubRipChooseLanguage>
+    <Title>Chọn ngôn ngữ</Title>
+    <ChooseLanguageStreamId>Chọn ngôn ngữ (dòng-id)</ChooseLanguageStreamId>
+    <UnknownLanguage>Không rõ ngôn ngữ</UnknownLanguage>
+    <SubtitleImageXofYAndWidthXHeight>Hình ảnh phụ đề {0}/{1} - {2} x {3}</SubtitleImageXofYAndWidthXHeight>
+    <SubtitleImage>Hình ảnh phụ đề</SubtitleImage>
+  </DvdSubRipChooseLanguage>
+  <EbuSaveOptions>
+    <Title>Lưu tùy chọn EBU</Title>
+    <GeneralSubtitleInformation>Thông tin phụ đề</GeneralSubtitleInformation>
+    <CodePageNumber>Mã hóa số trang</CodePageNumber>
+    <DiskFormatCode>Mã hóa định dạng đĩa</DiskFormatCode>
+    <CharacterCodeTable>Bảng ký tự</CharacterCodeTable>
+    <LanguageCode>Mã hóa ngôn ngữ</LanguageCode>
+    <OriginalProgramTitle>Tiêu đề chương trình gốc</OriginalProgramTitle>
+    <OriginalEpisodeTitle>Tiêu đề số tập gốc</OriginalEpisodeTitle>
+    <TranslatedProgramTitle>Dịch tiêu đề chương trình</TranslatedProgramTitle>
+    <TranslatedEpisodeTitle>Dịch số tập tiêu đề</TranslatedEpisodeTitle>
+    <TranslatorsName>Dịch tên</TranslatorsName>
+    <SubtitleListReferenceCode>Mã hóa danh sách phụ đề</SubtitleListReferenceCode>
+    <CountryOfOrigin>Nước xuất xứ</CountryOfOrigin>
+    <RevisionNumber>Số sửa đổi</RevisionNumber>
+    <MaxNoOfDisplayableChars>Kí tự tối đa # cho mỗi dòng</MaxNoOfDisplayableChars>
+    <MaxNumberOfDisplayableRows>Số đòng tối đa #</MaxNumberOfDisplayableRows>
+    <DiskSequenceNumber>Số thứ tự đĩa</DiskSequenceNumber>
+    <TotalNumberOfDisks>Tổng số đĩa</TotalNumberOfDisks>
+    <Import>Nhập vào...</Import>
+    <TextAndTimingInformation>Văn bản và thông tin điều chỉnh</TextAndTimingInformation>
+    <JustificationCode>Mã hóa chứng minh</JustificationCode>
+    <Errors>Lỗi</Errors>
+    <ErrorsX>Lỗi: {0}</ErrorsX>
+    <MaxLengthError>Số dòng {0} vượt quá chiều dài tối đa ({1}) bởi {2}: {3}</MaxLengthError>
+    <TextUnchangedPresentation>Trình bày không thay đổi</TextUnchangedPresentation>
+    <TextLeftJustifiedText>Chứng minh văn bản bên trái</TextLeftJustifiedText>
+    <TextCenteredText>Văn bản ở giữa</TextCenteredText>
+    <TextRightJustifiedText>Chứng minh văn bản bên phải</TextRightJustifiedText>
+  </EbuSaveOptions>
+  <EffectKaraoke>
+    <Title>Hiệu ứng karaoke</Title>
+    <ChooseColor>Chọn màu sắc:</ChooseColor>
+    <TotalMilliseconds>Tổng ms:.</TotalMilliseconds>
+    <EndDelayInMilliseconds>Kết thúc sự chậm trễ trong ms.:</EndDelayInMilliseconds>
+  </EffectKaraoke>
+  <EffectTypewriter>
+    <Title>Hiệu ứng chữ viết</Title>
+    <TotalMilliseconds>Tổng ms:.</TotalMilliseconds>
+    <EndDelayInMilliseconds>Kết thúc sự chậm trễ trong ms:.</EndDelayInMilliseconds>
+  </EffectTypewriter>
+  <ExportPngXml>
+    <Title>Xuất ra BDN XML/PNG</Title>
+    <ImageSettings>Cài đặt hình ảnh</ImageSettings>
+    <FontFamily>Phông chữ</FontFamily>
+    <FontSize>Kích thước chữ</FontSize>
+    <FontColor>Màu sắc chữ</FontColor>
+    <BorderColor>Màu sắc đường biên</BorderColor>
+    <BorderWidth>Chiều rộng đường biên</BorderWidth>
+    <ImageFormat>Định dạng hình ảnh</ImageFormat>
+    <SideBySide3D>Nửa bên cạnh nhau</SideBySide3D>
+    <ExportAllLines>Xuất tất cả các dòng...</ExportAllLines>
+    <XImagesSavedInY>{0} Hình ảnh được lưu trong {1}</XImagesSavedInY>
+    <VideoResolution>Độ phân giải video</VideoResolution>
+    <Align>Sắp xếp</Align>
+    <Left>Trái</Left>
+    <Right>Phải</Right>
+    <Center>Giữa</Center>
+    <BottomMargin>Lề dưới</BottomMargin>
+    <SaveBluRraySupAs>Chọn tên tập tin Blu-ray được hỗ trợ</SaveBluRraySupAs>
+    <SaveVobSubAs>Chọn tên tập tin VobSub</SaveVobSubAs>
+    <SaveFabImageScriptAs>Chọn tên tập tin Blu-ray được hỗ trợ</SaveFabImageScriptAs>
+    <SaveDvdStudioProStlAs>Chọn tên tập tin DVD Studio Pro STL</SaveDvdStudioProStlAs>
+  </ExportPngXml>
+  <ExportText>
+    <Title>Xuất văn bản</Title>
+    <Preview>Xem trước</Preview>
+    <ExportOptions>Tùy chọn xuất</ExportOptions>
+    <FormatText>Định dạng văn bản</FormatText>
+    <None>Không</None>
+    <MergeAllLines>Gộp tất cả các dòng</MergeAllLines>
+    <UnbreakLines>Ngắt ở dòng</UnbreakLines>
+    <RemoveStyling>Gỡ bỏ phong cách</RemoveStyling>
+    <ShowLineNumbers>Hiện dòng số</ShowLineNumbers>
+    <AddNewLineAfterLineNumber>Thêm dòng mới sau dòng số</AddNewLineAfterLineNumber>
+    <ShowTimeCode>Mã hóa hiển thị thời gian</ShowTimeCode>
+    <AddNewLineAfterTimeCode>Thêm dòng mới sau khi mã hóa thời gian</AddNewLineAfterTimeCode>
+    <AddNewLineAfterTexts>Thêm dòng mới sau văn bản</AddNewLineAfterTexts>
+    <AddNewLineBetweenSubtitles>Thêm dòng mới giữa các phụ đề</AddNewLineBetweenSubtitles>
+    <TimeCodeFormat>Mã hóa định dạng thời gian</TimeCodeFormat>
+    <Srt>srt</Srt>
+    <Milliseconds>Milli giây</Milliseconds>
+    <HHMMSSFF>HH:. MM: SS: FF</HHMMSSFF>
+    <TimeCodeSeparator>Thời gian đang chia tách</TimeCodeSeparator>
+  </ExportText>
+  <FindDialog>
+    <Title>Tìm</Title>
+    <Find>Tìm</Find>
+    <Normal>&amp;Bình thường</Normal>
+    <CaseSensitive>&amp;Cách hiển thị sử dụng thường xuyên</CaseSensitive>
+    <RegularExpression>Xuất hiện &amp;thường xuyên</RegularExpression>
+  </FindDialog>
+  <FindSubtitleLine>
+    <Title>Tìm dòng phụ đề</Title>
+    <Find>&amp;Tìm kiếm</Find>
+    <FindNext>Tìm kiếm&amp;tiếp theo</FindNext>
+  </FindSubtitleLine>
+  <FixCommonErrors>
+    <Title>Sữa chữa các lỗi</Title>
+    <Step1>Bước 1/2 - Chọn lỗi cần sửa</Step1>
+    <WhatToFix>Sửa lỗi gì</WhatToFix>
+    <Example>Ví dụ</Example>
+    <SelectAll>Chọn tất cả</SelectAll>
+    <InverseSelection>Hủy lựa chọn</InverseSelection>
+    <Back>&lt;&amp;Trở lại</Back>
+    <Next>&amp;Tiếp tục&gt;</Next>
+    <Step2>Bước 2/2 - Kiểm tra các bản sửa lỗi</Step2>
+    <Fixes>Sữa lỗi</Fixes>
+    <Log>Đăng nhập</Log>
+    <Function>Chức năng</Function>
+    <RemovedEmptyLine>Gỡ bỏ dòng trống</RemovedEmptyLine>
+    <RemovedEmptyLineAtTop>Gỡ bỏ dòng trống ở đầu</RemovedEmptyLineAtTop>
+    <RemovedEmptyLineAtBottom>Gỡ bỏ dòng trống ở cuối</RemovedEmptyLineAtBottom>
+    <RemovedEmptyLinesUnsedLineBreaks>Gỡ bỏ các dòng trống/không dùng khỏi dòng được ngắt</RemovedEmptyLinesUnsedLineBreaks>
+    <EmptyLinesRemovedX>Loại bỏ dòng rỗng: {0}</EmptyLinesRemovedX>
+    <FixOverlappingDisplayTimes>Sửa lỗi hiển thị bị trùng tiếp theo</FixOverlappingDisplayTimes>
+    <FixShortDisplayTimes>Sữa lỗi số lần hiển thị trong thời gian ngắn</FixShortDisplayTimes>
+    <FixLongDisplayTimes>Sữa lỗi số lần hiển thị trong thời gian dài</FixLongDisplayTimes>
+    <FixInvalidItalicTags>Chữa thẻ chữ in nghiêng không hợp lệ</FixInvalidItalicTags>
+    <RemoveUnneededSpaces>Gỡ bỏ không gian không cần thiết</RemoveUnneededSpaces>
+    <RemoveUnneededPeriods>Gỡ bỏ thời gian không cần thiết</RemoveUnneededPeriods>
+    <FixMissingSpaces>Sữa lỗi thiếu không gian</FixMissingSpaces>
+    <BreakLongLines>Ngắt dòng do dòng quá dài</BreakLongLines>
+    <RemoveLineBreaks>Gỡ bỏ ngắt dòng trong văn bản ngắn chỉ có một câu</RemoveLineBreaks>
+    <RemoveLineBreaksAll>Gỡ bỏ ngắt dòng trong đoạn văn ngắn (tất cả ngoại trừ các cuộc đối thoại)</RemoveLineBreaksAll>
+    <FixUppercaseIInsindeLowercaseWords>Sữa lỗi in hoa 'i' trong dạng chữ thường (lỗi OCR)</FixUppercaseIInsindeLowercaseWords>
+    <FixDoubleApostrophes>Sữa lỗi lặp ký tự dấu cặp dấu nháy đơn ('') trong 1 lần duy nhất (")</FixDoubleApostrophes>
+    <AddPeriods>Thêm thời gian sau dòng tiếp theo với dòng bắt đầu viết bằng chữ cái viết hoa</AddPeriods>
+    <StartWithUppercaseLetterAfterParagraph>Chữ cái sẽ viết hoa bắt đầu sau đoạn</StartWithUppercaseLetterAfterParagraph>
+    <StartWithUppercaseLetterAfterPeriodInsideParagraph>Chữ cái bắt đầu viết hoa sau thời gian trong đoạn</StartWithUppercaseLetterAfterPeriodInsideParagraph>
+    <StartWithUppercaseLetterAfterColon>Chữ cái bắt đầu viết hoa sau dấu hai chấm (:)/dấu chấm phẩy (;)</StartWithUppercaseLetterAfterColon>
+    <FixLowercaseIToUppercaseI>Sữa lỗi 'i' thành 'I' (Trong tiếng Anh)</FixLowercaseIToUppercaseI>
+    <FixCommonOcrErrors>Sữa lỗi OCR thông thường (OCR sử dụng thay thế danh sách)</FixCommonOcrErrors>
+    <CommonOcrErrorsFixed>Lỗi thường gặp OCR cố định (Danh sách tập tin Ocr được sử dụng): {0}</CommonOcrErrorsFixed>
+    <RemoveSpaceBetweenNumber>Gỡ bỏ khoảng cách giữa các số</RemoveSpaceBetweenNumber>
+    <FixDialogsOnOneLine>Hộp thoại sữa lỗi trên một dòng</FixDialogsOnOneLine>
+    <RemoveSpaceBetweenNumbersFixed>Hủy bỏ không gian giữa các số cố định: {0}</RemoveSpaceBetweenNumbersFixed>
+    <FixTurkishAnsi>Sữa lỗi tiếng Thổ Nhĩ Kỳ ANSI (Iceland) trong Unicode</FixTurkishAnsi>
+    <FixDanishLetterI>Sữa chữa chữ "i" trong tiếng Đan Mạch</FixDanishLetterI>
+    <FixSpanishInvertedQuestionAndExclamationMarks>Sữa lỗi câu hỏi bị ngược trong tiếng Tây Ban Nha và dấu chấm than(!)</FixSpanishInvertedQuestionAndExclamationMarks>
+    <AddMissingQuote>Thêm dấu nháy kép bị mất (")</AddMissingQuote>
+    <AddMissingQuotes>Thêm dấu nháy kép bị mất (")</AddMissingQuotes>
+    <FixHyphens>Sữa chữa (loại bỏ dấu "-") của dòng đó khi bắt đầu bằng dấu gạch ngang (-)</FixHyphens>
+    <FixHyphensAdd>Sữa chữa (thêm dấu "-") trong cặp đôi dòng phù hợp với chỉ một dấu gạch ngang (-)</FixHyphensAdd>
+    <FixHyphen>Sữa chữ dòng bắt đầu bằng dấu gạch ngang (-)</FixHyphen>
+    <XHyphensFixed>Gỡ bỏ dấu gạch ngang(-): {0}</XHyphensFixed>
+    <AddMissingQuotesExample>"Bạn thế nào? &gt;"Bạn thế nào? "</AddMissingQuotesExample>
+    <XMissingQuotesAdded>Thêm khi mất dấu nháy kép(""): {0}</XMissingQuotesAdded>
+    <Fix3PlusLines>Sữa lỗi phụ đề khi có hơn 2 dòng</Fix3PlusLines>
+    <Fix3PlusLine>Sữa lỗi phụ đề khi có hơn 2 dòng</Fix3PlusLine>
+    <X3PlusLinesFixed>Phụ đề có hơn 2 dòng sẽ được sữa chữa: {0}</X3PlusLinesFixed>
+    <Analysing>Phân tích...</Analysing>
+    <NothingToFix>Không có gì để sửa lỗi:</NothingToFix>
+    <FixesFoundX>Tìm thấy việc sữa lỗi: {0}</FixesFoundX>
+    <XFixesApplied>Áp dụng việc sửa lỗi: {0}</XFixesApplied>
+    <NothingToFixBut>Không có gì để sửa lỗi nhưng một vài điều có thể được cải thiện-xem để biết chi tiết đăng nhập</NothingToFixBut>
+    <Continue>Tiếp tục</Continue>
+    <ContinueAnyway>Vẫn tiếp tục ?</ContinueAnyway>
+    <UncheckedFixLowercaseIToUppercaseI>Bỏ chọn "Sửa lỗi 'i' thành 'I' (trong tiếng Anh)"</UncheckedFixLowercaseIToUppercaseI>
+    <XIsChangedToUppercase>{0} thay đổi thành chữ hoa</XIsChangedToUppercase>
+    <FixFirstLetterToUppercaseAfterParagraph>Sửa chữ cái đầu tiên thành chữ hoa sau đoạn</FixFirstLetterToUppercaseAfterParagraph>
+    <MergeShortLine>Gộp các dòng quá ngắn (1 câu duy nhất)</MergeShortLine>
+    <MergeShortLineAll>Gộp các dòng quá ngắn (tất cả ngoại trừ các cuộc đối thoại)</MergeShortLineAll>
+    <XLineBreaksAdded>{0} thêm ngắt dòng</XLineBreaksAdded>
+    <BreakLongLine>Ngắt dòng do dòng quá dài</BreakLongLine>
+    <FixLongDisplayTime>Sữa chữa hiển thị trong thời gian dài</FixLongDisplayTime>
+    <FixInvalidItalicTag>Sửa lỗi thẻ in nghiêng không hợp lệ</FixInvalidItalicTag>
+    <FixShortDisplayTime>Sữa lỗi hiển thị trong thời gian ngắn</FixShortDisplayTime>
+    <FixOverlappingDisplayTime>Sửa lỗi hiển thị bị trùng lặp thời gian</FixOverlappingDisplayTime>
+    <FixInvalidItalicTagsExample>&lt;i&gt;What do I care.&lt;i&gt; -&gt; &lt;i&gt;What do I care.&lt;/i&gt;</FixInvalidItalicTagsExample>
+    <RemoveUnneededSpacesExample>Này cậu , ở đây. -&gt; Này cậu, ở đây.</RemoveUnneededSpacesExample>
+    <RemoveUnneededPeriodsExample>Hey you!. -&gt; Hey you!</RemoveUnneededPeriodsExample>
+    <FixMissingSpacesExample>Hey.You. -&gt; Hey. You.</FixMissingSpacesExample>
+    <FixUppercaseIInsindeLowercaseWordsExample>The earth is fIat. -&gt; The earth is flat.</FixUppercaseIInsindeLowercaseWordsExample>
+    <FixLowercaseIToUppercaseIExample>What do i care . -&gt; What do I care.</FixLowercaseIToUppercaseIExample>
+    <StartTimeLaterThanEndTime>Số văn bản {0}: Thời gian bắt đầu ở sau thời gian kết thúc: {4} {1} -&gt; {2} {3}</StartTimeLaterThanEndTime>
+    <UnableToFixStartTimeLaterThanEndTime>Không thể sửa lỗi văn bản số {0}: Thời gian bắt đầu ở sau thời gian kết thúc: {1}</UnableToFixStartTimeLaterThanEndTime>
+    <XFixedToYZ>{0} Sửa lỗi tới: {1} {2}</XFixedToYZ>
+    <UnableToFixTextXY>Không thể sửa lỗi văn bản số {0}: {1}</UnableToFixTextXY>
+    <XOverlappingTimestampsFixed>{0} Sữa chữa thời gian bị trùng lặp</XOverlappingTimestampsFixed>
+    <XDisplayTimesProlonged>{0} hiển thị số lần kéo dài</XDisplayTimesProlonged>
+    <XInvalidHtmlTagsFixed>{ 0} sửa lỗi thẻ HTML không hợp lệ</XInvalidHtmlTagsFixed>
+    <XDisplayTimesShortned>{0} số lần hiển thị rút ngắn</XDisplayTimesShortned>
+    <XLinesUnbreaked>{0} dòng không rõ bị gỡ bỏ</XLinesUnbreaked>
+    <UnneededSpace>Không gian không cần thiết</UnneededSpace>
+    <XUnneededSpacesRemoved>{0} không gian không cần thiết loại bỏ</XUnneededSpacesRemoved>
+    <UnneededPeriod>Thời gian không cần thiết</UnneededPeriod>
+    <XUnneededPeriodsRemoved>{0} thời gian không cần thiết loại bỏ</XUnneededPeriodsRemoved>
+    <FixMissingSpace>Sửa lỗi thiếu không gian</FixMissingSpace>
+    <XMissingSpacesAdded>{0}thêm không gian thiếu</XMissingSpacesAdded>
+    <FixUppercaseIInsideLowercaseWord>Sửa chữ 'i' là dạng chữ in hoa trong dạng chữ thường</FixUppercaseIInsideLowercaseWord>
+    <XPeriodsAdded>{0} thêm giai đoạn.</XPeriodsAdded>
+    <FixMissingPeriodAtEndOfLine>Thêm thời gian bị mất ở cuối dòng</FixMissingPeriodAtEndOfLine>
+    <XDoubleApostrophesFixed>{0} sửa dấu nháy kép("") mặc định .</XDoubleApostrophesFixed>
+    <XUppercaseIsFoundInsideLowercaseWords>{0} tìm thấy chữ "i" in hoa bên trong chữ in thường</XUppercaseIsFoundInsideLowercaseWords>
+    <RefreshFixes>Làm mới sửa lỗi có sẵn</RefreshFixes>
+    <ApplyFixes>Áp dụng lựa chọn đã được sửa lỗi</ApplyFixes>
+    <AutoBreak>Tự động chèn kí tự &amp;br</AutoBreak>
+    <Unbreak>&amp;Không bị gỡ bỏ</Unbreak>
+    <FixDoubleDash>Sữa chữa '-' -&gt; '...'</FixDoubleDash>
+    <FixDoubleGreaterThan>Gỡ bỏ &gt;&gt;</FixDoubleGreaterThan>
+    <FixEllipsesStart>Gỡ bỏ bắt đầu '...'</FixEllipsesStart>
+    <FixMissingOpenBracket>Sửa lỗi thiếu [trong dòng</FixMissingOpenBracket>
+    <FixMusicNotation>Thay thế các ký hiệu âm nhạc (ví dụ như âTª) với biểu tượng ưa thích</FixMusicNotation>
+    <XFixDoubleDash>{0} sửa lỗi '--'</XFixDoubleDash>
+    <XFixDoubleGreaterThan>{0} gỡ bỏ &gt;&gt;</XFixDoubleGreaterThan>
+    <XFixEllipsesStart>{0} gỡ bỏ bắt đầu '...'</XFixEllipsesStart>
+    <XFixMissingOpenBracket>{0} Gỡ bỏ [trong dòng</XFixMissingOpenBracket>
+    <XFixMusicNotation>{0}Sửa lỗi kí hiệu âm nhạc cho phù hợp</XFixMusicNotation>
+    <FixDoubleDashExample>'Whoa-- um yeah!' -&gt; 'Whoa... um yeah!'</FixDoubleDashExample>
+    <FixDoubleGreaterThanExample>'&gt;&gt; Robert: Sup dude!' -&gt; 'Robert: Sup dude!'</FixDoubleGreaterThanExample>
+    <FixEllipsesStartExample>'... and then we' -&gt; 'and then we'</FixEllipsesStartExample>
+    <FixMissingOpenBracketExample>'clanks] Look out!' -&gt; '[clanks] Look out!'</FixMissingOpenBracketExample>
+    <FixMusicNotationExample>'âTª sweet dreams are' -&gt; '♫ sweet dreams are'</FixMusicNotationExample>
+    <NumberOfImportantLogMessages>{0} tin nhắn đăng nhập quan trọng!</NumberOfImportantLogMessages>
+    <FixedOkXY>Sữa chữa và Đồng ý - '{0}': {1}</FixedOkXY>
+  </FixCommonErrors>
+  <GetDictionaries>
+    <Title>Cần từ điển?</Title>
+    <DescriptionLine1>Kiểm tra chính tả của Subtitle Edit được dựa trên các công cụ NHunspell</DescriptionLine1>
+    <DescriptionLine2>Sử dụng từ điển để kiểm tra chính tả từ LibreOffice.</DescriptionLine2>
+    <GetDictionariesHere>Lấy từ điển ở đây:</GetDictionariesHere>
+    <ChooseLanguageAndClickDownload>Chọn ngôn ngữ của bạn và bấm vào nút tải về</ChooseLanguageAndClickDownload>
+    <OpenDictionariesFolder>Mở thư mục chứa 'Từ điển'</OpenDictionariesFolder>
+    <Download>Tải về</Download>
+    <XDownloaded>{0} đã được tải về và cài đặt</XDownloaded>
+  </GetDictionaries>
+  <GoogleTranslate>
+    <Title>Google dịch</Title>
+    <From>Từ:</From>
+    <To>Đến:</To>
+    <Translate>Dịch</Translate>
+    <PleaseWait>Chờ đi...Đang dịch mà, chờ tí...</PleaseWait>
+    <PoweredByGoogleTranslate>Cung cấp bởi Google dịch</PoweredByGoogleTranslate>
+    <PoweredByMicrosoftTranslate>Cung cấp bởi Microsoft dịch</PoweredByMicrosoftTranslate>
+  </GoogleTranslate>
+  <GoogleOrMicrosoftTranslate>
+    <Title>Google vs Microsoft dịch</Title>
+    <From>Từ:</From>
+    <To>Đến:</To>
+    <Translate>Dịch văn bản</Translate>
+    <SourceText>Nguồn văn bản</SourceText>
+    <GoogleTranslate>Google dịch</GoogleTranslate>
+    <MicrosoftTranslate>Microsoft dịch</MicrosoftTranslate>
+  </GoogleOrMicrosoftTranslate>
+  <GoToLine>
+    <Title>Tới phụ đề số</Title>
+    <XIsNotAValidNumber>{0} không phải là một số hợp lệ</XIsNotAValidNumber>
+  </GoToLine>
+  <ImportText>
+    <Title>Nhập văn bản đơn giản</Title>
+    <OpenTextFile>Mở tập tin văn bản...</OpenTextFile>
+    <ImportOptions>Tùy chọn nhập vào</ImportOptions>
+    <Splitting>Chia</Splitting>
+    <AutoSplitText>Tự động chia văn bản</AutoSplitText>
+    <OneLineIsOneSubtitle>Một dòng trong một phụ đề</OneLineIsOneSubtitle>
+    <SplitAtBlankLines>Chia nhỏ ở dòng còn trống</SplitAtBlankLines>
+    <MergeShortLines>Tiếp tục gộp các dòng quá ngắn</MergeShortLines>
+    <RemoveEmptyLines>Gỡ bỏ các dòng trống</RemoveEmptyLines>
+    <RemoveLinesWithoutLetters>Gỡ bỏ dòng không có chữ</RemoveLinesWithoutLetters>
+    <GapBetweenSubtitles>Khoảng cách giữa các phụ đề (ms)</GapBetweenSubtitles>
+    <Auto>Tự động</Auto>
+    <Fixed>Sữa chữa</Fixed>
+    <Refresh>&amp;Làm mới</Refresh>
+    <TextFiles>Tập tin văn bản</TextFiles>
+    <PreviewLinesModifiedX>Xem trước - đoạn chỉnh sửa: {0}</PreviewLinesModifiedX>
+  </ImportText>
+  <Interjections>
+    <Title>Xen vào</Title>
+  </Interjections>
+  <JoinSubtitles>
+    <Title>Kết nối với phụ đề</Title>
+    <Information>Thêm phụ đề kết nối ( hỗ trợ kéo thả)</Information>
+    <NumberOfLines>Đòng</NumberOfLines>
+    <StartTime>thời gian bắt đầu</StartTime>
+    <EndTime>Thời gian kết thúc</EndTime>
+    <FileName>Tên tập tin</FileName>
+    <Join>Kết nối</Join>
+    <TotalNumberOfLinesX>Tổng số các dòng: {0:#,###,###}</TotalNumberOfLinesX>
+  </JoinSubtitles>
+  <LanguageNames>
+    <aaName>Tiếng Afar</aaName>
+    <abName>Tiếng Abkhazia</abName>
+    <afName>Tiếng Nam Phi</afName>
+    <amName>Tiếng Amharic</amName>
+    <arName>Tiếng Ả Rập</arName>
+    <asName>Tiếng Assam</asName>
+    <ayName>Tiếng Aymara</ayName>
+    <azName>Tiếng Azerbaijan</azName>
+    <baName>Tiếng Bashkir</baName>
+    <beName>Tiếng Belarus</beName>
+    <bgName>Tiếng Bulgaria</bgName>
+    <biName>Tiếng Bislama</biName>
+    <bnName>Tiếng Bengali</bnName>
+    <boName>Tiếng Tây Tạng</boName>
+    <brName>Tiếng Breton</brName>
+    <caName>Tiếng Catalan</caName>
+    <coName>Tiếng Corsica</coName>
+    <csName>Tiếng Séc</csName>
+    <cyName>Tiếng Wales</cyName>
+    <daName>Tiếng Đan Mạch</daName>
+    <deName>Tiếng Đức</deName>
+    <dzName>Tiếng Dzongkha</dzName>
+    <elName>Tiếng Hy Lạp</elName>
+    <enName>Tiếng Anh</enName>
+    <eoName>Tiếng Quốc Tế Ngữ</eoName>
+    <esName>Tiếng Tây Ban Nha</esName>
+    <etName>Tiếng Estonia</etName>
+    <euName>Tiếng Basque</euName>
+    <faName>Tiếng Ba Tư</faName>
+    <fiName>Tiếng Phần Lan</fiName>
+    <fjName>Tiếng Fiji</fjName>
+    <foName>Tiếng Faore</foName>
+    <frName>Tiếng Pháp</frName>
+    <fyName>Tiếng Frisia</fyName>
+    <gaName>Tiếng Ai-len</gaName>
+    <gdName>Tiếng Xentơ (Xcốt len)</gdName>
+    <glName>Tiếng Galician</glName>
+    <gnName>Tiếng Guarani</gnName>
+    <guName>Tiếng Gujarati</guName>
+    <haName>Tiếng Hausa</haName>
+    <heName>Tiếng Do Thái</heName>
+    <hiName>Tiếng Hindi</hiName>
+    <hrName>Tiếng Croatia</hrName>
+    <huName>Tiếng Hungary</huName>
+    <hyName>Tiếng Armenia</hyName>
+    <iaName>Tiếng Khoa Học Quốc Tế</iaName>
+    <idName>Tiếng Indonesia</idName>
+    <ieName>Tiếng Interlingue</ieName>
+    <ikName>Tiếng Inupiaq</ikName>
+    <isName>Tiếng Iceland</isName>
+    <itName>Tiếng Ý</itName>
+    <iuName>Tiếng Inuktitut</iuName>
+    <jaName>Tiếng Nhật</jaName>
+    <jvName>Tiếng Java</jvName>
+    <kaName>Tiếng Gruzia</kaName>
+    <kkName>Tiếng Kazakh</kkName>
+    <klName>Tiếng Kalaallisut</klName>
+    <kmName>Tiếng Khơ-me</kmName>
+    <knName>Tiếng Kannada</knName>
+    <koName>Tiếng Hàn</koName>
+    <ksName>Tiếng Kashmiri</ksName>
+    <kuName>Tiếng Kurd</kuName>
+    <kyName>Tiếng Kyrgyz</kyName>
+    <laName>Tiếng La-tinh</laName>
+    <lbName>Tiếng Luxembourg</lbName>
+    <lnName>Tiếng Lingala</lnName>
+    <loName>Tiếng Lào</loName>
+    <ltName>Tiếng Lít-va</ltName>
+    <lvName>Tiếng Latvia</lvName>
+    <mgName>Tiếng Malagasy</mgName>
+    <miName>Tiếng Maori</miName>
+    <mkName>Tiếng Macedonia</mkName>
+    <mlName>Tiếng Malayalam</mlName>
+    <mnName>Tiếng Mông Cổ</mnName>
+    <mrName>Tiếng Marathi</mrName>
+    <msName>Tiếng Malaysia</msName>
+    <mtName>Tiếng Malt</mtName>
+    <myName>Tiếng Miến Điện</myName>
+    <naName>Tiếng Nauru</naName>
+    <neName>Tiếng Nepal</neName>
+    <nlName>Tiếng Hà Lan</nlName>
+    <noName>Tiếng Na Uy</noName>
+    <ocName>Tiếng Occitan</ocName>
+    <omName>Tiếng Oromo</omName>
+    <orName>Tiếng Oriya</orName>
+    <paName>Tiếng Punjab</paName>
+    <plName>Tiếng Ba Lan</plName>
+    <psName>Tiếng Pashto</psName>
+    <ptName>Tiếng Bồ Đào Nha</ptName>
+    <quName>Tiếng Quechua</quName>
+    <rmName>Tiếng Romansh</rmName>
+    <rnName>Tiếng Rundi</rnName>
+    <roName>Tiếng Rumani</roName>
+    <ruName>Tiếng Nga</ruName>
+    <rwName>Tiếng Kinyarwanda</rwName>
+    <saName>Tiếng Phạn</saName>
+    <sdName>Tiếng Sindhi</sdName>
+    <sgName>Tiếng Sango</sgName>
+    <shName>Tiếng Xéc bi - Croatia</shName>
+    <siName>Tiếng Sinhala</siName>
+    <skName>Tiếng Slovak</skName>
+    <slName>Tiếng Slovenia</slName>
+    <smName>Tiếng Samoa</smName>
+    <snName>Tiếng Shona</snName>
+    <soName>Tiếng Somali</soName>
+    <sqName>Tiếng An-ba-ni</sqName>
+    <srName>Tiếng Serbia</srName>
+    <ssName>Tiếng Swati</ssName>
+    <stName>Tiếng Sesotho</stName>
+    <suName>Tiếng Sunda</suName>
+    <svName>Tiếng Thụy Điển</svName>
+    <swName>Tiếng Swahili</swName>
+    <taName>Tiếng Tamil</taName>
+    <teName>Tiếng Telugu</teName>
+    <tgName>Tiếng Tajik</tgName>
+    <thName>Tiếng Thái</thName>
+    <tiName>Tiếng Tigrigya</tiName>
+    <tkName>Tiếng Turk</tkName>
+    <tlName>Tiếng Tagalog</tlName>
+    <tnName>Tiếng Tswana</tnName>
+    <toName>Tiếng Tonga</toName>
+    <trName>Tiếng Thổ Nhĩ Kỳ</trName>
+    <tsName>Tiếng Tsonga</tsName>
+    <ttName>Tiếng Tatar</ttName>
+    <twName>Tiếng Twi</twName>
+    <ugName>Tiếng Uyghur</ugName>
+    <ukName>Tiếng Ucraina</ukName>
+    <urName>Tiếng Uđu</urName>
+    <uzName>Tiếng Uzbek</uzName>
+    <viName>Tiếng Việt</viName>
+    <voName>Tiếng Volapük</voName>
+    <woName>Tiếng Wolof</woName>
+    <xhName>Tiếng Xhosa</xhName>
+    <yiName>Tiếng Y-đit</yiName>
+    <yoName>Tiếng Yoruba</yoName>
+    <zaName>Tiếng Zhuang</zaName>
+    <zhName>Tiếng Trung</zhName>
+    <zuName>Tiếng Zulu</zuName>
+  </LanguageNames>
+  <Main>
+    <Menu>
+      <File>
+        <Title>&amp;Tập tin</Title>
+        <New>&amp;Mới</New>
+        <Open>&amp;Mở</Open>
+        <OpenKeepVideo>Mở (giữ nguyên video)</OpenKeepVideo>
+        <Reopen>Mở lại</Reopen>
+        <Save>&amp;Lưu</Save>
+        <SaveAs>Lưu &amp;với...</SaveAs>
+        <RestoreAutoBackup>Tự động khôi phục bản sao lưu...</RestoreAutoBackup>
+        <AdvancedSubStationAlphaProperties>Chi tiết nâng cao đặc tính phụ đề Alpha...</AdvancedSubStationAlphaProperties>
+        <SubStationAlphaProperties>Chi tiết nân đặc tính phụ đề Alpha...</SubStationAlphaProperties>
+        <OpenOriginal>Mở phụ đề ban đầu (chế độ dịch) ...</OpenOriginal>
+        <SaveOriginal>Lưu phụ đề ban đầu</SaveOriginal>
+        <CloseOriginal>Đóng phụ đề ban đầu</CloseOriginal>
+        <OpenContainingFolder>Mở thư mục chứa</OpenContainingFolder>
+        <Compare>&amp;So sánh...</Compare>
+        <Statistics>Số liệu &amp;thống kê...</Statistics>
+        <Plugins>Trình cắm...</Plugins>
+        <ImportOcrFromDvd>Nhập vào/Phụ đề OCR từ VOB/IFO (DVD) ...</ImportOcrFromDvd>
+        <ImportOcrVobSubSubtitle>Nhập vào/Phụ đề OCR VobSub(sub/idx) ...</ImportOcrVobSubSubtitle>
+        <ImportBluRaySupFile>Nhập vào/OCR hỗ trợ tập tin Blu-ray ...</ImportBluRaySupFile>
+        <ImportSubtitleFromMatroskaFile>Nhập vào phụ đề từ tập tin Matroska...</ImportSubtitleFromMatroskaFile>
+        <ImportSubtitleWithManualChosenEncoding>Nhập vào phụ đề với lựa chọn mã hóa...</ImportSubtitleWithManualChosenEncoding>
+        <ImportText>Nhập vào văn bản thuần túy...</ImportText>
+        <ImportTimecodes>Nhập vào mã thời gian...</ImportTimecodes>
+        <Export>Xuất ra</Export>
+        <ExportBdnXml>BDN xml/png...</ExportBdnXml>
+        <ExportBluRaySup>Hỗ trợ Blu-ray...</ExportBluRaySup>
+        <ExportVobSub>VobSub(sub/idx)...</ExportVobSub>
+        <ExportCavena890>Cavena 890...</ExportCavena890>
+        <ExportEbu>EBU STL...</ExportEbu>
+        <ExportPac>PAC (Màn hình điện tử)...</ExportPac>
+        <ExportPlainText>Văn bản thuần túy...</ExportPlainText>
+        <ExportAdobeEncoreFabImageScript>Hình ảnh nguyên bản Adobe Encore FAB ...</ExportAdobeEncoreFabImageScript>
+        <ExportKoreanAtsFilePair>Cặp tập tin Hàn Quốc ATS...</ExportKoreanAtsFilePair>
+        <ExportAvidStl>Avid STL...</ExportAvidStl>
+        <ExportDvdStudioProStl>DVD Studio Pro STL...</ExportDvdStudioProStl>
+        <ExportCapMakerPlus>CapMaker Plus...</ExportCapMakerPlus>
+        <ExportCaptionsInc>Chú thích Inc ..</ExportCaptionsInc>
+        <ExportCheetahCap>Cheetah CAP...</ExportCheetahCap>
+        <ExportUltech130>Chú thích Ultech130...</ExportUltech130>
+        <Exit>Th&amp;oát</Exit>
+      </File>
+      <Edit>
+        <Title>Sửa chữa</Title>
+        <Undo>Hủy bỏ</Undo>
+        <Redo>Quay lại</Redo>
+        <ShowUndoHistory>Hiện lịch sử (vủa hủy bỏ)</ShowUndoHistory>
+        <InsertUnicodeSymbol>Chèn biểu tượng unicode</InsertUnicodeSymbol>
+        <Find>&amp;Tìm</Find>
+        <FindNext>Tìm &amp;tiến tới</FindNext>
+        <Replace>&amp;Thay thế</Replace>
+        <MultipleReplace>&amp;Thay thế nhiều...</MultipleReplace>
+        <GoToSubtitleNumber>&amp;Tới phụ đề số...</GoToSubtitleNumber>
+        <RightToLeftMode>Chế độ từ phải sang trái</RightToLeftMode>
+        <ReverseRightToLeftStartEnd>Xếp RTL bắt đầu/kết thúc (cho dòng được chọn)</ReverseRightToLeftStartEnd>
+        <ShowOriginalTextInAudioAndVideoPreview>Hiển thị văn bản gốc trong tập tin âm thanh/video khi xem trước</ShowOriginalTextInAudioAndVideoPreview>
+      </Edit>
+      <Tools>
+        <Title>Công cụ</Title>
+        <AdjustDisplayDuration>&amp;Điều chỉnh thời hạn...</AdjustDisplayDuration>
+        <ApplyDurationLimits>Áp dụng giới hạn thời gian...</ApplyDurationLimits>
+        <FixCommonErrors>&amp;Sửa lỗi phổ biến...</FixCommonErrors>
+        <StartNumberingFrom>Đánh số lại...</StartNumberingFrom>
+        <RemoveTextForHearingImpaired>Gỡ bỏ văn bản dành cho người khiếm thính...</RemoveTextForHearingImpaired>
+        <ChangeCasing>Thay đổi kiểu chữ...</ChangeCasing>
+        <ChangeFrameRate>Thay đổi tỷ lệ khung hình...</ChangeFrameRate>
+        <ChangeSpeedInPercent>Tốc độ thay đổi (%)...</ChangeSpeedInPercent>
+        <MergeShortLines>Gộp các dòng quá ngắn...</MergeShortLines>
+        <MergeDuplicateText>Gộp các dòng với cùng một văn bản...</MergeDuplicateText>
+        <SplitLongLines>Chia nhỏ các dòng quá dài...</SplitLongLines>
+        <MinimumDisplayTimeBetweenParagraphs>Hiển thị thời gian tối thiểu giữa các đoạn...</MinimumDisplayTimeBetweenParagraphs>
+        <SortBy>Sắp xếp theo</SortBy>
+        <Number>Số</Number>
+        <StartTime>Thời gian bắt đầu</StartTime>
+        <EndTime>Thời gian kết thúc</EndTime>
+        <Duration>Giới hạn</Duration>
+        <TextAlphabetically>Văn bản - theo thứ tự abc</TextAlphabetically>
+        <TextSingleLineMaximumLength>Văn bản - dòng tối đa. chiều dài</TextSingleLineMaximumLength>
+        <TextTotalLength>Văn bản - tổng chiều dài</TextTotalLength>
+        <TextNumberOfLines>Văn bản - số dòng</TextNumberOfLines>
+        <TextNumberOfCharactersPerSeconds>Văn bản - số ký tự/giây</TextNumberOfCharactersPerSeconds>
+        <WordsPerMinute>Từ - mỗi phút (wpm)</WordsPerMinute>
+        <MakeNewEmptyTranslationFromCurrentSubtitle>Hãy để trống khi dịch phụ đề hiện tại</MakeNewEmptyTranslationFromCurrentSubtitle>
+        <BatchConvert>Chuyển đổi hàng loạt...</BatchConvert>
+        <SplitSubtitle>Chia phụ đề...</SplitSubtitle>
+        <AppendSubtitle>Ghép phụ đề...</AppendSubtitle>
+        <JoinSubtitles>Nối phụ đề...</JoinSubtitles>
+      </Tools>
+      <Video>
+        <Title>Video</Title>
+        <OpenVideo>Mở tập tin video...</OpenVideo>
+        <ChooseAudioTrack>Chọn đường dẫn âm thanh</ChooseAudioTrack>
+        <CloseVideo>Đóng tập tin video</CloseVideo>
+        <ShowHideVideo>Hiển/Ẩn video</ShowHideVideo>
+        <ShowHideWaveform>Hiển/Ẩn dạng sóng</ShowHideWaveform>
+        <ShowHideWaveformAndSpectrogram>Hiển thị/Ẩn dạng sóng và ảnh phổ</ShowHideWaveformAndSpectrogram>
+        <UnDockVideoControls>Hủy bỏ điều khiển video</UnDockVideoControls>
+        <ReDockVideoControls>Quay lại điều khiển video</ReDockVideoControls>
+      </Video>
+      <SpellCheck>
+        <Title>Kiểm tra chính tả</Title>
+        <SpellCheck>&amp;Kiểm tra chính tả...</SpellCheck>
+        <FindDoubleWords>Tìm cặp từ</FindDoubleWords>
+        <FindDoubleLines>Tìm dòng đôi</FindDoubleLines>
+        <GetDictionaries>Bổ sung từ điển...</GetDictionaries>
+        <AddToNameList>Thêm từ ngữ đến tên/danh sách</AddToNameList>
+      </SpellCheck>
+      <Synchronization>
+        <Title>Đồng bộ hóa</Title>
+        <AdjustAllTimes>Điều chỉnh tất cả các lần (hiển thị trước/sau)...</AdjustAllTimes>
+        <VisualSync>&amp;Đồng bộ khi xem...</VisualSync>
+        <PointSync>Đồng bộ thời điểm...</PointSync>
+        <PointSyncViaOtherSubtitle>Đồng bộ thời điểm thông qua phụ đề khác...</PointSyncViaOtherSubtitle>
+      </Synchronization>
+      <AutoTranslate>
+        <Title>Tự động dịch</Title>
+        <TranslatePoweredByGoogle>Dịch (cung cấp bởi Google)...</TranslatePoweredByGoogle>
+        <TranslatePoweredByMicrosoft>Dịch (cung cấp bởi Microsoft)...</TranslatePoweredByMicrosoft>
+        <TranslateFromSwedishToDanish>Dịch từ tiếng Thụy Điển sang tiếng Đan Mạch (cung cấp bởi nikse.dk)...</TranslateFromSwedishToDanish>
+      </AutoTranslate>
+      <Options>
+        <Title>Tùy chọn</Title>
+        <Settings>&amp;Cài đặt...</Settings>
+        <ChooseLanguage>&amp;Chọn ngôn ngữ...</ChooseLanguage>
+      </Options>
+      <Networking>
+        <Title>Mạng</Title>
+        <StartNewSession>Bắt đầu phiên làm việc mới</StartNewSession>
+        <JoinSession>Kết nối tới phiên</JoinSession>
+        <ShowSessionInfoAndLog>Hiển thị thông tin phiên và đăng nhập</ShowSessionInfoAndLog>
+        <Chat>Trò chuyện</Chat>
+        <LeaveSession>Phiên rời</LeaveSession>
+      </Networking>
+      <Help>
+        <Title>Trợ giúp</Title>
+        <Help>&amp;Trợ giúp</Help>
+        <About>&amp;Giới thiệu</About>
+      </Help>
+      <ToolBar>
+        <New>Mới</New>
+        <Open>Mở</Open>
+        <Save>Lưu</Save>
+        <SaveAs>Lưu với tên</SaveAs>
+        <Find>Tìm</Find>
+        <Replace>Thay thế</Replace>
+        <VisualSync>Đồng bộ khi xem</VisualSync>
+        <SpellCheck>Kiểm tra chính tả</SpellCheck>
+        <Settings>Cài đặt</Settings>
+        <Help>Trợ giúp</Help>
+        <ShowHideWaveform>Hiện/Ẩn dạng sóng</ShowHideWaveform>
+        <ShowHideVideo>Hiện/Ẩn video</ShowHideVideo>
+      </ToolBar>
+      <ContextMenu>
+        <AdvancedSubStationAlphaSetStyle>Thiết lập kiểu dáng - Advanced Sub Station Alpha</AdvancedSubStationAlphaSetStyle>
+        <SubStationAlphaSetStyle>Thiết lập kiểu dáng - Sub Station Alpha</SubStationAlphaSetStyle>
+        <SubStationAlphaStyles>Kiểu dáng Sub Station Alpha...</SubStationAlphaStyles>
+        <AdvancedSubStationAlphaStyles>Kiểu dáng Advanced Sub Station Alpha...</AdvancedSubStationAlphaStyles>
+        <TimedTextSetStyle>Văn bản thời gian - thiết lập kiểu dáng</TimedTextSetStyle>
+        <TimedTextStyles>Thiết lập văn bản thời gian</TimedTextStyles>
+        <SamiSetStyle>Chia - đặt lớp</SamiSetStyle>
+        <Cut>Cắt</Cut>
+        <Copy>Sao chép</Copy>
+        <Paste>Dán</Paste>
+        <Delete>Xóa</Delete>
+        <SplitLineAtCursorPosition>Chia dòng tại vị trí con trỏ</SplitLineAtCursorPosition>
+        <AutoDurationCurrentLine>Thời gian tự động (dòng hiện tại)</AutoDurationCurrentLine>
+        <SelectAll>Chọn tất cả</SelectAll>
+        <InsertFirstLine>Chèn thêm dòng</InsertFirstLine>
+        <InsertBefore>Chèn phía trước</InsertBefore>
+        <InsertAfter>Chèn phía sau</InsertAfter>
+        <InsertSubtitleAfter>Chèn phụ đề sau dòng này...</InsertSubtitleAfter>
+        <CopyToClipboard>Sao chép dưới dạng văn bản vào clipboard</CopyToClipboard>
+        <Column>Cột</Column>
+        <ColumnDeleteText>Xóa văn bản</ColumnDeleteText>
+        <ColumnDeleteTextAndShiftCellsUp>Xóa văn bản và thay đổi các ô bên trên</ColumnDeleteTextAndShiftCellsUp>
+        <ColumnInsertEmptyTextAndShiftCellsDown>Chèn văn bản trống và thay đổi các ô bên dưới</ColumnInsertEmptyTextAndShiftCellsDown>
+        <ColumnInsertTextFromSubtitle>Chèn văn bản từ phụ đề...</ColumnInsertTextFromSubtitle>
+        <ColumnImportTextAndShiftCellsDown>Nhập vào văn bản và thay đổi các ô bên dưới</ColumnImportTextAndShiftCellsDown>
+        <ColumnPasteFromClipboard>Dán từ clipboard...</ColumnPasteFromClipboard>
+        <ColumnCopyOriginalTextToCurrent>Sao chép văn bản từ ban đầu hiện tại</ColumnCopyOriginalTextToCurrent>
+        <Split>Chia</Split>
+        <MergeSelectedLines>Gộp các dòng được lựa chọn</MergeSelectedLines>
+        <MergeSelectedLinesAsDialog>Dòng được chọn chọn là đối thoại</MergeSelectedLinesAsDialog>
+        <MergeWithLineBefore>Gộp với dòng trước</MergeWithLineBefore>
+        <MergeWithLineAfter>Gộp với dòng sau</MergeWithLineAfter>
+        <Normal>Bình thường</Normal>
+        <Underline>Gạch chân</Underline>
+        <Color>Màu sắc...</Color>
+        <FontName>Tên phông chữ...</FontName>
+        <Alignment>Sắp xếp...</Alignment>
+        <AutoBalanceSelectedLines>Tự động lựa chọn dòng cân bằng...</AutoBalanceSelectedLines>
+        <RemoveLineBreaksFromSelectedLines>Hủy bỏ ngắt dòng từ dòng được lựa chọn...</RemoveLineBreaksFromSelectedLines>
+        <TypewriterEffect>Ảnh hưởng khi đánh chữ...</TypewriterEffect>
+        <KaraokeEffect>Hiệu ứng karaoke...</KaraokeEffect>
+        <ShowSelectedLinesEarlierLater>Hiện chọn dòng trước/sau...</ShowSelectedLinesEarlierLater>
+        <VisualSyncSelectedLines>Xem các dòng được lựa chọn để đồng bộ ...</VisualSyncSelectedLines>
+        <GoogleAndMicrosoftTranslateSelectedLine>Google/Microsoft dịch dòng ban đầu</GoogleAndMicrosoftTranslateSelectedLine>
+        <GoogleTranslateSelectedLines>Google dịch dòng đã được chọn...</GoogleTranslateSelectedLines>
+        <AdjustDisplayDurationForSelectedLines>Điều chỉnh thời hạn cho dòng được lựa chọn...</AdjustDisplayDurationForSelectedLines>
+        <FixCommonErrorsInSelectedLines>Sửa lỗi phổ biến trong dòng được lựa chọn...</FixCommonErrorsInSelectedLines>
+        <ChangeCasingForSelectedLines>Thay đổi cách hiển thị cho dòng được lựa chọn...</ChangeCasingForSelectedLines>
+        <SaveSelectedLines>Lưu dòng được lựa chọn như...</SaveSelectedLines>
+      </ContextMenu>
+    </Menu>
+    <Controls>
+      <SubtitleFormat>Định dạng</SubtitleFormat>
+      <FileEncoding>Mã hoá</FileEncoding>
+      <ListView>Xem danh sách</ListView>
+      <SourceView>Xem nguồn</SourceView>
+      <UndoChangesInEditPanel>Hủy bỏ việc chỉnh sửa trong bảng hiệu chỉnh</UndoChangesInEditPanel>
+      <Previous>&lt;Trước</Previous>
+      <Next>Sau&gt;</Next>
+      <AutoBreak>Tự động chèn &amp;br</AutoBreak>
+      <Unbreak>Gỡ bỏ</Unbreak>
+    </Controls>
+    <VideoControls>
+      <Translate>Dịch</Translate>
+      <Create>Tạo</Create>
+      <Adjust>Điều chỉnh</Adjust>
+      <SelectCurrentElementWhilePlaying>Chọn phụ đề hiện tại trong khi chạy</SelectCurrentElementWhilePlaying>
+      <AutoRepeat>Tự động lặp lại</AutoRepeat>
+      <AutoRepeatOn>Tự động lặp lại trên</AutoRepeatOn>
+      <AutoRepeatCount>Đếm lại (thời gian)</AutoRepeatCount>
+      <AutoContinue>Tự động tiếp tục</AutoContinue>
+      <AutoContinueOn>Tự động tiếp tục sau</AutoContinueOn>
+      <DelayInSeconds>Trễ (s)</DelayInSeconds>
+      <OriginalText>Văn bản gốc</OriginalText>
+      <Previous>&lt;Trước đó&amp;</Previous>
+      <Stop>&amp;Dừng</Stop>
+      <PlayCurrent>&amp;Phát tại chỗ hiện tại</PlayCurrent>
+      <Next>&amp;Tiếp theo&gt;</Next>
+      <Playing>Phát...</Playing>
+      <RepeatingLastTime>Lặp đi lặp lại... Lần cuối cùng</RepeatingLastTime>
+      <RepeatingXTimesLeft>Lặp đi lặp lại... {0} bên trái</RepeatingXTimesLeft>
+      <AutoContinueInOneSecond>Tự động tiếp tục sau 1 giây</AutoContinueInOneSecond>
+      <AutoContinueInXSeconds>Tự động tiếp tục sau{0} giây</AutoContinueInXSeconds>
+      <StillTypingAutoContinueStopped>Vẫn tiếp tục gõ... sau khi tự động dừng lại</StillTypingAutoContinueStopped>
+      <InsertNewSubtitleAtVideoPosition>&amp;Chèn phụ đề mới tại chỗ đăng video</InsertNewSubtitleAtVideoPosition>
+      <Auto>Tự động</Auto>
+      <PlayFromJustBeforeText>Phát phía trước&amp; văn bản</PlayFromJustBeforeText>
+      <Pause>Tạm dừng</Pause>
+      <GoToSubtitlePositionAndPause>Tới vị trí đó và tạm dừng</GoToSubtitlePositionAndPause>
+      <SetStartTime>Thiết đặt &amp;thời gian bắt đầu</SetStartTime>
+      <SetEndTimeAndGoToNext>Thiết đặt đến thời điểm &amp;&amp;kết thúc</SetEndTimeAndGoToNext>
+      <AdjustedViaEndTime>Điều chỉnh thời gian kết thúc {0}</AdjustedViaEndTime>
+      <SetEndTime>Thiết đặt &amp;thời gian kết thúc</SetEndTime>
+      <SetstartTimeAndOffsetOfRest>Thiết đặt bắt đầu &amp;và tắt các thiết lập khác</SetstartTimeAndOffsetOfRest>
+      <SearchTextOnline>Tìm kiếm văn bản trực tuyến</SearchTextOnline>
+      <GoogleTranslate>Google dịch</GoogleTranslate>
+      <GoogleIt>Google It</GoogleIt>
+      <SecondsBackShort>&lt;&lt;Lùi 2s</SecondsBackShort>
+      <SecondsForwardShort>&gt;&gt;Tiến 2s</SecondsForwardShort>
+      <VideoPosition>Vị trí Video:</VideoPosition>
+      <TranslateTip>Mẹo: Sử dụng &lt;Alt+phím mũi tên lên/xuống &gt;để tới trước/sau phụ đề</TranslateTip>
+      <CreateTip>Mẹo: Sử dụng &lt;Ctrl+phím mũi tên trái/phải &gt;tổ hợp phím nóng</CreateTip>
+      <AdjustTip>Mẹo: Sử dụng &lt;Alt+phím mũi tên &gt;tới trước/sau phụ đề</AdjustTip>
+      <BeforeChangingTimeInWaveformX>Trước khi thay đổi thời gian dưới dạng sóng: {0}</BeforeChangingTimeInWaveformX>
+      <NewTextInsertAtX>Chèn văn bản mới vào {0}</NewTextInsertAtX>
+      <Center>Giữa</Center>
+      <PlayRate>Cách phát (tốc độ)</PlayRate>
+      <Slow>Chậm</Slow>
+      <Normal>Bình thường</Normal>
+      <Fast>Nhanh</Fast>
+      <VeryFast>Rất nhanh</VeryFast>
+    </VideoControls>
+    <SaveChangesToUntitled>Lưu với tiêu đề khác?</SaveChangesToUntitled>
+    <SaveChangesToX>Lưu các thay đổi để {0}?</SaveChangesToX>
+    <SaveChangesToUntitledOriginal>Lưu thay đổi tiêu đề ban đầu?</SaveChangesToUntitledOriginal>
+    <SaveChangesToOriginalX>Lưu thay đổi ban đầu {0}?</SaveChangesToOriginalX>
+    <SaveSubtitleAs>Lưu phụ đề như...</SaveSubtitleAs>
+    <SaveOriginalSubtitleAs>Lưu phụ đề ban đầu như...</SaveOriginalSubtitleAs>
+    <NoSubtitleLoaded>Không có phụ đề để tải</NoSubtitleLoaded>
+    <VisualSyncSelectedLines>Xem đồng bộ - Lựa chọn dòng</VisualSyncSelectedLines>
+    <VisualSyncTitle>Đồng bộ khi xem</VisualSyncTitle>
+    <BeforeVisualSync>Đồng bộ khi xem trước đó</BeforeVisualSync>
+    <VisualSyncPerformedOnSelectedLines>Xem đồng bộ thực hiện trên các dòng được lựa chọn</VisualSyncPerformedOnSelectedLines>
+    <VisualSyncPerformed>Thực hiện đồng bộ hiển thị</VisualSyncPerformed>
+    <FileXIsLargerThan10MB>Tập tin lớn hơn 10 MB: {0}</FileXIsLargerThan10MB>
+    <ContinueAnyway>Tiếp tục không?</ContinueAnyway>
+    <BeforeLoadOf>Trước khi tải trọng của {0}</BeforeLoadOf>
+    <LoadedSubtitleX>{0}</LoadedSubtitleX>
+    <LoadedEmptyOrShort>Tải phụ đề trống rỗng, hoặc quá ngắn {0}</LoadedEmptyOrShort>
+    <FileIsEmptyOrShort>Tập tin không hoặc rất ngắn!</FileIsEmptyOrShort>
+    <FileNotFound>Không tìn thấy tập tin:{0}</FileNotFound>
+    <SavedSubtitleX>Lưu phụ đề {0}</SavedSubtitleX>
+    <SavedOriginalSubtitleX>Lưu phụ đề gốc {0}</SavedOriginalSubtitleX>
+    <FileOnDiskModified>tập tin trên đĩa sửa đổi</FileOnDiskModified>
+    <OverwriteModifiedFile>Ghi đè lên tập tin {0} sửa đổi tại {1} {2} {3} với tập tin hiện nạp từ đĩa tại {4} {5}?</OverwriteModifiedFile>
+    <UnableToSaveSubtitleX>Không thể lưu tập tin phụ đề {0}</UnableToSaveSubtitleX>
+    <BeforeNew>Trước khi</BeforeNew>
+    <New>Mới</New>
+    <BeforeConvertingToX>Trước khi chuyển đổi để {0}</BeforeConvertingToX>
+    <ConvertedToX>Chuyển đổi sang {0}</ConvertedToX>
+    <BeforeShowEarlier>Trước khi hiện ra trước đó</BeforeShowEarlier>
+    <BeforeShowLater>Trước khi trình bày sau đó</BeforeShowLater>
+    <LineNumberX>Số dòng: {0:#,##0.##}</LineNumberX>
+    <OpenVideoFile>Mở tập tin video...</OpenVideoFile>
+    <NewFrameRateUsedToCalculateTimeCodes>Tỷ lệ khung hình mới ({0}) đã được sử dụng để tính toán mã thời gian bắt đầu/kết thúc</NewFrameRateUsedToCalculateTimeCodes>
+    <NewFrameRateUsedToCalculateFrameNumbers>Tỷ lệ khung hình mới ({0}) đã được sử dụng để tính khung hình bắt đầu/kết thúc</NewFrameRateUsedToCalculateFrameNumbers>
+    <FindContinue>Các mục cần tìm kiếm không được tìm thấy.
+Bạn có muốn bắt đầu từ phía trên cùng của tài liệu và tìm kiếm thêm một lần nữa?</FindContinue>
+    <FindContinueTitle>Tiếp tục tìm kiếm?</FindContinueTitle>
+    <ReplaceContinueNotFound>Các mục tìm kiếm không được tìm thấy.
+Bạn có muốn bắt đầu từ phía trên cùng của tài liệu và tiếp tục tìm kiếm và thay thế?</ReplaceContinueNotFound>
+    <ReplaceXContinue>Các mục tìm kiếm đã được thay thế {0} thời gian (s).
+Bạn có muốn bắt đầu từ phía trên cùng của tài liệu và tiếp tục tìm kiếm và thay thế?</ReplaceXContinue>
+    <ReplaceContinueTitle>Tiếp tục 'Thay thế'?</ReplaceContinueTitle>
+    <SearchingForXFromLineY>Tìm kiếm '{0}' từ dòn sốg {1}...</SearchingForXFromLineY>
+    <XFoundAtLineNumberY>'{0}' tìm thấy tại dòng số {1}</XFoundAtLineNumberY>
+    <XNotFound>'{0}' không được tìm thấy</XNotFound>
+    <BeforeReplace>Trước khi thay thế: {0}</BeforeReplace>
+    <MatchFoundX>Tìm chính xác: {0}</MatchFoundX>
+    <NoMatchFoundX>Không có thứ phù hợp được tìm thấy: {0}</NoMatchFoundX>
+    <FoundNothingToReplace>Tìm thấy nhưng không có gì để thay thế</FoundNothingToReplace>
+    <ReplaceCountX>Thay số: {0}</ReplaceCountX>
+    <NoXFoundAtLineY>Tìm chính xác ở dòng {0}: {1}</NoXFoundAtLineY>
+    <OneReplacementMade>Thực hiện một thay thế</OneReplacementMade>
+    <BeforeChangesMadeInSourceView>Trước khi thay đổi xem mã nguồn</BeforeChangesMadeInSourceView>
+    <UnableToParseSourceView>Không thể phân tích xem mã nguồn bản gốc!</UnableToParseSourceView>
+    <GoToLineNumberX>Tới số dòng {0}</GoToLineNumberX>
+    <CreateAdjustChangesApplied>Tạo/Điều chỉnh dòng thay đổi đã áp dụng</CreateAdjustChangesApplied>
+    <SelectedLines>Các dòng được lựa chọn</SelectedLines>
+    <BeforeDisplayTimeAdjustment>Trước khi điều chỉnh thời gian hiển thị</BeforeDisplayTimeAdjustment>
+    <DisplayTimeAdjustedX>Hiển thị thời gian điều chỉnh: {0}</DisplayTimeAdjustedX>
+    <DisplayTimesAdjustedX>Hiển thị thời gian điều chỉnh: {0}</DisplayTimesAdjustedX>
+    <StarTimeAdjustedX>Thời gian bắt đầu điều chỉnh: {0}</StarTimeAdjustedX>
+    <BeforeCommonErrorFixes>Trước khi sửa các lỗi phổ biến</BeforeCommonErrorFixes>
+    <CommonErrorsFixedInSelectedLines>Cố định dòng được chọn để sửa lỗi</CommonErrorsFixedInSelectedLines>
+    <CommonErrorsFixed>Các lỗi thường gặp</CommonErrorsFixed>
+    <BeforeRenumbering>Cố định trước khi đánh số lại</BeforeRenumbering>
+    <RenumberedStartingFromX>Đánh số lại bắt đầu từ: {0}</RenumberedStartingFromX>
+    <BeforeRemovalOfTextingForHearingImpaired>Loại bỏ nhắn tin của người khiếm thính</BeforeRemovalOfTextingForHearingImpaired>
+    <TextingForHearingImpairedRemovedOneLine>Gỡ bỏ số văn bản của người khiếm thính: Trên một dòng</TextingForHearingImpairedRemovedOneLine>
+    <TextingForHearingImpairedRemovedXLines>Gỡ bỏ số văn bản của người khiếm thính: {0} dòng</TextingForHearingImpairedRemovedXLines>
+    <SubtitleSplitted>Phụ đề được chia</SubtitleSplitted>
+    <SubtitleAppendPrompt>Điều này sẽ thêm một phụ đề hiện có với phụ đề hiện đang được nạp để đồng bộ với tập tin video. Vẫn tiếp tục chứ?</SubtitleAppendPrompt>
+    <SubtitleAppendPromptTitle>Ghép phụ đề</SubtitleAppendPromptTitle>
+    <OpenSubtitleToAppend>Mở phụ đề để thêm...</OpenSubtitleToAppend>
+    <AppendViaVisualSyncTitle>Đồng bộ khi xem - thêm phần 2 của phụ đề</AppendViaVisualSyncTitle>
+    <AppendSynchronizedSubtitlePrompt>Nối phụ đề đã đồng bộ này?</AppendSynchronizedSubtitlePrompt>
+    <BeforeAppend>Trước khi thêm</BeforeAppend>
+    <SubtitleAppendedX>Nối phụ đề: {0}</SubtitleAppendedX>
+    <SubtitleNotAppended>phụ đề không nối!</SubtitleNotAppended>
+    <GoogleTranslate>Google dịch</GoogleTranslate>
+    <MicrosoftTranslate>Microsoft dịch</MicrosoftTranslate>
+    <BeforeGoogleTranslation>Trước khi dịch bằng Google</BeforeGoogleTranslation>
+    <SelectedLinesTranslated>Dòng chọn để dịch</SelectedLinesTranslated>
+    <SubtitleTranslated>Phụ đề đang dịch</SubtitleTranslated>
+    <TranslateSwedishToDanish>Phụ đề hiện đang được tải tiếng Thụy Điển dịch sang tiếng Đan Mạch</TranslateSwedishToDanish>
+    <TranslateSwedishToDanishWarning>Hiện tại đang tải tiếng Thụy Điển (bạn có chắc đó là tiếng Thụy Điển) để dịch sang tiếng Đan Mạch ?</TranslateSwedishToDanishWarning>
+    <TranslatingViaNikseDkMt>Dịch qua www.nikse.dk/mt...</TranslatingViaNikseDkMt>
+    <BeforeSwedishToDanishTranslation>Trước khi dịch từ tiếng sang tiếng Thụy Điển Đan Mạch</BeforeSwedishToDanishTranslation>
+    <TranslationFromSwedishToDanishComplete>Dịch từ tiếng Thụy Điển sang tiếng Đan Mạch hoàn thành</TranslationFromSwedishToDanishComplete>
+    <TranslationFromSwedishToDanishFailed>Dịch từ tiếng Thụy Điển sang tiếng Đan Mạch thất bại</TranslationFromSwedishToDanishFailed>
+    <BeforeUndo>Trước khi hủy bỏ</BeforeUndo>
+    <UndoPerformed>Hủy bỏ thực hiện</UndoPerformed>
+    <RedoPerformed>Quay lại</RedoPerformed>
+    <NothingToUndo>Không có gì để hủy bỏ</NothingToUndo>
+    <InvalidLanguageNameX>Tên ngôn ngữ không hợp lệ: {0}</InvalidLanguageNameX>
+    <UnableToChangeLanguage>Unable thay đổi ngôn ngữ!</UnableToChangeLanguage>
+    <NumberOfCorrectedWords>Số từ ngữ cần sửa chữa: {0}</NumberOfCorrectedWords>
+    <NumberOfSkippedWords>Số từ ngữ bỏ qua: {0}</NumberOfSkippedWords>
+    <NumberOfCorrectWords>Số từ ngữ đúng: {0}</NumberOfCorrectWords>
+    <NumberOfWordsAddedToDictionary>Số lượng từ ngữ được bổ sung vào từ điển: {0}</NumberOfWordsAddedToDictionary>
+    <NumberOfNameHits>Số tên truy cập: { 0}</NumberOfNameHits>
+    <SpellCheck>Kiểm tra chính tả</SpellCheck>
+    <BeforeSpellCheck>Trước khi kiểm tra chính tả</BeforeSpellCheck>
+    <SpellCheckChangedXToY>kiểm tra chính tả: Thay đổi '{0}' thành '{1}'</SpellCheckChangedXToY>
+    <BeforeAddingTagX>Trước khi thêm &lt;{0}&gt; thẻ</BeforeAddingTagX>
+    <TagXAdded>&lt;{0}&gt; thêm thẻ</TagXAdded>
+    <LineXOfY>{0} {1}</LineXOfY>
+    <XLinesSavedAsY>{0} lưu dòng này dưới dạng {1}</XLinesSavedAsY>
+    <XLinesDeleted>{0} xóa dòng này</XLinesDeleted>
+    <BeforeDeletingXLines>Trước khi xóa {0} dòng</BeforeDeletingXLines>
+    <DeleteXLinesPrompt>Xóa {0} dòng?</DeleteXLinesPrompt>
+    <OneLineDeleted>Dòng đã bị xóa</OneLineDeleted>
+    <BeforeDeletingOneLine>Trước khi xóa một dòng</BeforeDeletingOneLine>
+    <DeleteOneLinePrompt>Xóa dòng này?</DeleteOneLinePrompt>
+    <BeforeInsertLine>Trước khi chèn thêm dòng</BeforeInsertLine>
+    <LineInserted>Chèn thêm dòng</LineInserted>
+    <BeforeLineUpdatedInListView>Trước khi dòng cập nhật trong danh sách</BeforeLineUpdatedInListView>
+    <BeforeSettingFontToNormal>Trước khi thiết lập phông chữ bình thường</BeforeSettingFontToNormal>
+    <BeforeSplitLine>Trước khi chia dòng</BeforeSplitLine>
+    <LineSplitted>Dòng được chia</LineSplitted>
+    <BeforeMergeLines>Trước khi gộp các dòng</BeforeMergeLines>
+    <LinesMerged>Các dòng được gộp</LinesMerged>
+    <BeforeSettingColor>Trước khi thiết lập màu sắc</BeforeSettingColor>
+    <BeforeSettingFontName>Trước khi thiết lập tên phông chữ</BeforeSettingFontName>
+    <BeforeTypeWriterEffect>Trước khi làm hiệu ứng cho chữ</BeforeTypeWriterEffect>
+    <BeforeKaraokeEffect>Trước khi làm hiệu ứng karaoke</BeforeKaraokeEffect>
+    <BeforeImportingDvdSubtitle>Trước khi nhập vào phụ đề từ DVD</BeforeImportingDvdSubtitle>
+    <OpenMatroskaFile>Mở tập tin Matroska...</OpenMatroskaFile>
+    <MatroskaFiles>Tập tin Matroska</MatroskaFiles>
+    <NoSubtitlesFound>Không có phụ đề được tìm thấy</NoSubtitlesFound>
+    <NotAValidMatroskaFileX>Đây không phải là một tập tin Matroska hợp lệ: {0}</NotAValidMatroskaFileX>
+    <ParsingMatroskaFile>Phân tích cú pháp tập tin Matroska. Xin vui lòng chờ...</ParsingMatroskaFile>
+    <BeforeImportFromMatroskaFile>Trước khi nhập vào phụ đề từ tập tin Matroska</BeforeImportFromMatroskaFile>
+    <SubtitleImportedFromMatroskaFile>Nhập vào phụ đề từ tập tin Matroska</SubtitleImportedFromMatroskaFile>
+    <DropFileXNotAccepted>Kéo thả tập tin '{0}' không được chấp nhận - tập tin quá lớn</DropFileXNotAccepted>
+    <DropOnlyOneFile>Bạn chỉ có thể kéo thả một tập tin</DropOnlyOneFile>
+    <BeforeCreateAdjustLines>Trước khi tạo/chỉnh dòng</BeforeCreateAdjustLines>
+    <OpenAnsiSubtitle>Mở phụ đề...</OpenAnsiSubtitle>
+    <BeforeChangeCasing>Trước khi thay đổi cách hiển thị</BeforeChangeCasing>
+    <CasingCompleteMessageNoNames>Hiển thị số dòng được thay đổi: {0}/{1}</CasingCompleteMessageNoNames>
+    <CasingCompleteMessageOnlyNames>Hiển thị số dòng với tên thay đổi: {0}/{1}</CasingCompleteMessageOnlyNames>
+    <CasingCompleteMessage>Hiển thị số dòng được thay đổi: {0}/{1}, thay đổi cách hiển thị tên: {2}</CasingCompleteMessage>
+    <BeforeChangeFrameRate>Trước khi thay đổi tỷ lệ khung hình</BeforeChangeFrameRate>
+    <BeforeAdjustSpeedInPercent>Trước khi điều chỉnh tốc độ theo %</BeforeAdjustSpeedInPercent>
+    <FrameRateChangedFromXToY>Tốc độ khung hình thay đổi từ {0} đến {1}</FrameRateChangedFromXToY>
+    <IdxFileNotFoundWarning>{0} Không được tìm thấy! Nhập VobSub không?</IdxFileNotFoundWarning>
+    <InvalidVobSubHeader>Tiêu đề tập tin VobSub không hợp lệ: {0}</InvalidVobSubHeader>
+    <OpenVobSubFile>Mở tập tin phụ đề VobSub(sub/idx)...</OpenVobSubFile>
+    <VobSubFiles>Tập tin phụ đề VobSub</VobSubFiles>
+    <OpenBluRaySupFile>Mở tập tin Blu-ray được tin hỗ</OpenBluRaySupFile>
+    <BluRaySupFiles>Hỗ trợ tập tin Blu-ray.</BluRaySupFiles>
+    <BeforeImportingVobSubFile>Trước khi nhập vào phụ đề VobSub</BeforeImportingVobSubFile>
+    <BeforeImportingBluRaySupFile>Trước khi nhập vào tập tin Blu-ray được hỗ trợ</BeforeImportingBluRaySupFile>
+    <BeforeImportingBdnXml>Trước khi nhập vào tập tin BDN xml</BeforeImportingBdnXml>
+    <BeforeShowSelectedLinesEarlierLater>Trước khi hiện việc lựa chọn dòng trước/sau</BeforeShowSelectedLinesEarlierLater>
+    <ShowAllLinesXSecondsLinesEarlier>Hiện tất cả các dòng {0:0.0##} trong vài giây</ShowAllLinesXSecondsLinesEarlier>
+    <ShowAllLinesXSecondsLinesLater>Hiện tất cả các dòng {0:0.0##} vài giây sau đó</ShowAllLinesXSecondsLinesLater>
+    <ShowSelectedLinesXSecondsLinesEarlier>Hiện tất cả các dòng {0:0.0##} trong vài giây</ShowSelectedLinesXSecondsLinesEarlier>
+    <ShowSelectedLinesXSecondsLinesLater>Hiện tất cả các dòng {0:0.0##} vài giây sau đó</ShowSelectedLinesXSecondsLinesLater>
+    <ShowSelectionAndForwardXSecondsLinesEarlier>Hiện tất cả các dòng và chuyển tiếp {0:0.0##} trong vài giây</ShowSelectionAndForwardXSecondsLinesEarlier>
+    <ShowSelectionAndForwardXSecondsLinesLater>Hiện tất cả các dòng và chuyển tiếp {0:0.0##} vài giây sau đó</ShowSelectionAndForwardXSecondsLinesLater>
+    <ShowSelectedLinesEarlierLaterPerformed>Hiện trước/sau thực hiện trên các dòng được lựa chọn</ShowSelectedLinesEarlierLaterPerformed>
+    <DoubleWordsViaRegEx>Từ đôi qua regex {0}</DoubleWordsViaRegEx>
+    <BeforeSortX>Trước khi sắp xếp: {0}</BeforeSortX>
+    <SortedByX>Sắp xếp theo: {0}</SortedByX>
+    <BeforeAutoBalanceSelectedLines>Trước khi tự động lựa chọn cân bằng</BeforeAutoBalanceSelectedLines>
+    <NumberOfLinesAutoBalancedX>Số dòng tự động cân bằng: {0}</NumberOfLinesAutoBalancedX>
+    <BeforeRemoveLineBreaksInSelectedLines>Trước khi loại bỏ dòng - chia từ dòng được chọn</BeforeRemoveLineBreaksInSelectedLines>
+    <NumberOfWithRemovedLineBreakX>Số dòng với loại bỏ dòng - bị ngắt: {0}</NumberOfWithRemovedLineBreakX>
+    <BeforeMultipleReplace>Trước khi thay thế nhiều</BeforeMultipleReplace>
+    <NumberOfLinesReplacedX>Số dòng với văn bản thay thế: {0}</NumberOfLinesReplacedX>
+    <NameXAddedToNameList>Tên '{0}' đã được thêm vào tên tập tin/ danh sách</NameXAddedToNameList>
+    <NameXNotAddedToNameList>Tên '{0}' KHÔNG thêm được vào tên tập tin/danh sách</NameXNotAddedToNameList>
+    <WordXAddedToUserDic>Từ '{0}' đã được thêm vào từ điển người dùng</WordXAddedToUserDic>
+    <WordXNotAddedToUserDic>Từ '{0}' KHÔNG thêm được vào từ điển người dùng</WordXNotAddedToUserDic>
+    <OcrReplacePairXAdded>Các orc thay thế cặp danh sách '{0} -&gt; {1}' đã được thêm vào danh sách thay thế orc</OcrReplacePairXAdded>
+    <OcrReplacePairXNotAdded>Các orc thay thế cặp danh sách '{0} -&gt; {1}' KHÔNG được thêm vào danh sách thay thế orc</OcrReplacePairXNotAdded>
+    <XLinesSelected>{0} dòng được lựa chọn</XLinesSelected>
+    <UnicodeMusicSymbolsAnsiWarning>Phụ đề chứa các ghi chú âm nhạc unicode. Sử dụng mã hóa tập tin ANSI để lưu sẽ bị mất. Tiếp tục với lưu?</UnicodeMusicSymbolsAnsiWarning>
+    <NegativeTimeWarning>Phụ đề chứa mã hóa thời gian âm. Tiếp tục lưu?</NegativeTimeWarning>
+    <BeforeMergeShortLines>Trước khi gộp các dòng quá ngắn</BeforeMergeShortLines>
+    <BeforeSplitLongLines>Trước khi chia các dòng quá dài</BeforeSplitLongLines>
+    <MergedShortLinesX>Số dòng sáp nhập: {0}</MergedShortLinesX>
+    <BeforeSetMinimumDisplayTimeBetweenParagraphs>Trước khi thiết lập hiển thị thời gian tối thiểu giữa các đoạn</BeforeSetMinimumDisplayTimeBetweenParagraphs>
+    <XMinimumDisplayTimeBetweenParagraphsChanged>Số dòng với hiển thị thời gian tối thiểu giữa các đoạn thay đổi: {0}</XMinimumDisplayTimeBetweenParagraphsChanged>
+    <BeforeImportText>Trước khi nhập vào văn bản đơn giản</BeforeImportText>
+    <TextImported>Nhập vào tiêu đề</TextImported>
+    <BeforePointSynchronization>Trước khi đồng bộ hóa thời điểm</BeforePointSynchronization>
+    <PointSynchronizationDone>Thực hiện đồng bộ hóa thời điểm xong</PointSynchronizationDone>
+    <BeforeTimeCodeImport>Trước khi nhập vào mã số thời gian</BeforeTimeCodeImport>
+    <TimeCodeImportedFromXY>Mã thời gian nhập vào từ {0}: {1}</TimeCodeImportedFromXY>
+    <BeforeInsertSubtitleAtVideoPosition>Trước khi chèn phụ đề vào vị trí video</BeforeInsertSubtitleAtVideoPosition>
+    <BeforeSetStartTimeAndOffsetTheRest>Trước khi thiết lập thời gian bắt đầu và tắt thiết lập các phần còn lại</BeforeSetStartTimeAndOffsetTheRest>
+    <BeforeSetEndAndVideoPosition>Trước khi thiết lập thời gian kết thúc ở vị trí video và tự động tính toán bắt đầu</BeforeSetEndAndVideoPosition>
+    <ContinueWithCurrentSpellCheck>Tiếp tục kiểm tra chính tả hiện nay?</ContinueWithCurrentSpellCheck>
+    <CharactersPerSecond>Kí tự/s: {0:0.00}</CharactersPerSecond>
+    <GetFrameRateFromVideoFile>Nhận tỷ lệ khung hình từ tập tin video</GetFrameRateFromVideoFile>
+    <NetworkMessage>Tin nhắn mới: {0} ({1}): {2}</NetworkMessage>
+    <NetworkUpdate>Dòng cập nhật: {0} ({1}): index = {2}, Text = {3}</NetworkUpdate>
+    <NetworkInsert>Dòng chèn vào: {0} ({1}): Chỉ số = {2}, Text = {3}</NetworkInsert>
+    <NetworkDelete>Dòng xóa: {0} ({1}): index = {2}</NetworkDelete>
+    <NetworkNewUser>Người dùng mới: {0} ({1})</NetworkNewUser>
+    <NetworkByeUser>Tạm biệt {0} ({1})</NetworkByeUser>
+    <NetworkUnableToConnectToServer>Không thể kết nối đến máy chủ: {0}</NetworkUnableToConnectToServer>
+    <UserAndAction>User/hành động</UserAndAction>
+    <NetworkMode>Chế độ mạng</NetworkMode>
+    <XStartedSessionYAtZ>{0}: Bắt đầu phiên {1} tại {2}</XStartedSessionYAtZ>
+    <SpellChekingViaWordXLineYOfX>Kiểm tra chính tả sử dụng Word {0} - dòng {1} / {2}</SpellChekingViaWordXLineYOfX>
+    <UnableToStartWord>Không thể khởi động Microsoft Word</UnableToStartWord>
+    <SpellCheckAbortedXCorrections>Hủy bỏ kiểm tra chính tả . {0} dòng đã được sửa.</SpellCheckAbortedXCorrections>
+    <SpellCheckCompletedXCorrections>Kiểm tra chính tả hoàn tất. {0} dòng đã được sửi.</SpellCheckCompletedXCorrections>
+    <OpenOtherSubtitle>Mở phụ đề khác</OpenOtherSubtitle>
+    <BeforeToggleDialogDashes>Trước khi chuyển đổi các dấu gạch ngang của cuộc đối thoại</BeforeToggleDialogDashes>
+    <ExportPlainTextAs>Xuất văn bản đơn giản...</ExportPlainTextAs>
+    <TextFiles>Tập tin văn bản</TextFiles>
+    <SubtitleExported>Xuất phụ đề</SubtitleExported>
+    <LineNumberXErrorReadingFromSourceLineY>Dòng {0} - bị lỗi đọc: {1}</LineNumberXErrorReadingFromSourceLineY>
+    <LineNumberXErrorReadingTimeCodeFromSourceLineY>Dòng {0} - lỗi đọc mã thời gian: {1}</LineNumberXErrorReadingTimeCodeFromSourceLineY>
+    <LineNumberXExpectedNumberFromSourceLineY>dòng {0} - dự kiến ​​phụ đề số: {1}</LineNumberXExpectedNumberFromSourceLineY>
+    <BeforeGuessingTimeCodes>Trước khi đoán mã thời gian</BeforeGuessingTimeCodes>
+    <BeforeAutoDuration>Trước khi tự động chọn thời gian cho các dòng</BeforeAutoDuration>
+    <BeforeColumnPaste>Trước khi dán vào cột</BeforeColumnPaste>
+    <BeforeColumnDelete>Trước khi xóa cột</BeforeColumnDelete>
+    <BeforeColumnImportText>Trước khi nhập vào cột vào văn bản</BeforeColumnImportText>
+    <BeforeColumnShiftCellsDown>Cột trước đó khi thay đổi cột ở dưới</BeforeColumnShiftCellsDown>
+    <ErrorLoadingPluginXErrorY>Lỗi tải trình cắm: {0}: {1}</ErrorLoadingPluginXErrorY>
+    <BeforeRunningPluginXVersionY>Trước khi chạy trình cắm: {0}: {1}</BeforeRunningPluginXVersionY>
+    <UnableToReadPluginResult>Không thể đọc kết quả phụ đề từ plugin!</UnableToReadPluginResult>
+    <UnableToCreateBackupDirectory>Không thể tạo thư mục sao lưu {0}: {1}</UnableToCreateBackupDirectory>
+    <BeforeDisplaySubtitleJoin>Hiển thị trước khi kết nối phụ đề</BeforeDisplaySubtitleJoin>
+    <SubtitlesJoined>Kết nối phụ đề</SubtitlesJoined>
+    <StatusLog>Tình trạng đăng nhập vào</StatusLog>
+  </Main>
+  <MatroskaSubtitleChooser>
+    <Title>Chon tập tin phụ dề từ Matroskae</Title>
+    <TrackXLanguageYTypeZ>Đường{0} - Ngôn ngữ: {1} - Loại: {2}</TrackXLanguageYTypeZ>
+  </MatroskaSubtitleChooser>
+  <MergeDoubleLines>
+    <Title>Gộp các dòng với cùng một văn bản</Title>
+  </MergeDoubleLines>
+  <MergedShortLines>
+    <Title>Gộp các dòng quá ngắn</Title>
+    <MaximumCharacters>Số ký tự tối đa trong một đoạn</MaximumCharacters>
+    <MaximumMillisecondsBetween>Số ms tối đa giữa các dòng</MaximumMillisecondsBetween>
+    <NumberOfMergesX>Số dòng cần gộp: {0}</NumberOfMergesX>
+    <MergedText>Gộp các văn bản</MergedText>
+    <OnlyMergeContinuationLines>Chỉ tiếp tục gộp các dòng</OnlyMergeContinuationLines>
+  </MergedShortLines>
+  <MultipleReplace>
+    <Title>Thay thế nhiều</Title>
+    <FindWhat>Tìm kiếm cái gì</FindWhat>
+    <ReplaceWith>Thay thế bằng</ReplaceWith>
+    <Normal>Bình thường</Normal>
+    <CaseSensitive>Trường hợp nhảy cảm</CaseSensitive>
+    <RegularExpression>Cụm từ thông dụng</RegularExpression>
+    <LinesFoundX>Dòng được tìm thấy: {0}</LinesFoundX>
+    <Remove>Xóa</Remove>
+    <Add>Thêm</Add>
+    <Update>&amp;Cập nhật</Update>
+    <Enabled>Bật</Enabled>
+    <SearchType>Tìm kiếm loại</SearchType>
+    <RemoveAll>Gỡ bỏ tất cả</RemoveAll>
+    <Import>Nhập vào...</Import>
+    <Export>Xuất ra...</Export>
+    <ImportRulesTitle>Nhập vào thay thế quy tắc(s)từ...</ImportRulesTitle>
+    <ExportRulesTitle>Xuất ra thay thế quy tắc(s) để...</ExportRulesTitle>
+    <Rules>Luật xuất ra</Rules>
+  </MultipleReplace>
+  <NetworkChat>
+    <Title>Nói chuyện</Title>
+    <Send>Gửi đi</Send>
+  </NetworkChat>
+  <NetworkJoin>
+    <Title>Tham gia mạng</Title>
+    <Information>Tham gia phiên hiện tại mà nhiều người
+có thể chỉnh sửa trong cùng một tập tin phụ đề (hợp tác với nhau)</Information>
+    <Join>Tham gia</Join>
+  </NetworkJoin>
+  <NetworkLogAndInfo>
+    <Title>Thông tin phiên và đăng nhập</Title>
+    <Log>Đăng nhập:</Log>
+  </NetworkLogAndInfo>
+  <NetworkStart>
+    <Title>Bắt đầu phiên làm việc mạng</Title>
+    <ConnectionTo>Kết nối tới {0}...</ConnectionTo>
+    <Information>Bắt đầu phiên làm việc mới mà nhiều người
+có thể chỉnh sửa trong cùng một tập tin phụ đề (hợp tác với nhau)</Information>
+    <Start>Bắt đầu</Start>
+  </NetworkStart>
+  <PluginsGet>
+    <Title>Phần bổ sung</Title>
+    <InstalledPlugins>Cài đặt trình cắm</InstalledPlugins>
+    <GetPlugins>Lấy thêm trình cắm</GetPlugins>
+    <Description>Mô tả</Description>
+    <Version>Phiên bản</Version>
+    <Date>Ngày</Date>
+    <Type>Đánh chữ</Type>
+    <OpenPluginsFolder>Mở thư mục chứa "Trình cắm'</OpenPluginsFolder>
+    <GetPluginsInfo1>Trình căm Subtitle Edit phải được tải về bỏ thư mục 'Trình cắm'</GetPluginsInfo1>
+    <GetPluginsInfo2>Chọn trình cắm và nhấp vào 'Tải về'</GetPluginsInfo2>
+    <PluginXDownloaded>Trình cắm đang được {0} tải về</PluginXDownloaded>
+    <Download>&amp;Tải về</Download>
+    <Remove>&amp;Gỡ bỏ</Remove>
+    <UnableToDownloadPluginListX>Không thể tải về danh sách các trình cắm: {0}</UnableToDownloadPluginListX>
+    <NewVersionOfSubtitleEditRequired>Yêu cầu phiên bản mới hơn của Subtitle Edit !</NewVersionOfSubtitleEditRequired>
+    <UpdateAvailable>[Cập nhật có sẵn!]</UpdateAvailable>
+  </PluginsGet>
+  <RemoveTextFromHearImpaired>
+    <Title>Gỡ bỏ văn bản dành cho người khiếm thính</Title>
+    <RemoveTextConditions>Hủy bỏ các điều kiện văn bản</RemoveTextConditions>
+    <RemoveTextBetween>Hủy bỏ văn bản giữa</RemoveTextBetween>
+    <SquareBrackets>'[' và ']'</SquareBrackets>
+    <Brackets>'{' và '}'</Brackets>
+    <Parentheses>'(' và ')'</Parentheses>
+    <QuestionMarks>'?' và '?'</QuestionMarks>
+    <And>và</And>
+    <RemoveTextBeforeColon>Hủy bỏ văn bản trước dấu hai chấm (':')</RemoveTextBeforeColon>
+    <OnlyIfTextIsUppercase>Chỉ khi văn bản là CHỮ IN HOA</OnlyIfTextIsUppercase>
+    <OnlyIfInSeparateLine>Chỉ khi ở trong dòng riêng biệt</OnlyIfInSeparateLine>
+    <LinesFoundX>Tìm thấy dòng: {0}</LinesFoundX>
+    <RemoveTextIfContains>Gỡ bỏ văn bản nếu nó có chứa:</RemoveTextIfContains>
+    <RemoveTextIfAllUppercase>Gỡ bỏ dòng nếu IN HOA</RemoveTextIfAllUppercase>
+    <RemoveInterjections>Hủy bỏ khi ở giữa (SHH, hmm, vv)</RemoveInterjections>
+    <EditInterjections>Chỉnh sửa...</EditInterjections>
+  </RemoveTextFromHearImpaired>
+  <ReplaceDialog>
+    <Title>Lặp lại</Title>
+    <FindWhat>Tìm cái gì:</FindWhat>
+    <Normal>&amp;Bình thường</Normal>
+    <CaseSensitive>&amp;Hiển thị trường hợp nhảy cảm</CaseSensitive>
+    <RegularExpression>Biểu hiện &amp;thường xuyên</RegularExpression>
+    <ReplaceWith>Thay thế bằng</ReplaceWith>
+    <Find>&amp;Tìm kiếm</Find>
+    <Replace>&amp;Thay thế</Replace>
+    <ReplaceAll>Thay thế &amp;tất cả</ReplaceAll>
+  </ReplaceDialog>
+  <RestoreAutoBackup>
+    <Title>Tự động sao lưu khi thay thế</Title>
+    <Information>Mở sao lưu tự động</Information>
+    <DateAndTime>Ngày và thời gian</DateAndTime>
+    <FileName>Tên tập tin</FileName>
+    <Extension>Mở rộng</Extension>
+    <NoBackedUpFilesFound>Không có tập tin sao lưu được tìm thấy!</NoBackedUpFilesFound>
+  </RestoreAutoBackup>
+  <SeekSilence>
+    <Title>Tìm kiếm trong im lặng</Title>
+    <SearchDirection>Tìm kiếm theo hướng</SearchDirection>
+    <Forward>Chuyển tiếp</Forward>
+    <Back>Trở lại</Back>
+    <LengthInSeconds>Im lặng phải có ít nhất (s)</LengthInSeconds>
+    <MaxVolume>Âm lượng phải dưới</MaxVolume>
+  </SeekSilence>
+  <SetMinimumDisplayTimeBetweenParagraphs>
+    <Title>Thiết lập hiển thị thời gian tối thiểu giữa các part</Title>
+    <PreviewLinesModifiedX>Xem trước - đoạn cần chỉnh sửa: {0}</PreviewLinesModifiedX>
+    <ShowOnlyModifiedLines>Chỉ hiện dòng được sửa đồi</ShowOnlyModifiedLines>
+    <MinimumMillisecondsBetweenParagraphs>Ms tối thiểu giữa các dòng</MinimumMillisecondsBetweenParagraphs>
+  </SetMinimumDisplayTimeBetweenParagraphs>
+  <SetSyncPoint>
+    <Title>Đặt đồng bộ cho dòng {0}</Title>
+    <SyncPointTimeCode>Đặt thời điểm mã hóa thời gian</SyncPointTimeCode>
+    <ThreeSecondsBack>&lt;&lt; 3s</ThreeSecondsBack>
+    <HalfASecondBack>&lt;&lt;1/2s</HalfASecondBack>
+    <HalfASecondForward>1/2s &gt;&gt;</HalfASecondForward>
+    <ThreeSecondsForward>3s &gt;&gt;</ThreeSecondsForward>
+  </SetSyncPoint>
+  <Settings>
+    <Title>Cài đặt</Title>
+    <General>Chung</General>
+    <Toolbar>Thanh công cụ</Toolbar>
+    <VideoPlayer>Phát video</VideoPlayer>
+    <WaveformAndSpectrogram>Dạng sóng/Ảnh phổ</WaveformAndSpectrogram>
+    <Tools>Công cụ</Tools>
+    <WordLists>Danh sách các từ</WordLists>
+    <SsaStyle>Kiểu dáng ASS/SSA</SsaStyle>
+    <ShowToolBarButtons>Hiển thị thanh công cụ</ShowToolBarButtons>
+    <New>Mới</New>
+    <Open>Mở</Open>
+    <Save>Lưu</Save>
+    <SaveAs>Lưu với</SaveAs>
+    <Find>Tìm kiếm</Find>
+    <Replace>Lặp lại</Replace>
+    <VisualSync>Đồng bộ khi xem</VisualSync>
+    <SpellCheck>Kiểm tra chính tả</SpellCheck>
+    <SettingsName>Cài đặt</SettingsName>
+    <Help>Giúp đỡ</Help>
+    <ShowFrameRate>Hiển thị tỉ lệ khung hình trên thanh công cụ</ShowFrameRate>
+    <DefaultFrameRate>Tỉ lệ khung hình mặc định</DefaultFrameRate>
+    <DefaultFileEncoding>Tập tin mã hóa mặc định</DefaultFileEncoding>
+    <AutoDetectAnsiEncoding>Tự động phát hiện mã hóa ANSI</AutoDetectAnsiEncoding>
+    <SubtitleLineMaximumLength>Chiều dài dòng đơn tối đa</SubtitleLineMaximumLength>
+    <MaximumCharactersPerSecond>Tối đa kí tự/s</MaximumCharactersPerSecond>
+    <AutoWrapWhileTyping>Tự động - trở lại khi viết</AutoWrapWhileTyping>
+    <DurationMinimumMilliseconds>Thời gian tối thiểu, ms</DurationMinimumMilliseconds>
+    <DurationMaximumMilliseconds>Thời gian tối đa, ms</DurationMaximumMilliseconds>
+    <SubtitleFont>Phông chữ phụ đề</SubtitleFont>
+    <SubtitleFontSize>Kích thước phông chữ phụ đề</SubtitleFontSize>
+    <SubtitleBold>In đậm</SubtitleBold>
+    <SubtitleCenter>GIữa</SubtitleCenter>
+    <SubtitleFontColor>Chọn màu sắc cho phụ đề</SubtitleFontColor>
+    <SubtitleBackgroundColor>Màu sắc nền phụ đề</SubtitleBackgroundColor>
+    <SpellChecker>Kiểm tra chính tả</SpellChecker>
+    <RememberRecentFiles>Ghi tập tin gần đây (cho mở lại)</RememberRecentFiles>
+    <StartWithLastFileLoaded>Chạy tập tin được tải cuối cùng</StartWithLastFileLoaded>
+    <RememberSelectedLine>Nhớ chọn dòng</RememberSelectedLine>
+    <RememberPositionAndSize>Nhớ vị trí cửa sổ chính và kích thước</RememberPositionAndSize>
+    <StartInSourceView>Bắt đầu trong khi xem nguồn</StartInSourceView>
+    <RemoveBlankLinesWhenOpening>Gỡ bỏ dòng trống khi mở một phụ đề</RemoveBlankLinesWhenOpening>
+    <ShowLineBreaksAs>Hiện ngắt dòng trong danh sách xem</ShowLineBreaksAs>
+    <MainListViewDoubleClickAction>Kích đúp vào một dòng ở trong danh sách trong cửa sổ chính</MainListViewDoubleClickAction>
+    <MainListViewNothing>Không cần</MainListViewNothing>
+    <MainListViewVideoGoToPositionAndPause>Tới vị trí video và tạm dừng</MainListViewVideoGoToPositionAndPause>
+    <MainListViewVideoGoToPositionAndPlay>Tới vị trí video và phát</MainListViewVideoGoToPositionAndPlay>
+    <MainListViewEditText>Tới hộp chỉnh sửa văn bản</MainListViewEditText>
+    <MainListViewVideoGoToPositionMinus1SecAndPause>Tới vị trí video - 1 giây và tạm dừng</MainListViewVideoGoToPositionMinus1SecAndPause>
+    <MainListViewVideoGoToPositionMinusHalfSecAndPause>Tới vị trí video - 0.5 giây và tạm dừng</MainListViewVideoGoToPositionMinusHalfSecAndPause>
+    <MainListViewVideoGoToPositionMinus1SecAndPlay>Tới vị trí video - 1 giây and phát</MainListViewVideoGoToPositionMinus1SecAndPlay>
+    <MainListViewEditTextAndPause>Tới hộp sửa văn bản, tạm dừng tại vị trí video</MainListViewEditTextAndPause>
+    <AutoBackup>Tự động - sao lưu</AutoBackup>
+    <AutoBackupEveryMinute>Trong vài phút</AutoBackupEveryMinute>
+    <AutoBackupEveryFiveMinutes>Trong 5 phút</AutoBackupEveryFiveMinutes>
+    <AutoBackupEveryFifteenMinutes>Trong 15 phút</AutoBackupEveryFifteenMinutes>
+    <AllowEditOfOriginalSubtitle>Cho phép chỉnh sửa phụ đề của ban</AllowEditOfOriginalSubtitle>
+    <PromptDeleteLines>Nhắc nhở dòng bị xóa</PromptDeleteLines>
+    <TimeCodeMode>Chế độ mã hóa thời gian</TimeCodeMode>
+    <TimeCodeModeHHMMSSMS>HH: MM: SS.MS (00:00:01.500)</TimeCodeModeHHMMSSMS>
+    <TimeCodeModeHHMMSSFF>HH: MM: SS: FF (00:00:01: 12)</TimeCodeModeHHMMSSFF>
+    <VideoEngine>Phương tiện video</VideoEngine>
+    <DirectShow>DirectShow</DirectShow>
+    <DirectShowDescription>quartz.dll trong thư mục system32</DirectShowDescription>
+    <VlcMediaPlayer>VLC media player</VlcMediaPlayer>
+    <VlcMediaPlayerDescription>libvlc.dll từ VLC media player 1.1.0 hoặc phiên bản mới hơn</VlcMediaPlayerDescription>
+    <ShowStopButton>Hiển thị nút dừng</ShowStopButton>
+    <ShowMuteButton>Hiển thị nút ngắt</ShowMuteButton>
+    <ShowFullscreenButton>Hiển thị nút toàn màn hình</ShowFullscreenButton>
+    <PreviewFontSize>Xem trước kích thước phông chữ</PreviewFontSize>
+    <MainWindowVideoControls>Cửa sổ chính điều khiển video</MainWindowVideoControls>
+    <CustomSearchTextAndUrl>Tự chọn để tìm văn bản và URL</CustomSearchTextAndUrl>
+    <WaveformAppearance>Xuất hiện dạng sóng</WaveformAppearance>
+    <WaveformGridColor>Dạng lưới màu</WaveformGridColor>
+    <WaveformShowGridLines>Hiển thị dòng theo dạng lưới</WaveformShowGridLines>
+    <ReverseMouseWheelScrollDirection>Lăn chuột di chuyển theo hướng</ReverseMouseWheelScrollDirection>
+    <WaveformColor>Màu sắc</WaveformColor>
+    <WaveformSelectedColor>Chọn màu sắc</WaveformSelectedColor>
+    <WaveformBackgroundColor>Trở lại màu sắc trước đó</WaveformBackgroundColor>
+    <WaveformTextColor>Màu sắc văn bản</WaveformTextColor>
+    <WaveformAndSpectrogramsFolderEmpty>'Ảnh phổ "và" Dạng sóng' trong trong thư mục</WaveformAndSpectrogramsFolderEmpty>
+    <WaveformAndSpectrogramsFolderInfo>'Dạng sóng' và 'Ảnh phổ' gồm có các {0} tập tin ({1:0.00} MB)</WaveformAndSpectrogramsFolderInfo>
+    <Spectrogram>Ảnh phổ</Spectrogram>
+    <GenerateSpectrogram>Tạo ảnh phổ</GenerateSpectrogram>
+    <SpectrogramAppearance>Xuất hiện ảnh phổ</SpectrogramAppearance>
+    <SpectrogramOneColorGradient>Độ dốc của màu sắc</SpectrogramOneColorGradient>
+    <SpectrogramClassic>Cổ điển</SpectrogramClassic>
+    <SubStationAlphaStyle>Kiểu dáng Sub Station Alpha</SubStationAlphaStyle>
+    <ChooseColor>Chọn màu sắc</ChooseColor>
+    <Testing123>Kiểm tra 123...</Testing123>
+    <Language>Ngôn ngữ</Language>
+    <NamesIgnoreLists>Tên/danh sách bỏ qua(THĐB)</NamesIgnoreLists>
+    <AddName>Thêm tên</AddName>
+    <AddWord>Thêm các từ</AddWord>
+    <Remove>Gỡ bỏ</Remove>
+    <AddPair>Thêm phần</AddPair>
+    <UserWordList>Sử dụng danh sách các từ</UserWordList>
+    <OcrFixList>Danh sách sửa chữa OCR</OcrFixList>
+    <Location>Location</Location>
+    <UseOnlineNames>Sử dụng tên trực tuyến NameEtc.xml</UseOnlineNames>
+    <WordAddedX>Thêm các từ: {0}</WordAddedX>
+    <WordAlreadyExists>Từ này đã tồn tại!</WordAlreadyExists>
+    <WordNotFound>Không tìm thấy từ</WordNotFound>
+    <RemoveX>Gỡ bỏ{0}?</RemoveX>
+    <CannotUpdateNamesOnline>Không thể cập nhật NamesEtc.xml trực tuyến!</CannotUpdateNamesOnline>
+    <ProxyServerSettings>Cài đặt proxy server</ProxyServerSettings>
+    <ProxyAddress>Thêm proxy</ProxyAddress>
+    <ProxyAuthentication>Xác thực</ProxyAuthentication>
+    <ProxyUserName>Sử dụng tên</ProxyUserName>
+    <ProxyPassword>Mật khẩu</ProxyPassword>
+    <ProxyDomain>Tên miền</ProxyDomain>
+    <PlayXSecondsAndBack>Phát X trong vài giây và lùi lại, là X</PlayXSecondsAndBack>
+    <StartSceneIndex>Đoạn có cảnh Bắt đầu là</StartSceneIndex>
+    <EndSceneIndex>Đoạn có cảnh kết thúc là</EndSceneIndex>
+    <FirstPlusX>Đầu + {0}</FirstPlusX>
+    <LastMinusX>Cuối - {0}</LastMinusX>
+    <FixCommonerrors>Sửa chữa lỗi phổ biến</FixCommonerrors>
+    <MergeLinesShorterThan>Ghép hàng ngắn hơn</MergeLinesShorterThan>
+    <MusicSymbol>Kí hiệu Âm nhạc</MusicSymbol>
+    <MusicSymbolsToReplace>ký hiệu âm nhạc để thay thế (riêng tư)</MusicSymbolsToReplace>
+    <FixCommonOcrErrorsUseHardcodedRules>Sửa lỗi OCR phổ biến - cũng sử dụng quy tắc hardcoded</FixCommonOcrErrorsUseHardcodedRules>
+    <Shortcuts>Các đường tắt</Shortcuts>
+    <Shortcut>Đường tắt</Shortcut>
+    <Control>Control</Control>
+    <Alt>Alt</Alt>
+    <Shift>Shift</Shift>
+    <Key>Khóa</Key>
+    <TextBox>Hộp thoại</TextBox>
+    <UpdateShortcut>Cập nhật đường dẫn</UpdateShortcut>
+    <ToggleDockUndockOfVideoControls>Kích hoạt bật/tắt bảng điều khiển video</ToggleDockUndockOfVideoControls>
+    <CreateSetEndAddNewAndGoToNew>Thiết lập kết thúc, thêm mới và đi đến</CreateSetEndAddNewAndGoToNew>
+    <AdjustViaEndAutoStartAndGoToNext>Điều chỉnh thông qua vị trí F và đi tới</AdjustViaEndAutoStartAndGoToNext>
+    <AdjustSetStartAutoDurationAndGoToNext>Thiết đặt lúc bắt đầu, thời gian tự động và đi tới</AdjustSetStartAutoDurationAndGoToNext>
+    <AdjustSetEndNextStartAndGoToNext>Thiết lập kết thúc, bắt đầu tiếp và đi tới</AdjustSetEndNextStartAndGoToNext>
+    <AdjustStartDownEndUpAndGoToNext>Khóa bên dưới = thiết lập lúc bắt đầu, Khóa bên trên =thiết lập lúc kết thúc và đi tới</AdjustStartDownEndUpAndGoToNext>
+    <AdjustSelected100MsForward>Di chuyển dòng được lựa chọn tới 100 ms phía trước</AdjustSelected100MsForward>
+    <AdjustSelected100MsBack>Di chuyển dòng được lựa chọn 100 ms lùi lại</AdjustSelected100MsBack>
+    <MainCreateStartDownEndUp>Tạo mới khóa bên dưới, thiết lập thời gian kết thúc tại khóa bên trên</MainCreateStartDownEndUp>
+    <MergeDialog>Ghép các đối thoại (chèn thêm "-" )</MergeDialog>
+    <GoToNext>Tơi dòng tiếp theo</GoToNext>
+    <GoToPrevious>Trở lại dòng trước</GoToPrevious>
+    <ToggleFocus>Chuyển đổi tập trung giữa xem danh sách và hộp văn bản phụ đề</ToggleFocus>
+    <ToggleDialogDashes>Dấu gạch ngang khi chuyển đổi đối thoại</ToggleDialogDashes>
+    <Alignment>Liên kết (các dòng được chọn)</Alignment>
+    <CopyTextOnly>Sao chép văn bản hiển thị vào clipboard (các dòng được chọn)</CopyTextOnly>
+    <AutoDurationSelectedLines>Tự động giới hạn (các dòng được chọn)</AutoDurationSelectedLines>
+    <ReverseStartAndEndingForRtl>Xếp RTL bắt đầu/kết thúc</ReverseStartAndEndingForRtl>
+    <VerticalZoom>Phóng theo chiều dọc</VerticalZoom>
+    <WaveformSeekSilenceForward>Tìm kiếm trong im lặng phía trước</WaveformSeekSilenceForward>
+    <WaveformSeekSilenceBack>Tìm kiếm trong yên lặng khi quay lại</WaveformSeekSilenceBack>
+    <WaveformAddTextHere>Thêm văn bản ở đây (đối với lựa chọn mới)</WaveformAddTextHere>
+    <GoBack100Milliseconds>100 ms trở lại</GoBack100Milliseconds>
+    <GoForward100Milliseconds>100 ms phía trước</GoForward100Milliseconds>
+    <GoBack500Milliseconds>500 ms trở lại</GoBack500Milliseconds>
+    <GoForward500Milliseconds>500 ms phía trước</GoForward500Milliseconds>
+    <TogglePlayPause>Kích hoạt Phát/Tạm dừng</TogglePlayPause>
+    <Pause>Tạm dừng</Pause>
+    <Fullscreen>Toàn màn hình</Fullscreen>
+    <CustomSearch1>Dịch, tùy chọn tìm kiếm 1</CustomSearch1>
+    <CustomSearch2>Dịch, tùy chọn tìm kiếm 2</CustomSearch2>
+    <CustomSearch3>Dịch, tùy chọn tìm kiếm 3</CustomSearch3>
+    <CustomSearch4>Dịch, tùy chọn tìm kiếm 4</CustomSearch4>
+    <CustomSearch5>Dịch, tùy chọn tìm kiếm 5</CustomSearch5>
+    <CustomSearch6>Dịch, tùy chọn tìm kiếm 6</CustomSearch6>
+    <SyntaxColoring>Cú pháp màu</SyntaxColoring>
+    <ListViewSyntaxColoring>Danh sách xem cú pháp màu sắc</ListViewSyntaxColoring>
+    <SyntaxColorDurationIfTooSmall>Thiết đặt giới hạn màu sắc nếu quá ngắn</SyntaxColorDurationIfTooSmall>
+    <SyntaxColorDurationIfTooLarge>Thiết đặt giới hạn màu sắc nếu quá dài</SyntaxColorDurationIfTooLarge>
+    <SyntaxColorTextIfTooLong>Thiết đặt màu văn bản nếu quá dài</SyntaxColorTextIfTooLong>
+    <SyntaxColorTextMoreThanXLines>Thiết đặt màu sắc văn bản nếu có nhiều hơn dòng:</SyntaxColorTextMoreThanXLines>
+    <SyntaxColorOverlap>Thiết đặt mã màu nếu trùng lên nhau</SyntaxColorOverlap>
+    <SyntaxErrorColor>Thiết đặt nếu màu sắc bị lỗi</SyntaxErrorColor>
+    <GoToFirstSelectedLine>Tới dòng đàu tiên được chọn</GoToFirstSelectedLine>
+    <MergeSelectedLines>Gộp các dòng được chọn</MergeSelectedLines>
+    <ToggleTranslationMode>Chế độ chuyển đổi dịch</ToggleTranslationMode>
+    <SwitchOriginalAndTranslation>Chuyển đổi bản gốc và bản dịch</SwitchOriginalAndTranslation>
+    <MergeOriginalAndTranslation>Gộp bản gốc và bản dịch</MergeOriginalAndTranslation>
+    <ShortcutIsAlreadyDefinedX>Đường dẫn đã được xác định: {0}</ShortcutIsAlreadyDefinedX>
+    <ToggleTranslationAndOriginalInPreviews>Chuyển đổi dịch và bản gốc trong video/âm thanh qua</ToggleTranslationAndOriginalInPreviews>
+    <ListViewColumnDelete>Cột, xóa văn bản</ListViewColumnDelete>
+    <ListViewColumnInsert>Cột, chèn văn bản</ListViewColumnInsert>
+    <ListViewColumnPaste>Cột, dán</ListViewColumnPaste>
+    <ShowBeamer>Phát phụ đề toàn màn hình của máy chiếu</ShowBeamer>
+  </Settings>
+  <ShowEarlierLater>
+    <Title>Hiện chọn dòng trước/sau</Title>
+    <TitleAll>Hiển thị tất cả các dòng trước/sau</TitleAll>
+    <ShowEarlier>Hiển thị trước đó</ShowEarlier>
+    <ShowLater>Hiện thị sau đó</ShowLater>
+    <TotalAdjustmentX>Tổng số điều chỉnh: {0}</TotalAdjustmentX>
+    <AllLines>Tất cả các dòng</AllLines>
+    <SelectedLinesOnly>Chọn dòng muốn hiển thị</SelectedLinesOnly>
+    <SelectedLinesAndForward>Các dòng được chọn và chuyển tiếp</SelectedLinesAndForward>
+  </ShowEarlierLater>
+  <ShowHistory>
+    <Title>Lịch sử việc hủy bỏ)</Title>
+    <SelectRollbackPoint>Chọn thời gian/mô tả khi quay lại</SelectRollbackPoint>
+    <Time>Thời gian</Time>
+    <Description>Mô tả</Description>
+    <CompareHistoryItems>So sánh các mục lịch sử</CompareHistoryItems>
+    <CompareWithCurrent>So sánh với hiện tại</CompareWithCurrent>
+    <Rollback>Quay lại</Rollback>
+  </ShowHistory>
+  <SpellCheck>
+    <Title>Kiểm tra chính tả</Title>
+    <FullText>Toàn bộ văn bản</FullText>
+    <WordNotFound>Không tìm thấy từ này</WordNotFound>
+    <Language>Ngôn ngữ</Language>
+    <Change>Thay đổi</Change>
+    <ChangeAll>Thay đổi tất cả</ChangeAll>
+    <SkipOnce>Bỏ qua &amp;một từ</SkipOnce>
+    <SkipAll>&amp;Bỏ qua tất cả</SkipAll>
+    <AddToUserDictionary>Thêm vào từ điển người dùng</AddToUserDictionary>
+    <AddToNamesAndIgnoreList>Thêm vào danh sách tên/tiếng ồn(THĐB)</AddToNamesAndIgnoreList>
+    <AddToOcrReplaceList>Thêm cặp OCR thay thế danh sách</AddToOcrReplaceList>
+    <Abort>Hủy bỏ</Abort>
+    <Use>Sử dụng</Use>
+    <UseAlways>&amp;Luôn sử dụng</UseAlways>
+    <Suggestions>Gợi ý</Suggestions>
+    <SpellCheckProgress>Kiểm tra chính tả [{0}] - {1}</SpellCheckProgress>
+    <EditWholeText>Sửa toàn bộ văn bản</EditWholeText>
+    <EditWordOnly>Sửa một từ duy nhất</EditWordOnly>
+    <AddXToNames>Thêm '{0}' tới tên/danh sách</AddXToNames>
+    <AutoFixNames>Tự động sửa lỗi tên khi có kiểu dáng khác nhau</AutoFixNames>
+    <ImageText>Văn bản hình ảnh</ImageText>
+    <SpellCheckCompleted>Kiểm tra chính tả.</SpellCheckCompleted>
+    <SpellCheckAborted>Hủy bỏ việc kiểm tra chính tả</SpellCheckAborted>
+  </SpellCheck>
+  <Split>
+    <Title>Chia</Title>
+    <SplitOptions>Chia tùy chọn</SplitOptions>
+    <Lines>Dòng</Lines>
+    <Characters>Nhân vật</Characters>
+    <NumberOfEqualParts>Số phần bằng nhau</NumberOfEqualParts>
+    <SubtitleInfo>Thông tin phụ đề</SubtitleInfo>
+    <NumberOfLinesX>Số dòng: {0:#,###}</NumberOfLinesX>
+    <NumberOfCharactersX>Số người dùng: {0:#,###,###}</NumberOfCharactersX>
+    <Output>Đầu ra</Output>
+    <FileName>Tên tập tin</FileName>
+    <OutputFolder>Đầu ra thư mục</OutputFolder>
+    <DoSplit>Chia</DoSplit>
+    <Basic>Cơ bản</Basic>
+  </Split>
+  <SplitLongLines>
+    <Title>Chia dòng quá dài</Title>
+    <SingleLineMaximumLength>Chiều dài tốt đa của một dòng</SingleLineMaximumLength>
+    <LineMaximumLength>Chiều dài tối đa của dòng</LineMaximumLength>
+    <LineContinuationBeginEndStrings>Dòng tiếp tục ở chỗ bắt đầu/kết thúc</LineContinuationBeginEndStrings>
+    <NumberOfSplits>Số dòng cần chia: {0}</NumberOfSplits>
+    <LongestSingleLineIsXAtY>Dòng dài nhất so với tổng tất cả các dòng là dòng {0} ở dòng {1}</LongestSingleLineIsXAtY>
+    <LongestLineIsXAtY>Dòng dài nhất tổng chiều dài của tất cả các dòng là {0} ở dòng {1}</LongestLineIsXAtY>
+  </SplitLongLines>
+  <SplitSubtitle>
+    <Title>Chia phụ đề</Title>
+    <Description1>Nhập chiều dài của phần đầu tiên của video hoặc duyệt tới</Description1>
+    <Description2>và có được chiều dài từ tập tin video:</Description2>
+    <Split>&amp;Chia</Split>
+    <Done>&amp;Hoàn thành</Done>
+    <NothingToSplit>Không có gì để chia!</NothingToSplit>
+    <SavePartOneAs>Lưu phần 1 với...</SavePartOneAs>
+    <SavePartTwoAs>Lưu phần 2 với...</SavePartTwoAs>
+    <Part1>Phần 1</Part1>
+    <Part2>Phần 2</Part2>
+    <UnableToSaveFileX>Không thể lưu {0}</UnableToSaveFileX>
+    <OverwriteExistingFiles>Ghi đè lên tập tin hiện có?</OverwriteExistingFiles>
+    <FolderNotFoundX>Kkhông tìm thấy thư mục: {0}</FolderNotFoundX>
+    <Untitled>Chưa có tiêu đề</Untitled>
+  </SplitSubtitle>
+  <StartNumberingFrom>
+    <Title>Đánh số lại</Title>
+    <StartFromNumber>Bắt đầu từ số:</StartFromNumber>
+    <PleaseEnterAValidNumber>Ups, xin vui lòng nhập một số</PleaseEnterAValidNumber>
+  </StartNumberingFrom>
+  <Statistics>
+    <Title>Thống kê</Title>
+    <TitleWithFileName>Thống kê - {0}</TitleWithFileName>
+    <GeneralStatistics>Thống kê chung</GeneralStatistics>
+    <MostUsed>Dòng sử dụng nhiều nhất...</MostUsed>
+    <MostUsedLines>DÙng tất cả các từ được sử dụng nhiều nhất</MostUsedLines>
+    <MostUsedWords>Từ được sử dụng nhiều nhất</MostUsedWords>
+    <NothingFound>Không tìm thấy gì</NothingFound>
+    <NumberOfLinesX>Số dòng phụ đề: {0:#,###}</NumberOfLinesX>
+    <LengthInFormatXinCharactersY>Số ký tự như {0}: {1: ######0}</LengthInFormatXinCharactersY>
+    <NumberOfCharactersInTextOnly>Số nhân vật trong văn bản chỉ định: {0:#,###,##0}</NumberOfCharactersInTextOnly>
+    <TotalCharsPerSecond>Tổng số nhân vật/giây: {0:0.0} seconds</TotalCharsPerSecond>
+    <NumberOfItalicTags>Số lượng thẻ chữ in nghiêng: {0}</NumberOfItalicTags>
+    <NumberOfBoldTags>Số lượng thẻ chữ in đậm: {0}</NumberOfBoldTags>
+    <NumberOfUnderlineTags>Số lượng thẻ chữ gạch dưới: {0}</NumberOfUnderlineTags>
+    <NumberOfFontTags>Số lượng thẻ phông chữ: {0}</NumberOfFontTags>
+    <NumberOfAlignmentTags>Số thẻ liên kết: {0}</NumberOfAlignmentTags>
+    <LineLengthMinimum>Chiều dài phụ đề - tối thiểu: {0}</LineLengthMinimum>
+    <LineLengthMaximum>Chiều dài phụ đề - tối đa: {0}</LineLengthMaximum>
+    <LineLengthAverage>Phụ đề dài - trung bình: {0}</LineLengthAverage>
+    <LinesPerSubtitleAverage>Phụ đề, số dòng- trung bình: {0:0.0}</LinesPerSubtitleAverage>
+    <SingleLineLengthMinimum>Chiều dài dòng đơn - tối thiểu: {0} chiều dài</SingleLineLengthMinimum>
+    <SingleLineLengthMaximum>Dòng đơn - tối đa: {0}</SingleLineLengthMaximum>
+    <SingleLineLengthAverage>Chiều dài dòng đơn - trung bình: {0}Thời gian</SingleLineLengthAverage>
+    <DurationMinimum>Thời hạn - tối thiểu: {0:0.000} seconds</DurationMinimum>
+    <DurationMaximum>Thời hạn - tối da: {0:0.000} seconds</DurationMaximum>
+    <DurationAverage>Thời hạn - trung bình: {0:0.000} seconds</DurationAverage>
+  </Statistics>
+  <SubStationAlphaProperties>
+    <Title>Thuộc tính Advanced Sub Station Alpha</Title>
+    <TitleSubstationAlpha>Sub Station Alpha</TitleSubstationAlpha>
+    <Script>Nguyên bản</Script>
+    <ScriptTitle>Tiêu đề</ScriptTitle>
+    <OriginalScript>Văn bản gốc</OriginalScript>
+    <Translation>Dịch</Translation>
+    <Editing>Biên tập</Editing>
+    <Timing>Tính toán thời gian</Timing>
+    <SyncPoint>Thiết lập thời điểm</SyncPoint>
+    <UpdatedBy>Cập nhật bởi</UpdatedBy>
+    <UpdateDetails>Chi tiết cập nhật</UpdateDetails>
+    <Resolution>Độ phân giải</Resolution>
+    <VideoResolution>Độ phân giải video</VideoResolution>
+    <Options>Tùy chọn</Options>
+    <WrapStyle>Kiểu dáng trọn gói</WrapStyle>
+    <Collision>Xung đột</Collision>
+    <ScaleBorderAndShadow>Biên giới quy mô và bóng tối</ScaleBorderAndShadow>
+  </SubStationAlphaProperties>
+  <SubStationAlphaStyles>
+    <Title>Kiểu dáng nâng cao của Sub Station Alpha</Title>
+    <TitleSubstationAlpha>Kiểu dáng Sub Station Alpha</TitleSubstationAlpha>
+    <Styles>Kiểu dáng</Styles>
+    <Properties>Thuộc tính</Properties>
+    <Name>Tên</Name>
+    <Font>Phông chữ</Font>
+    <FontName>Tên phông chữ</FontName>
+    <FontSize>Kích thước font</FontSize>
+    <UseCount>Sử dụng</UseCount>
+    <Primary>Tiểu học</Primary>
+    <Secondary>Trung học</Secondary>
+    <Tertiary>Đại học</Tertiary>
+    <Outline>Đại cương</Outline>
+    <Shadow>Đổ bóng</Shadow>
+    <Back>Trở lại</Back>
+    <Alignment>Điều chỉnh</Alignment>
+    <TopLeft>Đầu/Trái</TopLeft>
+    <TopCenter>Đầu/Giữa</TopCenter>
+    <TopRight>Đầu/Phải</TopRight>
+    <MiddleLeft>Giữa/Trái</MiddleLeft>
+    <MiddleCenter>Giữa/Giữa</MiddleCenter>
+    <MiddleRight>Giữa/Phải</MiddleRight>
+    <BottomLeft>Dưới/Trái</BottomLeft>
+    <BottomCenter>Dưới/Giữa</BottomCenter>
+    <BottomRight>Dưới/Phải</BottomRight>
+    <Colors>Màu sắc</Colors>
+    <Margins>Lề</Margins>
+    <MarginLeft>Lề bên trái</MarginLeft>
+    <MarginRight>Lề bên phải</MarginRight>
+    <MarginVertical>Lề dọc</MarginVertical>
+    <Border>Đường biên</Border>
+    <PlusShadow>Thêm đổ bóng</PlusShadow>
+    <OpaqueBox>Hộp màu nền (sử dụng màu sắc cho viền)</OpaqueBox>
+    <Import>Nhập vào...</Import>
+    <Copy>Sao chép</Copy>
+    <CopyOfY>Sao chép tới {0}</CopyOfY>
+    <CopyXOfY>Sao chép {0} tới {1}</CopyXOfY>
+    <New>Mới</New>
+    <Remove>Xoá bỏ</Remove>
+    <RemoveAll>Gỡ bỏ tất cả</RemoveAll>
+    <ImportStyleFromFile>Nhập vào từ tập tin...</ImportStyleFromFile>
+    <ChooseStyle>Chọn kiểu dáng để nhập vào</ChooseStyle>
+  </SubStationAlphaStyles>
+  <PointSync>
+    <Title>Đồng bộ hóa thời điểm</Title>
+    <TitleViaOtherSubtitle>Thời điểm đồng bộ thông qua phụ đề khác</TitleViaOtherSubtitle>
+    <SyncHelp>Thiết lập ít nhất hai thời điểm đồng bộ để thực hiện đồng bộ hóa thô</SyncHelp>
+    <SetSyncPoint>Thiết lập thời điểm đồng bộ</SetSyncPoint>
+    <RemoveSyncPoint>Gỡ bỏ thời điểm đồng bộ</RemoveSyncPoint>
+    <SyncPointsX>Đồng bộ chỉ: {0}</SyncPointsX>
+    <Info>Khi đồng bộ một thời điểm sẽ điều chỉnh vị trí, tốc độ sẽ nhanh hơn khi đồng bộ hai hay nhiều hơn</Info>
+    <ApplySync>Áp dụng</ApplySync>
+  </PointSync>
+  <UnknownSubtitle>
+    <Title>không xác định được phụ đề</Title>
+    <Message>Nếu bạn muốn phụ đề này là mặc định xin vui lòng gửi thư đến: niksedk@gmail.com và bao gồm một bản sao của phụ đề.</Message>
+  </UnknownSubtitle>
+  <VisualSync>
+    <Title>Cảnh đồng bộ</Title>
+    <StartScene>Cảnh bắt đầu</StartScene>
+    <EndScene>Cảnh kết thúc</EndScene>
+    <Synchronize>Đồng bộ</Synchronize>
+    <HalfASecondBack>&lt;1/2s</HalfASecondBack>
+    <ThreeSecondsBack>&lt; 3s</ThreeSecondsBack>
+    <PlayXSecondsAndBack>Phát {0}s và trở lại</PlayXSecondsAndBack>
+    <FindText>Tìm kiếm văn bản</FindText>
+    <GoToSubPosition>Tới vị trí phụ đề</GoToSubPosition>
+    <KeepChangesTitle>Giữ nguyên thay đổi?</KeepChangesTitle>
+    <KeepChangesMessage>Thay đổi đã được thực hiện cho các phụ đề trong 'Thiết lập hiển thị '.</KeepChangesMessage>
+    <SynchronizationDone>Đồng bộ xong!</SynchronizationDone>
+    <StartSceneMustComeBeforeEndScene>Bắt đầu cảnh phải đi trước cảnh cuối cùng!</StartSceneMustComeBeforeEndScene>
+    <Tip>Mẹo: Sử dụng phím nóng &lt;Ctrl+phím mũi tên trái/phải&gt; để di chuyển tiến/lùi 100 ms</Tip>
+  </VisualSync>
+  <VobSubEditCharacters>
+    <Title>Chỉnh sửa hình ảnh khi so sánh cơ sở dữ liệu</Title>
+    <ChooseCharacter>Chọn nhân vật(s)</ChooseCharacter>
+    <ImageCompareFiles>So sánh các tập tin hình ảnh</ImageCompareFiles>
+    <CurrentCompareImage>So sánh với hình ảnh hiện tại</CurrentCompareImage>
+    <TextAssociatedWithImage>Văn bản liên quan đến hình ảnh</TextAssociatedWithImage>
+    <IsItalic>Đây là &amp;chữ in nghiêng</IsItalic>
+    <Update>&amp;Cập nhật</Update>
+    <Delete>&amp;Xóa</Delete>
+    <ImageDoubleSize>Nhân đôi kích thước hình ảnh</ImageDoubleSize>
+    <ImageFileNotFound>Không tìm thấy tập tin hình ảnh</ImageFileNotFound>
+    <Image>Hình ảnh</Image>
+  </VobSubEditCharacters>
+  <VobSubOcr>
+    <Title>Nhập vào/OCR VobSub(sub/idx) phụ đề</Title>
+    <TitleBluRay>Nhập vào/OCR Blu-ray (.sup) phụ đề</TitleBluRay>
+    <OcrMethod>Phương thức OCR</OcrMethod>
+    <OcrViaModi>OCR thông qua tạo tài liệu cho Microsoft Office(MODI). Yêu cầu cài MiS Office</OcrViaModi>
+    <OcrViaTesseract>OCR thông qua Tesseract</OcrViaTesseract>
+    <Language>Ngôn ngữ</Language>
+    <OcrViaImageCompare>OCR thông qua việc so sánh bằng hình ảnh</OcrViaImageCompare>
+    <ImageDatabase>Cơ sở dữ liệu hình ảnh</ImageDatabase>
+    <NoOfPixelsIsSpace>Không có điểm ảnh trên không gian</NoOfPixelsIsSpace>
+    <New>Mới</New>
+    <Edit>Chỉnh sửa</Edit>
+    <StartOcr>Bắt đầu OCR</StartOcr>
+    <Stop>Dừng</Stop>
+    <StartOcrFrom>Bắt đầu OCR từ :</StartOcrFrom>
+    <LoadingVobSubImages>Tải hình ảnh VobSub...</LoadingVobSubImages>
+    <SubtitleImage>Hình ảnh phụ đề</SubtitleImage>
+    <SubtitleText>Văn bản phụ đề</SubtitleText>
+    <UnableToCreateCharacterDatabaseFolder>Không thể tạo ra 'thư mục cơ sở dữ liệu nhân vật': {0}</UnableToCreateCharacterDatabaseFolder>
+    <SubtitleImageXofY>hình ảnh phụ đề {0} {1}</SubtitleImageXofY>
+    <ImagePalette>Bảng màu sắc hình ảnh</ImagePalette>
+    <UseCustomColors>Sử dụng màu sắc tùy chỉnh</UseCustomColors>
+    <Transparent>suốt</Transparent>
+    <PromptForUnknownWords>Nhắc nhở từ ngữ chưa biết</PromptForUnknownWords>
+    <TryToGuessUnkownWords>Thử đoán từ ngữ chưa biết</TryToGuessUnkownWords>
+    <AutoBreakSubtitleIfMoreThanTwoLines>Tự động ngắt đoạn nếu có nhiều hơn 2 dòng</AutoBreakSubtitleIfMoreThanTwoLines>
+    <AllFixes>Tất cả các bản sửa lỗi</AllFixes>
+    <GuessesUsed>Phỏng đoán sử dụng</GuessesUsed>
+    <UnknownWords>Từ ngữ không rõ ràng</UnknownWords>
+    <OcrAutoCorrectionSpellChecking>OCR tự động sửa chữa/kiểm tra chính tả</OcrAutoCorrectionSpellChecking>
+    <FixOcrErrors>Sửa lỗi OCR</FixOcrErrors>
+    <ImportTextWithMatchingTimeCodes>Văn bản nhập vào với mã thời gian chính xác...</ImportTextWithMatchingTimeCodes>
+    <SaveSubtitleImageAs>Lưu hình ảnh phụ đề như...</SaveSubtitleImageAs>
+    <SaveAllSubtitleImagesAsBdnXml>Lưu tất cả các hình ảnh(png/BDN xml)...</SaveAllSubtitleImagesAsBdnXml>
+    <SaveAllSubtitleImagesWithHtml>Lưu tất cả các hình ảnh với chỉ số HTML...</SaveAllSubtitleImagesWithHtml>
+    <XImagesSavedInY>{0} hình ảnh được lưu trong {1}</XImagesSavedInY>
+    <TryModiForUnknownWords>Hãy thử Microsoft MODI OCR cho các từ ngữ chưa biết</TryModiForUnknownWords>
+    <DictionaryX>Từ điển: {0}</DictionaryX>
+    <RightToLeft>Từ phải sang trái</RightToLeft>
+    <ShowOnlyForcedSubtitles>Hiển thị phụ đề bắt buộc</ShowOnlyForcedSubtitles>
+    <UseTimeCodesFromIdx>Sử dụng mã thời gian từ tập tin idx.</UseTimeCodesFromIdx>
+    <NoMatch>&lt;Không chính xác&gt;</NoMatch>
+    <AutoTransparentBackground>Nền trong suốt tự động</AutoTransparentBackground>
+    <InspectCompareMatchesForCurrentImage>Kiểm tra so sánh chính xác cho hình ảnh hiện tại...</InspectCompareMatchesForCurrentImage>
+    <EditLastAdditions>Chỉnh sửa hình ảnh cuối cùng để so sánh bổ sung...</EditLastAdditions>
+  </VobSubOcr>
+  <VobSubOcrCharacter>
+    <Title>VobSub- văn bản hướng dẫn sử dụng có hình ảnh</Title>
+    <ShrinkSelection>Lựa chọn thu nhỏ</ShrinkSelection>
+    <ExpandSelection>Mở rộng lựa chọn</ExpandSelection>
+    <SubtitleImage>Hình ảnh phụ đề</SubtitleImage>
+    <Characters>Nhân vật(s)</Characters>
+    <CharactersAsText>Nhân vật(s)như trong văn bản</CharactersAsText>
+    <Italic>&amp;Chữ in nghiêng</Italic>
+    <Abort>&amp;Huỷ bỏ</Abort>
+    <Skip>&amp;Bỏ qua</Skip>
+    <Nordic>Bắc Âu</Nordic>
+    <Spanish>Tây Ban Nha</Spanish>
+    <German>Đức</German>
+    <AutoSubmitOnFirstChar>Tự động nộp vào &amp;trong kí tự đầu tiên</AutoSubmitOnFirstChar>
+    <EditLastX>Sửa lần cuối: {0}</EditLastX>
+  </VobSubOcrCharacter>
+  <VobSubOcrCharacterInspect>
+    <Title>Kiểm tra so sánh chính xác hình ảnh hiện tại</Title>
+    <InspectItems>Kiểm tra các mặt hàng</InspectItems>
+    <AddBetterMatch>Thêm tốt hơn</AddBetterMatch>
+  </VobSubOcrCharacterInspect>
+  <VobSubOcrNewFolder>
+    <Title>Thư mục mới</Title>
+    <Message>Thay đôỉ tên thu mục chứa dữ liệu</Message>
+  </VobSubOcrNewFolder>
+  <Waveform>
+    <ClickToAddWaveform>Nhấn vào đây để thêm dạng sóng</ClickToAddWaveform>
+    <ClickToAddWaveformAndSpectrogram>Nhấn vào đây để thêm dạng sóng/quang phổ</ClickToAddWaveformAndSpectrogram>
+    <Seconds>Giây</Seconds>
+    <ZoomIn>Phóng to</ZoomIn>
+    <ZoomOut>Thu nhỏ</ZoomOut>
+    <AddParagraphHere>Thêm văn bản ở đây</AddParagraphHere>
+    <AddParagraphHereAndPasteText>Thêm văn bản từ clipboard ở đây</AddParagraphHereAndPasteText>
+    <DeleteParagraph>Xóa văn bản</DeleteParagraph>
+    <Split>Chia</Split>
+    <SplitAtCursor>Chia tại vị trí con trỏ</SplitAtCursor>
+    <MergeWithPrevious>Gộp với trước đó</MergeWithPrevious>
+    <MergeWithNext>Gộp với sau đó</MergeWithNext>
+    <PlaySelection>Lựa chọn cách phát</PlaySelection>
+    <ShowWaveformAndSpectrogram>Hiển thị dạng sóng và ảnh phổ</ShowWaveformAndSpectrogram>
+    <ShowWaveformOnly>Chỉ hiển thị dạng sóng</ShowWaveformOnly>
+    <ShowSpectrogramOnly>Chỉ hiển thị ảnh phổ</ShowSpectrogramOnly>
+    <GuessTimeCodes>Mã hóa thời gian dự đoán...</GuessTimeCodes>
+    <SeekSilence>Tìm kiếm sự im lặng...</SeekSilence>
+  </Waveform>
+  <WaveformGenerateTimeCodes>
+    <Title>Mã hóa thời gian dự đoán</Title>
+    <StartFrom>Bắt đầu từ</StartFrom>
+    <CurrentVideoPosition>Vị trí video hiện tại</CurrentVideoPosition>
+    <Beginning>Bắt đầu</Beginning>
+    <DeleteLines>Xóa các dòng</DeleteLines>
+    <FromCurrentVideoPosition>Từ vị trí màn hình hiện tại</FromCurrentVideoPosition>
+    <DetectOptions>Ttùy chọn khám phá</DetectOptions>
+    <ScanBlocksOfMs>Quét khối trong ms</ScanBlocksOfMs>
+    <BlockAverageVolMin1>Âm lượng trung bình phải trên</BlockAverageVolMin1>
+    <BlockAverageVolMin2>% tổng âm lượng trung bình</BlockAverageVolMin2>
+    <BlockAverageVolMax1>Âm lượng trung bình phải dưới</BlockAverageVolMax1>
+    <BlockAverageVolMax2>% tổng âm lượng tối đa</BlockAverageVolMax2>
+    <SplitLongLinesAt1>Chia phụ đề quá dài tại</SplitLongLinesAt1>
+    <SplitLongLinesAt2>ms</SplitLongLinesAt2>
+    <Other>Khác</Other>
+  </WaveformGenerateTimeCodes>
+</Language>

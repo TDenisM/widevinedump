@@ -1,0 +1,21 @@
+{
+    "token": "z2.token",
+    "client_info":
+    {
+        "company_name": "Sony",
+        "model_name": "D6503",
+        "architecture_name": "armeabi-v7a",
+        "device_name": "D6503",
+        "product_name": "D6503",
+        "build_info": "Sony/D6503/D6503:6.0.1/23.5.A.1.291/2769308465:user/release-keys",
+        "device_id": "U09OWV9YUEVSSUFfMDdkZV8wMDc1ZTkwMAAAAAAAAAA=",
+        "os_version":  "6.0.1"
+    },
+    "capabilities":
+    {
+        "session_token": 1,
+        "max_hdcp_version": "HDCP_V2_2",
+        "oem_crypto_api_version": 11
+    }
+}
+

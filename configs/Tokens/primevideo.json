@@ -1,0 +1,108 @@
+{
+    "refresh_token": "Atnr|EwICIFqjcW3qfSYbPsGahXGhAsWeKSW8YbXqDEBQiFrzSH_SdXqEplGhBfcOGC03hdRtqmpIj3oFGwYx0TIwyaJWRqLU2mx0JR6E3iTt_9cSCgICt1hlV9LejnNHKvck5fEsZ1343oeDhfZ6br6FZkwsU_x-LNlvDyBBfRYddPMqLq-X7qBJWAXZuvG0YLxWDDuAN1A2BFU4QSWDYvEFuoeIcPgZQtkt5ebVdJxv1keiXF6F-Lgft5b1aBL-eK83G7ZFJPH-lanJZ_3tk_xTOTv13G8XBLeSwwPJ-r70tz8Ccao12g",
+    "access_token": "bearer Atna|EwICID3U3hvIE0TqTBEPqG2B3Nn8Yhr-SFJ3e-aFoEec7oYtssLaFBAKBTmwz9arRM_fRHca2C_aRPMcA5SRto1HkreyzVEdKIfVKiibsZtAxEjeztj9XCCzkoFskeWdBf9nGtMC2872jbigtj0g6QDKiYvH2eh1I6l1Y3yDl-fA1DncGr5qum_lT88JIlMdT9sH8OkJ2YW1-aJhYuZDNXetN-tWTIrPanUQ6OEy9vTEa4ZpOLQEOTeKsJMV0M7aFEc68ZnGmBe-jHxKpbqbw20tnm6mFoVQ5gxySDh_L1qlZPd6WXZ9fiRNSEQwp58m5Vtkitw",
+    "cookies": "session-id=145-5028685-5307043; ubid-main=134-7715513-6480940; x-main=\"1pTJtEcDLpLk25jg7gq0CiWz?6O2Y7EoeAgdCMGvicmGKGSsWY9cvH5XW@oZoTIw\"; at-main=\"Atza|IwEBIKY9z1_GBAJM5wyewJwl8Y_WWW45FX6YvfH_Xd8M8sPI6st3xj2x6DVYN90J508W0y2fFT_gJE2BYSDkezb9maFVMz3EZuIwvylzWOc2a4Qay8LME9fYqRZu2NA4EvsESRrWUgKhW-iX56dDL5Xg-9LJsNYD2l1kvVz4N1Tx4ZTDjfkiV5wRa8asBS-6htJGyOZ93xvhjz8oS3Aubed4SUHRfS1NPusExThL-6Pl4qsNFtuth_uVQRengHgzgj-7WAoGiW4NytrtlpxcXiL14MWseo0TdEZAuZEloLblad06a7t1vIy9HZfCnSUfLsKmAdBLAl2f9wd8uJgW5EHOeTHG\"; sess-at-main=\"eIH1m+wPTEwWNixmBz9UJe6KOE8CJT2qZSUcz3kt5Ug=\"",
+    "device_serial": "9925GGTLDIMG71I5N730OKVLFL29M9FFYBTAZ4EA",
+    "device_type": "A1KAXIG6VXSG8Y",
+    "expire_in": 1622857693,
+    "params": {
+        "public_code": "BYXUY9",
+        "private_code": "06be357b-269f-4a3e-9ea5-b13bb1ad6f2b",
+        "domain": "com",
+        "region": "ps",
+        "ANDROID_REGISTRATION": {
+            "domain": "Device",
+            "app_name": "AIV",
+            "app_version": "3.12.0",
+            "device_model": "SHIELD Android TV",
+            "os_version": "28",
+            "device_type": "A1KAXIG6VXSG8Y",
+            "device_serial": "9925GGTLDIMG71I5N730OKVLFL29M9FFYBTAZ4EA",
+            "device_name": "%FIRST_NAME%'s%DUPE_STRATEGY_1ST% Shield TV",
+            "software_version": "248"
+        }
+    },
+    "RESPONSE": {
+        "response": {
+            "success": {
+                "extensions": {
+                    "device_info": {
+                        "device_name": "Rajdeep's 3rd  Shield TV",
+                        "device_serial_number": "9925GGTLDIMG71I5N730OKVLFL29M9FFYBTAZ4EA",
+                        "device_type": "A1KAXIG6VXSG8Y"
+                    },
+                    "customer_info": {
+                        "account_pool": "Amazon",
+                        "user_id": "amzn1.account.AELPYORG7577ZOG4WH33UGEQPU5A",
+                        "home_region": "NA",
+                        "name": "Rajdeep Biswas",
+                        "given_name": "Rajdeep"
+                    }
+                },
+                "tokens": {
+                    "website_cookies": [
+                        {
+                            "Path": "/",
+                            "Secure": "true",
+                            "Value": "145-5028685-5307043",
+                            "Expires": "30 May 2041 05:19:13 GMT",
+                            "Domain": ".amazon.com",
+                            "HttpOnly": "false",
+                            "Name": "session-id"
+                        },
+                        {
+                            "Path": "/",
+                            "Secure": "true",
+                            "Value": "134-7715513-6480940",
+                            "Expires": "30 May 2041 05:19:13 GMT",
+                            "Domain": ".amazon.com",
+                            "HttpOnly": "false",
+                            "Name": "ubid-main"
+                        },
+                        {
+                            "Path": "/",
+                            "Secure": "true",
+                            "Value": "\"1pTJtEcDLpLk25jg7gq0CiWz?6O2Y7EoeAgdCMGvicmGKGSsWY9cvH5XW@oZoTIw\"",
+                            "Expires": "30 May 2041 05:19:13 GMT",
+                            "Domain": ".amazon.com",
+                            "HttpOnly": "false",
+                            "Name": "x-main"
+                        },
+                        {
+                            "Path": "/",
+                            "Secure": "true",
+                            "Value": "\"Atza|IwEBIKY9z1_GBAJM5wyewJwl8Y_WWW45FX6YvfH_Xd8M8sPI6st3xj2x6DVYN90J508W0y2fFT_gJE2BYSDkezb9maFVMz3EZuIwvylzWOc2a4Qay8LME9fYqRZu2NA4EvsESRrWUgKhW-iX56dDL5Xg-9LJsNYD2l1kvVz4N1Tx4ZTDjfkiV5wRa8asBS-6htJGyOZ93xvhjz8oS3Aubed4SUHRfS1NPusExThL-6Pl4qsNFtuth_uVQRengHgzgj-7WAoGiW4NytrtlpxcXiL14MWseo0TdEZAuZEloLblad06a7t1vIy9HZfCnSUfLsKmAdBLAl2f9wd8uJgW5EHOeTHG\"",
+                            "Expires": "5 Jun 2021 05:19:13 GMT",
+                            "Domain": ".amazon.com",
+                            "HttpOnly": "true",
+                            "Name": "at-main"
+                        },
+                        {
+                            "Path": "/",
+                            "Secure": "true",
+                            "Value": "\"eIH1m+wPTEwWNixmBz9UJe6KOE8CJT2qZSUcz3kt5Ug=\"",
+                            "Expires": "5 Jun 2021 05:19:13 GMT",
+                            "Domain": ".amazon.com",
+                            "HttpOnly": "true",
+                            "Name": "sess-at-main"
+                        }
+                    ],
+                    "store_authentication_cookie": {
+                        "cookie": "7oCEXDSy60WboDHQYCe/T0jQ+1NDez+6/5MbLVNZDtNmk1fz/74JBIZXldC+Auu3Kn2sLJsZ6a5nq4rGPWub3H47nq6NJEkcKkk/2GU49dTUX05cVFw+HDHStc/G0Wd5KwL0ad4VBuZ3FA0izAi2P0SFDIqt52JERuZfcfUf7kwIhz3B9cvOboS7EMBNzlLD"
+                    },
+                    "mac_dms": {
+                        "device_private_key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEA0dXVFsllaGZK1SM9hr96Wc9qY6be/+39My9xGXv5FNyjvkjR\nK73WEq/jANaZ9Bv4vPHK75Qa/MmqGv9WDrjFCW+/525rz9MdgBSwtKidEHR7uCaI\nINtWlR5gPaMUmlHLYchRfWmxDIErO0WUhK5h7mhanp2EfA1UwMe2dZxJWp+esgSd\nxdvn+pW3hiGU0jB7+HGFLnxwPlASUXpLQkjXdeanBTtNCfX5m6QKREy0wTzpklCt\nJqMadva8ibYM12s3LF7N0hJhE7Vyp5pKAmbFG8pNgYbJ2CVG97bmgKYpgx/Yt+Mb\n70Z70xXZPUx3ZOSWsESmi3ah3VMsInJukwmp0wIDAQABAoIBAQDOXvbHBWX1yn0Y\nqCMPzmv/vi3NOkYiASc/2w3p2XK8oM9uCuGlmnvbPx8MKQObAJOfCFLlU41DRvdE\nvBEgQ3qN8FkVvRTNfb2KxU6RLy/iCh3PnB3P6sh5ujk/BY/ywjU7wy7aIEOfn74r\n+h+6amMofXt6ekLdWqMbQo/hlcbTF1W0zzI+aWbbGNdh+xavvD3LC37jGRD1VxNe\nvPATuX5MpCdTa/qrDbrnqlnKoXXbWO+DvNgMWi5IjCancqp9BW8J9rAQ5OA6fRLD\n7pFtWi+V18/Gttj6rOGvOpmC7LRp4JNSG2rQzR8PTg43R7dyd2dQIn4krswxKYPA\nOpRvi2gpAoGBAP5pudhprE5aaHeZTt+MytmJ4BiLgjoVbWOCtup/VVktEQbN7EUJ\nlJcWGF5Qo0C3WaN4vOlRKm5e/Kt1QvaHb8faE0zNh1WTqz47G8iVy+qehYE1PywG\nUabz0tau0y/ZZE/LXrQwVD2Dt4nwlfysc3/xnDs1pM0Wxxg2nMeehuHlAoGBANMk\n64EHCGHAvxU/y5mWre8zc4Fd66eipc8MFgPlJVCj9ffRpnUU9N9aRKuuilMbA82Z\nEL7MAXkfAlPCal2MGFlbJSYGvFygPeFg0NvQXoK+uc3A5nDJJBZrxGlutDVobs67\nnSpglt6b1A79029C3sYgs55ZDYsLPnQ6xKFp/QFXAoGALuHy0nOewg2dBLUmuMFs\nPCxRNJS42dVLBDR5Wrs+UiGg6p0V9h7u1+zFbtPzUaC4DwzX2zMO26n7a+k+/sk0\niyKfvd5+GwIMY3pnA06/diviNE5Ipuc/MsHpz5AF8OJhvuaePBxP2colD3FbYmWx\nHxm6DZs0FGsnI0olGBAZkRUCgYA3KOEBXzX4W6NPyM/Guw+LevSE6mVi8OHCOlUS\nBW3/KCZc7H9A/Q2PwARKmZl3ZopSztcKET+dRdWUzih9cdj2lxIYYhAZXp9r3qAR\nnNjj7TGbJ/bLpjBwTw0Lwij//t1b0rWXWY5wb2Mx22u+GEkcl3R1PKyGE5ToRmYS\nCR9YlwKBgQDfVuQZCfPJmDpKldf3up0hgY+ZC5SrpX3QM0Fz5RrhKwPfRvWENJMT\nEqyOXOGJ2RaDRcEjtF2b9/v3mTD5RB68Qozj0vTRPxjzbrjs5rg8VCVeZGBUlGRx\nnkUNDaeO4PYd4+UW2nNFEoawQYB1J71paOvk20QKueM1MRUpEI6gdA==\n-----END RSA PRIVATE KEY-----\n",
+                        "adp_token": "{enc:0p/vZ2wugGUr8L3A6hBKRzlgo5pHXOH2/Iu9fK4VYGxIUHhRrMtMonE9CFjTTNX6TcHPRXjUqWRPqvZo6Sg5NNua16bO/+SVtdOTGFyVg9dX6c81bCUtS6GyljEsvUSuq4kfbjo7l0Xgh27Y5ihASgwpMybD58+ifUqkgIuxNpUmWDOZiVZYi7+EUdM8EDilRlHf7LwOhkzGDSmaKKeSxRNNBgqozaUraUciM1+a3CM7lOFlJJePf/li4NpfdAC9A2Ww8TroIEE9HuiWCV/6t1HlBYKZH8RTgMiwQDpi7qc8hSlfE2gJwAAmlJEQUY8A7P+4EYa4fKU3tsIe0e1DF4pxMBzVSaTZH3EpHmrrpBKF4xywYKosCY/c/jxfS6gog4BecNXAIW8YL+nfpLtTLIqlTiKNHfTwm6AhT5TIgKq3sSWY9pwPO0BNov6tcXQ5caQllul1PJhLPN2PjPQ9/7fyzKjrxi3oZiVdS7gh7mlievOmplAVixc9K4fc/xiTy8fyQZqck1v/9paWqi6NJnQdYqt0wtK5qYz0p3oaLZI3G8/zz6MLeZxpKyXr88jqbvNthLpdxXe1cB5sRMNJRp8gSdluH5mR1dB05GAYwbU+GbckkEoQIqHB3vQLSMJUjMTXv/a43+uTqd8E1vjtMgrpy4mhbmcBrrPF1K0LWR8z3T2Z75sRWxNb8KpW43ouw0ck3Sm05cYegIma5b8P9/NbiRfZm/9Gz0GVQz25U1NqE4a7pBOk3jE3oooscsf3GZM+5TENvZDx4MAV979FEA/Z2k4jgrrOduTIYwfuF4PGjNkN1QsMuYczxHmrjsvuNJ3TM76/IcG5jBGfFQZBQO5Fzv3R7l4dlqISYtV17MkCDNnXwJ6rohnz8H0C+gxbR/Kcl+tWdtAAHkKYIgmCfkZgPByQTSKwC1je4EuC6YL96sR+LV5GUg8kaLJ/Ud3RZ/fnxZ+gi/jRskjKN2Hxn/8ZugMoxySfSc7RRBaSowUErnt8iPgg/8owi8OZUpMsDPr0sIKgjZScRklsJeAeDv1l031Y9EgabbCUm7O7Vtp1l6fXQWfKZcxYYKqypGBh}{key:Vc+00rapFNEmIT8NYQRlJqt8S9ZxCFpz+MVaGdng4jVu5EE00X/tFQzusA8FGaWW3rpbYqHSpKEZVa2gJapE4sgB9dWLaiT6tidNE4aKmgopF2/+ubc9lahrDjVTsvczx9RoTvvEtMgJtvwJ04rOb4N93q25K/IyUEFve7U/NcASSumpoB07Q2OIiW6DPHimqms/Y00W4NFq6F/unnO5vdEZWYeql+W3NTJd4pR+zC1rpgOpvFbquiibcgdxVm2Y4fQqNil6GdA9biCx7Otr6BudaJzxij1to9tH4tBt+LgibGrRA+aYWtrnt4rijor4tLdlqRo3jKaSBBZ+pYTO3w==}{iv:qThxxSnffr/fJPoOCU5U4w==}{name:QURQVG9rZW5FbmNyeXB0aW9uS2V5}{serial:Mg==}"
+                    },
+                    "bearer": {
+                        "access_token": "Atna|EwICIA7Jo3vvomqEX-KCECWtgoCap7ksP5_4S75wLzPrYDAGPYI2Jk06lVQJRuOZBCH7znrUETXpPp1Fbvsp-Ucn0CtT5Ql0gx5_damtPsnxoG1BiBo75Zjq_EZeyal8f12U53IVcXhLD2vjiis9s21PuP0uL3K6hH1qLgTktX6WfwAnt-Y8t7Kj_jFPf-0cjFlLHvs5gmEnKmqWDpxa4OSbougPMU1cmH5iXrWKuYAE-542nw",
+                        "refresh_token": "Atnr|EwICIFqjcW3qfSYbPsGahXGhAsWeKSW8YbXqDEBQiFrzSH_SdXqEplGhBfcOGC03hdRtqmpIj3oFGwYx0TIwyaJWRqLU2mx0JR6E3iTt_9cSCgICt1hlV9LejnNHKvck5fEsZ1343oeDhfZ6br6FZkwsU_x-LNlvDyBBfRYddPMqLq-X7qBJWAXZuvG0YLxWDDuAN1A2BFU4QSWDYvEFuoeIcPgZQtkt5ebVdJxv1keiXF6F-Lgft5b1aBL-eK83G7ZFJPH-lanJZ_3tk_xTOTv13G8XBLeSwwPJ-r70tz8Ccao12g",
+                        "expires_in": "3600"
+                    }
+                },
+                "customer_id": "amzn1.account.AELPYORG7577ZOG4WH33UGEQPU5A"
+            }
+        },
+        "request_id": "e6229631-03db-41f4-a3ce-8aba27c91de7"
+    }
+}
