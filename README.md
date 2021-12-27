@@ -24,8 +24,6 @@ Leaked with Lots of Love
         'HBOMAX',
         'OSN']
 
-https://user-images.githubusercontent.com/96489252/147374545-26f0c071-1c46-4273-bb12-4d00320ab220.mp4
-
 Video Proof ADDED
         
         Modules available mail on id
